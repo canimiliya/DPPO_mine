@@ -1,0 +1,7 @@
+- train.n_train_itr=2
+- env.n_envs=2
+- train.n_steps=4
+- train.batch_size=4
+- train.save_model_freq=1
+- train.val_freq=1
+- wandb=null

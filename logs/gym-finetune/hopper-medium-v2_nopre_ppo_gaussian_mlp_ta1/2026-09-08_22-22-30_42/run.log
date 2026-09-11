@@ -1,0 +1,7 @@
+[2026-09-08 22:22:44,551][model.common.gaussian][INFO] - Number of network parameters: 534536
+[2026-09-08 22:22:51,629][agent.finetune.train_ppo_gaussian_agent][INFO] - [WARNING] No episode completed within the iteration!
+[2026-09-08 22:22:51,675][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_nopre_ppo_gaussian_mlp_ta1/2026-09-08_22-22-30_42/checkpoint/state_0.pt
+[2026-09-08 22:22:51,675][agent.finetune.train_ppo_gaussian_agent][INFO] - eval: success rate   0.0000 | avg episode reward   0.0000 | avg best reward   0.0000
+[2026-09-08 22:22:51,689][agent.finetune.train_ppo_gaussian_agent][INFO] - [WARNING] No episode completed within the iteration!
+[2026-09-08 22:22:51,717][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_nopre_ppo_gaussian_mlp_ta1/2026-09-08_22-22-30_42/checkpoint/state_1.pt
+[2026-09-08 22:22:51,718][agent.finetune.train_ppo_gaussian_agent][INFO] - eval: success rate   0.0000 | avg episode reward   0.0000 | avg best reward   0.0000

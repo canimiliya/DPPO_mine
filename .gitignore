@@ -1,0 +1,27 @@
+# Project-local runtime and caches (about 10.5 GiB)
+.runtime/
+.cache/
+.tmp/
+
+# Downloaded datasets and official checkpoints are reproducible dependencies.
+data/
+checkpoints/
+
+# User-supplied paper and screenshots are local reference material.
+DPPO.pdf
+图4.png
+图18.png
+
+# Generated Python state
+__pycache__/
+*.py[cod]
+
+# Training checkpoints are excluded by default. A small, explicitly audited
+# subset is force-added as key evidence in the initial publication.
+logs/**/checkpoint/*.pt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
