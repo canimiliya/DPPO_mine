@@ -2,6 +2,8 @@
 
 This repository contains the reproducibility code, configuration records, smoke-test evidence, and a short full-configuration throughput benchmark for **Diffusion Policy Policy Optimization (DPPO)** on the requested Gym/MuJoCo tasks.
 
+导师线上审阅请首先阅读：[`导师线上审阅说明.md`](导师线上审阅说明.md)。该文件说明了本地目录、环境、数据/checkpoint、GitHub 上传边界、运行证据和当前尚未完成的正式实验。
+
 ## Current scientific status
 
 - Environment setup and CUDA/MuJoCo/D4RL/DPPO smoke tests: **PASS**.

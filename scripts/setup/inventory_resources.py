@@ -68,6 +68,11 @@ for name in ("DPPO.pdf", "图4.png", "图18.png"):
     if path.exists():
         add(rows, path, "input", "pre-existing", "supplied before this reproduction")
 
+for name in ("README.md", "导师线上审阅说明.md", ".gitignore", ".gitmodules"):
+    path = ROOT / name
+    if path.exists():
+        add(rows, path, "publication file", "created", "GitHub review material")
+
 # Aggregate large runtime/cache directories; list their meaningful sub-artifacts separately.
 for name, detail in (
     (".runtime", "project-local venv, MuJoCo runtime, gdown helper, mjrl"),
