@@ -9,6 +9,8 @@ Publication date: 2026-09-11.
 - Reproduction scripts under `scripts/`.
 - Environment, provenance, compatibility, configuration, run, status, and resource reports under `reports/`.
 - Text logs, Hydra-resolved configurations, and result pickles from completed smoke/benchmark runs.
+- Hopper DPPO/IDQL/DIPO official-scale 5-iteration engineering benchmark reports,
+  telemetry CSVs, raw stdout, and resolved configs.
 - Key locally produced checkpoints:
   - Hopper Figure 4 DPPO benchmark `state_4.pt` (4,977,987 bytes).
   - Hopper Figure 18 Gaussian-MLP smoke `state_1.pt` (4,831,875 bytes).
@@ -25,6 +27,9 @@ Publication date: 2026-09-11.
 | `checkpoints/official/` | 12.95 MiB | Upstream pretrained dependencies; hashes are recorded locally |
 | `DPPO.pdf` | 17.68 MiB | User-supplied paper reference |
 | `图4.png` and `图18.png` | 555,444 bytes total | User-supplied paper screenshots |
+
+The newly generated official-scale benchmark checkpoints remain local-only under
+their run directories; only the small text logs and resolved configs are uploaded.
 
 ## Scientific boundary
 

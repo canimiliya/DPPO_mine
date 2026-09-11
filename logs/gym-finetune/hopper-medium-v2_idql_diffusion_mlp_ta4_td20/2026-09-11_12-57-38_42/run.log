@@ -1,0 +1,14 @@
+[2026-09-11 12:58:01,067][root][INFO] - Loaded SL-trained policy from /mnt/d/Desktop/my_project/paper_reproduction/DPPO/checkpoints/official/hopper_medium_pre_diffusion_mlp_ta4_td20_state_3000.pt
+[2026-09-11 12:58:01,068][root][INFO] - Number of network parameters: 553020
+[2026-09-11 12:58:11,601][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_idql_diffusion_mlp_ta4_td20/2026-09-11_12-57-38_42/checkpoint/state_0.pt
+[2026-09-11 12:58:11,602][agent.finetune.train_idql_diffusion_agent][INFO] - [PERF] itr=0 rollout_s=10.292279 update_s=0.000000 total_s=10.319257 eval=True
+[2026-09-11 12:58:11,602][agent.finetune.train_idql_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1319.6272 | avg best reward   4.8678
+[2026-09-11 12:58:43,179][agent.finetune.train_idql_diffusion_agent][INFO] - [PERF] itr=1 rollout_s=9.954487 update_s=21.619105 total_s=31.574094 eval=False
+[2026-09-11 12:58:43,182][agent.finetune.train_idql_diffusion_agent][INFO] - 1: step    80000 | loss actor   0.1756 | reward 1217.6358 | t: 31.5779
+[2026-09-11 12:59:15,283][agent.finetune.train_idql_diffusion_agent][INFO] - [PERF] itr=2 rollout_s=10.177968 update_s=21.453710 total_s=31.632187 eval=False
+[2026-09-11 12:59:15,284][agent.finetune.train_idql_diffusion_agent][INFO] - 2: step   160000 | loss actor   0.1757 | reward 1246.5205 | t: 32.1043
+[2026-09-11 12:59:48,173][agent.finetune.train_idql_diffusion_agent][INFO] - [PERF] itr=3 rollout_s=10.571115 update_s=21.815849 total_s=32.387676 eval=False
+[2026-09-11 12:59:48,176][agent.finetune.train_idql_diffusion_agent][INFO] - 3: step   240000 | loss actor   0.1779 | reward 1269.8986 | t: 32.8914
+[2026-09-11 13:00:22,078][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_idql_diffusion_mlp_ta4_td20/2026-09-11_12-57-38_42/checkpoint/state_4.pt
+[2026-09-11 13:00:22,079][agent.finetune.train_idql_diffusion_agent][INFO] - [PERF] itr=4 rollout_s=10.463498 update_s=22.968228 total_s=33.463859 eval=False
+[2026-09-11 13:00:22,080][agent.finetune.train_idql_diffusion_agent][INFO] - 4: step   320000 | loss actor   0.1613 | reward 1261.2089 | t: 33.9040

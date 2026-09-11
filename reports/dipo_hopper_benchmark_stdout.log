@@ -1,0 +1,280 @@
+benchmark_method=DIPO
+benchmark_start_unix=1789102835
+benchmark_start_iso=2026-09-11T13:00:35+08:00
+config=ft_dipo_diffusion_mlp
+seed=42
+override=train.n_train_itr=5
+official_config_overrides=none_other_than_n_train_itr
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/gym/spaces/box.py:78: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+[2026-09-11 13:00:57,893][root][INFO] - Loaded SL-trained policy from /mnt/d/Desktop/my_project/paper_reproduction/DPPO/checkpoints/official/hopper_medium_pre_diffusion_mlp_ta4_td20_state_3000.pt
+[2026-09-11 13:00:57,894][root][INFO] - Number of network parameters: 553020
+Processed step 0 of 500
+Processed step 10 of 500
+Processed step 20 of 500
+Processed step 30 of 500
+Processed step 40 of 500
+Processed step 50 of 500
+Processed step 60 of 500
+Processed step 70 of 500
+Processed step 80 of 500
+Processed step 90 of 500
+Processed step 100 of 500
+Processed step 110 of 500
+Processed step 120 of 500
+Processed step 130 of 500
+Processed step 140 of 500
+Processed step 150 of 500
+Processed step 160 of 500
+Processed step 170 of 500
+Processed step 180 of 500
+Processed step 190 of 500
+Processed step 200 of 500
+Processed step 210 of 500
+Processed step 220 of 500
+Processed step 230 of 500
+Processed step 240 of 500
+Processed step 250 of 500
+Processed step 260 of 500
+Processed step 270 of 500
+Processed step 280 of 500
+Processed step 290 of 500
+Processed step 300 of 500
+Processed step 310 of 500
+Processed step 320 of 500
+Processed step 330 of 500
+Processed step 340 of 500
+Processed step 350 of 500
+Processed step 360 of 500
+Processed step 370 of 500
+Processed step 380 of 500
+Processed step 390 of 500
+Processed step 400 of 500
+Processed step 410 of 500
+Processed step 420 of 500
+Processed step 430 of 500
+Processed step 440 of 500
+Processed step 450 of 500
+Processed step 460 of 500
+Processed step 470 of 500
+Processed step 480 of 500
+Processed step 490 of 500
+[2026-09-11 13:01:07,764][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-11_13-00-36_42/checkpoint/state_0.pt
+[2026-09-11 13:01:07,765][agent.finetune.train_dipo_diffusion_agent][INFO] - [PERF] itr=0 rollout_s=9.179065 update_s=0.000000 total_s=9.222656 eval=True
+[2026-09-11 13:01:07,766][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1421.1439 | avg best reward   4.8352
+Processed step 0 of 500
+Processed step 10 of 500
+Processed step 20 of 500
+Processed step 30 of 500
+Processed step 40 of 500
+Processed step 50 of 500
+Processed step 60 of 500
+Processed step 70 of 500
+Processed step 80 of 500
+Processed step 90 of 500
+Processed step 100 of 500
+Processed step 110 of 500
+Processed step 120 of 500
+Processed step 130 of 500
+Processed step 140 of 500
+Processed step 150 of 500
+Processed step 160 of 500
+Processed step 170 of 500
+Processed step 180 of 500
+Processed step 190 of 500
+Processed step 200 of 500
+Processed step 210 of 500
+Processed step 220 of 500
+Processed step 230 of 500
+Processed step 240 of 500
+Processed step 250 of 500
+Processed step 260 of 500
+Processed step 270 of 500
+Processed step 280 of 500
+Processed step 290 of 500
+Processed step 300 of 500
+Processed step 310 of 500
+Processed step 320 of 500
+Processed step 330 of 500
+Processed step 340 of 500
+Processed step 350 of 500
+Processed step 360 of 500
+Processed step 370 of 500
+Processed step 380 of 500
+Processed step 390 of 500
+Processed step 400 of 500
+Processed step 410 of 500
+Processed step 420 of 500
+Processed step 430 of 500
+Processed step 440 of 500
+Processed step 450 of 500
+Processed step 460 of 500
+Processed step 470 of 500
+Processed step 480 of 500
+Processed step 490 of 500
+[2026-09-11 13:01:43,847][agent.finetune.train_dipo_diffusion_agent][INFO] - [PERF] itr=1 rollout_s=9.016822 update_s=26.553142 total_s=35.570546 eval=False
+[2026-09-11 13:01:43,857][agent.finetune.train_dipo_diffusion_agent][INFO] - 1: step    80000 | loss actor   0.0000 | loss - critic   0.0009 | reward 1233.1168 | t: 36.0873
+Processed step 0 of 500
+Processed step 10 of 500
+Processed step 20 of 500
+Processed step 30 of 500
+Processed step 40 of 500
+Processed step 50 of 500
+Processed step 60 of 500
+Processed step 70 of 500
+Processed step 80 of 500
+Processed step 90 of 500
+Processed step 100 of 500
+Processed step 110 of 500
+Processed step 120 of 500
+Processed step 130 of 500
+Processed step 140 of 500
+Processed step 150 of 500
+Processed step 160 of 500
+Processed step 170 of 500
+Processed step 180 of 500
+Processed step 190 of 500
+Processed step 200 of 500
+Processed step 210 of 500
+Processed step 220 of 500
+Processed step 230 of 500
+Processed step 240 of 500
+Processed step 250 of 500
+Processed step 260 of 500
+Processed step 270 of 500
+Processed step 280 of 500
+Processed step 290 of 500
+Processed step 300 of 500
+Processed step 310 of 500
+Processed step 320 of 500
+Processed step 330 of 500
+Processed step 340 of 500
+Processed step 350 of 500
+Processed step 360 of 500
+Processed step 370 of 500
+Processed step 380 of 500
+Processed step 390 of 500
+Processed step 400 of 500
+Processed step 410 of 500
+Processed step 420 of 500
+Processed step 430 of 500
+Processed step 440 of 500
+Processed step 450 of 500
+Processed step 460 of 500
+Processed step 470 of 500
+Processed step 480 of 500
+Processed step 490 of 500
+[2026-09-11 13:02:21,335][agent.finetune.train_dipo_diffusion_agent][INFO] - [PERF] itr=2 rollout_s=9.620199 update_s=27.258089 total_s=36.878860 eval=False
+[2026-09-11 13:02:21,337][agent.finetune.train_dipo_diffusion_agent][INFO] - 2: step   160000 | loss actor   0.0000 | loss - critic   0.0021 | reward 1232.0845 | t: 37.4841
+Processed step 0 of 500
+Processed step 10 of 500
+Processed step 20 of 500
+Processed step 30 of 500
+Processed step 40 of 500
+Processed step 50 of 500
+Processed step 60 of 500
+Processed step 70 of 500
+Processed step 80 of 500
+Processed step 90 of 500
+Processed step 100 of 500
+Processed step 110 of 500
+Processed step 120 of 500
+Processed step 130 of 500
+Processed step 140 of 500
+Processed step 150 of 500
+Processed step 160 of 500
+Processed step 170 of 500
+Processed step 180 of 500
+Processed step 190 of 500
+Processed step 200 of 500
+Processed step 210 of 500
+Processed step 220 of 500
+Processed step 230 of 500
+Processed step 240 of 500
+Processed step 250 of 500
+Processed step 260 of 500
+Processed step 270 of 500
+Processed step 280 of 500
+Processed step 290 of 500
+Processed step 300 of 500
+Processed step 310 of 500
+Processed step 320 of 500
+Processed step 330 of 500
+Processed step 340 of 500
+Processed step 350 of 500
+Processed step 360 of 500
+Processed step 370 of 500
+Processed step 380 of 500
+Processed step 390 of 500
+Processed step 400 of 500
+Processed step 410 of 500
+Processed step 420 of 500
+Processed step 430 of 500
+Processed step 440 of 500
+Processed step 450 of 500
+Processed step 460 of 500
+Processed step 470 of 500
+Processed step 480 of 500
+Processed step 490 of 500
+[2026-09-11 13:02:58,511][agent.finetune.train_dipo_diffusion_agent][INFO] - [PERF] itr=3 rollout_s=9.643022 update_s=26.910644 total_s=36.554291 eval=False
+[2026-09-11 13:02:58,512][agent.finetune.train_dipo_diffusion_agent][INFO] - 3: step   240000 | loss actor   0.0000 | loss - critic   0.0021 | reward 1252.0293 | t: 37.1752
+Processed step 0 of 500
+Processed step 10 of 500
+Processed step 20 of 500
+Processed step 30 of 500
+Processed step 40 of 500
+Processed step 50 of 500
+Processed step 60 of 500
+Processed step 70 of 500
+Processed step 80 of 500
+Processed step 90 of 500
+Processed step 100 of 500
+Processed step 110 of 500
+Processed step 120 of 500
+Processed step 130 of 500
+Processed step 140 of 500
+Processed step 150 of 500
+Processed step 160 of 500
+Processed step 170 of 500
+Processed step 180 of 500
+Processed step 190 of 500
+Processed step 200 of 500
+Processed step 210 of 500
+Processed step 220 of 500
+Processed step 230 of 500
+Processed step 240 of 500
+Processed step 250 of 500
+Processed step 260 of 500
+Processed step 270 of 500
+Processed step 280 of 500
+Processed step 290 of 500
+Processed step 300 of 500
+Processed step 310 of 500
+Processed step 320 of 500
+Processed step 330 of 500
+Processed step 340 of 500
+Processed step 350 of 500
+Processed step 360 of 500
+Processed step 370 of 500
+Processed step 380 of 500
+Processed step 390 of 500
+Processed step 400 of 500
+Processed step 410 of 500
+Processed step 420 of 500
+Processed step 430 of 500
+Processed step 440 of 500
+Processed step 450 of 500
+Processed step 460 of 500
+Processed step 470 of 500
+Processed step 480 of 500
+Processed step 490 of 500
+[2026-09-11 13:03:35,843][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-11_13-00-36_42/checkpoint/state_4.pt
+[2026-09-11 13:03:35,843][agent.finetune.train_dipo_diffusion_agent][INFO] - [PERF] itr=4 rollout_s=9.661541 update_s=27.139387 total_s=36.834127 eval=False
+[2026-09-11 13:03:35,844][agent.finetune.train_dipo_diffusion_agent][INFO] - 4: step   320000 | loss actor   0.0000 | loss - critic   0.0030 | reward 1253.1217 | t: 37.3320
+benchmark_end_unix=1789103017
+benchmark_end_iso=2026-09-11T13:03:37+08:00
+benchmark_exit_code=0
+monitor_exit_code=0

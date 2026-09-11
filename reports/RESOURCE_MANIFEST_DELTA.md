@@ -11,7 +11,7 @@ This supplement records resources created after the previous full manifest. Comb
 | D:\Desktop\my_project\paper_reproduction\DPPO\logs\gym-finetune\hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10\2026-09-11_11-31-05_42 | directory aggregate | 9967694 | 9.50 MiB | - |
 | D:\Desktop\my_project\paper_reproduction\DPPO\logs\gym-finetune\hopper-medium-v2_idql_diffusion_mlp_ta4_td20\2026-09-11_11-32-33_42 | directory aggregate | 9973742 | 9.51 MiB | - |
 | D:\Desktop\my_project\paper_reproduction\DPPO\logs\gym-finetune\hopper-medium-v2_dipo_diffusion_mlp_ta4_td20\2026-09-11_11-33-06_42 | directory aggregate | 13322119 | 12.70 MiB | - |
-| D:\Desktop\my_project\paper_reproduction\DPPO\reports\PERFORMANCE_DIAGNOSIS.md | file | 10200 | 9.96 KiB | 549127D12FE4B09A56436E24BE68247A43755D0C0FF3B989790126A1A9B53A73 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\PERFORMANCE_DIAGNOSIS.md | file | 10460 | 10.21 KiB | 8E87D5F191874962ACB6E8116D88FEC6B79EBE26769FEDFBCE688BFBC6912FA7 |
 | D:\Desktop\my_project\paper_reproduction\DPPO\reports\PERFORMANCE_PATCH.diff | file | 5061 | 4.94 KiB | C4C1E207FB9B81A3B0CF90828C3A2F8C5B051BA4E52E34F14BDC46776CB29B3E |
 | D:\Desktop\my_project\paper_reproduction\DPPO\reports\denoising_discount_microbenchmark.json | file | 1157 | 1.13 KiB | 0551EC30446650EDF32984C238ED214D21417E4A162A04DC9602A551729D461F |
 | D:\Desktop\my_project\paper_reproduction\DPPO\reports\telemetry_patched_short.csv | file | 3070 | 3.00 KiB | 636A9E429A961CE53B005076B4BE5C04C9B3A48580BDCE541128BE3AE9024578 |
@@ -24,4 +24,25 @@ This supplement records resources created after the previous full manifest. Comb
 | D:\Desktop\my_project\paper_reproduction\DPPO\scripts\diagnostics\final_local_check.py | file | 3335 | 3.26 KiB | B3E6860103C9EC142C75BABB4D7AADD8146605C9010DDB451DEA2117074A00ED |
 | D:\Desktop\my_project\paper_reproduction\DPPO\scripts\train\run_fig4_seed42.ps1 | file | 2272 | 2.22 KiB | AD837E3BD754DF263C894AC854F5EFE44E32988EFB47D559FE21D86FA295830C |
 
-新增目录合计：53,225,956 bytes（约 50.76 MiB；目录行是递归大小，文件行属于目录内容，不应再次相加）。
+本轮 P2 新增三个正式规模短 benchmark 目录：
+
+| Path | Kind | Bytes | Size | SHA256 |
+|---|---|---:|---:|---|
+| D:\Desktop\my_project\paper_reproduction\DPPO\logs\gym-finetune\hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10\2026-09-11_12-55-49_42 | directory aggregate | 9977454 | 9.51 MiB | - |
+| D:\Desktop\my_project\paper_reproduction\DPPO\logs\gym-finetune\hopper-medium-v2_idql_diffusion_mlp_ta4_td20\2026-09-11_12-57-38_42 | directory aggregate | 9974921 | 9.51 MiB | - |
+| D:\Desktop\my_project\paper_reproduction\DPPO\logs\gym-finetune\hopper-medium-v2_dipo_diffusion_mlp_ta4_td20\2026-09-11_13-00-36_42 | directory aggregate | 13323367 | 12.71 MiB | - |
+
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\FIG4_HOPPER_METHOD_BENCHMARK.md | file | 7238 | 7.07 KiB | 823330C42006F9A5FB7E60D4F81AB2B706F16FBEDA60A890A1186D42B3D93E5F |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\RUN_LOG.md | file | 3014 | 2.94 KiB | 1E197C88E05F779EA3AF3268C8841B72EDDD720F8852B411364AE7F519E5E474 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\BENCHMARK_TIMING_INSTRUMENTATION.diff | file | 7062 | 6.90 KiB | 101820459BFF09F5A02E8D6FD7ACD135E5A72F4D24359F399E049D4E26213BAB |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\dppo_hopper_benchmark_stdout.log | file | 21370 | 20.87 KiB | 173EFB24FF9108D6429E07338CA0A7CEE74929696C9A251A9FE287FB47CE936F |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\idql_hopper_benchmark_stdout.log | file | 9695 | 9.47 KiB | 5C643F5D7153E5C839F5E8B1B0B0F4F2E6E1EED43BFA1560307B29BA602EF75A |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\dipo_hopper_benchmark_stdout.log | file | 9790 | 9.56 KiB | CCA83F1DE93314FF11F8DA115F79023435F9BF740BB5920EB60431B3A6D22017 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\telemetry_dppo_hopper_benchmark.csv | file | 5667 | 5.53 KiB | 0A214D3AC8AB668E12DE0E8CC0CDAE3BCBFDEBC0552CA5B8A6BD00F0A4D19432 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\telemetry_idql_hopper_benchmark.csv | file | 9207 | 8.99 KiB | F8232FFF327C22EF30EFCC780769D4CD5DC431351E735CE260352D5C45FE63CF |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\telemetry_dipo_hopper_benchmark.csv | file | 10187 | 9.95 KiB | 9BC7385D5DBE1119579F50340060C7A209AFD9669301288D3670C34A0BBD82F4 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\scripts\diagnostics\run_hopper_method_benchmark.sh | file | 2176 | 2.12 KiB | 926C6D50F14AFD2DD35863AB629B412DF4D50ACC792213BA272EB3E18C08CBC1 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\scripts\setup\apply_performance_patch.ps1 | file | 1115 | 1.09 KiB | 6843EB6F24D06087B9726715FE1F234228587DD32A6EAD1BF628A57D551DF1A7 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\scripts\setup\apply_performance_patch.sh | file | 834 | 834 B | 64A95EDE4C88CC7D391EA11AC43736DC7410823872EEF71BEBABEA5650275DDB |
+
+此前新增目录合计：53,225,956 bytes（约 50.76 MiB；目录行是递归大小，文件行属于目录内容，不应再次相加）。P2 三个运行目录合计 33,275,742 bytes（约 31.73 MiB）。
