@@ -46,3 +46,14 @@ This supplement records resources created after the previous full manifest. Comb
 | D:\Desktop\my_project\paper_reproduction\DPPO\scripts\setup\apply_performance_patch.sh | file | 834 | 834 B | 64A95EDE4C88CC7D391EA11AC43736DC7410823872EEF71BEBABEA5650275DDB |
 
 此前新增目录合计：53,225,956 bytes（约 50.76 MiB；目录行是递归大小，文件行属于目录内容，不应再次相加）。P2 三个运行目录合计 33,275,742 bytes（约 31.73 MiB）。
+
+本轮 P3-PREP 新增或更新的审计文件：
+
+| Path | Kind | Bytes | Size | SHA256 |
+|---|---|---:|---:|---|
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\DPPO_BENCHMARK_TIMING_INSTRUMENTATION.diff | file | 1653 | 1.61 KiB | F33F5EAE224CD2B7CF33A046A0DDB3CFFAE0C01872DB2A8F72758D2BAFD8A514 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\performance_patch_numerical_equivalence.json | file | 869 | 869 B | 8A6FCAFC1E0839935F2C62E224DDD38DF550A0016B4EABB84140DBC3C0EDC369 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\PERFORMANCE_PATCH.diff | file | 939 | 939 B | D21A51B20BEBDCC911B1F4357F17AC2CF13A034339DE64BE100944C68FCB8C24 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\PERFORMANCE_DIAGNOSIS.md | file | 11490 | 11.22 KiB | CB90E83CDD169035684E2101EA3697E70100062FC18CAF7E45346DCF919AB4FE |
+| D:\Desktop\my_project\paper_reproduction\DPPO\README.md | file | 3538 | 3.45 KiB | 38FDB6FFD9136BF3F77C40AA44E54AF4404C220CD9A1766F34B4863B5DAA1398 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\scripts\setup\apply_performance_patch.ps1 | file | 1306 | 1.28 KiB | 4B387BC63D61DA269C97D902AC77F488D1744F50AD13B0F5F2EA0BDE0E47A270 |

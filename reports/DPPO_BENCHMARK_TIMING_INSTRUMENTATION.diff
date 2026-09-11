@@ -1,0 +1,43 @@
+diff --git a/agent/finetune/train_ppo_diffusion_agent.py b/agent/finetune/train_ppo_diffusion_agent.py
+index 998c638..75a84a4 100644
+--- a/agent/finetune/train_ppo_diffusion_agent.py
++++ b/agent/finetune/train_ppo_diffusion_agent.py
+@@ -13,0 +14 @@
++from time import perf_counter
+@@ -54,0 +55 @@
++            iter_wall_t0 = perf_counter()
+@@ -151,0 +152,3 @@
++            if self.device.startswith("cuda"):
++                torch.cuda.synchronize()
++            rollout_s = perf_counter() - iter_wall_t0
+@@ -195,0 +199,3 @@
++            prep_s = 0.0
++            update_s = 0.0
++            prep_t0 = perf_counter()
+@@ -303,0 +310,3 @@
++                if self.device.startswith("cuda"):
++                    torch.cuda.synchronize()
++                prep_s = perf_counter() - prep_t0
+@@ -305,0 +315,1 @@
++                update_t0 = perf_counter()
+@@ -383,0 +394,3 @@
++                if self.device.startswith("cuda"):
++                    torch.cuda.synchronize()
++                update_s = perf_counter() - update_t0
+@@ -419,0 +433,11 @@
++            if self.device.startswith("cuda"):
++                torch.cuda.synchronize()
++            total_s = perf_counter() - iter_wall_t0
++            log.info(
++                "[PERF] itr=%d rollout_s=%.6f prep_s=%.6f update_s=%.6f total_s=%.6f",
++                self.itr,
++                rollout_s,
++                prep_s,
++                update_s,
++                total_s,
++            )
+@@ -423,0 +448,4 @@
++                    "perf_rollout_s": rollout_s,
++                    "perf_prep_s": prep_s,
++                    "perf_update_s": update_s,
++                    "perf_total_s": total_s,

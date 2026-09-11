@@ -1,0 +1,32 @@
+{
+  "purpose": "P3-PREP clean performance patch numerical equivalence check",
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 5060 Ti",
+  "gamma_denoising": 0.99,
+  "ft_denoising_steps": 10,
+  "cases": [
+    {
+      "batch": 4096,
+      "dtype": "torch.float32",
+      "max_abs_error": 1.19209289551e-07,
+      "max_rel_error": 1.30494839823e-07,
+      "finite": true
+    },
+    {
+      "batch": 10000,
+      "dtype": "torch.float32",
+      "max_abs_error": 1.19209289551e-07,
+      "max_rel_error": 1.30494839823e-07,
+      "finite": true
+    },
+    {
+      "batch": 4096,
+      "dtype": "torch.float64",
+      "max_abs_error": 2.86712096287e-08,
+      "max_rel_error": 3.01488017631e-08,
+      "finite": true
+    }
+  ],
+  "status": "PASS",
+  "note": "The differences are within ordinary floating-point rounding; no scientific configuration was changed."
+}

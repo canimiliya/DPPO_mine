@@ -20,8 +20,14 @@ not final reward or convergence claims.
 The official source remains fixed at the upstream DPPO v0.6 commit shown below. The
 local performance run additionally applies one mathematically equivalent CUDA
 vectorization patch, recorded in `reports/PERFORMANCE_PATCH.diff` and applied by
-`scripts/setup/apply_performance_patch.ps1` (or `.sh`). The patch does not change
-the DPPO mathematical definition or paper hyperparameters.
+`scripts/setup/apply_performance_patch.ps1` (or `.sh`). The formal patch now contains
+only the denoising-discount vectorization in `diffusion_ppo.py`; an older mixed patch
+had accidentally included benchmark timing instrumentation and was corrected in P3-PREP.
+The timing history is preserved separately in
+`reports/DPPO_BENCHMARK_TIMING_INSTRUMENTATION.diff` and
+`reports/BENCHMARK_TIMING_INSTRUMENTATION.diff`. Neither timing archive is used for
+formal scientific training. The patch does not change the DPPO mathematical definition
+or paper hyperparameters.
 
 ## Source provenance
 

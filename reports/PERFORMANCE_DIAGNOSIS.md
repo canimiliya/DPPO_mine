@@ -20,6 +20,12 @@
 官方源码仍固定为 v0.6 commit；本地额外应用一个数学等价的 CUDA 向量化性能 patch；
 patch 不改变 DPPO 数学定义和论文超参数。
 
+P3-PREP 复核发现旧版 `PERFORMANCE_PATCH.diff` 曾意外混入 DPPO benchmark timing
+instrumentation。现已重新生成为纯净正式 patch：只修改
+`model/diffusion/diffusion_ppo.py` 的 denoising discount 向量化；DPPO 的测速修改已独立归档到
+`reports/DPPO_BENCHMARK_TIMING_INSTRUMENTATION.diff`，上一轮 IDQL/DIPO 测速归档
+仍保留在 `reports/BENCHMARK_TIMING_INSTRUMENTATION.diff`。两类 instrumentation 均不参与正式科学训练。
+
 ## 2. 原始时间构成
 
 计时 instrumentation 使用 CUDA synchronize，分为 rollout/environment sampling、old value/logprob/GAE 准备和 PPO update；总时间还包括 scheduler、checkpoint 和日志收尾。
@@ -84,17 +90,25 @@ discount = torch.pow(
 )
 ~~~
 
-测试参数为 batch=50000、ft_denoising_steps=10、gamma=0.99、CUDA、FP32；两种输出均为 torch.float32、cuda:0，max_abs_error=0，max_rel_error=0，且全部 finite。
+本轮 CUDA 数值复核使用 RTX 5060 Ti、`ft_denoising_steps=10`、`gamma=0.99`，分别测试
+FP32 batch=4096/10000 和 FP64 batch=4096；全部输出 finite。FP32 两次均为
+`max_abs_error=1.19209289551e-07`、`max_rel_error=1.30494839823e-07`；FP64 为
+`max_abs_error=2.86712096287e-08`、`max_rel_error=3.01488017631e-08`，属于合理浮点舍入。
 
 独立检查确认 resolved quantile 默认 lower=0、upper=1；quantile(0/1)+clamp 是严格 no-op，最大绝对误差 0，中位数成本约 0.000522 s，因此没有把它混入源代码 patch。
 
-Microbenchmark JSON：  
+Microbenchmark JSON：
 D:\Desktop\my_project\paper_reproduction\DPPO\reports\denoising_discount_microbenchmark.json
+
+P3-PREP 数值等价复核 JSON:
+D:\Desktop\my_project\paper_reproduction\DPPO\reports\performance_patch_numerical_equivalence.json
 
 源码 patch diff：  
 D:\Desktop\my_project\paper_reproduction\DPPO\reports\PERFORMANCE_PATCH.diff
 
-该 diff 包含 discount 向量化和仅用于 A/B 计时的 instrumentation；没有 AMP、TF32、torch.compile、网络结构、batch、环境数量、K/K′、PPO clip、reward 或动力学修改。
+正式 `PERFORMANCE_PATCH.diff` 现在只包含 discount 向量化修改；A/B 计时 instrumentation
+已独立归档，不参与正式科学训练。除该等价实现优化外，没有 AMP、TF32、torch.compile、网络结构、
+batch、环境数量、K/K′、PPO clip、reward 或动力学修改。
 
 ## 5. Hopper IDQL/DIPO 极短 smoke
 
@@ -152,6 +166,7 @@ D:\Desktop\my_project\paper_reproduction\DPPO\.runtime\mujoco210
 - reports/smoke_artifact_audit.json
 - reports/final_local_check.json
 - reports/PERFORMANCE_PATCH.diff
+- reports/DPPO_BENCHMARK_TIMING_INSTRUMENTATION.diff
 - reports/PERFORMANCE_DIAGNOSIS.md
 
 run_fig4_seed42.ps1 增加了可选 smoke 覆盖参数；不传这些参数时默认科学配置不变。并修正了原有 D:→WSL /mnt/d 路径转换及 hopper-v2 checkpoint 文件名前缀问题。
@@ -161,7 +176,8 @@ run_fig4_seed42.ps1 增加了可选 smoke 覆盖参数；不传这些参数时�
 本报告记录的上一轮实验没有 commit、push、merge、force reset 或删除已有 data/checkpoint/log。
 
 - 根仓库的性能证据和 patch 脚本由本轮 P1.5 独立 commit 保存；
-- source/dppo_v0.6 仍指向官方 v0.6 SHA，但性能 patch 和 instrumentation 造成未提交 dirty submodule。
+- source/dppo_v0.6 仍指向官方 v0.6 SHA；当前 dirty submodule 仅包含正式性能 patch 的 diffusion_ppo.py 修改。
+- benchmark instrumentation 已从当前 submodule 移除，并分别保存在两个历史 diff 归档中。
 - 新 A/B、smoke 和诊断产物按 release policy 选择小型日志/配置上传；大资源仍仅保留本地。
 - GitHub 上已有导师说明文件未被本轮改写。
 
@@ -175,7 +191,7 @@ PERFORMANCE: PASS
 优化后时间: 训练 iteration 中位数 14.551 s；PPO update 中位数 1.313 s
 加速倍率: 总 iteration 6.36x；PPO update 59.68x
 主要瓶颈: PPODiffusion.loss() 中官方 Python 逐元素遍历 CUDA denoising_inds 导致同步
-修改文件: source/dppo_v0.6/model/diffusion/diffusion_ppo.py；source/dppo_v0.6/agent/finetune/train_ppo_diffusion_agent.py（计时）
+修改文件: source/dppo_v0.6/model/diffusion/diffusion_ppo.py（仅 denoising discount 向量化）
 科学配置是否改变: NO（仅 n_train_itr 临时缩短；算法超参数未改）
 
 LOCAL CHECK: PASS

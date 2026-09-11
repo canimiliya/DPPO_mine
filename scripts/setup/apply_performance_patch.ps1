@@ -18,8 +18,15 @@ if ($LASTEXITCODE -ne 0 -or $Sha -ne $Expected) {
     throw "Official submodule SHA check failed. Expected $Expected, got $Sha"
 }
 
-git -C $Submodule apply --reverse --check -- $Patch 2>$null
-if ($LASTEXITCODE -eq 0) {
+$AlreadyApplied = $false
+try {
+    git -C $Submodule apply --reverse --check -- $Patch 2>$null
+    $AlreadyApplied = ($LASTEXITCODE -eq 0)
+} catch {
+    # A failed reverse check is the expected result for a clean submodule.
+    $AlreadyApplied = $false
+}
+if ($AlreadyApplied) {
     Write-Output "Performance patch already applied: $Submodule"
     exit 0
 }
