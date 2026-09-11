@@ -1,0 +1,40 @@
+{
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "torch": "2.7.1+cu128",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "device": "cuda:0",
+  "batch": 50000,
+  "ft_denoising_steps": 10,
+  "gamma_denoising": 0.99,
+  "denoising_index_pattern": "arange(batch) % steps",
+  "official_times_s": [
+    3.4458447550000013,
+    3.4717164370000013,
+    3.5633585999999973
+  ],
+  "vectorized_times_s": [
+    0.00029944599999964794,
+    0.00020174499999825457,
+    0.0001623620000010817
+  ],
+  "official_median_s": 3.4717164370000013,
+  "vectorized_median_s": 0.00020174499999825457,
+  "speedup_official_over_vectorized": 17208.43855872531,
+  "max_abs_error": 0.0,
+  "max_rel_error": 0.0,
+  "official_dtype": "torch.float32",
+  "vectorized_dtype": "torch.float32",
+  "official_device": "cuda:0",
+  "vectorized_device": "cuda:0",
+  "all_outputs_finite": true,
+  "quantile_lower": 0.0,
+  "quantile_upper": 1.0,
+  "quantile_clamp_max_abs_error": 0.0,
+  "quantile_clamp_times_s": [
+    0.000795190999998141,
+    0.0005223510000007536,
+    0.0004805370000013909
+  ],
+  "quantile_clamp_median_s": 0.0005223510000007536
+}

@@ -1,0 +1,74 @@
+{
+  "device": "cuda:0",
+  "cuda_available": true,
+  "torch": "2.7.1+cu128",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "gpu_capability": [
+    12,
+    0
+  ],
+  "gym": "0.22.0",
+  "d4rl": "1.1",
+  "mujoco_py": "2.1.2.14",
+  "mujoco_path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/mujoco210",
+  "env_results": [
+    {
+      "env": "hopper-medium-v2",
+      "reset_shape": [
+        11
+      ],
+      "reset_finite": true,
+      "step_reward_finite": true,
+      "step_observation_finite": true
+    },
+    {
+      "env": "walker2d-medium-v2",
+      "reset_shape": [
+        17
+      ],
+      "reset_finite": true,
+      "step_reward_finite": true,
+      "step_observation_finite": true
+    },
+    {
+      "env": "halfcheetah-medium-v2",
+      "reset_shape": [
+        17
+      ],
+      "reset_finite": true,
+      "step_reward_finite": true,
+      "step_observation_finite": true
+    }
+  ],
+  "required_resources": {
+    "hopper": {
+      "train_npz": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/data/gym/hopper-medium-v2/train.npz",
+      "train_npz_bytes": 57367454,
+      "train_npz_sha256": "497b1e5efdf3c9c41422126171830a7acfaac06b4b1088d0516979c34b363bab",
+      "normalization_bytes": 1130,
+      "checkpoint": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/checkpoints/official/hopper_medium_pre_diffusion_mlp_ta4_td20_state_3000.pt",
+      "checkpoint_bytes": 4442859,
+      "checkpoint_sha256": "9a5839d3d172d1e24b5bed0831d49bb3116a7e62fafa223c57c322f4bc7e9121"
+    },
+    "walker2d": {
+      "train_npz": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/data/gym/walker2d-medium-v2/train.npz",
+      "train_npz_bytes": 92744376,
+      "train_npz_sha256": "4ed0ef939ad69dd487a05eab6301a670198b5a8390f41e286d806bdf622d2883",
+      "normalization_bytes": 1202,
+      "checkpoint": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/checkpoints/official/walker2d_medium_pre_diffusion_mlp_ta4_td20_state_3000.pt",
+      "checkpoint_bytes": 4565995,
+      "checkpoint_sha256": "1a650d5d882c78cfef1d753c532c0bdbced054738b0076efe6ce29d088681fa0"
+    },
+    "halfcheetah": {
+      "train_npz": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/data/gym/halfcheetah-medium-v2/train.npz",
+      "train_npz_bytes": 95082757,
+      "train_npz_sha256": "19bf92fc7c443f5f7ea1bd5000a8627e5e16677c2a1377a4ee03c37be13a9cf6",
+      "normalization_bytes": 1202,
+      "checkpoint": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/checkpoints/official/halfcheetah_medium_pre_diffusion_mlp_ta4_td20_state_3000.pt",
+      "checkpoint_bytes": 4565995,
+      "checkpoint_sha256": "ec1169d29e2d0e006f0c2477ee8bc976b2f9b04b2c209df5bce9f36dd42596b8"
+    }
+  },
+  "all_env_smokes_pass": true
+}

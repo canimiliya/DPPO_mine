@@ -1,0 +1,5 @@
+[2026-09-11 11:47:50,577][root][INFO] - Loaded SL-trained policy from /mnt/d/desktop/my_project/paper_reproduction/dppo/checkpoints/official/hopper_medium_pre_diffusion_mlp_ta4_td20_state_3000.pt
+[2026-09-11 11:47:50,578][root][INFO] - Number of network parameters: 553020
+[2026-09-11 11:47:50,767][root][INFO] - Cloned model for fine-tuning
+[2026-09-11 11:47:50,768][root][INFO] - Turned off gradients of the pretrained network
+[2026-09-11 11:47:50,768][root][INFO] - Number of finetuned parameters: 553020

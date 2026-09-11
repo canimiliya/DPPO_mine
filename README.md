@@ -7,11 +7,17 @@ This repository contains the reproducibility code, configuration records, smoke-
 ## Current scientific status
 
 - Environment setup and CUDA/MuJoCo/D4RL/DPPO smoke tests: **PASS**.
-- Hopper Figure 4 DPPO, official-size 5-iteration benchmark: **PASS**.
+- Hopper Figure 4 DPPO, official-size short benchmark: **ENGINEERING EVIDENCE ONLY**.
 - Full seed-42 Figure 4 and Figure 18 campaigns: **NOT COMPLETE**.
 - Final reproduction curves and side-by-side figures: **NOT GENERATED**.
 
 The repository must not be cited as a completed reproduction of Figure 4 or Figure 18. Short smoke runs and the 5-iteration benchmark are engineering evidence only.
+
+The official source remains fixed at the upstream DPPO v0.6 commit shown below. The
+local performance run additionally applies one mathematically equivalent CUDA
+vectorization patch, recorded in `reports/PERFORMANCE_PATCH.diff` and applied by
+`scripts/setup/apply_performance_patch.ps1` (or `.sh`). The patch does not change
+the DPPO mathematical definition or paper hyperparameters.
 
 ## Source provenance
 

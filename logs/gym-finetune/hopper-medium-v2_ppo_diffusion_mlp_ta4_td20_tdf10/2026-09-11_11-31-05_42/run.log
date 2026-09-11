@@ -1,0 +1,31 @@
+[2026-09-11 11:31:27,730][root][INFO] - Loaded SL-trained policy from /mnt/d/Desktop/my_project/paper_reproduction/DPPO/checkpoints/official/hopper_medium_pre_diffusion_mlp_ta4_td20_state_3000.pt
+[2026-09-11 11:31:27,731][root][INFO] - Number of network parameters: 553020
+[2026-09-11 11:31:27,888][root][INFO] - Cloned model for fine-tuning
+[2026-09-11 11:31:27,889][root][INFO] - Turned off gradients of the pretrained network
+[2026-09-11 11:31:27,889][root][INFO] - Number of finetuned parameters: 553020
+[2026-09-11 11:31:41,925][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10/2026-09-11_11-31-05_42/checkpoint/state_0.pt
+[2026-09-11 11:31:41,926][agent.finetune.train_ppo_diffusion_agent][INFO] - [PERF] itr=0 rollout_s=13.984728 prep_s=0.000000 update_s=0.000000 total_s=14.010522
+[2026-09-11 11:31:41,927][agent.finetune.train_ppo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1443.3278 | avg best reward   4.8378
+[2026-09-11 11:31:56,010][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 0.0, update_epoch: 0, num_batch: 4
+[2026-09-11 11:31:56,066][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 1.104527541428979e-06, update_epoch: 0, num_batch: 4
+[2026-09-11 11:31:56,130][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 2.569043772382429e-06, update_epoch: 0, num_batch: 4
+[2026-09-11 11:31:56,193][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 3.9661240407440346e-06, update_epoch: 0, num_batch: 4
+[2026-09-11 11:31:56,258][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 4.950577476847684e-06, update_epoch: 1, num_batch: 4
+[2026-09-11 11:31:56,320][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 5.797931407869328e-06, update_epoch: 1, num_batch: 4
+[2026-09-11 11:31:56,383][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 6.527701316372259e-06, update_epoch: 1, num_batch: 4
+[2026-09-11 11:31:56,447][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 7.242890205816366e-06, update_epoch: 1, num_batch: 4
+[2026-09-11 11:31:56,511][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 7.75474381953245e-06, update_epoch: 2, num_batch: 4
+[2026-09-11 11:31:56,574][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 8.265298674814403e-06, update_epoch: 2, num_batch: 4
+[2026-09-11 11:31:56,638][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 8.660460480314214e-06, update_epoch: 2, num_batch: 4
+[2026-09-11 11:31:56,700][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 9.077009053726215e-06, update_epoch: 2, num_batch: 4
+[2026-09-11 11:31:56,762][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 9.316609975940082e-06, update_epoch: 3, num_batch: 4
+[2026-09-11 11:31:56,826][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 9.50219873629976e-06, update_epoch: 3, num_batch: 4
+[2026-09-11 11:31:56,893][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 9.972562111215666e-06, update_epoch: 3, num_batch: 4
+[2026-09-11 11:31:56,960][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 1.0165706953557674e-05, update_epoch: 3, num_batch: 4
+[2026-09-11 11:31:57,025][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 1.0472978829056956e-05, update_epoch: 4, num_batch: 4
+[2026-09-11 11:31:57,089][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 1.0757946256489959e-05, update_epoch: 4, num_batch: 4
+[2026-09-11 11:31:57,154][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 1.1162693226651754e-05, update_epoch: 4, num_batch: 4
+[2026-09-11 11:31:57,218][agent.finetune.train_ppo_diffusion_agent][INFO] - approx_kl: 1.1132898180221673e-05, update_epoch: 4, num_batch: 4
+[2026-09-11 11:31:57,261][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10/2026-09-11_11-31-05_42/checkpoint/state_1.pt
+[2026-09-11 11:31:57,262][agent.finetune.train_ppo_diffusion_agent][INFO] - [PERF] itr=1 rollout_s=13.293500 prep_s=0.304524 update_s=1.705855 total_s=15.333414
+[2026-09-11 11:31:57,263][agent.finetune.train_ppo_diffusion_agent][INFO] - 1: step    80000 | loss   0.0056 | pg loss  -0.0004 | value loss   0.0120 | bc loss   0.0000 | reward 1188.4169 | eta   1.0000 | t: 15.3355

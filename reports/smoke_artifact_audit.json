@@ -1,0 +1,20 @@
+[
+  {
+    "run_dir": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_idql_diffusion_mlp_ta4_td20/2026-09-11_11-32-33_42",
+    "state_0_itr": 0,
+    "state_1_itr": 1,
+    "floating_tensors_finite": true,
+    "changed_floating_tensors": 64,
+    "max_abs_parameter_delta": 0.0010000020265579224,
+    "optimizer_update_evidence": true
+  },
+  {
+    "run_dir": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-11_11-33-06_42",
+    "state_0_itr": 0,
+    "state_1_itr": 1,
+    "floating_tensors_finite": true,
+    "changed_floating_tensors": 68,
+    "max_abs_parameter_delta": 0.0010000020265579224,
+    "optimizer_update_evidence": true
+  }
+]

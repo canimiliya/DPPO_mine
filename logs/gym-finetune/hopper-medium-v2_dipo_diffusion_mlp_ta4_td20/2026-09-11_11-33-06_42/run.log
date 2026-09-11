@@ -1,0 +1,8 @@
+[2026-09-11 11:33:28,585][root][INFO] - Loaded SL-trained policy from /mnt/d/desktop/my_project/paper_reproduction/dppo/checkpoints/official/hopper_medium_pre_diffusion_mlp_ta4_td20_state_3000.pt
+[2026-09-11 11:33:28,586][root][INFO] - Number of network parameters: 553020
+[2026-09-11 11:33:29,030][agent.finetune.train_dipo_diffusion_agent][INFO] - [WARNING] No episode completed within the iteration!
+[2026-09-11 11:33:29,063][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-11_11-33-06_42/checkpoint/state_0.pt
+[2026-09-11 11:33:29,064][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   0.0000 | avg episode reward   0.0000 | avg best reward   0.0000
+[2026-09-11 11:33:29,154][agent.finetune.train_dipo_diffusion_agent][INFO] - [WARNING] No episode completed within the iteration!
+[2026-09-11 11:33:29,715][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-11_11-33-06_42/checkpoint/state_1.pt
+[2026-09-11 11:33:29,718][agent.finetune.train_dipo_diffusion_agent][INFO] - 1: step       32 | loss actor   0.1695 | loss - critic   0.0057 | reward   0.0000 | t:  0.6521
