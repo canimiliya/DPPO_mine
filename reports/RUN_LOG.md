@@ -19,6 +19,10 @@ All commands below were launched from the official checkout with the project-loc
 
 The two smoke evaluations report zero completed episodes because four rollout steps are shorter than a full episode. This is an expected smoke-test limitation.
 
+| 2026-09-11 20:11:29–2026-09-12 00:21:05 | Hopper Figure 4 DPPO formal run | COMPLETE; seed 42, 1000 iterations, 100 evaluation points, final training step 72,000,000; no NaN/Inf, exception, or CUDA OOM | `logs\gym-finetune\hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10\2026-09-11_20-11-30_42` |
+
 ## Formal campaign status
 
-Formal Figure 4 training is **NOT COMPLETE**. The 2026-09-11 three-method runs are engineering benchmarks only; they must not be presented as final Figure 4 results. The official-scale Hopper estimates with the current validation schedule are approximately 4.16 h (DPPO), 8.27 h (IDQL), and 9.45 h (DIPO) for 1000 iterations. See `reports\FIG4_HOPPER_METHOD_BENCHMARK.md` for the evidence and uncertainty boundary.
+Hopper Figure 4 DPPO seed=42 full run: **COMPLETE**. The 2026-09-11 three-method runs remain engineering benchmarks only; they must not be presented as final Figure 4 results. IDQL and DIPO full runs have not been performed. This repository still does not claim a complete multi-seed or three-environment Figure 4 reproduction.
+
+The formal run's public evidence copies are under `reports\evidence\fig4_hopper_dppo_seed42\` (`run.log`, `config.yaml`, and `overrides.yaml`). The original local run directory also retains `result.pkl` and all checkpoints, including the final local-only `state_999.pt`.

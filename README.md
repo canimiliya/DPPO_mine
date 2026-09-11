@@ -8,10 +8,18 @@ This repository contains the reproducibility code, configuration records, smoke-
 
 - Environment setup and CUDA/MuJoCo/D4RL/DPPO smoke tests: **PASS**.
 - Hopper Figure 4 DPPO/IDQL/DIPO official-size short benchmark: **ENGINEERING EVIDENCE ONLY**.
-- Full seed-42 Figure 4 and Figure 18 campaigns: **NOT COMPLETE**.
-- Final reproduction curves and side-by-side figures: **NOT GENERATED**.
+- Hopper Figure 4 DPPO seed=42 full run: **COMPLETE** (single-seed only; results and curve are uploaded).
+- Hopper Figure 4 IDQL/DIPO full runs: **NOT COMPLETE**.
+- Figure 4 three-method/three-environment comparison and Figure 18 campaign: **NOT COMPLETE**.
 
-The repository must not be cited as a completed reproduction of Figure 4 or Figure 18. Short smoke runs and the 5-iteration benchmark are engineering evidence only.
+The repository must not be cited as a completed multi-seed reproduction of Figure 4 or Figure 18. The Hopper DPPO result is one formal seed-42 run; short smoke runs and the 5-iteration benchmarks remain engineering evidence only.
+
+The formal single-seed result is documented in
+`reports/FIG4_HOPPER_DPPO_SEED42.md`, with raw values in
+`results/fig4_hopper_dppo_seed42.csv`, the curve in
+`plots/fig4_hopper_dppo_seed42.png`, and three-point provenance checks in
+`reports/P3A_RAW_DATA_AUDIT.json`. Public copies of the formal `run.log` and
+Hydra files are under `reports/evidence/fig4_hopper_dppo_seed42/`.
 
 The three-method Hopper benchmark is documented in
 `reports/FIG4_HOPPER_METHOD_BENCHMARK.md`; it reports runtime and health only,
@@ -47,9 +55,9 @@ git clone --recurse-submodules https://github.com/canimiliya/DPPO_mine.git
 
 - `scripts/`: one-seed and five-seed launchers, plotting utilities, and resource inventory tooling.
 - `reports/`: environment, provenance, compatibility, experiment definitions, run evidence, result status, and local resource manifest.
-- `logs/`: Hydra-resolved configs, text logs, small result pickles, and two selected key checkpoints.
+- `logs/`: local Hydra-resolved configs, text logs, result pickles, and checkpoints; formal checkpoints remain local-only.
 - `source/dppo_v0.6`: fixed upstream source submodule.
-- `plots/` and `results/`: reserved output directories; currently empty because formal training is unfinished.
+- `plots/` and `results/`: formal Hopper DPPO seed-42 curve and CSV, plus reserved output space for later methods/environments.
 
 See [`reports/GITHUB_RELEASE_CONTENTS.md`](reports/GITHUB_RELEASE_CONTENTS.md) for the exact public/local-only boundary and [`reports/RESOURCE_MANIFEST.md`](reports/RESOURCE_MANIFEST.md) for local paths and sizes.
 

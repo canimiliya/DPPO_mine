@@ -57,3 +57,19 @@ This supplement records resources created after the previous full manifest. Comb
 | D:\Desktop\my_project\paper_reproduction\DPPO\reports\PERFORMANCE_DIAGNOSIS.md | file | 11490 | 11.22 KiB | CB90E83CDD169035684E2101EA3697E70100062FC18CAF7E45346DCF919AB4FE |
 | D:\Desktop\my_project\paper_reproduction\DPPO\README.md | file | 3538 | 3.45 KiB | 38FDB6FFD9136BF3F77C40AA44E54AF4404C220CD9A1766F34B4863B5DAA1398 |
 | D:\Desktop\my_project\paper_reproduction\DPPO\scripts\setup\apply_performance_patch.ps1 | file | 1306 | 1.28 KiB | 4B387BC63D61DA269C97D902AC77F488D1744F50AD13B0F5F2EA0BDE0E47A270 |
+
+本轮 P3-A 正式 Hopper + DPPO + seed=42 产物：
+
+| Path | Kind | Bytes | Size | SHA256 |
+|---|---|---:|---:|---|
+| D:\Desktop\my_project\paper_reproduction\DPPO\logs\gym-finetune\hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10\2026-09-11_20-11-30_42 | directory aggregate | 57551131 | 54.84 MiB | - |
+| D:\Desktop\my_project\paper_reproduction\DPPO\logs\gym-finetune\hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10\2026-09-11_20-11-30_42\run.log | local file | 2727907 | 2.60 MiB | 4E8E60D82CC3C53BE2EA0C0A0F1D8687D02A5ECA54DB75AA60A2380B9B844C3D |
+| D:\Desktop\my_project\paper_reproduction\DPPO\logs\gym-finetune\hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10\2026-09-11_20-11-30_42\result.pkl | local file | 52132 | 50.91 KiB | - |
+| D:\Desktop\my_project\paper_reproduction\DPPO\logs\gym-finetune\hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10\2026-09-11_20-11-30_42\checkpoint\state_999.pt | local checkpoint | 4978639 | 4.75 MiB | - |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\evidence\fig4_hopper_dppo_seed42\run.log | public evidence copy | 2727907 | 2.60 MiB | 4E8E60D82CC3C53BE2EA0C0A0F1D8687D02A5ECA54DB75AA60A2380B9B844C3D |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\evidence\fig4_hopper_dppo_seed42\config.yaml | public evidence copy | 2703 | 2.64 KiB | 8FF66F2CFAE197156DDE7750A2BC9AF850A863599D3E88115844BE0FB0408FD1 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\evidence\fig4_hopper_dppo_seed42\overrides.yaml | public evidence copy | 155 | 155 B | AF6D9BBC27716AC97929AA33BD5A7BF4B812C609086CE83ECD1C0423DF9BB620 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\results\fig4_hopper_dppo_seed42.csv | public result | 33317 | 32.54 KiB | F415E1D36A89AB6B5FA0B15EE894C100E08AEC36F2A73CE0B7B29BD08080D0F7 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\plots\fig4_hopper_dppo_seed42.png | public figure | 93203 | 91.02 KiB | 4E6508CE026371D233FC2DD92AB0ED28418D637F613B33A8BDD287A946B32875 |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\FIG4_HOPPER_DPPO_SEED42.md | public report | 4395 | 4.29 KiB | B8BCAC2C20B1EDB290A16B21E2EEA38A27C363CE74AAE16403442C865510592C |
+| D:\Desktop\my_project\paper_reproduction\DPPO\reports\P3A_RAW_DATA_AUDIT.json | public audit | 1451 | 1.42 KiB | 8C42CAAA5B6F7B86910FE4A45909A66E5B854287881AB74CB99BEE5F2E06646F |

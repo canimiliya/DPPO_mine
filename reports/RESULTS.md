@@ -1,5 +1,33 @@
 # Results status
 
-No formal performance result is claimed yet.
+## Hopper Figure 4 DPPO, seed=42
 
-The available artifacts are setup evidence and short smoke runs. Smoke checkpoints are intentionally excluded from Figure 4 and Figure 18 performance plots. A formal result becomes reportable only after the requested training horizon, evaluation logs, checkpoint integrity checks, and plot QA complete.
+The requested single-seed formal run is complete: 1000/1000 iterations were executed with the official Hopper configuration and the clean CUDA performance patch. It is a single-seed result and must not be described as a complete multi-seed Figure 4 reproduction.
+
+- Final environment steps: 72,000,000.
+- Evaluation points: 100 (iteration 0 through 990, every 10 iterations).
+- Initial evaluation reward: 1436.6171779257947.
+- Final evaluation reward: 3092.054468005484 at iteration 990 / 71,280,000 environment steps.
+- Best evaluation reward: 3092.054468005484 at iteration 990 / 71,280,000 environment steps.
+- Run-log timestamp span: 4:09:03.064; the run directory was created at 20:11:29 and the final log/checkpoint write completed at 00:21:05.
+- Health: no NaN/Inf, exception, or CUDA OOM detected in `run.log`.
+- RAW DATA AUDIT: PASS; first, middle, and final evaluation points agree between `result.pkl` and the four-decimal values printed in `run.log`.
+
+Artifacts:
+
+- CSV: `results/fig4_hopper_dppo_seed42.csv`
+- Curve: `plots/fig4_hopper_dppo_seed42.png`
+- Detailed report: `reports/FIG4_HOPPER_DPPO_SEED42.md`
+- Raw audit: `reports/P3A_RAW_DATA_AUDIT.json`
+- Public raw evidence: `reports/evidence/fig4_hopper_dppo_seed42/`
+- Original local run: `logs/gym-finetune/hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10/2026-09-11_20-11-30_42`
+
+The curve shows a rising but noisy single-seed Hopper evaluation trajectory. It is qualitatively compatible with a learning/improvement trend, but the paper reports multi-seed statistics; therefore this result is only a single-seed trend check, not a claim that Figure 4 has been fully reproduced.
+
+## Scope boundary
+
+- Hopper Figure 4 IDQL full run: **NOT COMPLETE**.
+- Hopper Figure 4 DIPO full run: **NOT COMPLETE**.
+- Figure 4 three-method comparison: **NOT COMPLETE**.
+- Figure 4 three-environment reproduction: **NOT COMPLETE**.
+- Figure 18 full campaign: **NOT COMPLETE**.
