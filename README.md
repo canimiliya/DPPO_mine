@@ -72,3 +72,13 @@ The following are intentionally excluded from Git because they are large, reprod
 - the supplied paper PDF and paper screenshots.
 
 Their locations, byte sizes, and hashes are recorded in the resource manifest. Compatibility details are in [`reports/COMPATIBILITY_PATCHES.md`](reports/COMPATIBILITY_PATCHES.md).
+
+## P3-B formal status
+
+- Hopper DPPO seed42 full run: **COMPLETE**.
+- Hopper IDQL seed42 full run: **COMPLETE**.
+- Hopper DIPO seed42 full run: **NOT COMPLETE**.
+- Hopper three-method comparison: **NOT COMPLETE**.
+- Figure 4 three-environment reproduction: **NOT COMPLETE**.
+
+The IDQL result is a single-seed formal run and must not be described as a complete multi-seed Figure 4 reproduction.

@@ -26,3 +26,13 @@ The two smoke evaluations report zero completed episodes because four rollout st
 Hopper Figure 4 DPPO seed=42 full run: **COMPLETE**. The 2026-09-11 three-method runs remain engineering benchmarks only; they must not be presented as final Figure 4 results. IDQL and DIPO full runs have not been performed. This repository still does not claim a complete multi-seed or three-environment Figure 4 reproduction.
 
 The formal run's public evidence copies are under `reports\evidence\fig4_hopper_dppo_seed42\` (`run.log`, `config.yaml`, and `overrides.yaml`). The original local run directory also retains `result.pkl` and all checkpoints, including the final local-only `state_999.pt`.
+
+## P3-B formal status
+
+- Hopper DPPO seed42 full run: **COMPLETE**.
+- Hopper IDQL seed42 full run: **COMPLETE**.
+- Hopper DIPO seed42 full run: **NOT COMPLETE**.
+- Hopper three-method comparison: **NOT COMPLETE**.
+- Figure 4 three-environment reproduction: **NOT COMPLETE**.
+
+The IDQL result is a single-seed formal run and must not be described as a complete multi-seed Figure 4 reproduction.
