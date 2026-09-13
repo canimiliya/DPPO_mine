@@ -83,11 +83,17 @@ These are single-seed observations and must not be described as a complete multi
 
 - ROBOMIMIC Can state environment preparation: **PASS**; robomimic import, exact `robosuite==1.4.1`, official normalization, official `state_5000.pt`, single-environment smoke, DPPO update smoke, and official-size 50-env/6-iteration benchmark are documented in `reports/ROBOMIMIC_CAN_PREP.md`.
 - ROBOMIMIC Can DPPO seed42 formal fine-tuning: **COMPLETE** for the single-seed state-observation run; see `reports/FIG4_ROBOMIMIC_CAN_DPPO_SEED42.md` and the uploaded CSV/curves.
+- ROBOMIMIC Can IDQL seed42 formal fine-tuning: **COMPLETE**; see `reports/FIG4_ROBOMIMIC_CAN_IDQL_SEED42.md` and the uploaded CSV/curves.
+- ROBOMIMIC Can DIPO seed42 formal fine-tuning: **NOT COMPLETE**; it is gated on the P4-B commit and push.
 - The current robosuite package is the exact PyPI 1.4.1 release because the current ARISE-Initiative GitHub tag listing did not expose a resolvable v1.4.1 tag; this provenance caveat is recorded in the environment report.
 
 The ROBOMIMIC Can result is a single-seed observation only. Multi-seed ROBOMIMIC
 reproduction, the full task suite, and complete Figure 4 reproduction remain
 **NOT COMPLETE**.
+
+The Can DPPO and IDQL results are single-seed observations. The Can three-method
+comparison remains **NOT COMPLETE** until DIPO is completed and its raw audit,
+unified curves, and summary report are committed.
 
 
 ## P3-C formal status

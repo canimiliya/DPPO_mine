@@ -56,6 +56,17 @@ wall-clock was 1.2838 h versus the P4-PREP estimate of 1.34 h (relative error
 remains a single-seed state-observation result; multi-seed and full-suite
 reproduction remain incomplete.
 
+## P4-B ROBOMIMIC Can IDQL formal run
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-14 00:56:59–02:39:28 | ROBOMIMIC Can IDQL seed42 formal run | COMPLETE; 151/151 result rows, 16 automatic evaluation points, final raw step 8,100,000, no NaN/Inf, exception, CUDA OOM, or worker failure | `reports/evidence/fig4_robomimic_can_idql_seed42/` |
+
+The first ten result rows took 406.2021 s, projecting 1.7038 h for the full
+run; the observed run-log span was 1.7080 h. Initial/final/best evaluation
+success rates were 0.0450 / 0.9750 / 1.0000, with first best success at
+iteration 110. **RAW DATA AUDIT: PASS.** This remains a single-seed result.
+
 
 ## P3-C formal status
 

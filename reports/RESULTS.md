@@ -48,6 +48,21 @@ Figure 4 reproduction. The raw-data audit is PASS. See
 `reports/FIG4_ROBOMIMIC_CAN_DPPO_SEED42.md`,
 `results/fig4_robomimic_can_dppo_seed42.csv`, and the corresponding plots.
 
+## P4-B ROBOMIMIC Can IDQL, seed=42
+
+The official IDQL state-observation Can fine-tuning run is complete for one
+seed: 151/151 result rows, 16 automatic evaluation points, and final raw
+`environment_steps=8,100,000`. Initial/final/best evaluation success rates are
+0.0450, 0.9750, and 1.0000, respectively; the first best-success point is
+iteration 110. The run-log wall-clock was 1.7080 h, with a first-ten-row
+projection of 1.7038 h. No NaN/Inf, exception, CUDA OOM, worker failure, or
+checkpoint-save failure was observed in the corrected run.
+
+The result is a single-seed trend check, not a complete multi-seed or full-task
+Figure 4 reproduction. **RAW DATA AUDIT: PASS.** See
+`reports/FIG4_ROBOMIMIC_CAN_IDQL_SEED42.md`,
+`results/fig4_robomimic_can_idql_seed42.csv`, and the corresponding plots.
+
 
 ## P3-C formal status
 

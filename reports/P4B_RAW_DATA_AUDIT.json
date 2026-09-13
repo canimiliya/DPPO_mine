@@ -1,0 +1,65 @@
+{
+  "source_result": "result.pkl",
+  "source_log": "run.log",
+  "evaluation_points_in_result": 16,
+  "sampled_points": [
+    {
+      "iteration": 0,
+      "result_pkl": {
+        "environment_steps": 0,
+        "eval_success_rate": 0.045,
+        "eval_episode_reward": 5.885
+      },
+      "run_log": {
+        "environment_steps": 0,
+        "eval_success_rate": 0.045,
+        "eval_episode_reward": 5.885
+      },
+      "absolute_error": {
+        "eval_success_rate": 0.0,
+        "eval_episode_reward": 0.0,
+        "environment_steps": 0
+      },
+      "audit_result": "PASS"
+    },
+    {
+      "iteration": 80,
+      "result_pkl": {
+        "environment_steps": 4320000,
+        "eval_success_rate": 0.97,
+        "eval_episode_reward": 176.535
+      },
+      "run_log": {
+        "environment_steps": 4320000,
+        "eval_success_rate": 0.97,
+        "eval_episode_reward": 176.535
+      },
+      "absolute_error": {
+        "eval_success_rate": 0.0,
+        "eval_episode_reward": 0.0,
+        "environment_steps": 0
+      },
+      "audit_result": "PASS"
+    },
+    {
+      "iteration": 150,
+      "result_pkl": {
+        "environment_steps": 8100000,
+        "eval_success_rate": 0.975,
+        "eval_episode_reward": 174.415
+      },
+      "run_log": {
+        "environment_steps": 8100000,
+        "eval_success_rate": 0.975,
+        "eval_episode_reward": 174.415
+      },
+      "absolute_error": {
+        "eval_success_rate": 0.0,
+        "eval_episode_reward": 0.0,
+        "environment_steps": 0
+      },
+      "audit_result": "PASS"
+    }
+  ],
+  "audit_result": "PASS"
+}
