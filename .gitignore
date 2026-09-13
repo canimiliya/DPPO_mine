@@ -32,3 +32,6 @@ logs/gym-finetune/hopper-medium-v2_idql_diffusion_mlp_ta4_td20/2026-09-12_11-03-
 Thumbs.db
 .vscode/
 .idea/
+
+# P3-C DIPO raw run stays local; curated evidence is published under reports/evidence/.
+logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "comparison_rule": "run.log prints eval reward to 4 decimal places; compare rounded result.pkl and run.log values",
+  "evaluation_points_total": 100,
+  "source_result_pkl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/result.pkl",
+  "source_run_log": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/run.log",
+  "checks": [
+    {
+      "label": "first",
+      "iteration": 0,
+      "environment_steps": 0,
+      "result_pkl_eval_episode_reward": 1434.9198809246259,
+      "run_log_eval_episode_reward_4dp": 1434.9199,
+      "absolute_difference": 1.9075374211752205e-05,
+      "match_after_run_log_rounding": true
+    },
+    {
+      "label": "middle",
+      "iteration": 500,
+      "environment_steps": 36000000,
+      "result_pkl_eval_episode_reward": 2559.8150942896964,
+      "run_log_eval_episode_reward_4dp": 2559.8151,
+      "absolute_difference": 5.71030341234291e-06,
+      "match_after_run_log_rounding": true
+    },
+    {
+      "label": "last",
+      "iteration": 990,
+      "environment_steps": 71280000,
+      "result_pkl_eval_episode_reward": 2671.399609111509,
+      "run_log_eval_episode_reward_4dp": 2671.3996,
+      "absolute_difference": 9.111508916248567e-06,
+      "match_after_run_log_rounding": true
+    }
+  ]
+}

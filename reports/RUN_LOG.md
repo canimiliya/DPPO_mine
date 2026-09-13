@@ -21,18 +21,11 @@ The two smoke evaluations report zero completed episodes because four rollout st
 
 | 2026-09-11 20:11:29–2026-09-12 00:21:05 | Hopper Figure 4 DPPO formal run | COMPLETE; seed 42, 1000 iterations, 100 evaluation points, final training step 72,000,000; no NaN/Inf, exception, or CUDA OOM | `logs\gym-finetune\hopper-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10\2026-09-11_20-11-30_42` |
 
-## Formal campaign status
+## P3-C formal status
 
-Hopper Figure 4 DPPO seed=42 full run: **COMPLETE**. The 2026-09-11 three-method runs remain engineering benchmarks only; they must not be presented as final Figure 4 results. IDQL and DIPO full runs have not been performed. This repository still does not claim a complete multi-seed or three-environment Figure 4 reproduction.
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-12 | Hopper DIPO Figure 4 formal run | COMPLETE; seed 42, 1000 iterations, 100 evaluation points; raw audit PASS; no NaN/Inf, exception, or CUDA OOM | `logs\gym-finetune\hopper-medium-v2_dipo_diffusion_mlp_ta4_td20\2026-09-12_21-32-02_42` |
+| 2026-09-12 | Hopper three-method single-seed comparison | COMPLETE; DPPO/IDQL/DIPO unified CSV, curve and summary report generated from real evaluation points | `results\fig4_hopper_three_methods_seed42.csv`, `plots\fig4_hopper_three_methods_seed42.png` |
 
-The formal run's public evidence copies are under `reports\evidence\fig4_hopper_dppo_seed42\` (`run.log`, `config.yaml`, and `overrides.yaml`). The original local run directory also retains `result.pkl` and all checkpoints, including the final local-only `state_999.pt`.
-
-## P3-B formal status
-
-- Hopper DPPO seed42 full run: **COMPLETE**.
-- Hopper IDQL seed42 full run: **COMPLETE**.
-- Hopper DIPO seed42 full run: **NOT COMPLETE**.
-- Hopper three-method comparison: **NOT COMPLETE**.
-- Figure 4 three-environment reproduction: **NOT COMPLETE**.
-
-The IDQL result is a single-seed formal run and must not be described as a complete multi-seed Figure 4 reproduction.
+Hopper DPPO, IDQL and DIPO seed-42 formal runs are complete. This remains a single-seed Hopper comparison; Walker2D, HalfCheetah, three-environment Figure 4 and 5-seed statistics remain outside scope.

@@ -24,20 +24,11 @@ Artifacts:
 
 The curve shows a rising but noisy single-seed Hopper evaluation trajectory. It is qualitatively compatible with a learning/improvement trend, but the paper reports multi-seed statistics; therefore this result is only a single-seed trend check, not a claim that Figure 4 has been fully reproduced.
 
-## Scope boundary
+## P3-C formal status
 
-- Hopper Figure 4 IDQL full run: **NOT COMPLETE**.
-- Hopper Figure 4 DIPO full run: **NOT COMPLETE**.
-- Figure 4 three-method comparison: **NOT COMPLETE**.
-- Figure 4 three-environment reproduction: **NOT COMPLETE**.
-- Figure 18 full campaign: **NOT COMPLETE**.
+- Hopper DPPO seed42: **COMPLETE**; final evaluation reward is recorded in `reports/FIG4_HOPPER_DPPO_SEED42.md`.
+- Hopper IDQL seed42: **COMPLETE**; final evaluation reward is recorded in `reports/FIG4_HOPPER_IDQL_SEED42.md`.
+- Hopper DIPO seed42: **COMPLETE**; final evaluation reward is recorded in `reports/FIG4_HOPPER_DIPO_SEED42.md`.
+- Hopper three-method single-seed comparison: **COMPLETE**; see `reports/FIG4_HOPPER_THREE_METHODS_SEED42.md`.
 
-## P3-B formal status
-
-- Hopper DPPO seed42 full run: **COMPLETE**.
-- Hopper IDQL seed42 full run: **COMPLETE**.
-- Hopper DIPO seed42 full run: **NOT COMPLETE**.
-- Hopper three-method comparison: **NOT COMPLETE**.
-- Figure 4 three-environment reproduction: **NOT COMPLETE**.
-
-The IDQL result is a single-seed formal run and must not be described as a complete multi-seed Figure 4 reproduction.
+The combined CSV preserves raw `environment_steps` and adds only the derived `high_level_decision_steps = environment_steps / 4` column. All method comparisons are single-seed observations only. Figure 4 three-environment reproduction, Figure 18 and 5-seed statistical reproduction remain **NOT COMPLETE**.

@@ -9,17 +9,12 @@ This repository contains the reproducibility code, configuration records, smoke-
 - Environment setup and CUDA/MuJoCo/D4RL/DPPO smoke tests: **PASS**.
 - Hopper Figure 4 DPPO/IDQL/DIPO official-size short benchmark: **ENGINEERING EVIDENCE ONLY**.
 - Hopper Figure 4 DPPO seed=42 full run: **COMPLETE** (single-seed only; results and curve are uploaded).
-- Hopper Figure 4 IDQL/DIPO full runs: **NOT COMPLETE**.
-- Figure 4 three-method/three-environment comparison and Figure 18 campaign: **NOT COMPLETE**.
+- Hopper Figure 4 DPPO/IDQL/DIPO full runs: **COMPLETE** (single-seed only; results and curves are uploaded).
+- Hopper three-method single-seed comparison: **COMPLETE**; Figure 4 three-environment reproduction and Figure 18 campaign: **NOT COMPLETE**.
 
 The repository must not be cited as a completed multi-seed reproduction of Figure 4 or Figure 18. The Hopper DPPO result is one formal seed-42 run; short smoke runs and the 5-iteration benchmarks remain engineering evidence only.
 
-The formal single-seed result is documented in
-`reports/FIG4_HOPPER_DPPO_SEED42.md`, with raw values in
-`results/fig4_hopper_dppo_seed42.csv`, the curve in
-`plots/fig4_hopper_dppo_seed42.png`, and three-point provenance checks in
-`reports/P3A_RAW_DATA_AUDIT.json`. Public copies of the formal `run.log` and
-Hydra files are under `reports/evidence/fig4_hopper_dppo_seed42/`.
+The three formal Hopper seed-42 results are documented in `reports/FIG4_HOPPER_DPPO_SEED42.md`, `reports/FIG4_HOPPER_IDQL_SEED42.md`, and `reports/FIG4_HOPPER_DIPO_SEED42.md`. The unified table and curve are `results/fig4_hopper_three_methods_seed42.csv` and `plots/fig4_hopper_three_methods_seed42.png`; the summary is `reports/FIG4_HOPPER_THREE_METHODS_SEED42.md`.
 
 The three-method Hopper benchmark is documented in
 `reports/FIG4_HOPPER_METHOD_BENCHMARK.md`; it reports runtime and health only,
@@ -73,12 +68,13 @@ The following are intentionally excluded from Git because they are large, reprod
 
 Their locations, byte sizes, and hashes are recorded in the resource manifest. Compatibility details are in [`reports/COMPATIBILITY_PATCHES.md`](reports/COMPATIBILITY_PATCHES.md).
 
-## P3-B formal status
+## P3-C formal status
 
 - Hopper DPPO seed42 full run: **COMPLETE**.
 - Hopper IDQL seed42 full run: **COMPLETE**.
-- Hopper DIPO seed42 full run: **NOT COMPLETE**.
-- Hopper three-method comparison: **NOT COMPLETE**.
+- Hopper DIPO seed42 full run: **COMPLETE**.
+- Hopper three-method single-seed comparison: **COMPLETE**.
 - Figure 4 three-environment reproduction: **NOT COMPLETE**.
+- 5-seed statistical reproduction: **NOT COMPLETE**.
 
-The IDQL result is a single-seed formal run and must not be described as a complete multi-seed Figure 4 reproduction.
+These are single-seed observations and must not be described as a complete multi-seed reproduction.

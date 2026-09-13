@@ -1,0 +1,1013 @@
+[2026-09-12 21:32:38,673][root][INFO] - Loaded SL-trained policy from /mnt/d/desktop/my_project/paper_reproduction/dppo/checkpoints/official/hopper_medium_pre_diffusion_mlp_ta4_td20_state_3000.pt
+[2026-09-12 21:32:38,674][root][INFO] - Number of network parameters: 553020
+[2026-09-12 21:32:47,827][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_0.pt
+[2026-09-12 21:32:47,827][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1434.9199 | avg best reward   4.8557
+[2026-09-12 21:33:24,796][agent.finetune.train_dipo_diffusion_agent][INFO] - 1: step    80000 | loss actor   0.0000 | loss - critic   0.0010 | reward 1211.5312 | t: 36.9642
+[2026-09-12 21:34:01,627][agent.finetune.train_dipo_diffusion_agent][INFO] - 2: step   160000 | loss actor   0.0000 | loss - critic   0.0028 | reward 1206.6565 | t: 36.8360
+[2026-09-12 21:34:39,441][agent.finetune.train_dipo_diffusion_agent][INFO] - 3: step   240000 | loss actor   0.0000 | loss - critic   0.0028 | reward 1244.0647 | t: 37.8135
+[2026-09-12 21:35:18,372][agent.finetune.train_dipo_diffusion_agent][INFO] - 4: step   320000 | loss actor   0.0000 | loss - critic   0.0023 | reward 1244.1953 | t: 38.9314
+[2026-09-12 21:36:40,837][agent.finetune.train_dipo_diffusion_agent][INFO] - 5: step   400000 | loss actor   0.1414 | loss - critic   0.0045 | reward 1251.9747 | t: 82.4645
+[2026-09-12 21:37:57,865][agent.finetune.train_dipo_diffusion_agent][INFO] - 6: step   480000 | loss actor   0.1514 | loss - critic   0.0091 | reward 1187.3323 | t: 77.0276
+[2026-09-12 21:39:20,692][agent.finetune.train_dipo_diffusion_agent][INFO] - 7: step   560000 | loss actor   0.1448 | loss - critic   0.0098 | reward 1154.8724 | t: 82.8279
+[2026-09-12 21:40:42,089][agent.finetune.train_dipo_diffusion_agent][INFO] - 8: step   640000 | loss actor   0.1292 | loss - critic   0.0161 | reward 1156.0096 | t: 81.3966
+[2026-09-12 21:42:02,550][agent.finetune.train_dipo_diffusion_agent][INFO] - 9: step   720000 | loss actor   0.1359 | loss - critic   0.0150 | reward 1158.1275 | t: 80.4614
+[2026-09-12 21:42:12,620][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1275.9944 | avg best reward   4.9183
+[2026-09-12 21:43:32,270][agent.finetune.train_dipo_diffusion_agent][INFO] - 11: step   800000 | loss actor   0.1368 | loss - critic   0.0163 | reward 1160.6655 | t: 79.6497
+[2026-09-12 21:44:53,431][agent.finetune.train_dipo_diffusion_agent][INFO] - 12: step   880000 | loss actor   0.1359 | loss - critic   0.0211 | reward 1167.9864 | t: 81.1607
+[2026-09-12 21:46:15,944][agent.finetune.train_dipo_diffusion_agent][INFO] - 13: step   960000 | loss actor   0.1481 | loss - critic   0.0257 | reward 1167.1482 | t: 82.5125
+[2026-09-12 21:47:36,926][agent.finetune.train_dipo_diffusion_agent][INFO] - 14: step  1040000 | loss actor   0.1353 | loss - critic   0.0279 | reward 1191.3143 | t: 80.9820
+[2026-09-12 21:48:59,054][agent.finetune.train_dipo_diffusion_agent][INFO] - 15: step  1120000 | loss actor   0.1420 | loss - critic   0.0357 | reward 1181.2684 | t: 82.1283
+[2026-09-12 21:50:20,230][agent.finetune.train_dipo_diffusion_agent][INFO] - 16: step  1200000 | loss actor   0.1311 | loss - critic   0.0304 | reward 1224.2126 | t: 81.1765
+[2026-09-12 21:51:43,646][agent.finetune.train_dipo_diffusion_agent][INFO] - 17: step  1280000 | loss actor   0.1420 | loss - critic   0.0243 | reward 1250.5340 | t: 83.4156
+[2026-09-12 21:53:04,625][agent.finetune.train_dipo_diffusion_agent][INFO] - 18: step  1360000 | loss actor   0.1364 | loss - critic   0.0255 | reward 1228.0135 | t: 80.9788
+[2026-09-12 21:54:24,280][agent.finetune.train_dipo_diffusion_agent][INFO] - 19: step  1440000 | loss actor   0.1471 | loss - critic   0.0246 | reward 1223.8274 | t: 79.6549
+[2026-09-12 21:54:35,753][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1383.4841 | avg best reward   4.9542
+[2026-09-12 21:55:56,824][agent.finetune.train_dipo_diffusion_agent][INFO] - 21: step  1520000 | loss actor   0.1308 | loss - critic   0.0247 | reward 1282.4698 | t: 81.0705
+[2026-09-12 21:57:18,699][agent.finetune.train_dipo_diffusion_agent][INFO] - 22: step  1600000 | loss actor   0.1276 | loss - critic   0.0185 | reward 1314.3777 | t: 81.8745
+[2026-09-12 21:58:42,266][agent.finetune.train_dipo_diffusion_agent][INFO] - 23: step  1680000 | loss actor   0.1464 | loss - critic   0.0276 | reward 1316.3086 | t: 83.5676
+[2026-09-12 22:00:03,315][agent.finetune.train_dipo_diffusion_agent][INFO] - 24: step  1760000 | loss actor   0.1427 | loss - critic   0.0215 | reward 1303.8132 | t: 81.0486
+[2026-09-12 22:01:26,335][agent.finetune.train_dipo_diffusion_agent][INFO] - 25: step  1840000 | loss actor   0.1393 | loss - critic   0.0190 | reward 1324.0097 | t: 83.0198
+[2026-09-12 22:02:46,984][agent.finetune.train_dipo_diffusion_agent][INFO] - 26: step  1920000 | loss actor   0.1416 | loss - critic   0.0240 | reward 1335.2986 | t: 80.6496
+[2026-09-12 22:04:10,692][agent.finetune.train_dipo_diffusion_agent][INFO] - 27: step  2000000 | loss actor   0.1374 | loss - critic   0.0259 | reward 1349.0093 | t: 83.7076
+[2026-09-12 22:05:34,008][agent.finetune.train_dipo_diffusion_agent][INFO] - 28: step  2080000 | loss actor   0.1392 | loss - critic   0.0279 | reward 1341.7829 | t: 83.3160
+[2026-09-12 22:06:55,830][agent.finetune.train_dipo_diffusion_agent][INFO] - 29: step  2160000 | loss actor   0.1378 | loss - critic   0.0348 | reward 1334.5842 | t: 81.8216
+[2026-09-12 22:07:06,420][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1471.1217 | avg best reward   5.0494
+[2026-09-12 22:08:27,292][agent.finetune.train_dipo_diffusion_agent][INFO] - 31: step  2240000 | loss actor   0.1313 | loss - critic   0.0235 | reward 1314.2584 | t: 80.8720
+[2026-09-12 22:09:46,620][agent.finetune.train_dipo_diffusion_agent][INFO] - 32: step  2320000 | loss actor   0.1315 | loss - critic   0.0229 | reward 1343.8250 | t: 79.3280
+[2026-09-12 22:11:09,364][agent.finetune.train_dipo_diffusion_agent][INFO] - 33: step  2400000 | loss actor   0.1325 | loss - critic   0.0267 | reward 1352.8057 | t: 82.7443
+[2026-09-12 22:12:30,619][agent.finetune.train_dipo_diffusion_agent][INFO] - 34: step  2480000 | loss actor   0.1440 | loss - critic   0.0260 | reward 1358.4966 | t: 81.2548
+[2026-09-12 22:13:53,723][agent.finetune.train_dipo_diffusion_agent][INFO] - 35: step  2560000 | loss actor   0.1424 | loss - critic   0.0217 | reward 1335.1863 | t: 83.1040
+[2026-09-12 22:15:18,499][agent.finetune.train_dipo_diffusion_agent][INFO] - 36: step  2640000 | loss actor   0.1407 | loss - critic   0.0250 | reward 1383.2573 | t: 84.7765
+[2026-09-12 22:16:39,081][agent.finetune.train_dipo_diffusion_agent][INFO] - 37: step  2720000 | loss actor   0.1351 | loss - critic   0.0228 | reward 1382.3720 | t: 80.5814
+[2026-09-12 22:18:02,807][agent.finetune.train_dipo_diffusion_agent][INFO] - 38: step  2800000 | loss actor   0.1451 | loss - critic   0.0207 | reward 1398.1090 | t: 83.7258
+[2026-09-12 22:19:23,850][agent.finetune.train_dipo_diffusion_agent][INFO] - 39: step  2880000 | loss actor   0.1315 | loss - critic   0.0164 | reward 1400.3727 | t: 81.0436
+[2026-09-12 22:19:32,439][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1524.8522 | avg best reward   5.1306
+[2026-09-12 22:20:57,095][agent.finetune.train_dipo_diffusion_agent][INFO] - 41: step  2960000 | loss actor   0.1444 | loss - critic   0.0201 | reward 1389.4157 | t: 84.6553
+[2026-09-12 22:22:20,080][agent.finetune.train_dipo_diffusion_agent][INFO] - 42: step  3040000 | loss actor   0.1419 | loss - critic   0.0253 | reward 1437.8833 | t: 82.9852
+[2026-09-12 22:23:41,978][agent.finetune.train_dipo_diffusion_agent][INFO] - 43: step  3120000 | loss actor   0.1380 | loss - critic   0.0208 | reward 1414.3190 | t: 81.8978
+[2026-09-12 22:25:04,450][agent.finetune.train_dipo_diffusion_agent][INFO] - 44: step  3200000 | loss actor   0.1294 | loss - critic   0.0263 | reward 1423.8428 | t: 82.4723
+[2026-09-12 22:26:25,278][agent.finetune.train_dipo_diffusion_agent][INFO] - 45: step  3280000 | loss actor   0.1378 | loss - critic   0.0267 | reward 1425.6769 | t: 80.8281
+[2026-09-12 22:27:48,275][agent.finetune.train_dipo_diffusion_agent][INFO] - 46: step  3360000 | loss actor   0.1364 | loss - critic   0.0293 | reward 1460.6891 | t: 82.9969
+[2026-09-12 22:29:11,159][agent.finetune.train_dipo_diffusion_agent][INFO] - 47: step  3440000 | loss actor   0.1284 | loss - critic   0.0248 | reward 1433.3754 | t: 82.8834
+[2026-09-12 22:30:33,225][agent.finetune.train_dipo_diffusion_agent][INFO] - 48: step  3520000 | loss actor   0.1360 | loss - critic   0.0221 | reward 1427.3977 | t: 82.0665
+[2026-09-12 22:31:59,143][agent.finetune.train_dipo_diffusion_agent][INFO] - 49: step  3600000 | loss actor   0.1382 | loss - critic   0.0230 | reward 1452.3392 | t: 85.9183
+[2026-09-12 22:32:07,269][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1574.5787 | avg best reward   5.1764
+[2026-09-12 22:33:29,589][agent.finetune.train_dipo_diffusion_agent][INFO] - 51: step  3680000 | loss actor   0.1427 | loss - critic   0.0238 | reward 1472.0655 | t: 82.3200
+[2026-09-12 22:34:53,152][agent.finetune.train_dipo_diffusion_agent][INFO] - 52: step  3760000 | loss actor   0.1354 | loss - critic   0.0237 | reward 1442.3562 | t: 83.5629
+[2026-09-12 22:36:17,834][agent.finetune.train_dipo_diffusion_agent][INFO] - 53: step  3840000 | loss actor   0.1473 | loss - critic   0.0240 | reward 1444.3937 | t: 84.6813
+[2026-09-12 22:37:39,924][agent.finetune.train_dipo_diffusion_agent][INFO] - 54: step  3920000 | loss actor   0.1319 | loss - critic   0.0256 | reward 1449.4730 | t: 82.0912
+[2026-09-12 22:39:03,890][agent.finetune.train_dipo_diffusion_agent][INFO] - 55: step  4000000 | loss actor   0.1387 | loss - critic   0.0253 | reward 1480.4946 | t: 83.9652
+[2026-09-12 22:40:25,893][agent.finetune.train_dipo_diffusion_agent][INFO] - 56: step  4080000 | loss actor   0.1311 | loss - critic   0.0279 | reward 1473.0175 | t: 82.0034
+[2026-09-12 22:41:50,361][agent.finetune.train_dipo_diffusion_agent][INFO] - 57: step  4160000 | loss actor   0.1290 | loss - critic   0.0253 | reward 1481.3911 | t: 84.4679
+[2026-09-12 22:43:12,371][agent.finetune.train_dipo_diffusion_agent][INFO] - 58: step  4240000 | loss actor   0.1242 | loss - critic   0.0223 | reward 1509.1293 | t: 82.0097
+[2026-09-12 22:44:35,098][agent.finetune.train_dipo_diffusion_agent][INFO] - 59: step  4320000 | loss actor   0.1260 | loss - critic   0.0208 | reward 1501.2236 | t: 82.7275
+[2026-09-12 22:44:46,429][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1623.6350 | avg best reward   5.2540
+[2026-09-12 22:46:09,508][agent.finetune.train_dipo_diffusion_agent][INFO] - 61: step  4400000 | loss actor   0.1248 | loss - critic   0.0206 | reward 1470.8772 | t: 83.0782
+[2026-09-12 22:47:33,310][agent.finetune.train_dipo_diffusion_agent][INFO] - 62: step  4480000 | loss actor   0.1370 | loss - critic   0.0192 | reward 1484.3401 | t: 83.8020
+[2026-09-12 22:48:56,413][agent.finetune.train_dipo_diffusion_agent][INFO] - 63: step  4560000 | loss actor   0.1397 | loss - critic   0.0212 | reward 1519.2815 | t: 83.1036
+[2026-09-12 22:50:19,537][agent.finetune.train_dipo_diffusion_agent][INFO] - 64: step  4640000 | loss actor   0.1388 | loss - critic   0.0203 | reward 1485.1787 | t: 83.1237
+[2026-09-12 22:51:44,978][agent.finetune.train_dipo_diffusion_agent][INFO] - 65: step  4720000 | loss actor   0.1286 | loss - critic   0.0140 | reward 1516.8297 | t: 85.4412
+[2026-09-12 22:53:05,388][agent.finetune.train_dipo_diffusion_agent][INFO] - 66: step  4800000 | loss actor   0.1360 | loss - critic   0.0143 | reward 1494.3014 | t: 80.4095
+[2026-09-12 22:54:31,094][agent.finetune.train_dipo_diffusion_agent][INFO] - 67: step  4880000 | loss actor   0.1378 | loss - critic   0.0204 | reward 1474.1077 | t: 85.7058
+[2026-09-12 22:55:54,193][agent.finetune.train_dipo_diffusion_agent][INFO] - 68: step  4960000 | loss actor   0.1220 | loss - critic   0.0219 | reward 1531.3583 | t: 83.0993
+[2026-09-12 22:57:18,881][agent.finetune.train_dipo_diffusion_agent][INFO] - 69: step  5040000 | loss actor   0.1213 | loss - critic   0.0199 | reward 1539.9932 | t: 84.6883
+[2026-09-12 22:57:27,953][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1702.0113 | avg best reward   5.2479
+[2026-09-12 22:58:50,835][agent.finetune.train_dipo_diffusion_agent][INFO] - 71: step  5120000 | loss actor   0.1283 | loss - critic   0.0160 | reward 1559.0324 | t: 82.8817
+[2026-09-12 23:00:14,741][agent.finetune.train_dipo_diffusion_agent][INFO] - 72: step  5200000 | loss actor   0.1275 | loss - critic   0.0215 | reward 1535.6999 | t: 83.9058
+[2026-09-12 23:01:37,123][agent.finetune.train_dipo_diffusion_agent][INFO] - 73: step  5280000 | loss actor   0.1298 | loss - critic   0.0170 | reward 1558.7261 | t: 82.3825
+[2026-09-12 23:03:00,595][agent.finetune.train_dipo_diffusion_agent][INFO] - 74: step  5360000 | loss actor   0.1243 | loss - critic   0.0180 | reward 1556.3382 | t: 83.4714
+[2026-09-12 23:04:23,295][agent.finetune.train_dipo_diffusion_agent][INFO] - 75: step  5440000 | loss actor   0.1253 | loss - critic   0.0169 | reward 1553.5102 | t: 82.7005
+[2026-09-12 23:05:46,513][agent.finetune.train_dipo_diffusion_agent][INFO] - 76: step  5520000 | loss actor   0.1297 | loss - critic   0.0167 | reward 1536.1799 | t: 83.2176
+[2026-09-12 23:07:09,417][agent.finetune.train_dipo_diffusion_agent][INFO] - 77: step  5600000 | loss actor   0.1223 | loss - critic   0.0138 | reward 1584.9029 | t: 82.9046
+[2026-09-12 23:08:32,279][agent.finetune.train_dipo_diffusion_agent][INFO] - 78: step  5680000 | loss actor   0.1171 | loss - critic   0.0152 | reward 1591.5814 | t: 82.8619
+[2026-09-12 23:09:54,732][agent.finetune.train_dipo_diffusion_agent][INFO] - 79: step  5760000 | loss actor   0.1167 | loss - critic   0.0180 | reward 1553.2596 | t: 82.4526
+[2026-09-12 23:10:06,618][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1785.8503 | avg best reward   5.1970
+[2026-09-12 23:11:28,342][agent.finetune.train_dipo_diffusion_agent][INFO] - 81: step  5840000 | loss actor   0.1378 | loss - critic   0.0160 | reward 1577.8868 | t: 81.7238
+[2026-09-12 23:12:52,960][agent.finetune.train_dipo_diffusion_agent][INFO] - 82: step  5920000 | loss actor   0.1136 | loss - critic   0.0144 | reward 1565.1150 | t: 84.6176
+[2026-09-12 23:14:14,993][agent.finetune.train_dipo_diffusion_agent][INFO] - 83: step  6000000 | loss actor   0.1239 | loss - critic   0.0169 | reward 1618.3018 | t: 82.0328
+[2026-09-12 23:15:37,261][agent.finetune.train_dipo_diffusion_agent][INFO] - 84: step  6080000 | loss actor   0.1217 | loss - critic   0.0206 | reward 1616.8927 | t: 82.2687
+[2026-09-12 23:17:03,257][agent.finetune.train_dipo_diffusion_agent][INFO] - 85: step  6160000 | loss actor   0.1228 | loss - critic   0.0215 | reward 1586.0080 | t: 85.9953
+[2026-09-12 23:18:25,220][agent.finetune.train_dipo_diffusion_agent][INFO] - 86: step  6240000 | loss actor   0.1258 | loss - critic   0.0184 | reward 1605.0672 | t: 81.9638
+[2026-09-12 23:19:47,361][agent.finetune.train_dipo_diffusion_agent][INFO] - 87: step  6320000 | loss actor   0.1230 | loss - critic   0.0187 | reward 1638.0287 | t: 82.1410
+[2026-09-12 23:21:11,068][agent.finetune.train_dipo_diffusion_agent][INFO] - 88: step  6400000 | loss actor   0.1177 | loss - critic   0.0164 | reward 1638.4287 | t: 83.7069
+[2026-09-12 23:22:30,477][agent.finetune.train_dipo_diffusion_agent][INFO] - 89: step  6480000 | loss actor   0.1224 | loss - critic   0.0172 | reward 1651.4055 | t: 79.4090
+[2026-09-12 23:22:38,696][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 1862.2344 | avg best reward   5.2629
+[2026-09-12 23:24:01,115][agent.finetune.train_dipo_diffusion_agent][INFO] - 91: step  6560000 | loss actor   0.1277 | loss - critic   0.0183 | reward 1640.8431 | t: 82.4188
+[2026-09-12 23:25:20,405][agent.finetune.train_dipo_diffusion_agent][INFO] - 92: step  6640000 | loss actor   0.1200 | loss - critic   0.0149 | reward 1627.3120 | t: 79.2901
+[2026-09-12 23:26:42,134][agent.finetune.train_dipo_diffusion_agent][INFO] - 93: step  6720000 | loss actor   0.1187 | loss - critic   0.0224 | reward 1671.6792 | t: 81.7289
+[2026-09-12 23:28:05,633][agent.finetune.train_dipo_diffusion_agent][INFO] - 94: step  6800000 | loss actor   0.1226 | loss - critic   0.0173 | reward 1690.5260 | t: 83.4992
+[2026-09-12 23:29:24,191][agent.finetune.train_dipo_diffusion_agent][INFO] - 95: step  6880000 | loss actor   0.1271 | loss - critic   0.0183 | reward 1654.4557 | t: 78.5576
+[2026-09-12 23:30:45,142][agent.finetune.train_dipo_diffusion_agent][INFO] - 96: step  6960000 | loss actor   0.1124 | loss - critic   0.0256 | reward 1695.9115 | t: 80.9516
+[2026-09-12 23:32:10,280][agent.finetune.train_dipo_diffusion_agent][INFO] - 97: step  7040000 | loss actor   0.1159 | loss - critic   0.0231 | reward 1672.8925 | t: 85.1373
+[2026-09-12 23:33:29,365][agent.finetune.train_dipo_diffusion_agent][INFO] - 98: step  7120000 | loss actor   0.1225 | loss - critic   0.0185 | reward 1721.5028 | t: 79.0852
+[2026-09-12 23:34:51,171][agent.finetune.train_dipo_diffusion_agent][INFO] - 99: step  7200000 | loss actor   0.1158 | loss - critic   0.0212 | reward 1693.7054 | t: 81.8066
+[2026-09-12 23:35:02,756][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_100.pt
+[2026-09-12 23:35:02,757][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2012.7030 | avg best reward   5.2203
+[2026-09-12 23:36:23,818][agent.finetune.train_dipo_diffusion_agent][INFO] - 101: step  7280000 | loss actor   0.1186 | loss - critic   0.0170 | reward 1706.6013 | t: 81.0612
+[2026-09-12 23:37:46,180][agent.finetune.train_dipo_diffusion_agent][INFO] - 102: step  7360000 | loss actor   0.1230 | loss - critic   0.0190 | reward 1697.2259 | t: 82.3619
+[2026-09-12 23:39:10,670][agent.finetune.train_dipo_diffusion_agent][INFO] - 103: step  7440000 | loss actor   0.1210 | loss - critic   0.0209 | reward 1732.0267 | t: 84.4899
+[2026-09-12 23:40:34,294][agent.finetune.train_dipo_diffusion_agent][INFO] - 104: step  7520000 | loss actor   0.1197 | loss - critic   0.0159 | reward 1751.8578 | t: 83.6234
+[2026-09-12 23:41:58,719][agent.finetune.train_dipo_diffusion_agent][INFO] - 105: step  7600000 | loss actor   0.1268 | loss - critic   0.0199 | reward 1794.2996 | t: 84.4250
+[2026-09-12 23:43:20,737][agent.finetune.train_dipo_diffusion_agent][INFO] - 106: step  7680000 | loss actor   0.1302 | loss - critic   0.0209 | reward 1778.4150 | t: 82.0187
+[2026-09-12 23:44:42,658][agent.finetune.train_dipo_diffusion_agent][INFO] - 107: step  7760000 | loss actor   0.1338 | loss - critic   0.0191 | reward 1716.8202 | t: 81.9204
+[2026-09-12 23:46:04,876][agent.finetune.train_dipo_diffusion_agent][INFO] - 108: step  7840000 | loss actor   0.1117 | loss - critic   0.0195 | reward 1846.9850 | t: 82.2182
+[2026-09-12 23:47:23,837][agent.finetune.train_dipo_diffusion_agent][INFO] - 109: step  7920000 | loss actor   0.1256 | loss - critic   0.0222 | reward 1770.2651 | t: 78.9606
+[2026-09-12 23:47:32,513][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2143.8982 | avg best reward   5.2403
+[2026-09-12 23:48:57,937][agent.finetune.train_dipo_diffusion_agent][INFO] - 111: step  8000000 | loss actor   0.1105 | loss - critic   0.0188 | reward 1799.5532 | t: 85.4242
+[2026-09-12 23:50:20,232][agent.finetune.train_dipo_diffusion_agent][INFO] - 112: step  8080000 | loss actor   0.1184 | loss - critic   0.0174 | reward 1809.3837 | t: 82.2950
+[2026-09-12 23:51:46,735][agent.finetune.train_dipo_diffusion_agent][INFO] - 113: step  8160000 | loss actor   0.1138 | loss - critic   0.0217 | reward 1808.7044 | t: 86.5028
+[2026-09-12 23:53:08,005][agent.finetune.train_dipo_diffusion_agent][INFO] - 114: step  8240000 | loss actor   0.1223 | loss - critic   0.0182 | reward 1884.6397 | t: 81.2702
+[2026-09-12 23:54:27,106][agent.finetune.train_dipo_diffusion_agent][INFO] - 115: step  8320000 | loss actor   0.1177 | loss - critic   0.0350 | reward 1857.8923 | t: 79.1010
+[2026-09-12 23:55:51,412][agent.finetune.train_dipo_diffusion_agent][INFO] - 116: step  8400000 | loss actor   0.1061 | loss - critic   0.0203 | reward 1767.9617 | t: 84.3055
+[2026-09-12 23:57:14,746][agent.finetune.train_dipo_diffusion_agent][INFO] - 117: step  8480000 | loss actor   0.1286 | loss - critic   0.0335 | reward 1836.2946 | t: 83.3341
+[2026-09-12 23:58:39,815][agent.finetune.train_dipo_diffusion_agent][INFO] - 118: step  8560000 | loss actor   0.1079 | loss - critic   0.0204 | reward 1903.2938 | t: 85.0696
+[2026-09-13 00:00:01,698][agent.finetune.train_dipo_diffusion_agent][INFO] - 119: step  8640000 | loss actor   0.1229 | loss - critic   0.0264 | reward 1871.0354 | t: 81.8831
+[2026-09-13 00:00:10,044][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2403.6637 | avg best reward   5.0900
+[2026-09-13 00:01:31,222][agent.finetune.train_dipo_diffusion_agent][INFO] - 121: step  8720000 | loss actor   0.1294 | loss - critic   0.0280 | reward 1970.4351 | t: 81.1786
+[2026-09-13 00:02:55,031][agent.finetune.train_dipo_diffusion_agent][INFO] - 122: step  8800000 | loss actor   0.1229 | loss - critic   0.0215 | reward 1930.4277 | t: 83.8085
+[2026-09-13 00:04:17,864][agent.finetune.train_dipo_diffusion_agent][INFO] - 123: step  8880000 | loss actor   0.1138 | loss - critic   0.0190 | reward 1893.1127 | t: 82.8334
+[2026-09-13 00:05:42,309][agent.finetune.train_dipo_diffusion_agent][INFO] - 124: step  8960000 | loss actor   0.1193 | loss - critic   0.0244 | reward 1934.4331 | t: 84.4445
+[2026-09-13 00:07:04,261][agent.finetune.train_dipo_diffusion_agent][INFO] - 125: step  9040000 | loss actor   0.1129 | loss - critic   0.0261 | reward 1992.6471 | t: 81.9518
+[2026-09-13 00:08:25,619][agent.finetune.train_dipo_diffusion_agent][INFO] - 126: step  9120000 | loss actor   0.1188 | loss - critic   0.0247 | reward 1922.7048 | t: 81.3586
+[2026-09-13 00:09:48,705][agent.finetune.train_dipo_diffusion_agent][INFO] - 127: step  9200000 | loss actor   0.1326 | loss - critic   0.0250 | reward 2042.5132 | t: 83.0863
+[2026-09-13 00:11:08,250][agent.finetune.train_dipo_diffusion_agent][INFO] - 128: step  9280000 | loss actor   0.1274 | loss - critic   0.0257 | reward 1981.3596 | t: 79.5446
+[2026-09-13 00:12:33,945][agent.finetune.train_dipo_diffusion_agent][INFO] - 129: step  9360000 | loss actor   0.1261 | loss - critic   0.0264 | reward 2088.2607 | t: 85.6952
+[2026-09-13 00:12:43,119][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2581.3399 | avg best reward   4.9230
+[2026-09-13 00:14:04,135][agent.finetune.train_dipo_diffusion_agent][INFO] - 131: step  9440000 | loss actor   0.1257 | loss - critic   0.0225 | reward 1933.6415 | t: 81.0152
+[2026-09-13 00:15:27,688][agent.finetune.train_dipo_diffusion_agent][INFO] - 132: step  9520000 | loss actor   0.1268 | loss - critic   0.0273 | reward 1977.1728 | t: 83.5534
+[2026-09-13 00:16:48,117][agent.finetune.train_dipo_diffusion_agent][INFO] - 133: step  9600000 | loss actor   0.1194 | loss - critic   0.0234 | reward 2045.5455 | t: 80.4292
+[2026-09-13 00:18:07,209][agent.finetune.train_dipo_diffusion_agent][INFO] - 134: step  9680000 | loss actor   0.1191 | loss - critic   0.0230 | reward 2154.4462 | t: 79.0920
+[2026-09-13 00:19:30,333][agent.finetune.train_dipo_diffusion_agent][INFO] - 135: step  9760000 | loss actor   0.1139 | loss - critic   0.0627 | reward 1996.1922 | t: 83.1240
+[2026-09-13 00:20:52,218][agent.finetune.train_dipo_diffusion_agent][INFO] - 136: step  9840000 | loss actor   0.1113 | loss - critic   0.0277 | reward 2138.7722 | t: 81.8848
+[2026-09-13 00:22:13,397][agent.finetune.train_dipo_diffusion_agent][INFO] - 137: step  9920000 | loss actor   0.1207 | loss - critic   0.0247 | reward 2172.0220 | t: 81.1786
+[2026-09-13 00:23:38,365][agent.finetune.train_dipo_diffusion_agent][INFO] - 138: step 10000000 | loss actor   0.1236 | loss - critic   0.0313 | reward 2164.5196 | t: 84.9681
+[2026-09-13 00:24:58,600][agent.finetune.train_dipo_diffusion_agent][INFO] - 139: step 10080000 | loss actor   0.1313 | loss - critic   0.0410 | reward 2079.6837 | t: 80.2349
+[2026-09-13 00:25:06,279][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2641.8424 | avg best reward   4.8506
+[2026-09-13 00:26:30,479][agent.finetune.train_dipo_diffusion_agent][INFO] - 141: step 10160000 | loss actor   0.1073 | loss - critic   0.0293 | reward 1983.8095 | t: 84.1996
+[2026-09-13 00:27:51,673][agent.finetune.train_dipo_diffusion_agent][INFO] - 142: step 10240000 | loss actor   0.1151 | loss - critic   0.0290 | reward 2083.3237 | t: 81.1944
+[2026-09-13 00:29:11,866][agent.finetune.train_dipo_diffusion_agent][INFO] - 143: step 10320000 | loss actor   0.1173 | loss - critic   0.0342 | reward 2253.7490 | t: 80.1930
+[2026-09-13 00:30:36,049][agent.finetune.train_dipo_diffusion_agent][INFO] - 144: step 10400000 | loss actor   0.1167 | loss - critic   0.0262 | reward 2250.8888 | t: 84.1831
+[2026-09-13 00:31:58,100][agent.finetune.train_dipo_diffusion_agent][INFO] - 145: step 10480000 | loss actor   0.1143 | loss - critic   0.0362 | reward 2216.1628 | t: 82.0503
+[2026-09-13 00:33:17,439][agent.finetune.train_dipo_diffusion_agent][INFO] - 146: step 10560000 | loss actor   0.1117 | loss - critic   0.0264 | reward 2247.8919 | t: 79.3400
+[2026-09-13 00:34:35,998][agent.finetune.train_dipo_diffusion_agent][INFO] - 147: step 10640000 | loss actor   0.1165 | loss - critic   0.0314 | reward 2200.0559 | t: 78.5581
+[2026-09-13 00:35:59,091][agent.finetune.train_dipo_diffusion_agent][INFO] - 148: step 10720000 | loss actor   0.1101 | loss - critic   0.0213 | reward 2181.3782 | t: 83.0935
+[2026-09-13 00:37:22,718][agent.finetune.train_dipo_diffusion_agent][INFO] - 149: step 10800000 | loss actor   0.1227 | loss - critic   0.1355 | reward 2261.2703 | t: 83.6265
+[2026-09-13 00:37:31,074][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2782.6140 | avg best reward   4.5910
+[2026-09-13 00:38:58,049][agent.finetune.train_dipo_diffusion_agent][INFO] - 151: step 10880000 | loss actor   0.1088 | loss - critic   0.0274 | reward 2346.3494 | t: 86.9751
+[2026-09-13 00:40:19,313][agent.finetune.train_dipo_diffusion_agent][INFO] - 152: step 10960000 | loss actor   0.1134 | loss - critic   0.0321 | reward 2236.1733 | t: 81.2640
+[2026-09-13 00:41:43,248][agent.finetune.train_dipo_diffusion_agent][INFO] - 153: step 11040000 | loss actor   0.1080 | loss - critic   0.0319 | reward 2265.4614 | t: 83.9350
+[2026-09-13 00:43:03,800][agent.finetune.train_dipo_diffusion_agent][INFO] - 154: step 11120000 | loss actor   0.1148 | loss - critic   0.0211 | reward 2226.1738 | t: 80.5515
+[2026-09-13 00:44:26,067][agent.finetune.train_dipo_diffusion_agent][INFO] - 155: step 11200000 | loss actor   0.1256 | loss - critic   0.0268 | reward 2230.5696 | t: 82.2672
+[2026-09-13 00:45:52,665][agent.finetune.train_dipo_diffusion_agent][INFO] - 156: step 11280000 | loss actor   0.1248 | loss - critic   0.0296 | reward 2424.1205 | t: 86.5981
+[2026-09-13 00:47:17,260][agent.finetune.train_dipo_diffusion_agent][INFO] - 157: step 11360000 | loss actor   0.1053 | loss - critic   0.0302 | reward 2271.9046 | t: 84.5948
+[2026-09-13 00:48:37,904][agent.finetune.train_dipo_diffusion_agent][INFO] - 158: step 11440000 | loss actor   0.1185 | loss - critic   0.0409 | reward 2296.4967 | t: 80.6442
+[2026-09-13 00:50:01,453][agent.finetune.train_dipo_diffusion_agent][INFO] - 159: step 11520000 | loss actor   0.1162 | loss - critic   0.0267 | reward 2395.8311 | t: 83.5488
+[2026-09-13 00:50:09,886][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2866.8784 | avg best reward   4.2948
+[2026-09-13 00:51:29,709][agent.finetune.train_dipo_diffusion_agent][INFO] - 161: step 11600000 | loss actor   0.1204 | loss - critic   0.0313 | reward 2413.8234 | t: 79.8231
+[2026-09-13 00:52:50,687][agent.finetune.train_dipo_diffusion_agent][INFO] - 162: step 11680000 | loss actor   0.1288 | loss - critic   0.0324 | reward 2482.8097 | t: 80.9773
+[2026-09-13 00:54:15,319][agent.finetune.train_dipo_diffusion_agent][INFO] - 163: step 11760000 | loss actor   0.1104 | loss - critic   0.1367 | reward 2601.2028 | t: 84.6324
+[2026-09-13 00:55:35,570][agent.finetune.train_dipo_diffusion_agent][INFO] - 164: step 11840000 | loss actor   0.1145 | loss - critic   0.0273 | reward 2501.2528 | t: 80.2513
+[2026-09-13 00:56:53,898][agent.finetune.train_dipo_diffusion_agent][INFO] - 165: step 11920000 | loss actor   0.1139 | loss - critic   0.0334 | reward 2398.3597 | t: 78.3281
+[2026-09-13 00:58:15,868][agent.finetune.train_dipo_diffusion_agent][INFO] - 166: step 12000000 | loss actor   0.1105 | loss - critic   0.1542 | reward 2432.9119 | t: 81.9699
+[2026-09-13 00:59:34,364][agent.finetune.train_dipo_diffusion_agent][INFO] - 167: step 12080000 | loss actor   0.1134 | loss - critic   0.0323 | reward 2570.6154 | t: 78.4958
+[2026-09-13 01:00:53,754][agent.finetune.train_dipo_diffusion_agent][INFO] - 168: step 12160000 | loss actor   0.1079 | loss - critic   0.1518 | reward 2387.8258 | t: 79.3900
+[2026-09-13 01:02:12,151][agent.finetune.train_dipo_diffusion_agent][INFO] - 169: step 12240000 | loss actor   0.1023 | loss - critic   0.0294 | reward 2548.7886 | t: 78.3972
+[2026-09-13 01:02:23,528][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2873.0583 | avg best reward   4.1783
+[2026-09-13 01:03:43,890][agent.finetune.train_dipo_diffusion_agent][INFO] - 171: step 12320000 | loss actor   0.1157 | loss - critic   0.1207 | reward 2468.4238 | t: 80.3625
+[2026-09-13 01:05:02,761][agent.finetune.train_dipo_diffusion_agent][INFO] - 172: step 12400000 | loss actor   0.1134 | loss - critic   0.2727 | reward 2507.2154 | t: 78.8708
+[2026-09-13 01:06:26,771][agent.finetune.train_dipo_diffusion_agent][INFO] - 173: step 12480000 | loss actor   0.1043 | loss - critic   0.0429 | reward 2542.5065 | t: 84.0102
+[2026-09-13 01:07:47,518][agent.finetune.train_dipo_diffusion_agent][INFO] - 174: step 12560000 | loss actor   0.1139 | loss - critic   0.0660 | reward 2595.4506 | t: 80.7470
+[2026-09-13 01:09:10,694][agent.finetune.train_dipo_diffusion_agent][INFO] - 175: step 12640000 | loss actor   0.1066 | loss - critic   0.0329 | reward 2450.1004 | t: 83.1755
+[2026-09-13 01:10:35,472][agent.finetune.train_dipo_diffusion_agent][INFO] - 176: step 12720000 | loss actor   0.1272 | loss - critic   0.1659 | reward 2591.6481 | t: 84.7785
+[2026-09-13 01:11:57,737][agent.finetune.train_dipo_diffusion_agent][INFO] - 177: step 12800000 | loss actor   0.1101 | loss - critic   0.0767 | reward 2548.8749 | t: 82.2644
+[2026-09-13 01:13:19,250][agent.finetune.train_dipo_diffusion_agent][INFO] - 178: step 12880000 | loss actor   0.1177 | loss - critic   0.1342 | reward 2601.2917 | t: 81.5128
+[2026-09-13 01:14:42,335][agent.finetune.train_dipo_diffusion_agent][INFO] - 179: step 12960000 | loss actor   0.1092 | loss - critic   0.1129 | reward 2508.2778 | t: 83.0858
+[2026-09-13 01:14:50,386][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2938.9618 | avg best reward   4.0654
+[2026-09-13 01:16:12,513][agent.finetune.train_dipo_diffusion_agent][INFO] - 181: step 13040000 | loss actor   0.1275 | loss - critic   0.1616 | reward 2693.9346 | t: 82.1276
+[2026-09-13 01:17:37,649][agent.finetune.train_dipo_diffusion_agent][INFO] - 182: step 13120000 | loss actor   0.1145 | loss - critic   0.2047 | reward 2605.9866 | t: 85.1356
+[2026-09-13 01:19:00,433][agent.finetune.train_dipo_diffusion_agent][INFO] - 183: step 13200000 | loss actor   0.1157 | loss - critic   0.2971 | reward 2634.5554 | t: 82.7835
+[2026-09-13 01:20:22,418][agent.finetune.train_dipo_diffusion_agent][INFO] - 184: step 13280000 | loss actor   0.1131 | loss - critic   0.0377 | reward 2656.3821 | t: 81.9858
+[2026-09-13 01:21:48,576][agent.finetune.train_dipo_diffusion_agent][INFO] - 185: step 13360000 | loss actor   0.1070 | loss - critic   0.1480 | reward 2595.7586 | t: 86.1575
+[2026-09-13 01:23:10,302][agent.finetune.train_dipo_diffusion_agent][INFO] - 186: step 13440000 | loss actor   0.1081 | loss - critic   0.1534 | reward 2630.3752 | t: 81.7263
+[2026-09-13 01:24:32,614][agent.finetune.train_dipo_diffusion_agent][INFO] - 187: step 13520000 | loss actor   0.1034 | loss - critic   0.0465 | reward 2663.9572 | t: 82.3122
+[2026-09-13 01:25:59,273][agent.finetune.train_dipo_diffusion_agent][INFO] - 188: step 13600000 | loss actor   0.1082 | loss - critic   0.1053 | reward 2622.3727 | t: 86.6586
+[2026-09-13 01:27:22,605][agent.finetune.train_dipo_diffusion_agent][INFO] - 189: step 13680000 | loss actor   0.1103 | loss - critic   0.1122 | reward 2634.2383 | t: 83.3324
+[2026-09-13 01:27:30,805][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2920.4639 | avg best reward   4.0311
+[2026-09-13 01:28:55,934][agent.finetune.train_dipo_diffusion_agent][INFO] - 191: step 13760000 | loss actor   0.1225 | loss - critic   0.1499 | reward 2733.6981 | t: 85.1283
+[2026-09-13 01:30:18,858][agent.finetune.train_dipo_diffusion_agent][INFO] - 192: step 13840000 | loss actor   0.1150 | loss - critic   0.1894 | reward 2697.4795 | t: 82.9247
+[2026-09-13 01:31:43,445][agent.finetune.train_dipo_diffusion_agent][INFO] - 193: step 13920000 | loss actor   0.1066 | loss - critic   0.0532 | reward 2609.6737 | t: 84.5868
+[2026-09-13 01:33:05,978][agent.finetune.train_dipo_diffusion_agent][INFO] - 194: step 14000000 | loss actor   0.1156 | loss - critic   0.0376 | reward 2783.8114 | t: 82.5324
+[2026-09-13 01:34:28,703][agent.finetune.train_dipo_diffusion_agent][INFO] - 195: step 14080000 | loss actor   0.1129 | loss - critic   0.1453 | reward 2749.0139 | t: 82.7256
+[2026-09-13 01:35:54,435][agent.finetune.train_dipo_diffusion_agent][INFO] - 196: step 14160000 | loss actor   0.1043 | loss - critic   0.1797 | reward 2693.2316 | t: 85.7321
+[2026-09-13 01:37:15,460][agent.finetune.train_dipo_diffusion_agent][INFO] - 197: step 14240000 | loss actor   0.1113 | loss - critic   0.0547 | reward 2803.6064 | t: 81.0237
+[2026-09-13 01:38:39,838][agent.finetune.train_dipo_diffusion_agent][INFO] - 198: step 14320000 | loss actor   0.1141 | loss - critic   0.0425 | reward 2761.5973 | t: 84.3790
+[2026-09-13 01:40:03,828][agent.finetune.train_dipo_diffusion_agent][INFO] - 199: step 14400000 | loss actor   0.1132 | loss - critic   0.0379 | reward 2681.7962 | t: 83.9902
+[2026-09-13 01:40:12,221][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_200.pt
+[2026-09-13 01:40:12,221][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2910.5058 | avg best reward   3.9990
+[2026-09-13 01:41:37,356][agent.finetune.train_dipo_diffusion_agent][INFO] - 201: step 14480000 | loss actor   0.1061 | loss - critic   0.2710 | reward 2825.1506 | t: 85.1341
+[2026-09-13 01:43:00,764][agent.finetune.train_dipo_diffusion_agent][INFO] - 202: step 14560000 | loss actor   0.1138 | loss - critic   0.1194 | reward 2766.5199 | t: 83.4080
+[2026-09-13 01:44:21,672][agent.finetune.train_dipo_diffusion_agent][INFO] - 203: step 14640000 | loss actor   0.1108 | loss - critic   0.3990 | reward 2855.7066 | t: 80.9078
+[2026-09-13 01:45:47,038][agent.finetune.train_dipo_diffusion_agent][INFO] - 204: step 14720000 | loss actor   0.1154 | loss - critic   0.2699 | reward 2842.9377 | t: 85.3664
+[2026-09-13 01:47:08,178][agent.finetune.train_dipo_diffusion_agent][INFO] - 205: step 14800000 | loss actor   0.1144 | loss - critic   0.1446 | reward 2802.8799 | t: 81.1401
+[2026-09-13 01:48:31,899][agent.finetune.train_dipo_diffusion_agent][INFO] - 206: step 14880000 | loss actor   0.1037 | loss - critic   0.2182 | reward 2828.1846 | t: 83.7213
+[2026-09-13 01:49:59,356][agent.finetune.train_dipo_diffusion_agent][INFO] - 207: step 14960000 | loss actor   0.1036 | loss - critic   0.1750 | reward 2771.8597 | t: 87.4569
+[2026-09-13 01:51:22,295][agent.finetune.train_dipo_diffusion_agent][INFO] - 208: step 15040000 | loss actor   0.1074 | loss - critic   0.2113 | reward 2834.0105 | t: 82.9388
+[2026-09-13 01:52:47,543][agent.finetune.train_dipo_diffusion_agent][INFO] - 209: step 15120000 | loss actor   0.1096 | loss - critic   0.0860 | reward 2828.5215 | t: 85.2482
+[2026-09-13 01:52:55,983][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2892.9682 | avg best reward   3.9738
+[2026-09-13 01:54:18,843][agent.finetune.train_dipo_diffusion_agent][INFO] - 211: step 15200000 | loss actor   0.1109 | loss - critic   0.3607 | reward 2884.3556 | t: 82.8589
+[2026-09-13 01:55:43,306][agent.finetune.train_dipo_diffusion_agent][INFO] - 212: step 15280000 | loss actor   0.1053 | loss - critic   0.1744 | reward 2828.7882 | t: 84.4635
+[2026-09-13 01:57:07,450][agent.finetune.train_dipo_diffusion_agent][INFO] - 213: step 15360000 | loss actor   0.1099 | loss - critic   0.2095 | reward 2878.0492 | t: 84.1434
+[2026-09-13 01:58:30,687][agent.finetune.train_dipo_diffusion_agent][INFO] - 214: step 15440000 | loss actor   0.1109 | loss - critic   0.0666 | reward 2840.6679 | t: 83.2375
+[2026-09-13 01:59:55,474][agent.finetune.train_dipo_diffusion_agent][INFO] - 215: step 15520000 | loss actor   0.1026 | loss - critic   0.2505 | reward 2817.0099 | t: 84.7875
+[2026-09-13 02:01:15,906][agent.finetune.train_dipo_diffusion_agent][INFO] - 216: step 15600000 | loss actor   0.1072 | loss - critic   0.1264 | reward 2838.7587 | t: 80.4311
+[2026-09-13 02:02:41,484][agent.finetune.train_dipo_diffusion_agent][INFO] - 217: step 15680000 | loss actor   0.1077 | loss - critic   0.2560 | reward 2849.6003 | t: 85.5783
+[2026-09-13 02:04:03,389][agent.finetune.train_dipo_diffusion_agent][INFO] - 218: step 15760000 | loss actor   0.1084 | loss - critic   0.3987 | reward 2904.9820 | t: 81.9056
+[2026-09-13 02:05:26,652][agent.finetune.train_dipo_diffusion_agent][INFO] - 219: step 15840000 | loss actor   0.1056 | loss - critic   0.1765 | reward 2859.5936 | t: 83.2618
+[2026-09-13 02:05:38,669][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2882.3772 | avg best reward   3.9246
+[2026-09-13 02:07:02,113][agent.finetune.train_dipo_diffusion_agent][INFO] - 221: step 15920000 | loss actor   0.1047 | loss - critic   0.1681 | reward 2836.4623 | t: 83.4440
+[2026-09-13 02:08:23,437][agent.finetune.train_dipo_diffusion_agent][INFO] - 222: step 16000000 | loss actor   0.1207 | loss - critic   0.4302 | reward 2890.3903 | t: 81.3238
+[2026-09-13 02:09:48,739][agent.finetune.train_dipo_diffusion_agent][INFO] - 223: step 16080000 | loss actor   0.1190 | loss - critic   0.2355 | reward 2904.2556 | t: 85.3027
+[2026-09-13 02:11:09,836][agent.finetune.train_dipo_diffusion_agent][INFO] - 224: step 16160000 | loss actor   0.1152 | loss - critic   0.2346 | reward 2860.2658 | t: 81.0961
+[2026-09-13 02:12:32,355][agent.finetune.train_dipo_diffusion_agent][INFO] - 225: step 16240000 | loss actor   0.1004 | loss - critic   0.2980 | reward 2830.6286 | t: 82.5193
+[2026-09-13 02:13:58,596][agent.finetune.train_dipo_diffusion_agent][INFO] - 226: step 16320000 | loss actor   0.1044 | loss - critic   0.2818 | reward 2816.0352 | t: 86.2416
+[2026-09-13 02:15:21,102][agent.finetune.train_dipo_diffusion_agent][INFO] - 227: step 16400000 | loss actor   0.1114 | loss - critic   0.1447 | reward 2864.8047 | t: 82.5060
+[2026-09-13 02:16:42,346][agent.finetune.train_dipo_diffusion_agent][INFO] - 228: step 16480000 | loss actor   0.1140 | loss - critic   0.2303 | reward 2897.7464 | t: 81.2437
+[2026-09-13 02:18:08,083][agent.finetune.train_dipo_diffusion_agent][INFO] - 229: step 16560000 | loss actor   0.1051 | loss - critic   0.3560 | reward 2874.6938 | t: 85.7372
+[2026-09-13 02:18:16,285][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2875.7268 | avg best reward   3.9120
+[2026-09-13 02:19:36,855][agent.finetune.train_dipo_diffusion_agent][INFO] - 231: step 16640000 | loss actor   0.1012 | loss - critic   0.4331 | reward 2879.3236 | t: 80.5696
+[2026-09-13 02:21:03,228][agent.finetune.train_dipo_diffusion_agent][INFO] - 232: step 16720000 | loss actor   0.0978 | loss - critic   0.0761 | reward 2849.6880 | t: 86.3731
+[2026-09-13 02:22:24,243][agent.finetune.train_dipo_diffusion_agent][INFO] - 233: step 16800000 | loss actor   0.1096 | loss - critic   0.2214 | reward 2898.6821 | t: 81.0146
+[2026-09-13 02:23:50,189][agent.finetune.train_dipo_diffusion_agent][INFO] - 234: step 16880000 | loss actor   0.0998 | loss - critic   0.5268 | reward 2854.7194 | t: 85.9455
+[2026-09-13 02:25:12,524][agent.finetune.train_dipo_diffusion_agent][INFO] - 235: step 16960000 | loss actor   0.1068 | loss - critic   0.4509 | reward 2842.2379 | t: 82.3357
+[2026-09-13 02:26:33,746][agent.finetune.train_dipo_diffusion_agent][INFO] - 236: step 17040000 | loss actor   0.1006 | loss - critic   0.4546 | reward 2883.9870 | t: 81.2222
+[2026-09-13 02:27:58,426][agent.finetune.train_dipo_diffusion_agent][INFO] - 237: step 17120000 | loss actor   0.1119 | loss - critic   0.2046 | reward 2880.0864 | t: 84.6795
+[2026-09-13 02:29:20,773][agent.finetune.train_dipo_diffusion_agent][INFO] - 238: step 17200000 | loss actor   0.1221 | loss - critic   0.3494 | reward 2887.1228 | t: 82.3477
+[2026-09-13 02:30:43,390][agent.finetune.train_dipo_diffusion_agent][INFO] - 239: step 17280000 | loss actor   0.1012 | loss - critic   0.3460 | reward 2886.3698 | t: 82.6166
+[2026-09-13 02:30:54,739][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2868.2184 | avg best reward   3.8980
+[2026-09-13 02:32:17,251][agent.finetune.train_dipo_diffusion_agent][INFO] - 241: step 17360000 | loss actor   0.1250 | loss - critic   0.1601 | reward 2863.5668 | t: 82.5116
+[2026-09-13 02:33:38,176][agent.finetune.train_dipo_diffusion_agent][INFO] - 242: step 17440000 | loss actor   0.1176 | loss - critic   0.0355 | reward 2894.2113 | t: 80.9257
+[2026-09-13 02:35:02,259][agent.finetune.train_dipo_diffusion_agent][INFO] - 243: step 17520000 | loss actor   0.0959 | loss - critic   0.1807 | reward 2841.7311 | t: 84.0827
+[2026-09-13 02:36:24,463][agent.finetune.train_dipo_diffusion_agent][INFO] - 244: step 17600000 | loss actor   0.1062 | loss - critic   0.3553 | reward 2852.2233 | t: 82.2040
+[2026-09-13 02:37:47,182][agent.finetune.train_dipo_diffusion_agent][INFO] - 245: step 17680000 | loss actor   0.1060 | loss - critic   0.1749 | reward 2841.9608 | t: 82.7190
+[2026-09-13 02:39:13,156][agent.finetune.train_dipo_diffusion_agent][INFO] - 246: step 17760000 | loss actor   0.1057 | loss - critic   0.3649 | reward 2852.6645 | t: 85.9737
+[2026-09-13 02:40:35,826][agent.finetune.train_dipo_diffusion_agent][INFO] - 247: step 17840000 | loss actor   0.1068 | loss - critic   0.0327 | reward 2866.8745 | t: 82.6697
+[2026-09-13 02:41:57,708][agent.finetune.train_dipo_diffusion_agent][INFO] - 248: step 17920000 | loss actor   0.1157 | loss - critic   0.1653 | reward 2842.8973 | t: 81.8822
+[2026-09-13 02:43:23,782][agent.finetune.train_dipo_diffusion_agent][INFO] - 249: step 18000000 | loss actor   0.1007 | loss - critic   0.3544 | reward 2879.9949 | t: 86.0738
+[2026-09-13 02:43:32,195][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2858.3623 | avg best reward   3.8815
+[2026-09-13 02:44:54,859][agent.finetune.train_dipo_diffusion_agent][INFO] - 251: step 18080000 | loss actor   0.1115 | loss - critic   0.1587 | reward 2869.3364 | t: 82.6642
+[2026-09-13 02:46:21,020][agent.finetune.train_dipo_diffusion_agent][INFO] - 252: step 18160000 | loss actor   0.1229 | loss - critic   0.1228 | reward 2865.1527 | t: 86.1614
+[2026-09-13 02:47:43,373][agent.finetune.train_dipo_diffusion_agent][INFO] - 253: step 18240000 | loss actor   0.1092 | loss - critic   0.2852 | reward 2869.3797 | t: 82.3523
+[2026-09-13 02:49:06,517][agent.finetune.train_dipo_diffusion_agent][INFO] - 254: step 18320000 | loss actor   0.1110 | loss - critic   0.3809 | reward 2818.3602 | t: 83.1442
+[2026-09-13 02:50:27,646][agent.finetune.train_dipo_diffusion_agent][INFO] - 255: step 18400000 | loss actor   0.1132 | loss - critic   0.4018 | reward 2830.8408 | t: 81.1288
+[2026-09-13 02:51:49,786][agent.finetune.train_dipo_diffusion_agent][INFO] - 256: step 18480000 | loss actor   0.1221 | loss - critic   0.3981 | reward 2863.6534 | t: 82.1401
+[2026-09-13 02:53:16,034][agent.finetune.train_dipo_diffusion_agent][INFO] - 257: step 18560000 | loss actor   0.1116 | loss - critic   0.2816 | reward 2850.6213 | t: 86.2477
+[2026-09-13 02:54:39,272][agent.finetune.train_dipo_diffusion_agent][INFO] - 258: step 18640000 | loss actor   0.0989 | loss - critic   0.3604 | reward 2857.8067 | t: 83.2385
+[2026-09-13 02:56:00,819][agent.finetune.train_dipo_diffusion_agent][INFO] - 259: step 18720000 | loss actor   0.1094 | loss - critic   0.3125 | reward 2870.8128 | t: 81.5465
+[2026-09-13 02:56:12,663][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2842.4069 | avg best reward   3.8596
+[2026-09-13 02:57:35,034][agent.finetune.train_dipo_diffusion_agent][INFO] - 261: step 18800000 | loss actor   0.1048 | loss - critic   0.4112 | reward 2866.6361 | t: 82.3712
+[2026-09-13 02:58:57,013][agent.finetune.train_dipo_diffusion_agent][INFO] - 262: step 18880000 | loss actor   0.1058 | loss - critic   0.2869 | reward 2876.2887 | t: 81.9786
+[2026-09-13 03:00:23,214][agent.finetune.train_dipo_diffusion_agent][INFO] - 263: step 18960000 | loss actor   0.1046 | loss - critic   0.1608 | reward 2849.3005 | t: 86.2011
+[2026-09-13 03:01:46,142][agent.finetune.train_dipo_diffusion_agent][INFO] - 264: step 19040000 | loss actor   0.1107 | loss - critic   0.2334 | reward 2860.3054 | t: 82.9275
+[2026-09-13 03:03:12,023][agent.finetune.train_dipo_diffusion_agent][INFO] - 265: step 19120000 | loss actor   0.1157 | loss - critic   0.3714 | reward 2835.5702 | t: 85.8816
+[2026-09-13 03:04:33,269][agent.finetune.train_dipo_diffusion_agent][INFO] - 266: step 19200000 | loss actor   0.1108 | loss - critic   0.2896 | reward 2864.7170 | t: 81.2460
+[2026-09-13 03:05:56,444][agent.finetune.train_dipo_diffusion_agent][INFO] - 267: step 19280000 | loss actor   0.1101 | loss - critic   0.5995 | reward 2870.0608 | t: 83.1750
+[2026-09-13 03:07:20,263][agent.finetune.train_dipo_diffusion_agent][INFO] - 268: step 19360000 | loss actor   0.0938 | loss - critic   0.3321 | reward 2854.3755 | t: 83.8188
+[2026-09-13 03:08:43,411][agent.finetune.train_dipo_diffusion_agent][INFO] - 269: step 19440000 | loss actor   0.1113 | loss - critic   0.2590 | reward 2824.1423 | t: 83.1477
+[2026-09-13 03:08:52,084][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2833.0902 | avg best reward   3.8433
+[2026-09-13 03:10:18,005][agent.finetune.train_dipo_diffusion_agent][INFO] - 271: step 19520000 | loss actor   0.1193 | loss - critic   0.2972 | reward 2856.6171 | t: 85.9214
+[2026-09-13 03:11:41,704][agent.finetune.train_dipo_diffusion_agent][INFO] - 272: step 19600000 | loss actor   0.0887 | loss - critic   0.4297 | reward 2858.5868 | t: 83.6986
+[2026-09-13 03:13:07,734][agent.finetune.train_dipo_diffusion_agent][INFO] - 273: step 19680000 | loss actor   0.1214 | loss - critic   0.4742 | reward 2854.3874 | t: 86.0305
+[2026-09-13 03:14:30,470][agent.finetune.train_dipo_diffusion_agent][INFO] - 274: step 19760000 | loss actor   0.0988 | loss - critic   0.3478 | reward 2845.8167 | t: 82.7352
+[2026-09-13 03:15:52,374][agent.finetune.train_dipo_diffusion_agent][INFO] - 275: step 19840000 | loss actor   0.1096 | loss - critic   0.3651 | reward 2855.7027 | t: 81.9044
+[2026-09-13 03:17:17,883][agent.finetune.train_dipo_diffusion_agent][INFO] - 276: step 19920000 | loss actor   0.1071 | loss - critic   0.2017 | reward 2850.4331 | t: 85.5092
+[2026-09-13 03:18:41,028][agent.finetune.train_dipo_diffusion_agent][INFO] - 277: step 20000000 | loss actor   0.0971 | loss - critic   0.3770 | reward 2865.4435 | t: 83.1442
+[2026-09-13 03:20:02,217][agent.finetune.train_dipo_diffusion_agent][INFO] - 278: step 20080000 | loss actor   0.1031 | loss - critic   0.6006 | reward 2846.4406 | t: 81.1893
+[2026-09-13 03:21:27,015][agent.finetune.train_dipo_diffusion_agent][INFO] - 279: step 20160000 | loss actor   0.0998 | loss - critic   0.2465 | reward 2846.9979 | t: 84.7984
+[2026-09-13 03:21:35,286][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2828.4155 | avg best reward   3.8257
+[2026-09-13 03:22:57,160][agent.finetune.train_dipo_diffusion_agent][INFO] - 281: step 20240000 | loss actor   0.1066 | loss - critic   0.4944 | reward 2846.3607 | t: 81.8739
+[2026-09-13 03:24:23,835][agent.finetune.train_dipo_diffusion_agent][INFO] - 282: step 20320000 | loss actor   0.0988 | loss - critic   0.1527 | reward 2831.4471 | t: 86.6754
+[2026-09-13 03:25:47,077][agent.finetune.train_dipo_diffusion_agent][INFO] - 283: step 20400000 | loss actor   0.0994 | loss - critic   0.0739 | reward 2847.6877 | t: 83.2411
+[2026-09-13 03:27:08,536][agent.finetune.train_dipo_diffusion_agent][INFO] - 284: step 20480000 | loss actor   0.1150 | loss - critic   0.3605 | reward 2825.5062 | t: 81.4592
+[2026-09-13 03:28:32,812][agent.finetune.train_dipo_diffusion_agent][INFO] - 285: step 20560000 | loss actor   0.0989 | loss - critic   0.1816 | reward 2848.2149 | t: 84.2763
+[2026-09-13 03:29:55,325][agent.finetune.train_dipo_diffusion_agent][INFO] - 286: step 20640000 | loss actor   0.0988 | loss - critic   0.3614 | reward 2846.8640 | t: 82.5129
+[2026-09-13 03:31:17,563][agent.finetune.train_dipo_diffusion_agent][INFO] - 287: step 20720000 | loss actor   0.1165 | loss - critic   0.3495 | reward 2846.3265 | t: 82.2381
+[2026-09-13 03:32:43,643][agent.finetune.train_dipo_diffusion_agent][INFO] - 288: step 20800000 | loss actor   0.1082 | loss - critic   0.2611 | reward 2852.0841 | t: 86.0799
+[2026-09-13 03:34:08,097][agent.finetune.train_dipo_diffusion_agent][INFO] - 289: step 20880000 | loss actor   0.1140 | loss - critic   0.2437 | reward 2841.5604 | t: 84.4541
+[2026-09-13 03:34:19,734][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2822.1783 | avg best reward   3.8076
+[2026-09-13 03:35:44,058][agent.finetune.train_dipo_diffusion_agent][INFO] - 291: step 20960000 | loss actor   0.1172 | loss - critic   0.3658 | reward 2847.5830 | t: 84.3240
+[2026-09-13 03:37:03,478][agent.finetune.train_dipo_diffusion_agent][INFO] - 292: step 21040000 | loss actor   0.1118 | loss - critic   0.3062 | reward 2839.1906 | t: 79.4202
+[2026-09-13 03:38:28,426][agent.finetune.train_dipo_diffusion_agent][INFO] - 293: step 21120000 | loss actor   0.1133 | loss - critic   0.3843 | reward 2837.2977 | t: 84.9477
+[2026-09-13 03:39:50,221][agent.finetune.train_dipo_diffusion_agent][INFO] - 294: step 21200000 | loss actor   0.1048 | loss - critic   0.2823 | reward 2851.7440 | t: 81.7945
+[2026-09-13 03:41:12,921][agent.finetune.train_dipo_diffusion_agent][INFO] - 295: step 21280000 | loss actor   0.1043 | loss - critic   0.0305 | reward 2828.9489 | t: 82.7007
+[2026-09-13 03:42:38,023][agent.finetune.train_dipo_diffusion_agent][INFO] - 296: step 21360000 | loss actor   0.1213 | loss - critic   0.3230 | reward 2826.6920 | t: 85.1012
+[2026-09-13 03:44:01,337][agent.finetune.train_dipo_diffusion_agent][INFO] - 297: step 21440000 | loss actor   0.1077 | loss - critic   0.4065 | reward 2851.7359 | t: 83.3145
+[2026-09-13 03:45:21,686][agent.finetune.train_dipo_diffusion_agent][INFO] - 298: step 21520000 | loss actor   0.1055 | loss - critic   0.1757 | reward 2848.3941 | t: 80.3493
+[2026-09-13 03:46:47,915][agent.finetune.train_dipo_diffusion_agent][INFO] - 299: step 21600000 | loss actor   0.1089 | loss - critic   0.2629 | reward 2838.6777 | t: 86.2284
+[2026-09-13 03:46:56,183][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_300.pt
+[2026-09-13 03:46:56,183][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2823.2489 | avg best reward   3.8087
+[2026-09-13 03:48:19,339][agent.finetune.train_dipo_diffusion_agent][INFO] - 301: step 21680000 | loss actor   0.0990 | loss - critic   0.4521 | reward 2844.4917 | t: 83.1549
+[2026-09-13 03:49:44,815][agent.finetune.train_dipo_diffusion_agent][INFO] - 302: step 21760000 | loss actor   0.1094 | loss - critic   0.3360 | reward 2838.7565 | t: 85.4760
+[2026-09-13 03:51:05,430][agent.finetune.train_dipo_diffusion_agent][INFO] - 303: step 21840000 | loss actor   0.1095 | loss - critic   0.2370 | reward 2827.1976 | t: 80.6155
+[2026-09-13 03:52:27,085][agent.finetune.train_dipo_diffusion_agent][INFO] - 304: step 21920000 | loss actor   0.1122 | loss - critic   0.3530 | reward 2844.4081 | t: 81.6544
+[2026-09-13 03:53:51,599][agent.finetune.train_dipo_diffusion_agent][INFO] - 305: step 22000000 | loss actor   0.0956 | loss - critic   0.3967 | reward 2838.0285 | t: 84.5146
+[2026-09-13 03:55:14,060][agent.finetune.train_dipo_diffusion_agent][INFO] - 306: step 22080000 | loss actor   0.0975 | loss - critic   0.1807 | reward 2832.6295 | t: 82.4607
+[2026-09-13 03:56:37,098][agent.finetune.train_dipo_diffusion_agent][INFO] - 307: step 22160000 | loss actor   0.1036 | loss - critic   0.3290 | reward 2842.4083 | t: 83.0379
+[2026-09-13 03:58:02,830][agent.finetune.train_dipo_diffusion_agent][INFO] - 308: step 22240000 | loss actor   0.1081 | loss - critic   0.5087 | reward 2826.4997 | t: 85.7322
+[2026-09-13 03:59:24,255][agent.finetune.train_dipo_diffusion_agent][INFO] - 309: step 22320000 | loss actor   0.1071 | loss - critic   0.3730 | reward 2842.7571 | t: 81.4252
+[2026-09-13 03:59:32,630][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2813.5042 | avg best reward   3.7819
+[2026-09-13 04:00:58,628][agent.finetune.train_dipo_diffusion_agent][INFO] - 311: step 22400000 | loss actor   0.0963 | loss - critic   0.2589 | reward 2841.5259 | t: 85.9977
+[2026-09-13 04:02:18,760][agent.finetune.train_dipo_diffusion_agent][INFO] - 312: step 22480000 | loss actor   0.1069 | loss - critic   0.7073 | reward 2838.1806 | t: 80.1322
+[2026-09-13 04:03:38,745][agent.finetune.train_dipo_diffusion_agent][INFO] - 313: step 22560000 | loss actor   0.1106 | loss - critic   0.2381 | reward 2830.6067 | t: 79.9848
+[2026-09-13 04:05:05,144][agent.finetune.train_dipo_diffusion_agent][INFO] - 314: step 22640000 | loss actor   0.0985 | loss - critic   0.3633 | reward 2837.2156 | t: 86.3994
+[2026-09-13 04:06:27,929][agent.finetune.train_dipo_diffusion_agent][INFO] - 315: step 22720000 | loss actor   0.0975 | loss - critic   0.2179 | reward 2834.2737 | t: 82.7847
+[2026-09-13 04:07:54,372][agent.finetune.train_dipo_diffusion_agent][INFO] - 316: step 22800000 | loss actor   0.1073 | loss - critic   0.2536 | reward 2822.0338 | t: 86.4428
+[2026-09-13 04:09:16,266][agent.finetune.train_dipo_diffusion_agent][INFO] - 317: step 22880000 | loss actor   0.1144 | loss - critic   0.2425 | reward 2822.1715 | t: 81.8941
+[2026-09-13 04:10:36,650][agent.finetune.train_dipo_diffusion_agent][INFO] - 318: step 22960000 | loss actor   0.1038 | loss - critic   0.1802 | reward 2835.0511 | t: 80.3839
+[2026-09-13 04:12:03,032][agent.finetune.train_dipo_diffusion_agent][INFO] - 319: step 23040000 | loss actor   0.1127 | loss - critic   0.3806 | reward 2827.1052 | t: 86.3816
+[2026-09-13 04:12:11,527][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2809.8718 | avg best reward   3.7677
+[2026-09-13 04:13:35,386][agent.finetune.train_dipo_diffusion_agent][INFO] - 321: step 23120000 | loss actor   0.1134 | loss - critic   0.2572 | reward 2835.7958 | t: 83.8586
+[2026-09-13 04:15:01,331][agent.finetune.train_dipo_diffusion_agent][INFO] - 322: step 23200000 | loss actor   0.1026 | loss - critic   0.1811 | reward 2825.5542 | t: 85.9455
+[2026-09-13 04:16:24,027][agent.finetune.train_dipo_diffusion_agent][INFO] - 323: step 23280000 | loss actor   0.1096 | loss - critic   0.2348 | reward 2830.3122 | t: 82.6961
+[2026-09-13 04:17:43,717][agent.finetune.train_dipo_diffusion_agent][INFO] - 324: step 23360000 | loss actor   0.1018 | loss - critic   0.2297 | reward 2823.4569 | t: 79.6896
+[2026-09-13 04:19:07,871][agent.finetune.train_dipo_diffusion_agent][INFO] - 325: step 23440000 | loss actor   0.1055 | loss - critic   0.3401 | reward 2819.3391 | t: 84.1545
+[2026-09-13 04:20:31,286][agent.finetune.train_dipo_diffusion_agent][INFO] - 326: step 23520000 | loss actor   0.1048 | loss - critic   0.4513 | reward 2820.4647 | t: 83.4152
+[2026-09-13 04:21:53,049][agent.finetune.train_dipo_diffusion_agent][INFO] - 327: step 23600000 | loss actor   0.1119 | loss - critic   0.2910 | reward 2824.3670 | t: 81.7624
+[2026-09-13 04:23:19,634][agent.finetune.train_dipo_diffusion_agent][INFO] - 328: step 23680000 | loss actor   0.1007 | loss - critic   0.0842 | reward 2816.6040 | t: 86.5852
+[2026-09-13 04:24:40,823][agent.finetune.train_dipo_diffusion_agent][INFO] - 329: step 23760000 | loss actor   0.1061 | loss - critic   0.2704 | reward 2825.7816 | t: 81.1886
+[2026-09-13 04:24:49,055][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2800.4668 | avg best reward   3.7488
+[2026-09-13 04:26:15,361][agent.finetune.train_dipo_diffusion_agent][INFO] - 331: step 23840000 | loss actor   0.0986 | loss - critic   0.3898 | reward 2814.2821 | t: 86.3061
+[2026-09-13 04:27:38,172][agent.finetune.train_dipo_diffusion_agent][INFO] - 332: step 23920000 | loss actor   0.1067 | loss - critic   0.5463 | reward 2816.7579 | t: 82.8107
+[2026-09-13 04:29:01,488][agent.finetune.train_dipo_diffusion_agent][INFO] - 333: step 24000000 | loss actor   0.1128 | loss - critic   0.4078 | reward 2812.3819 | t: 83.3157
+[2026-09-13 04:30:27,456][agent.finetune.train_dipo_diffusion_agent][INFO] - 334: step 24080000 | loss actor   0.1210 | loss - critic   0.5306 | reward 2807.5465 | t: 85.9684
+[2026-09-13 04:31:48,331][agent.finetune.train_dipo_diffusion_agent][INFO] - 335: step 24160000 | loss actor   0.1117 | loss - critic   0.1586 | reward 2801.0371 | t: 80.8746
+[2026-09-13 04:33:08,537][agent.finetune.train_dipo_diffusion_agent][INFO] - 336: step 24240000 | loss actor   0.1054 | loss - critic   0.2934 | reward 2792.9408 | t: 80.2061
+[2026-09-13 04:34:33,594][agent.finetune.train_dipo_diffusion_agent][INFO] - 337: step 24320000 | loss actor   0.1043 | loss - critic   0.1753 | reward 2799.7148 | t: 85.0569
+[2026-09-13 04:35:55,589][agent.finetune.train_dipo_diffusion_agent][INFO] - 338: step 24400000 | loss actor   0.0989 | loss - critic   0.4937 | reward 2806.8224 | t: 81.9948
+[2026-09-13 04:37:19,745][agent.finetune.train_dipo_diffusion_agent][INFO] - 339: step 24480000 | loss actor   0.0979 | loss - critic   0.1237 | reward 2806.9280 | t: 84.1565
+[2026-09-13 04:37:31,156][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2788.0137 | avg best reward   3.7315
+[2026-09-13 04:38:55,212][agent.finetune.train_dipo_diffusion_agent][INFO] - 341: step 24560000 | loss actor   0.1123 | loss - critic   0.3672 | reward 2805.4867 | t: 84.0560
+[2026-09-13 04:40:17,678][agent.finetune.train_dipo_diffusion_agent][INFO] - 342: step 24640000 | loss actor   0.0993 | loss - critic   0.2230 | reward 2804.5575 | t: 82.4662
+[2026-09-13 04:41:40,656][agent.finetune.train_dipo_diffusion_agent][INFO] - 343: step 24720000 | loss actor   0.1110 | loss - critic   0.1590 | reward 2804.5080 | t: 82.9776
+[2026-09-13 04:43:03,739][agent.finetune.train_dipo_diffusion_agent][INFO] - 344: step 24800000 | loss actor   0.1076 | loss - critic   0.3698 | reward 2799.7718 | t: 83.0833
+[2026-09-13 04:44:24,434][agent.finetune.train_dipo_diffusion_agent][INFO] - 345: step 24880000 | loss actor   0.1067 | loss - critic   0.4007 | reward 2799.7744 | t: 80.6950
+[2026-09-13 04:45:49,050][agent.finetune.train_dipo_diffusion_agent][INFO] - 346: step 24960000 | loss actor   0.1091 | loss - critic   0.2310 | reward 2796.4392 | t: 84.6155
+[2026-09-13 04:47:12,255][agent.finetune.train_dipo_diffusion_agent][INFO] - 347: step 25040000 | loss actor   0.1040 | loss - critic   0.3950 | reward 2793.8201 | t: 83.2055
+[2026-09-13 04:48:33,916][agent.finetune.train_dipo_diffusion_agent][INFO] - 348: step 25120000 | loss actor   0.1070 | loss - critic   0.3095 | reward 2792.5163 | t: 81.6603
+[2026-09-13 04:49:59,102][agent.finetune.train_dipo_diffusion_agent][INFO] - 349: step 25200000 | loss actor   0.1099 | loss - critic   0.1719 | reward 2795.5669 | t: 85.1869
+[2026-09-13 04:50:07,593][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2773.3419 | avg best reward   3.7087
+[2026-09-13 04:51:29,591][agent.finetune.train_dipo_diffusion_agent][INFO] - 351: step 25280000 | loss actor   0.1138 | loss - critic   0.0894 | reward 2794.2072 | t: 81.9977
+[2026-09-13 04:52:57,983][agent.finetune.train_dipo_diffusion_agent][INFO] - 352: step 25360000 | loss actor   0.1042 | loss - critic   0.2797 | reward 2784.4939 | t: 88.3919
+[2026-09-13 04:54:21,203][agent.finetune.train_dipo_diffusion_agent][INFO] - 353: step 25440000 | loss actor   0.1055 | loss - critic   0.3136 | reward 2786.8496 | t: 83.2198
+[2026-09-13 04:55:46,841][agent.finetune.train_dipo_diffusion_agent][INFO] - 354: step 25520000 | loss actor   0.1077 | loss - critic   0.3418 | reward 2779.0045 | t: 85.6388
+[2026-09-13 04:57:08,803][agent.finetune.train_dipo_diffusion_agent][INFO] - 355: step 25600000 | loss actor   0.1101 | loss - critic   0.2912 | reward 2782.3141 | t: 81.9613
+[2026-09-13 04:58:30,654][agent.finetune.train_dipo_diffusion_agent][INFO] - 356: step 25680000 | loss actor   0.1039 | loss - critic   0.1641 | reward 2785.8285 | t: 81.8518
+[2026-09-13 04:59:56,623][agent.finetune.train_dipo_diffusion_agent][INFO] - 357: step 25760000 | loss actor   0.1179 | loss - critic   0.3401 | reward 2778.3201 | t: 85.9684
+[2026-09-13 05:01:20,122][agent.finetune.train_dipo_diffusion_agent][INFO] - 358: step 25840000 | loss actor   0.1075 | loss - critic   0.3213 | reward 2779.2626 | t: 83.4988
+[2026-09-13 05:02:42,553][agent.finetune.train_dipo_diffusion_agent][INFO] - 359: step 25920000 | loss actor   0.0973 | loss - critic   0.2918 | reward 2757.7334 | t: 82.4310
+[2026-09-13 05:02:54,562][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2763.6300 | avg best reward   3.6895
+[2026-09-13 05:04:16,827][agent.finetune.train_dipo_diffusion_agent][INFO] - 361: step 26000000 | loss actor   0.0951 | loss - critic   0.3234 | reward 2780.3909 | t: 82.2655
+[2026-09-13 05:05:38,766][agent.finetune.train_dipo_diffusion_agent][INFO] - 362: step 26080000 | loss actor   0.1034 | loss - critic   0.5029 | reward 2778.0744 | t: 81.9388
+[2026-09-13 05:07:03,471][agent.finetune.train_dipo_diffusion_agent][INFO] - 363: step 26160000 | loss actor   0.1159 | loss - critic   0.3143 | reward 2771.0018 | t: 84.7049
+[2026-09-13 05:08:25,077][agent.finetune.train_dipo_diffusion_agent][INFO] - 364: step 26240000 | loss actor   0.1089 | loss - critic   0.1367 | reward 2770.1016 | t: 81.6062
+[2026-09-13 05:09:48,395][agent.finetune.train_dipo_diffusion_agent][INFO] - 365: step 26320000 | loss actor   0.1042 | loss - critic   0.3337 | reward 2772.9992 | t: 83.3178
+[2026-09-13 05:11:13,309][agent.finetune.train_dipo_diffusion_agent][INFO] - 366: step 26400000 | loss actor   0.1039 | loss - critic   0.1647 | reward 2768.2040 | t: 84.9141
+[2026-09-13 05:12:35,992][agent.finetune.train_dipo_diffusion_agent][INFO] - 367: step 26480000 | loss actor   0.0957 | loss - critic   0.2755 | reward 2764.7783 | t: 82.6827
+[2026-09-13 05:13:59,086][agent.finetune.train_dipo_diffusion_agent][INFO] - 368: step 26560000 | loss actor   0.1025 | loss - critic   0.4469 | reward 2765.6744 | t: 83.0936
+[2026-09-13 05:15:22,760][agent.finetune.train_dipo_diffusion_agent][INFO] - 369: step 26640000 | loss actor   0.1049 | loss - critic   0.2747 | reward 2759.3161 | t: 83.6743
+[2026-09-13 05:15:30,916][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2751.3047 | avg best reward   3.6713
+[2026-09-13 05:16:52,232][agent.finetune.train_dipo_diffusion_agent][INFO] - 371: step 26720000 | loss actor   0.0945 | loss - critic   0.3568 | reward 2761.7250 | t: 81.3152
+[2026-09-13 05:18:16,670][agent.finetune.train_dipo_diffusion_agent][INFO] - 372: step 26800000 | loss actor   0.1022 | loss - critic   0.1152 | reward 2756.6548 | t: 84.4379
+[2026-09-13 05:19:38,937][agent.finetune.train_dipo_diffusion_agent][INFO] - 373: step 26880000 | loss actor   0.1036 | loss - critic   0.2657 | reward 2758.8949 | t: 82.2677
+[2026-09-13 05:20:59,664][agent.finetune.train_dipo_diffusion_agent][INFO] - 374: step 26960000 | loss actor   0.1094 | loss - critic   0.3212 | reward 2755.6165 | t: 80.7259
+[2026-09-13 05:22:24,128][agent.finetune.train_dipo_diffusion_agent][INFO] - 375: step 27040000 | loss actor   0.1012 | loss - critic   0.4127 | reward 2754.9349 | t: 84.4650
+[2026-09-13 05:23:45,549][agent.finetune.train_dipo_diffusion_agent][INFO] - 376: step 27120000 | loss actor   0.1079 | loss - critic   0.5023 | reward 2753.1634 | t: 81.4211
+[2026-09-13 05:25:07,945][agent.finetune.train_dipo_diffusion_agent][INFO] - 377: step 27200000 | loss actor   0.0938 | loss - critic   0.2332 | reward 2752.9653 | t: 82.3951
+[2026-09-13 05:26:34,059][agent.finetune.train_dipo_diffusion_agent][INFO] - 378: step 27280000 | loss actor   0.1142 | loss - critic   0.3025 | reward 2747.7365 | t: 86.1139
+[2026-09-13 05:27:56,333][agent.finetune.train_dipo_diffusion_agent][INFO] - 379: step 27360000 | loss actor   0.0976 | loss - critic   0.2485 | reward 2745.7329 | t: 82.2742
+[2026-09-13 05:28:04,460][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2733.2933 | avg best reward   3.6450
+[2026-09-13 05:29:30,197][agent.finetune.train_dipo_diffusion_agent][INFO] - 381: step 27440000 | loss actor   0.1069 | loss - critic   0.2783 | reward 2747.7829 | t: 85.7368
+[2026-09-13 05:30:51,697][agent.finetune.train_dipo_diffusion_agent][INFO] - 382: step 27520000 | loss actor   0.1119 | loss - critic   0.3315 | reward 2747.0631 | t: 81.5005
+[2026-09-13 05:32:12,935][agent.finetune.train_dipo_diffusion_agent][INFO] - 383: step 27600000 | loss actor   0.1045 | loss - critic   0.1734 | reward 2740.2265 | t: 81.2376
+[2026-09-13 05:33:38,580][agent.finetune.train_dipo_diffusion_agent][INFO] - 384: step 27680000 | loss actor   0.0993 | loss - critic   0.1771 | reward 2739.5884 | t: 85.6453
+[2026-09-13 05:35:00,701][agent.finetune.train_dipo_diffusion_agent][INFO] - 385: step 27760000 | loss actor   0.1008 | loss - critic   0.0322 | reward 2740.5484 | t: 82.1211
+[2026-09-13 05:36:23,626][agent.finetune.train_dipo_diffusion_agent][INFO] - 386: step 27840000 | loss actor   0.1056 | loss - critic   0.1678 | reward 2741.0157 | t: 82.9241
+[2026-09-13 05:37:48,513][agent.finetune.train_dipo_diffusion_agent][INFO] - 387: step 27920000 | loss actor   0.1050 | loss - critic   0.2092 | reward 2731.8593 | t: 84.8871
+[2026-09-13 05:39:09,366][agent.finetune.train_dipo_diffusion_agent][INFO] - 388: step 28000000 | loss actor   0.0983 | loss - critic   0.3104 | reward 2735.0942 | t: 80.8538
+[2026-09-13 05:40:29,824][agent.finetune.train_dipo_diffusion_agent][INFO] - 389: step 28080000 | loss actor   0.1152 | loss - critic   0.2324 | reward 2733.1358 | t: 80.4580
+[2026-09-13 05:40:38,252][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2714.2550 | avg best reward   3.6148
+[2026-09-13 05:42:04,575][agent.finetune.train_dipo_diffusion_agent][INFO] - 391: step 28160000 | loss actor   0.1129 | loss - critic   0.3014 | reward 2717.6398 | t: 86.3223
+[2026-09-13 05:43:28,334][agent.finetune.train_dipo_diffusion_agent][INFO] - 392: step 28240000 | loss actor   0.1016 | loss - critic   0.3336 | reward 2725.7178 | t: 83.7587
+[2026-09-13 05:44:53,316][agent.finetune.train_dipo_diffusion_agent][INFO] - 393: step 28320000 | loss actor   0.1037 | loss - critic   0.4914 | reward 2726.7184 | t: 84.9828
+[2026-09-13 05:46:14,782][agent.finetune.train_dipo_diffusion_agent][INFO] - 394: step 28400000 | loss actor   0.1012 | loss - critic   0.5344 | reward 2727.3532 | t: 81.4661
+[2026-09-13 05:47:36,902][agent.finetune.train_dipo_diffusion_agent][INFO] - 395: step 28480000 | loss actor   0.0990 | loss - critic   0.2250 | reward 2726.1235 | t: 82.1198
+[2026-09-13 05:49:01,697][agent.finetune.train_dipo_diffusion_agent][INFO] - 396: step 28560000 | loss actor   0.1108 | loss - critic   0.2439 | reward 2719.0406 | t: 84.7950
+[2026-09-13 05:50:25,668][agent.finetune.train_dipo_diffusion_agent][INFO] - 397: step 28640000 | loss actor   0.1220 | loss - critic   0.2580 | reward 2720.8439 | t: 83.9711
+[2026-09-13 05:51:50,008][agent.finetune.train_dipo_diffusion_agent][INFO] - 398: step 28720000 | loss actor   0.1102 | loss - critic   0.2325 | reward 2711.2310 | t: 84.3393
+[2026-09-13 05:53:13,266][agent.finetune.train_dipo_diffusion_agent][INFO] - 399: step 28800000 | loss actor   0.1039 | loss - critic   0.1822 | reward 2712.7434 | t: 83.2583
+[2026-09-13 05:53:22,405][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_400.pt
+[2026-09-13 05:53:22,406][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2698.8075 | avg best reward   3.5904
+[2026-09-13 05:54:46,830][agent.finetune.train_dipo_diffusion_agent][INFO] - 401: step 28880000 | loss actor   0.1094 | loss - critic   0.2629 | reward 2712.4261 | t: 84.4239
+[2026-09-13 05:56:08,984][agent.finetune.train_dipo_diffusion_agent][INFO] - 402: step 28960000 | loss actor   0.1036 | loss - critic   0.2036 | reward 2710.5369 | t: 82.1538
+[2026-09-13 05:57:34,823][agent.finetune.train_dipo_diffusion_agent][INFO] - 403: step 29040000 | loss actor   0.1185 | loss - critic   0.2452 | reward 2709.5026 | t: 85.8396
+[2026-09-13 05:58:58,649][agent.finetune.train_dipo_diffusion_agent][INFO] - 404: step 29120000 | loss actor   0.1114 | loss - critic   0.0804 | reward 2708.9353 | t: 83.8262
+[2026-09-13 06:00:22,661][agent.finetune.train_dipo_diffusion_agent][INFO] - 405: step 29200000 | loss actor   0.1060 | loss - critic   0.2579 | reward 2706.0236 | t: 84.0113
+[2026-09-13 06:01:43,581][agent.finetune.train_dipo_diffusion_agent][INFO] - 406: step 29280000 | loss actor   0.1072 | loss - critic   0.1037 | reward 2699.9512 | t: 80.9207
+[2026-09-13 06:03:05,969][agent.finetune.train_dipo_diffusion_agent][INFO] - 407: step 29360000 | loss actor   0.1029 | loss - critic   0.2188 | reward 2698.6325 | t: 82.3879
+[2026-09-13 06:04:29,487][agent.finetune.train_dipo_diffusion_agent][INFO] - 408: step 29440000 | loss actor   0.0973 | loss - critic   0.3296 | reward 2699.7839 | t: 83.5180
+[2026-09-13 06:05:54,032][agent.finetune.train_dipo_diffusion_agent][INFO] - 409: step 29520000 | loss actor   0.1050 | loss - critic   0.4190 | reward 2699.3869 | t: 84.5442
+[2026-09-13 06:06:04,168][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2682.7530 | avg best reward   3.5644
+[2026-09-13 06:07:29,100][agent.finetune.train_dipo_diffusion_agent][INFO] - 411: step 29600000 | loss actor   0.1083 | loss - critic   0.3430 | reward 2696.3005 | t: 84.9325
+[2026-09-13 06:08:51,732][agent.finetune.train_dipo_diffusion_agent][INFO] - 412: step 29680000 | loss actor   0.1021 | loss - critic   0.1733 | reward 2689.7254 | t: 82.6317
+[2026-09-13 06:10:14,435][agent.finetune.train_dipo_diffusion_agent][INFO] - 413: step 29760000 | loss actor   0.1152 | loss - critic   0.2750 | reward 2694.6367 | t: 82.7026
+[2026-09-13 06:11:39,108][agent.finetune.train_dipo_diffusion_agent][INFO] - 414: step 29840000 | loss actor   0.1033 | loss - critic   0.2310 | reward 2691.9279 | t: 84.6734
+[2026-09-13 06:13:03,795][agent.finetune.train_dipo_diffusion_agent][INFO] - 415: step 29920000 | loss actor   0.1097 | loss - critic   0.4753 | reward 2693.1603 | t: 84.6870
+[2026-09-13 06:14:28,565][agent.finetune.train_dipo_diffusion_agent][INFO] - 416: step 30000000 | loss actor   0.1042 | loss - critic   0.3810 | reward 2683.7187 | t: 84.7701
+[2026-09-13 06:15:52,260][agent.finetune.train_dipo_diffusion_agent][INFO] - 417: step 30080000 | loss actor   0.1017 | loss - critic   0.2495 | reward 2689.0293 | t: 83.6951
+[2026-09-13 06:17:13,605][agent.finetune.train_dipo_diffusion_agent][INFO] - 418: step 30160000 | loss actor   0.1024 | loss - critic   0.1776 | reward 2686.3080 | t: 81.3446
+[2026-09-13 06:18:37,031][agent.finetune.train_dipo_diffusion_agent][INFO] - 419: step 30240000 | loss actor   0.1100 | loss - critic   0.3730 | reward 2682.5401 | t: 83.4256
+[2026-09-13 06:18:46,292][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2665.7132 | avg best reward   3.5307
+[2026-09-13 06:20:09,107][agent.finetune.train_dipo_diffusion_agent][INFO] - 421: step 30320000 | loss actor   0.1153 | loss - critic   0.1950 | reward 2680.9179 | t: 82.8142
+[2026-09-13 06:21:33,954][agent.finetune.train_dipo_diffusion_agent][INFO] - 422: step 30400000 | loss actor   0.0985 | loss - critic   0.3950 | reward 2675.3637 | t: 84.8472
+[2026-09-13 06:22:57,726][agent.finetune.train_dipo_diffusion_agent][INFO] - 423: step 30480000 | loss actor   0.1121 | loss - critic   0.3060 | reward 2679.6183 | t: 83.7722
+[2026-09-13 06:24:22,744][agent.finetune.train_dipo_diffusion_agent][INFO] - 424: step 30560000 | loss actor   0.1103 | loss - critic   0.5630 | reward 2677.6054 | t: 85.0177
+[2026-09-13 06:25:45,303][agent.finetune.train_dipo_diffusion_agent][INFO] - 425: step 30640000 | loss actor   0.0962 | loss - critic   0.2478 | reward 2673.1466 | t: 82.5589
+[2026-09-13 06:27:09,007][agent.finetune.train_dipo_diffusion_agent][INFO] - 426: step 30720000 | loss actor   0.1166 | loss - critic   0.2458 | reward 2668.3000 | t: 83.7049
+[2026-09-13 06:28:31,969][agent.finetune.train_dipo_diffusion_agent][INFO] - 427: step 30800000 | loss actor   0.0933 | loss - critic   0.1071 | reward 2668.1521 | t: 82.9611
+[2026-09-13 06:29:56,364][agent.finetune.train_dipo_diffusion_agent][INFO] - 428: step 30880000 | loss actor   0.0967 | loss - critic   0.4216 | reward 2663.7605 | t: 84.3950
+[2026-09-13 06:31:20,632][agent.finetune.train_dipo_diffusion_agent][INFO] - 429: step 30960000 | loss actor   0.1108 | loss - critic   0.3063 | reward 2663.0260 | t: 84.2682
+[2026-09-13 06:31:30,163][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2649.8555 | avg best reward   3.5145
+[2026-09-13 06:32:52,148][agent.finetune.train_dipo_diffusion_agent][INFO] - 431: step 31040000 | loss actor   0.1109 | loss - critic   0.2741 | reward 2665.6533 | t: 81.9848
+[2026-09-13 06:34:15,086][agent.finetune.train_dipo_diffusion_agent][INFO] - 432: step 31120000 | loss actor   0.1031 | loss - critic   0.1688 | reward 2654.4665 | t: 82.9380
+[2026-09-13 06:35:38,069][agent.finetune.train_dipo_diffusion_agent][INFO] - 433: step 31200000 | loss actor   0.1077 | loss - critic   0.2592 | reward 2659.1566 | t: 82.9825
+[2026-09-13 06:37:03,145][agent.finetune.train_dipo_diffusion_agent][INFO] - 434: step 31280000 | loss actor   0.1135 | loss - critic   0.2228 | reward 2654.3299 | t: 85.0764
+[2026-09-13 06:38:27,746][agent.finetune.train_dipo_diffusion_agent][INFO] - 435: step 31360000 | loss actor   0.1035 | loss - critic   0.2643 | reward 2656.2108 | t: 84.6007
+[2026-09-13 06:39:52,509][agent.finetune.train_dipo_diffusion_agent][INFO] - 436: step 31440000 | loss actor   0.0947 | loss - critic   0.2546 | reward 2654.0905 | t: 84.7637
+[2026-09-13 06:41:16,027][agent.finetune.train_dipo_diffusion_agent][INFO] - 437: step 31520000 | loss actor   0.1132 | loss - critic   0.0941 | reward 2649.4798 | t: 83.5175
+[2026-09-13 06:42:39,415][agent.finetune.train_dipo_diffusion_agent][INFO] - 438: step 31600000 | loss actor   0.0943 | loss - critic   0.5766 | reward 2653.0386 | t: 83.3878
+[2026-09-13 06:44:04,163][agent.finetune.train_dipo_diffusion_agent][INFO] - 439: step 31680000 | loss actor   0.1070 | loss - critic   0.2703 | reward 2645.3202 | t: 84.7482
+[2026-09-13 06:44:13,748][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2630.8372 | avg best reward   3.4820
+[2026-09-13 06:45:36,760][agent.finetune.train_dipo_diffusion_agent][INFO] - 441: step 31760000 | loss actor   0.1123 | loss - critic   0.2306 | reward 2646.0370 | t: 83.0120
+[2026-09-13 06:47:02,390][agent.finetune.train_dipo_diffusion_agent][INFO] - 442: step 31840000 | loss actor   0.1020 | loss - critic   0.5033 | reward 2646.6202 | t: 85.6298
+[2026-09-13 06:48:25,720][agent.finetune.train_dipo_diffusion_agent][INFO] - 443: step 31920000 | loss actor   0.1012 | loss - critic   0.4135 | reward 2644.6583 | t: 83.3293
+[2026-09-13 06:49:49,404][agent.finetune.train_dipo_diffusion_agent][INFO] - 444: step 32000000 | loss actor   0.0939 | loss - critic   0.1056 | reward 2641.1317 | t: 83.6849
+[2026-09-13 06:51:13,733][agent.finetune.train_dipo_diffusion_agent][INFO] - 445: step 32080000 | loss actor   0.1129 | loss - critic   0.1403 | reward 2636.7057 | t: 84.3286
+[2026-09-13 06:52:39,004][agent.finetune.train_dipo_diffusion_agent][INFO] - 446: step 32160000 | loss actor   0.1085 | loss - critic   0.3208 | reward 2637.4480 | t: 85.2713
+[2026-09-13 06:54:01,389][agent.finetune.train_dipo_diffusion_agent][INFO] - 447: step 32240000 | loss actor   0.1029 | loss - critic   0.4031 | reward 2633.0762 | t: 82.3841
+[2026-09-13 06:55:25,948][agent.finetune.train_dipo_diffusion_agent][INFO] - 448: step 32320000 | loss actor   0.1126 | loss - critic   0.3810 | reward 2632.6132 | t: 84.5597
+[2026-09-13 06:56:50,910][agent.finetune.train_dipo_diffusion_agent][INFO] - 449: step 32400000 | loss actor   0.1068 | loss - critic   0.2734 | reward 2628.9899 | t: 84.9623
+[2026-09-13 06:57:00,822][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2614.0328 | avg best reward   3.4516
+[2026-09-13 06:58:23,821][agent.finetune.train_dipo_diffusion_agent][INFO] - 451: step 32480000 | loss actor   0.1043 | loss - critic   0.0952 | reward 2629.6108 | t: 82.9982
+[2026-09-13 06:59:47,271][agent.finetune.train_dipo_diffusion_agent][INFO] - 452: step 32560000 | loss actor   0.0937 | loss - critic   0.3464 | reward 2628.2199 | t: 83.4501
+[2026-09-13 07:01:11,872][agent.finetune.train_dipo_diffusion_agent][INFO] - 453: step 32640000 | loss actor   0.1040 | loss - critic   0.1899 | reward 2625.1934 | t: 84.6017
+[2026-09-13 07:02:36,951][agent.finetune.train_dipo_diffusion_agent][INFO] - 454: step 32720000 | loss actor   0.1158 | loss - critic   0.3366 | reward 2627.4101 | t: 85.0783
+[2026-09-13 07:04:00,239][agent.finetune.train_dipo_diffusion_agent][INFO] - 455: step 32800000 | loss actor   0.0934 | loss - critic   0.2766 | reward 2622.9452 | t: 83.2880
+[2026-09-13 07:05:22,676][agent.finetune.train_dipo_diffusion_agent][INFO] - 456: step 32880000 | loss actor   0.1047 | loss - critic   0.3252 | reward 2619.6996 | t: 82.4373
+[2026-09-13 07:06:47,141][agent.finetune.train_dipo_diffusion_agent][INFO] - 457: step 32960000 | loss actor   0.1171 | loss - critic   0.2447 | reward 2620.8355 | t: 84.4652
+[2026-09-13 07:08:10,886][agent.finetune.train_dipo_diffusion_agent][INFO] - 458: step 33040000 | loss actor   0.1180 | loss - critic   0.5213 | reward 2620.3326 | t: 83.7446
+[2026-09-13 07:09:33,943][agent.finetune.train_dipo_diffusion_agent][INFO] - 459: step 33120000 | loss actor   0.1068 | loss - critic   0.2962 | reward 2621.6460 | t: 83.0569
+[2026-09-13 07:09:43,938][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2602.3614 | avg best reward   3.4311
+[2026-09-13 07:11:08,006][agent.finetune.train_dipo_diffusion_agent][INFO] - 461: step 33200000 | loss actor   0.0925 | loss - critic   0.4300 | reward 2619.5012 | t: 84.0679
+[2026-09-13 07:12:31,364][agent.finetune.train_dipo_diffusion_agent][INFO] - 462: step 33280000 | loss actor   0.0956 | loss - critic   0.2598 | reward 2614.3047 | t: 83.3581
+[2026-09-13 07:13:54,486][agent.finetune.train_dipo_diffusion_agent][INFO] - 463: step 33360000 | loss actor   0.1029 | loss - critic   0.2304 | reward 2611.6691 | t: 83.1215
+[2026-09-13 07:15:17,762][agent.finetune.train_dipo_diffusion_agent][INFO] - 464: step 33440000 | loss actor   0.1078 | loss - critic   0.1821 | reward 2605.3357 | t: 83.2763
+[2026-09-13 07:16:41,883][agent.finetune.train_dipo_diffusion_agent][INFO] - 465: step 33520000 | loss actor   0.1009 | loss - critic   0.5127 | reward 2607.3477 | t: 84.1208
+[2026-09-13 07:18:07,495][agent.finetune.train_dipo_diffusion_agent][INFO] - 466: step 33600000 | loss actor   0.1110 | loss - critic   0.1814 | reward 2605.8016 | t: 85.6123
+[2026-09-13 07:19:30,442][agent.finetune.train_dipo_diffusion_agent][INFO] - 467: step 33680000 | loss actor   0.1073 | loss - critic   0.1745 | reward 2599.7453 | t: 82.9473
+[2026-09-13 07:20:53,763][agent.finetune.train_dipo_diffusion_agent][INFO] - 468: step 33760000 | loss actor   0.1167 | loss - critic   0.2679 | reward 2605.4919 | t: 83.3205
+[2026-09-13 07:22:17,965][agent.finetune.train_dipo_diffusion_agent][INFO] - 469: step 33840000 | loss actor   0.1091 | loss - critic   0.3579 | reward 2600.8091 | t: 84.2022
+[2026-09-13 07:22:27,727][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2587.0322 | avg best reward   3.4034
+[2026-09-13 07:23:49,614][agent.finetune.train_dipo_diffusion_agent][INFO] - 471: step 33920000 | loss actor   0.1086 | loss - critic   0.2625 | reward 2602.4124 | t: 81.8866
+[2026-09-13 07:25:14,265][agent.finetune.train_dipo_diffusion_agent][INFO] - 472: step 34000000 | loss actor   0.1029 | loss - critic   0.1799 | reward 2598.9446 | t: 84.6514
+[2026-09-13 07:26:39,117][agent.finetune.train_dipo_diffusion_agent][INFO] - 473: step 34080000 | loss actor   0.1065 | loss - critic   0.5965 | reward 2594.6503 | t: 84.8518
+[2026-09-13 07:28:03,630][agent.finetune.train_dipo_diffusion_agent][INFO] - 474: step 34160000 | loss actor   0.1151 | loss - critic   0.1836 | reward 2595.8558 | t: 84.5128
+[2026-09-13 07:29:26,780][agent.finetune.train_dipo_diffusion_agent][INFO] - 475: step 34240000 | loss actor   0.1145 | loss - critic   0.3513 | reward 2594.5991 | t: 83.1505
+[2026-09-13 07:30:50,331][agent.finetune.train_dipo_diffusion_agent][INFO] - 476: step 34320000 | loss actor   0.1066 | loss - critic   0.4444 | reward 2594.1826 | t: 83.5508
+[2026-09-13 07:32:13,644][agent.finetune.train_dipo_diffusion_agent][INFO] - 477: step 34400000 | loss actor   0.1006 | loss - critic   0.2715 | reward 2591.1454 | t: 83.3130
+[2026-09-13 07:33:38,188][agent.finetune.train_dipo_diffusion_agent][INFO] - 478: step 34480000 | loss actor   0.0980 | loss - critic   0.3395 | reward 2589.5532 | t: 84.5437
+[2026-09-13 07:35:02,117][agent.finetune.train_dipo_diffusion_agent][INFO] - 479: step 34560000 | loss actor   0.1001 | loss - critic   0.5907 | reward 2591.6244 | t: 83.9296
+[2026-09-13 07:35:12,261][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2575.4349 | avg best reward   3.3821
+[2026-09-13 07:36:35,892][agent.finetune.train_dipo_diffusion_agent][INFO] - 481: step 34640000 | loss actor   0.1003 | loss - critic   0.4218 | reward 2587.7220 | t: 83.6303
+[2026-09-13 07:37:58,901][agent.finetune.train_dipo_diffusion_agent][INFO] - 482: step 34720000 | loss actor   0.1112 | loss - critic   0.6062 | reward 2585.2130 | t: 83.0094
+[2026-09-13 07:39:23,215][agent.finetune.train_dipo_diffusion_agent][INFO] - 483: step 34800000 | loss actor   0.1033 | loss - critic   0.2619 | reward 2589.1583 | t: 84.3141
+[2026-09-13 07:40:47,462][agent.finetune.train_dipo_diffusion_agent][INFO] - 484: step 34880000 | loss actor   0.0996 | loss - critic   0.4293 | reward 2583.5022 | t: 84.2466
+[2026-09-13 07:42:12,621][agent.finetune.train_dipo_diffusion_agent][INFO] - 485: step 34960000 | loss actor   0.1060 | loss - critic   0.4207 | reward 2583.3594 | t: 85.1591
+[2026-09-13 07:43:38,057][agent.finetune.train_dipo_diffusion_agent][INFO] - 486: step 35040000 | loss actor   0.1050 | loss - critic   0.5067 | reward 2583.0483 | t: 85.4366
+[2026-09-13 07:45:01,327][agent.finetune.train_dipo_diffusion_agent][INFO] - 487: step 35120000 | loss actor   0.1007 | loss - critic   0.3188 | reward 2582.6160 | t: 83.2693
+[2026-09-13 07:46:23,403][agent.finetune.train_dipo_diffusion_agent][INFO] - 488: step 35200000 | loss actor   0.1104 | loss - critic   0.2632 | reward 2580.6751 | t: 82.0761
+[2026-09-13 07:47:45,954][agent.finetune.train_dipo_diffusion_agent][INFO] - 489: step 35280000 | loss actor   0.1054 | loss - critic   0.3397 | reward 2576.9906 | t: 82.5511
+[2026-09-13 07:47:55,601][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2561.9812 | avg best reward   3.3671
+[2026-09-13 07:49:21,299][agent.finetune.train_dipo_diffusion_agent][INFO] - 491: step 35360000 | loss actor   0.0965 | loss - critic   0.3487 | reward 2576.2572 | t: 85.6976
+[2026-09-13 07:50:45,401][agent.finetune.train_dipo_diffusion_agent][INFO] - 492: step 35440000 | loss actor   0.1075 | loss - critic   0.1790 | reward 2574.9061 | t: 84.1024
+[2026-09-13 07:52:08,969][agent.finetune.train_dipo_diffusion_agent][INFO] - 493: step 35520000 | loss actor   0.1004 | loss - critic   0.1018 | reward 2572.4754 | t: 83.5677
+[2026-09-13 07:53:33,166][agent.finetune.train_dipo_diffusion_agent][INFO] - 494: step 35600000 | loss actor   0.1022 | loss - critic   0.3474 | reward 2573.1442 | t: 84.1974
+[2026-09-13 07:54:55,536][agent.finetune.train_dipo_diffusion_agent][INFO] - 495: step 35680000 | loss actor   0.1125 | loss - critic   0.2637 | reward 2575.5216 | t: 82.3692
+[2026-09-13 07:56:21,070][agent.finetune.train_dipo_diffusion_agent][INFO] - 496: step 35760000 | loss actor   0.0989 | loss - critic   0.4225 | reward 2578.3749 | t: 85.5346
+[2026-09-13 07:57:45,232][agent.finetune.train_dipo_diffusion_agent][INFO] - 497: step 35840000 | loss actor   0.1170 | loss - critic   0.5682 | reward 2574.8917 | t: 84.1615
+[2026-09-13 07:59:08,221][agent.finetune.train_dipo_diffusion_agent][INFO] - 498: step 35920000 | loss actor   0.1055 | loss - critic   0.0917 | reward 2573.2983 | t: 82.9890
+[2026-09-13 08:00:32,137][agent.finetune.train_dipo_diffusion_agent][INFO] - 499: step 36000000 | loss actor   0.1099 | loss - critic   0.3424 | reward 2574.0662 | t: 83.9166
+[2026-09-13 08:00:41,774][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_500.pt
+[2026-09-13 08:00:41,775][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2559.8151 | avg best reward   3.3618
+[2026-09-13 08:02:03,103][agent.finetune.train_dipo_diffusion_agent][INFO] - 501: step 36080000 | loss actor   0.1040 | loss - critic   0.0100 | reward 2575.6197 | t: 81.3279
+[2026-09-13 08:03:26,331][agent.finetune.train_dipo_diffusion_agent][INFO] - 502: step 36160000 | loss actor   0.0863 | loss - critic   0.4883 | reward 2578.1634 | t: 83.2281
+[2026-09-13 08:04:51,239][agent.finetune.train_dipo_diffusion_agent][INFO] - 503: step 36240000 | loss actor   0.0996 | loss - critic   0.3502 | reward 2576.4033 | t: 84.9083
+[2026-09-13 08:06:14,658][agent.finetune.train_dipo_diffusion_agent][INFO] - 504: step 36320000 | loss actor   0.1167 | loss - critic   0.2724 | reward 2568.6201 | t: 83.4189
+[2026-09-13 08:07:39,775][agent.finetune.train_dipo_diffusion_agent][INFO] - 505: step 36400000 | loss actor   0.1002 | loss - critic   0.1775 | reward 2576.8038 | t: 85.1164
+[2026-09-13 08:09:02,659][agent.finetune.train_dipo_diffusion_agent][INFO] - 506: step 36480000 | loss actor   0.1036 | loss - critic   0.4318 | reward 2576.7876 | t: 82.8844
+[2026-09-13 08:10:25,888][agent.finetune.train_dipo_diffusion_agent][INFO] - 507: step 36560000 | loss actor   0.0990 | loss - critic   0.5974 | reward 2575.7298 | t: 83.2286
+[2026-09-13 08:11:50,151][agent.finetune.train_dipo_diffusion_agent][INFO] - 508: step 36640000 | loss actor   0.1027 | loss - critic   0.4307 | reward 2577.2330 | t: 84.2630
+[2026-09-13 08:13:14,060][agent.finetune.train_dipo_diffusion_agent][INFO] - 509: step 36720000 | loss actor   0.0987 | loss - critic   0.5025 | reward 2581.9079 | t: 83.9094
+[2026-09-13 08:13:24,110][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2565.5799 | avg best reward   3.3697
+[2026-09-13 08:14:48,990][agent.finetune.train_dipo_diffusion_agent][INFO] - 511: step 36800000 | loss actor   0.1087 | loss - critic   0.3394 | reward 2576.4824 | t: 84.8797
+[2026-09-13 08:16:11,877][agent.finetune.train_dipo_diffusion_agent][INFO] - 512: step 36880000 | loss actor   0.0982 | loss - critic   0.2651 | reward 2582.9631 | t: 82.8869
+[2026-09-13 08:17:34,235][agent.finetune.train_dipo_diffusion_agent][INFO] - 513: step 36960000 | loss actor   0.1109 | loss - critic   0.2584 | reward 2576.9176 | t: 82.3581
+[2026-09-13 08:18:56,038][agent.finetune.train_dipo_diffusion_agent][INFO] - 514: step 37040000 | loss actor   0.1223 | loss - critic   0.3474 | reward 2580.3081 | t: 81.8031
+[2026-09-13 08:20:19,949][agent.finetune.train_dipo_diffusion_agent][INFO] - 515: step 37120000 | loss actor   0.1094 | loss - critic   0.3511 | reward 2578.7675 | t: 83.9113
+[2026-09-13 08:21:44,263][agent.finetune.train_dipo_diffusion_agent][INFO] - 516: step 37200000 | loss actor   0.1195 | loss - critic   0.6030 | reward 2585.8807 | t: 84.3134
+[2026-09-13 08:23:08,427][agent.finetune.train_dipo_diffusion_agent][INFO] - 517: step 37280000 | loss actor   0.0961 | loss - critic   0.4345 | reward 2586.4344 | t: 84.1638
+[2026-09-13 08:24:31,675][agent.finetune.train_dipo_diffusion_agent][INFO] - 518: step 37360000 | loss actor   0.1015 | loss - critic   0.4218 | reward 2588.1317 | t: 83.2485
+[2026-09-13 08:25:54,833][agent.finetune.train_dipo_diffusion_agent][INFO] - 519: step 37440000 | loss actor   0.1062 | loss - critic   0.5110 | reward 2588.9729 | t: 83.1583
+[2026-09-13 08:26:04,101][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2577.3150 | avg best reward   3.3825
+[2026-09-13 08:27:27,404][agent.finetune.train_dipo_diffusion_agent][INFO] - 521: step 37520000 | loss actor   0.1047 | loss - critic   0.2519 | reward 2589.9767 | t: 83.3027
+[2026-09-13 08:28:51,495][agent.finetune.train_dipo_diffusion_agent][INFO] - 522: step 37600000 | loss actor   0.0998 | loss - critic   0.1823 | reward 2590.9784 | t: 84.0911
+[2026-09-13 08:30:16,749][agent.finetune.train_dipo_diffusion_agent][INFO] - 523: step 37680000 | loss actor   0.0990 | loss - critic   0.2561 | reward 2593.5329 | t: 85.2536
+[2026-09-13 08:31:41,718][agent.finetune.train_dipo_diffusion_agent][INFO] - 524: step 37760000 | loss actor   0.1159 | loss - critic   0.3262 | reward 2594.3303 | t: 84.9698
+[2026-09-13 08:33:05,214][agent.finetune.train_dipo_diffusion_agent][INFO] - 525: step 37840000 | loss actor   0.1115 | loss - critic   0.0921 | reward 2596.9521 | t: 83.4957
+[2026-09-13 08:34:27,836][agent.finetune.train_dipo_diffusion_agent][INFO] - 526: step 37920000 | loss actor   0.1062 | loss - critic   0.2705 | reward 2599.3722 | t: 82.6216
+[2026-09-13 08:35:51,803][agent.finetune.train_dipo_diffusion_agent][INFO] - 527: step 38000000 | loss actor   0.1095 | loss - critic   0.3574 | reward 2597.5941 | t: 83.9670
+[2026-09-13 08:37:17,201][agent.finetune.train_dipo_diffusion_agent][INFO] - 528: step 38080000 | loss actor   0.1010 | loss - critic   0.1863 | reward 2603.4179 | t: 85.3976
+[2026-09-13 08:38:41,591][agent.finetune.train_dipo_diffusion_agent][INFO] - 529: step 38160000 | loss actor   0.1133 | loss - critic   0.5056 | reward 2601.5751 | t: 84.3908
+[2026-09-13 08:38:51,462][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2596.9844 | avg best reward   3.4001
+[2026-09-13 08:40:14,199][agent.finetune.train_dipo_diffusion_agent][INFO] - 531: step 38240000 | loss actor   0.1030 | loss - critic   0.2447 | reward 2607.7519 | t: 82.7368
+[2026-09-13 08:41:38,773][agent.finetune.train_dipo_diffusion_agent][INFO] - 532: step 38320000 | loss actor   0.0992 | loss - critic   0.2465 | reward 2605.2273 | t: 84.5744
+[2026-09-13 08:43:02,134][agent.finetune.train_dipo_diffusion_agent][INFO] - 533: step 38400000 | loss actor   0.1137 | loss - critic   0.3474 | reward 2611.1411 | t: 83.3605
+[2026-09-13 08:44:26,833][agent.finetune.train_dipo_diffusion_agent][INFO] - 534: step 38480000 | loss actor   0.1069 | loss - critic   0.5892 | reward 2617.0240 | t: 84.6991
+[2026-09-13 08:45:50,937][agent.finetune.train_dipo_diffusion_agent][INFO] - 535: step 38560000 | loss actor   0.1110 | loss - critic   0.4223 | reward 2616.6177 | t: 84.1043
+[2026-09-13 08:47:13,326][agent.finetune.train_dipo_diffusion_agent][INFO] - 536: step 38640000 | loss actor   0.1047 | loss - critic   0.2533 | reward 2617.6184 | t: 82.3887
+[2026-09-13 08:48:36,918][agent.finetune.train_dipo_diffusion_agent][INFO] - 537: step 38720000 | loss actor   0.1084 | loss - critic   0.3198 | reward 2619.6555 | t: 83.5923
+[2026-09-13 08:50:00,789][agent.finetune.train_dipo_diffusion_agent][INFO] - 538: step 38800000 | loss actor   0.1032 | loss - critic   0.2533 | reward 2620.1820 | t: 83.8704
+[2026-09-13 08:51:24,627][agent.finetune.train_dipo_diffusion_agent][INFO] - 539: step 38880000 | loss actor   0.1041 | loss - critic   0.4396 | reward 2627.3764 | t: 83.8386
+[2026-09-13 08:51:34,078][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2616.3550 | avg best reward   3.4196
+[2026-09-13 08:52:57,851][agent.finetune.train_dipo_diffusion_agent][INFO] - 541: step 38960000 | loss actor   0.1071 | loss - critic   0.5896 | reward 2624.9300 | t: 83.7721
+[2026-09-13 08:54:22,745][agent.finetune.train_dipo_diffusion_agent][INFO] - 542: step 39040000 | loss actor   0.1117 | loss - critic   0.4087 | reward 2625.8522 | t: 84.8946
+[2026-09-13 08:55:45,403][agent.finetune.train_dipo_diffusion_agent][INFO] - 543: step 39120000 | loss actor   0.1109 | loss - critic   0.4114 | reward 2630.3797 | t: 82.6575
+[2026-09-13 08:57:09,454][agent.finetune.train_dipo_diffusion_agent][INFO] - 544: step 39200000 | loss actor   0.1055 | loss - critic   0.4299 | reward 2634.4599 | t: 84.0518
+[2026-09-13 08:58:34,380][agent.finetune.train_dipo_diffusion_agent][INFO] - 545: step 39280000 | loss actor   0.0985 | loss - critic   0.6741 | reward 2634.2012 | t: 84.9260
+[2026-09-13 08:59:57,094][agent.finetune.train_dipo_diffusion_agent][INFO] - 546: step 39360000 | loss actor   0.0972 | loss - critic   0.4265 | reward 2633.5500 | t: 82.7133
+[2026-09-13 09:01:22,448][agent.finetune.train_dipo_diffusion_agent][INFO] - 547: step 39440000 | loss actor   0.1086 | loss - critic   0.4261 | reward 2636.3059 | t: 85.3538
+[2026-09-13 09:02:45,858][agent.finetune.train_dipo_diffusion_agent][INFO] - 548: step 39520000 | loss actor   0.1115 | loss - critic   0.5268 | reward 2639.8149 | t: 83.4109
+[2026-09-13 09:04:10,293][agent.finetune.train_dipo_diffusion_agent][INFO] - 549: step 39600000 | loss actor   0.1147 | loss - critic   0.5030 | reward 2648.0486 | t: 84.4341
+[2026-09-13 09:04:19,256][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2634.4172 | avg best reward   3.4412
+[2026-09-13 09:05:43,329][agent.finetune.train_dipo_diffusion_agent][INFO] - 551: step 39680000 | loss actor   0.1134 | loss - critic   0.4002 | reward 2638.5487 | t: 84.0733
+[2026-09-13 09:07:06,194][agent.finetune.train_dipo_diffusion_agent][INFO] - 552: step 39760000 | loss actor   0.0990 | loss - critic   0.6267 | reward 2643.1399 | t: 82.8650
+[2026-09-13 09:08:30,695][agent.finetune.train_dipo_diffusion_agent][INFO] - 553: step 39840000 | loss actor   0.1051 | loss - critic   0.5501 | reward 2644.4905 | t: 84.5010
+[2026-09-13 09:09:54,620][agent.finetune.train_dipo_diffusion_agent][INFO] - 554: step 39920000 | loss actor   0.1153 | loss - critic   0.2516 | reward 2641.2884 | t: 83.9243
+[2026-09-13 09:11:18,609][agent.finetune.train_dipo_diffusion_agent][INFO] - 555: step 40000000 | loss actor   0.0996 | loss - critic   0.6636 | reward 2646.1698 | t: 83.9890
+[2026-09-13 09:12:43,168][agent.finetune.train_dipo_diffusion_agent][INFO] - 556: step 40080000 | loss actor   0.1048 | loss - critic   0.2112 | reward 2645.0963 | t: 84.5590
+[2026-09-13 09:14:05,215][agent.finetune.train_dipo_diffusion_agent][INFO] - 557: step 40160000 | loss actor   0.1057 | loss - critic   0.1716 | reward 2652.4776 | t: 82.0476
+[2026-09-13 09:15:28,293][agent.finetune.train_dipo_diffusion_agent][INFO] - 558: step 40240000 | loss actor   0.1055 | loss - critic   0.4054 | reward 2653.3052 | t: 83.0777
+[2026-09-13 09:16:52,224][agent.finetune.train_dipo_diffusion_agent][INFO] - 559: step 40320000 | loss actor   0.1035 | loss - critic   0.1810 | reward 2657.2295 | t: 83.9316
+[2026-09-13 09:17:01,798][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2646.4678 | avg best reward   3.4382
+[2026-09-13 09:18:26,656][agent.finetune.train_dipo_diffusion_agent][INFO] - 561: step 40400000 | loss actor   0.1093 | loss - critic   0.6457 | reward 2654.8274 | t: 84.8576
+[2026-09-13 09:19:49,844][agent.finetune.train_dipo_diffusion_agent][INFO] - 562: step 40480000 | loss actor   0.1058 | loss - critic   0.2415 | reward 2654.6772 | t: 83.1882
+[2026-09-13 09:21:14,690][agent.finetune.train_dipo_diffusion_agent][INFO] - 563: step 40560000 | loss actor   0.1121 | loss - critic   0.2599 | reward 2660.1992 | t: 84.8461
+[2026-09-13 09:22:38,993][agent.finetune.train_dipo_diffusion_agent][INFO] - 564: step 40640000 | loss actor   0.1095 | loss - critic   0.4051 | reward 2662.3073 | t: 84.3024
+[2026-09-13 09:24:03,226][agent.finetune.train_dipo_diffusion_agent][INFO] - 565: step 40720000 | loss actor   0.1131 | loss - critic   0.4182 | reward 2660.7952 | t: 84.2333
+[2026-09-13 09:25:26,836][agent.finetune.train_dipo_diffusion_agent][INFO] - 566: step 40800000 | loss actor   0.1106 | loss - critic   0.2598 | reward 2666.3687 | t: 83.6101
+[2026-09-13 09:26:51,632][agent.finetune.train_dipo_diffusion_agent][INFO] - 567: step 40880000 | loss actor   0.1167 | loss - critic   0.2445 | reward 2647.8536 | t: 84.7956
+[2026-09-13 09:28:15,853][agent.finetune.train_dipo_diffusion_agent][INFO] - 568: step 40960000 | loss actor   0.0988 | loss - critic   0.2594 | reward 2663.9637 | t: 84.2216
+[2026-09-13 09:29:37,714][agent.finetune.train_dipo_diffusion_agent][INFO] - 569: step 41040000 | loss actor   0.0910 | loss - critic   0.3934 | reward 2667.6006 | t: 81.8603
+[2026-09-13 09:29:47,046][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2657.5646 | avg best reward   3.4651
+[2026-09-13 09:31:09,085][agent.finetune.train_dipo_diffusion_agent][INFO] - 571: step 41120000 | loss actor   0.1132 | loss - critic   0.5231 | reward 2668.8109 | t: 82.0386
+[2026-09-13 09:32:32,272][agent.finetune.train_dipo_diffusion_agent][INFO] - 572: step 41200000 | loss actor   0.0978 | loss - critic   0.0117 | reward 2671.8590 | t: 83.1868
+[2026-09-13 09:33:56,450][agent.finetune.train_dipo_diffusion_agent][INFO] - 573: step 41280000 | loss actor   0.1073 | loss - critic   0.4815 | reward 2671.0210 | t: 84.1775
+[2026-09-13 09:35:20,688][agent.finetune.train_dipo_diffusion_agent][INFO] - 574: step 41360000 | loss actor   0.1118 | loss - critic   0.2487 | reward 2670.5559 | t: 84.2389
+[2026-09-13 09:36:43,156][agent.finetune.train_dipo_diffusion_agent][INFO] - 575: step 41440000 | loss actor   0.1101 | loss - critic   0.1612 | reward 2674.1179 | t: 82.4678
+[2026-09-13 09:38:07,630][agent.finetune.train_dipo_diffusion_agent][INFO] - 576: step 41520000 | loss actor   0.1193 | loss - critic   0.1707 | reward 2669.7765 | t: 84.4735
+[2026-09-13 09:39:30,663][agent.finetune.train_dipo_diffusion_agent][INFO] - 577: step 41600000 | loss actor   0.1002 | loss - critic  11.6743 | reward 2670.1272 | t: 83.0330
+[2026-09-13 09:40:54,029][agent.finetune.train_dipo_diffusion_agent][INFO] - 578: step 41680000 | loss actor   0.1021 | loss - critic   0.4383 | reward 2676.4861 | t: 83.3662
+[2026-09-13 09:42:19,314][agent.finetune.train_dipo_diffusion_agent][INFO] - 579: step 41760000 | loss actor   0.0978 | loss - critic   2.0977 | reward 2672.6228 | t: 85.2846
+[2026-09-13 09:42:28,544][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2662.5217 | avg best reward   3.4611
+[2026-09-13 09:43:52,301][agent.finetune.train_dipo_diffusion_agent][INFO] - 581: step 41840000 | loss actor   0.1139 | loss - critic   1.6441 | reward 2673.9283 | t: 83.7569
+[2026-09-13 09:45:15,517][agent.finetune.train_dipo_diffusion_agent][INFO] - 582: step 41920000 | loss actor   0.1087 | loss - critic   0.5085 | reward 2675.9375 | t: 83.2163
+[2026-09-13 09:46:36,334][agent.finetune.train_dipo_diffusion_agent][INFO] - 583: step 42000000 | loss actor   0.1112 | loss - critic   0.4250 | reward 2671.8707 | t: 80.8172
+[2026-09-13 09:47:59,684][agent.finetune.train_dipo_diffusion_agent][INFO] - 584: step 42080000 | loss actor   0.0944 | loss - critic   0.7344 | reward 2667.7278 | t: 83.3498
+[2026-09-13 09:49:24,124][agent.finetune.train_dipo_diffusion_agent][INFO] - 585: step 42160000 | loss actor   0.1075 | loss - critic   1.6803 | reward 2670.6385 | t: 84.4402
+[2026-09-13 09:50:49,262][agent.finetune.train_dipo_diffusion_agent][INFO] - 586: step 42240000 | loss actor   0.1065 | loss - critic   0.5769 | reward 2665.7715 | t: 85.1375
+[2026-09-13 09:52:12,595][agent.finetune.train_dipo_diffusion_agent][INFO] - 587: step 42320000 | loss actor   0.0998 | loss - critic   0.6109 | reward 2668.6987 | t: 83.3329
+[2026-09-13 09:53:35,166][agent.finetune.train_dipo_diffusion_agent][INFO] - 588: step 42400000 | loss actor   0.1136 | loss - critic   0.8412 | reward 2670.0386 | t: 82.5715
+[2026-09-13 09:54:57,615][agent.finetune.train_dipo_diffusion_agent][INFO] - 589: step 42480000 | loss actor   0.0951 | loss - critic   0.4771 | reward 2672.4847 | t: 82.4485
+[2026-09-13 09:55:06,806][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2661.0050 | avg best reward   3.4617
+[2026-09-13 09:56:31,755][agent.finetune.train_dipo_diffusion_agent][INFO] - 591: step 42560000 | loss actor   0.1059 | loss - critic   0.3294 | reward 2672.3225 | t: 84.9487
+[2026-09-13 09:57:55,856][agent.finetune.train_dipo_diffusion_agent][INFO] - 592: step 42640000 | loss actor   0.1017 | loss - critic   0.5018 | reward 2665.6116 | t: 84.1011
+[2026-09-13 09:59:20,400][agent.finetune.train_dipo_diffusion_agent][INFO] - 593: step 42720000 | loss actor   0.1116 | loss - critic   0.6039 | reward 2670.8237 | t: 84.5445
+[2026-09-13 10:00:41,762][agent.finetune.train_dipo_diffusion_agent][INFO] - 594: step 42800000 | loss actor   0.0970 | loss - critic   0.7878 | reward 2659.8887 | t: 81.3619
+[2026-09-13 10:02:04,063][agent.finetune.train_dipo_diffusion_agent][INFO] - 595: step 42880000 | loss actor   0.1151 | loss - critic   0.2081 | reward 2662.7890 | t: 82.3012
+[2026-09-13 10:03:26,266][agent.finetune.train_dipo_diffusion_agent][INFO] - 596: step 42960000 | loss actor   0.1048 | loss - critic   1.2604 | reward 2664.7891 | t: 82.2026
+[2026-09-13 10:04:51,642][agent.finetune.train_dipo_diffusion_agent][INFO] - 597: step 43040000 | loss actor   0.1092 | loss - critic   0.6300 | reward 2659.1182 | t: 85.3761
+[2026-09-13 10:06:18,541][agent.finetune.train_dipo_diffusion_agent][INFO] - 598: step 43120000 | loss actor   0.1095 | loss - critic   0.6675 | reward 2662.9035 | t: 86.8984
+[2026-09-13 10:07:41,097][agent.finetune.train_dipo_diffusion_agent][INFO] - 599: step 43200000 | loss actor   0.1077 | loss - critic   1.4367 | reward 2659.4955 | t: 82.5564
+[2026-09-13 10:07:50,630][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_600.pt
+[2026-09-13 10:07:50,631][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2651.3636 | avg best reward   3.4549
+[2026-09-13 10:09:14,572][agent.finetune.train_dipo_diffusion_agent][INFO] - 601: step 43280000 | loss actor   0.1137 | loss - critic   0.6819 | reward 2662.3485 | t: 83.9409
+[2026-09-13 10:10:37,420][agent.finetune.train_dipo_diffusion_agent][INFO] - 602: step 43360000 | loss actor   0.1075 | loss - critic   3.9224 | reward 2659.0716 | t: 82.8481
+[2026-09-13 10:12:01,915][agent.finetune.train_dipo_diffusion_agent][INFO] - 603: step 43440000 | loss actor   0.1042 | loss - critic   1.0818 | reward 2661.6960 | t: 84.4956
+[2026-09-13 10:13:27,091][agent.finetune.train_dipo_diffusion_agent][INFO] - 604: step 43520000 | loss actor   0.1120 | loss - critic   0.4863 | reward 2656.0550 | t: 85.1760
+[2026-09-13 10:14:49,741][agent.finetune.train_dipo_diffusion_agent][INFO] - 605: step 43600000 | loss actor   0.1171 | loss - critic   0.2748 | reward 2658.1259 | t: 82.6497
+[2026-09-13 10:16:12,353][agent.finetune.train_dipo_diffusion_agent][INFO] - 606: step 43680000 | loss actor   0.1095 | loss - critic   0.6068 | reward 2658.9782 | t: 82.6114
+[2026-09-13 10:17:33,733][agent.finetune.train_dipo_diffusion_agent][INFO] - 607: step 43760000 | loss actor   0.1172 | loss - critic   1.7522 | reward 2655.5897 | t: 81.3803
+[2026-09-13 10:18:54,894][agent.finetune.train_dipo_diffusion_agent][INFO] - 608: step 43840000 | loss actor   0.1162 | loss - critic   0.2526 | reward 2655.2345 | t: 81.1608
+[2026-09-13 10:20:18,655][agent.finetune.train_dipo_diffusion_agent][INFO] - 609: step 43920000 | loss actor   0.1102 | loss - critic   1.5366 | reward 2657.3330 | t: 83.7613
+[2026-09-13 10:20:27,760][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2645.4269 | avg best reward   3.4555
+[2026-09-13 10:21:52,607][agent.finetune.train_dipo_diffusion_agent][INFO] - 611: step 44000000 | loss actor   0.1063 | loss - critic   1.9526 | reward 2653.0327 | t: 84.8476
+[2026-09-13 10:23:16,550][agent.finetune.train_dipo_diffusion_agent][INFO] - 612: step 44080000 | loss actor   0.1109 | loss - critic   0.4585 | reward 2653.7271 | t: 83.9429
+[2026-09-13 10:24:39,861][agent.finetune.train_dipo_diffusion_agent][INFO] - 613: step 44160000 | loss actor   0.1094 | loss - critic   1.9590 | reward 2654.6505 | t: 83.3104
+[2026-09-13 10:26:02,438][agent.finetune.train_dipo_diffusion_agent][INFO] - 614: step 44240000 | loss actor   0.1150 | loss - critic   0.7895 | reward 2646.8910 | t: 82.5776
+[2026-09-13 10:27:25,068][agent.finetune.train_dipo_diffusion_agent][INFO] - 615: step 44320000 | loss actor   0.1038 | loss - critic   0.3710 | reward 2653.7711 | t: 82.6294
+[2026-09-13 10:28:48,955][agent.finetune.train_dipo_diffusion_agent][INFO] - 616: step 44400000 | loss actor   0.1105 | loss - critic   0.3133 | reward 2647.2876 | t: 83.8870
+[2026-09-13 10:30:11,825][agent.finetune.train_dipo_diffusion_agent][INFO] - 617: step 44480000 | loss actor   0.1137 | loss - critic   0.3818 | reward 2651.4609 | t: 82.8699
+[2026-09-13 10:31:36,129][agent.finetune.train_dipo_diffusion_agent][INFO] - 618: step 44560000 | loss actor   0.1076 | loss - critic   0.1769 | reward 2646.3363 | t: 84.3048
+[2026-09-13 10:32:59,623][agent.finetune.train_dipo_diffusion_agent][INFO] - 619: step 44640000 | loss actor   0.1153 | loss - critic   0.8419 | reward 2648.0443 | t: 83.4940
+[2026-09-13 10:33:08,776][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2636.4621 | avg best reward   3.4456
+[2026-09-13 10:34:32,124][agent.finetune.train_dipo_diffusion_agent][INFO] - 621: step 44720000 | loss actor   0.1101 | loss - critic   0.6794 | reward 2644.1626 | t: 83.3479
+[2026-09-13 10:35:55,316][agent.finetune.train_dipo_diffusion_agent][INFO] - 622: step 44800000 | loss actor   0.1186 | loss - critic   0.6644 | reward 2645.3985 | t: 83.1921
+[2026-09-13 10:37:20,621][agent.finetune.train_dipo_diffusion_agent][INFO] - 623: step 44880000 | loss actor   0.1007 | loss - critic   0.2957 | reward 2647.3911 | t: 85.3046
+[2026-09-13 10:38:44,317][agent.finetune.train_dipo_diffusion_agent][INFO] - 624: step 44960000 | loss actor   0.1005 | loss - critic   0.4183 | reward 2640.1945 | t: 83.6961
+[2026-09-13 10:40:09,258][agent.finetune.train_dipo_diffusion_agent][INFO] - 625: step 45040000 | loss actor   0.1030 | loss - critic   0.3086 | reward 2643.5478 | t: 84.9406
+[2026-09-13 10:41:32,160][agent.finetune.train_dipo_diffusion_agent][INFO] - 626: step 45120000 | loss actor   0.0960 | loss - critic   0.1965 | reward 2641.7057 | t: 82.9026
+[2026-09-13 10:42:56,290][agent.finetune.train_dipo_diffusion_agent][INFO] - 627: step 45200000 | loss actor   0.1082 | loss - critic   0.5632 | reward 2641.0987 | t: 84.1300
+[2026-09-13 10:44:19,051][agent.finetune.train_dipo_diffusion_agent][INFO] - 628: step 45280000 | loss actor   0.1189 | loss - critic   0.2276 | reward 2641.8085 | t: 82.7605
+[2026-09-13 10:45:45,168][agent.finetune.train_dipo_diffusion_agent][INFO] - 629: step 45360000 | loss actor   0.1131 | loss - critic   1.2573 | reward 2638.6033 | t: 86.1177
+[2026-09-13 10:45:54,012][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2629.1634 | avg best reward   3.4408
+[2026-09-13 10:47:20,427][agent.finetune.train_dipo_diffusion_agent][INFO] - 631: step 45440000 | loss actor   0.1059 | loss - critic   0.6210 | reward 2636.1815 | t: 86.4151
+[2026-09-13 10:48:43,122][agent.finetune.train_dipo_diffusion_agent][INFO] - 632: step 45520000 | loss actor   0.0984 | loss - critic   0.3334 | reward 2640.5651 | t: 82.6952
+[2026-09-13 10:50:08,547][agent.finetune.train_dipo_diffusion_agent][INFO] - 633: step 45600000 | loss actor   0.1130 | loss - critic   0.3118 | reward 2636.1764 | t: 85.4244
+[2026-09-13 10:51:31,966][agent.finetune.train_dipo_diffusion_agent][INFO] - 634: step 45680000 | loss actor   0.1121 | loss - critic   0.2180 | reward 2638.4498 | t: 83.4193
+[2026-09-13 10:52:55,892][agent.finetune.train_dipo_diffusion_agent][INFO] - 635: step 45760000 | loss actor   0.1009 | loss - critic   0.3573 | reward 2638.0476 | t: 83.9261
+[2026-09-13 10:54:20,149][agent.finetune.train_dipo_diffusion_agent][INFO] - 636: step 45840000 | loss actor   0.1203 | loss - critic   0.3639 | reward 2635.4705 | t: 84.2564
+[2026-09-13 10:55:44,985][agent.finetune.train_dipo_diffusion_agent][INFO] - 637: step 45920000 | loss actor   0.1082 | loss - critic   0.3739 | reward 2635.0768 | t: 84.8362
+[2026-09-13 10:57:07,844][agent.finetune.train_dipo_diffusion_agent][INFO] - 638: step 46000000 | loss actor   0.1140 | loss - critic   0.3815 | reward 2629.8759 | t: 82.8588
+[2026-09-13 10:58:31,594][agent.finetune.train_dipo_diffusion_agent][INFO] - 639: step 46080000 | loss actor   0.1051 | loss - critic   0.3546 | reward 2634.3524 | t: 83.7501
+[2026-09-13 10:58:40,872][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2621.7252 | avg best reward   3.4329
+[2026-09-13 11:00:03,945][agent.finetune.train_dipo_diffusion_agent][INFO] - 641: step 46160000 | loss actor   0.1041 | loss - critic   0.0830 | reward 2631.1555 | t: 83.0729
+[2026-09-13 11:01:28,125][agent.finetune.train_dipo_diffusion_agent][INFO] - 642: step 46240000 | loss actor   0.1205 | loss - critic   0.2644 | reward 2631.7329 | t: 84.1802
+[2026-09-13 11:02:53,098][agent.finetune.train_dipo_diffusion_agent][INFO] - 643: step 46320000 | loss actor   0.1014 | loss - critic   0.4513 | reward 2626.3492 | t: 84.9729
+[2026-09-13 11:04:16,328][agent.finetune.train_dipo_diffusion_agent][INFO] - 644: step 46400000 | loss actor   0.1133 | loss - critic   0.3821 | reward 2634.1026 | t: 83.2299
+[2026-09-13 11:05:41,316][agent.finetune.train_dipo_diffusion_agent][INFO] - 645: step 46480000 | loss actor   0.1126 | loss - critic   0.1594 | reward 2626.7123 | t: 84.9879
+[2026-09-13 11:07:04,094][agent.finetune.train_dipo_diffusion_agent][INFO] - 646: step 46560000 | loss actor   0.1008 | loss - critic   0.3369 | reward 2630.2647 | t: 82.7774
+[2026-09-13 11:08:28,409][agent.finetune.train_dipo_diffusion_agent][INFO] - 647: step 46640000 | loss actor   0.1017 | loss - critic   0.4117 | reward 2630.9901 | t: 84.3154
+[2026-09-13 11:09:52,778][agent.finetune.train_dipo_diffusion_agent][INFO] - 648: step 46720000 | loss actor   0.1116 | loss - critic   0.3370 | reward 2630.7503 | t: 84.3687
+[2026-09-13 11:11:18,523][agent.finetune.train_dipo_diffusion_agent][INFO] - 649: step 46800000 | loss actor   0.0926 | loss - critic   0.2535 | reward 2631.1745 | t: 85.7457
+[2026-09-13 11:11:28,059][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2624.7590 | avg best reward   3.4402
+[2026-09-13 11:12:52,281][agent.finetune.train_dipo_diffusion_agent][INFO] - 651: step 46880000 | loss actor   0.1058 | loss - critic   0.4239 | reward 2636.1164 | t: 84.2223
+[2026-09-13 11:14:14,212][agent.finetune.train_dipo_diffusion_agent][INFO] - 652: step 46960000 | loss actor   0.1013 | loss - critic   0.3363 | reward 2634.7250 | t: 81.9310
+[2026-09-13 11:15:36,665][agent.finetune.train_dipo_diffusion_agent][INFO] - 653: step 47040000 | loss actor   0.1065 | loss - critic   0.4227 | reward 2633.1204 | t: 82.4527
+[2026-09-13 11:16:59,912][agent.finetune.train_dipo_diffusion_agent][INFO] - 654: step 47120000 | loss actor   0.1147 | loss - critic   0.5941 | reward 2637.1324 | t: 83.2468
+[2026-09-13 11:18:25,286][agent.finetune.train_dipo_diffusion_agent][INFO] - 655: step 47200000 | loss actor   0.1064 | loss - critic   0.2697 | reward 2632.8859 | t: 85.3748
+[2026-09-13 11:19:48,054][agent.finetune.train_dipo_diffusion_agent][INFO] - 656: step 47280000 | loss actor   0.1062 | loss - critic   0.3527 | reward 2634.4558 | t: 82.7676
+[2026-09-13 11:21:11,958][agent.finetune.train_dipo_diffusion_agent][INFO] - 657: step 47360000 | loss actor   0.1080 | loss - critic   0.6035 | reward 2635.4185 | t: 83.9039
+[2026-09-13 11:22:33,581][agent.finetune.train_dipo_diffusion_agent][INFO] - 658: step 47440000 | loss actor   0.1078 | loss - critic   0.2663 | reward 2641.3956 | t: 81.6226
+[2026-09-13 11:23:57,946][agent.finetune.train_dipo_diffusion_agent][INFO] - 659: step 47520000 | loss actor   0.1012 | loss - critic   0.0954 | reward 2638.0569 | t: 84.3656
+[2026-09-13 11:24:06,443][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2635.8430 | avg best reward   3.4511
+[2026-09-13 11:25:29,492][agent.finetune.train_dipo_diffusion_agent][INFO] - 661: step 47600000 | loss actor   0.1142 | loss - critic   0.7913 | reward 2640.9360 | t: 83.0484
+[2026-09-13 11:26:55,680][agent.finetune.train_dipo_diffusion_agent][INFO] - 662: step 47680000 | loss actor   0.1071 | loss - critic   0.4401 | reward 2641.0327 | t: 86.1887
+[2026-09-13 11:28:18,590][agent.finetune.train_dipo_diffusion_agent][INFO] - 663: step 47760000 | loss actor   0.0974 | loss - critic   0.3584 | reward 2643.4867 | t: 82.9100
+[2026-09-13 11:29:41,864][agent.finetune.train_dipo_diffusion_agent][INFO] - 664: step 47840000 | loss actor   0.1064 | loss - critic   0.1913 | reward 2644.6779 | t: 83.2739
+[2026-09-13 11:31:03,476][agent.finetune.train_dipo_diffusion_agent][INFO] - 665: step 47920000 | loss actor   0.1028 | loss - critic   0.0953 | reward 2646.6387 | t: 81.6118
+[2026-09-13 11:32:28,007][agent.finetune.train_dipo_diffusion_agent][INFO] - 666: step 48000000 | loss actor   0.0942 | loss - critic   0.6247 | reward 2648.3135 | t: 84.5312
+[2026-09-13 11:33:51,316][agent.finetune.train_dipo_diffusion_agent][INFO] - 667: step 48080000 | loss actor   0.1177 | loss - critic   0.0983 | reward 2647.2488 | t: 83.3087
+[2026-09-13 11:35:17,238][agent.finetune.train_dipo_diffusion_agent][INFO] - 668: step 48160000 | loss actor   0.1102 | loss - critic   0.4623 | reward 2649.8246 | t: 85.9216
+[2026-09-13 11:36:39,961][agent.finetune.train_dipo_diffusion_agent][INFO] - 669: step 48240000 | loss actor   0.1092 | loss - critic   0.0969 | reward 2650.3198 | t: 82.7230
+[2026-09-13 11:36:50,419][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2646.3287 | avg best reward   3.4537
+[2026-09-13 11:38:13,488][agent.finetune.train_dipo_diffusion_agent][INFO] - 671: step 48320000 | loss actor   0.1143 | loss - critic   0.8431 | reward 2653.1789 | t: 83.0683
+[2026-09-13 11:39:38,483][agent.finetune.train_dipo_diffusion_agent][INFO] - 672: step 48400000 | loss actor   0.1055 | loss - critic   0.1928 | reward 2654.2692 | t: 84.9958
+[2026-09-13 11:41:01,475][agent.finetune.train_dipo_diffusion_agent][INFO] - 673: step 48480000 | loss actor   0.1068 | loss - critic   0.1854 | reward 2654.4102 | t: 82.9914
+[2026-09-13 11:42:28,046][agent.finetune.train_dipo_diffusion_agent][INFO] - 674: step 48560000 | loss actor   0.1004 | loss - critic   0.4552 | reward 2660.2754 | t: 86.5716
+[2026-09-13 11:43:51,314][agent.finetune.train_dipo_diffusion_agent][INFO] - 675: step 48640000 | loss actor   0.0985 | loss - critic   0.2890 | reward 2660.4094 | t: 83.2676
+[2026-09-13 11:45:13,999][agent.finetune.train_dipo_diffusion_agent][INFO] - 676: step 48720000 | loss actor   0.1104 | loss - critic   0.2760 | reward 2662.1636 | t: 82.6846
+[2026-09-13 11:46:35,937][agent.finetune.train_dipo_diffusion_agent][INFO] - 677: step 48800000 | loss actor   0.1036 | loss - critic   0.3608 | reward 2661.5375 | t: 81.9382
+[2026-09-13 11:47:59,911][agent.finetune.train_dipo_diffusion_agent][INFO] - 678: step 48880000 | loss actor   0.1015 | loss - critic   0.4621 | reward 2667.4342 | t: 83.9745
+[2026-09-13 11:49:23,058][agent.finetune.train_dipo_diffusion_agent][INFO] - 679: step 48960000 | loss actor   0.1060 | loss - critic   0.1839 | reward 2669.7163 | t: 83.1470
+[2026-09-13 11:49:32,321][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2663.4001 | avg best reward   3.4772
+[2026-09-13 11:50:57,686][agent.finetune.train_dipo_diffusion_agent][INFO] - 681: step 49040000 | loss actor   0.0978 | loss - critic   0.1865 | reward 2670.8882 | t: 85.3647
+[2026-09-13 11:52:20,077][agent.finetune.train_dipo_diffusion_agent][INFO] - 682: step 49120000 | loss actor   0.1090 | loss - critic   0.1943 | reward 2673.9226 | t: 82.3910
+[2026-09-13 11:53:45,245][agent.finetune.train_dipo_diffusion_agent][INFO] - 683: step 49200000 | loss actor   0.1030 | loss - critic   0.2901 | reward 2672.1359 | t: 85.1682
+[2026-09-13 11:55:10,031][agent.finetune.train_dipo_diffusion_agent][INFO] - 684: step 49280000 | loss actor   0.1192 | loss - critic   0.3748 | reward 2675.0135 | t: 84.7861
+[2026-09-13 11:56:33,850][agent.finetune.train_dipo_diffusion_agent][INFO] - 685: step 49360000 | loss actor   0.0941 | loss - critic   0.3700 | reward 2676.4692 | t: 83.8190
+[2026-09-13 11:57:58,899][agent.finetune.train_dipo_diffusion_agent][INFO] - 686: step 49440000 | loss actor   0.0994 | loss - critic   0.0094 | reward 2685.0690 | t: 85.0489
+[2026-09-13 11:59:22,798][agent.finetune.train_dipo_diffusion_agent][INFO] - 687: step 49520000 | loss actor   0.1031 | loss - critic   0.4452 | reward 2682.5137 | t: 83.8988
+[2026-09-13 12:00:43,492][agent.finetune.train_dipo_diffusion_agent][INFO] - 688: step 49600000 | loss actor   0.0929 | loss - critic   0.3600 | reward 2682.3553 | t: 80.6942
+[2026-09-13 12:02:06,842][agent.finetune.train_dipo_diffusion_agent][INFO] - 689: step 49680000 | loss actor   0.1026 | loss - critic   0.3723 | reward 2684.7151 | t: 83.3499
+[2026-09-13 12:02:15,934][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2677.9306 | avg best reward   3.4860
+[2026-09-13 12:03:40,162][agent.finetune.train_dipo_diffusion_agent][INFO] - 691: step 49760000 | loss actor   0.0995 | loss - critic   0.4544 | reward 2685.7171 | t: 84.2269
+[2026-09-13 12:05:03,341][agent.finetune.train_dipo_diffusion_agent][INFO] - 692: step 49840000 | loss actor   0.1077 | loss - critic   0.4635 | reward 2688.7702 | t: 83.1792
+[2026-09-13 12:06:29,261][agent.finetune.train_dipo_diffusion_agent][INFO] - 693: step 49920000 | loss actor   0.1128 | loss - critic   0.1077 | reward 2694.7193 | t: 85.9202
+[2026-09-13 12:07:52,571][agent.finetune.train_dipo_diffusion_agent][INFO] - 694: step 50000000 | loss actor   0.0971 | loss - critic   0.5643 | reward 2694.2869 | t: 83.3101
+[2026-09-13 12:09:16,391][agent.finetune.train_dipo_diffusion_agent][INFO] - 695: step 50080000 | loss actor   0.1198 | loss - critic   0.4591 | reward 2696.1721 | t: 83.8195
+[2026-09-13 12:10:38,160][agent.finetune.train_dipo_diffusion_agent][INFO] - 696: step 50160000 | loss actor   0.1187 | loss - critic   0.6806 | reward 2696.0129 | t: 81.7691
+[2026-09-13 12:12:01,496][agent.finetune.train_dipo_diffusion_agent][INFO] - 697: step 50240000 | loss actor   0.0969 | loss - critic   0.5660 | reward 2697.1983 | t: 83.3362
+[2026-09-13 12:13:23,847][agent.finetune.train_dipo_diffusion_agent][INFO] - 698: step 50320000 | loss actor   0.1084 | loss - critic   0.4825 | reward 2699.6542 | t: 82.3507
+[2026-09-13 12:14:46,074][agent.finetune.train_dipo_diffusion_agent][INFO] - 699: step 50400000 | loss actor   0.1026 | loss - critic   0.5542 | reward 2702.5256 | t: 82.2271
+[2026-09-13 12:14:55,086][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_700.pt
+[2026-09-13 12:14:55,086][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2697.1841 | avg best reward   3.5093
+[2026-09-13 12:16:16,812][agent.finetune.train_dipo_diffusion_agent][INFO] - 701: step 50480000 | loss actor   0.1042 | loss - critic   0.2856 | reward 2713.2277 | t: 81.7256
+[2026-09-13 12:17:40,799][agent.finetune.train_dipo_diffusion_agent][INFO] - 702: step 50560000 | loss actor   0.1085 | loss - critic   0.7244 | reward 2701.6815 | t: 83.9866
+[2026-09-13 12:19:02,023][agent.finetune.train_dipo_diffusion_agent][INFO] - 703: step 50640000 | loss actor   0.1193 | loss - critic   1.3582 | reward 2703.3635 | t: 81.2241
+[2026-09-13 12:20:26,721][agent.finetune.train_dipo_diffusion_agent][INFO] - 704: step 50720000 | loss actor   0.1102 | loss - critic   0.1040 | reward 2704.3719 | t: 84.6981
+[2026-09-13 12:21:50,586][agent.finetune.train_dipo_diffusion_agent][INFO] - 705: step 50800000 | loss actor   0.1188 | loss - critic   0.3755 | reward 2709.4601 | t: 83.8650
+[2026-09-13 12:23:14,278][agent.finetune.train_dipo_diffusion_agent][INFO] - 706: step 50880000 | loss actor   0.1011 | loss - critic   0.2887 | reward 2709.8253 | t: 83.6918
+[2026-09-13 12:24:35,326][agent.finetune.train_dipo_diffusion_agent][INFO] - 707: step 50960000 | loss actor   0.1103 | loss - critic   0.2658 | reward 2708.6317 | t: 81.0483
+[2026-09-13 12:25:57,587][agent.finetune.train_dipo_diffusion_agent][INFO] - 708: step 51040000 | loss actor   0.1086 | loss - critic   0.2682 | reward 2707.2657 | t: 82.2608
+[2026-09-13 12:27:21,648][agent.finetune.train_dipo_diffusion_agent][INFO] - 709: step 51120000 | loss actor   0.0974 | loss - critic   0.4577 | reward 2705.6003 | t: 84.0610
+[2026-09-13 12:27:30,144][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2701.3322 | avg best reward   3.5102
+[2026-09-13 12:28:54,523][agent.finetune.train_dipo_diffusion_agent][INFO] - 711: step 51200000 | loss actor   0.1070 | loss - critic   0.2748 | reward 2707.8267 | t: 84.3793
+[2026-09-13 12:30:18,137][agent.finetune.train_dipo_diffusion_agent][INFO] - 712: step 51280000 | loss actor   0.1007 | loss - critic   0.2793 | reward 2712.4756 | t: 83.6133
+[2026-09-13 12:31:43,212][agent.finetune.train_dipo_diffusion_agent][INFO] - 713: step 51360000 | loss actor   0.1127 | loss - critic   0.3453 | reward 2710.6819 | t: 85.0757
+[2026-09-13 12:33:05,889][agent.finetune.train_dipo_diffusion_agent][INFO] - 714: step 51440000 | loss actor   0.1176 | loss - critic   0.1212 | reward 2713.7353 | t: 82.6767
+[2026-09-13 12:34:29,618][agent.finetune.train_dipo_diffusion_agent][INFO] - 715: step 51520000 | loss actor   0.1181 | loss - critic   0.2388 | reward 2711.9268 | t: 83.7284
+[2026-09-13 12:35:51,631][agent.finetune.train_dipo_diffusion_agent][INFO] - 716: step 51600000 | loss actor   0.1073 | loss - critic   0.2682 | reward 2713.4990 | t: 82.0138
+[2026-09-13 12:37:16,403][agent.finetune.train_dipo_diffusion_agent][INFO] - 717: step 51680000 | loss actor   0.1118 | loss - critic   0.3529 | reward 2716.4522 | t: 84.7720
+[2026-09-13 12:38:39,948][agent.finetune.train_dipo_diffusion_agent][INFO] - 718: step 51760000 | loss actor   0.1233 | loss - critic   0.1778 | reward 2714.3087 | t: 83.5447
+[2026-09-13 12:40:02,880][agent.finetune.train_dipo_diffusion_agent][INFO] - 719: step 51840000 | loss actor   0.1177 | loss - critic   0.5345 | reward 2720.0517 | t: 82.9323
+[2026-09-13 12:40:12,220][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2705.6420 | avg best reward   3.5219
+[2026-09-13 12:41:34,545][agent.finetune.train_dipo_diffusion_agent][INFO] - 721: step 51920000 | loss actor   0.1028 | loss - critic   0.6365 | reward 2713.7603 | t: 82.3245
+[2026-09-13 12:42:58,410][agent.finetune.train_dipo_diffusion_agent][INFO] - 722: step 52000000 | loss actor   0.1030 | loss - critic   0.5438 | reward 2722.0745 | t: 83.8649
+[2026-09-13 12:44:21,350][agent.finetune.train_dipo_diffusion_agent][INFO] - 723: step 52080000 | loss actor   0.1046 | loss - critic   0.5421 | reward 2717.9284 | t: 82.9395
+[2026-09-13 12:45:46,720][agent.finetune.train_dipo_diffusion_agent][INFO] - 724: step 52160000 | loss actor   0.1089 | loss - critic   0.2730 | reward 2719.2683 | t: 85.3706
+[2026-09-13 12:47:08,922][agent.finetune.train_dipo_diffusion_agent][INFO] - 725: step 52240000 | loss actor   0.1086 | loss - critic   0.2737 | reward 2715.1903 | t: 82.2018
+[2026-09-13 12:48:32,180][agent.finetune.train_dipo_diffusion_agent][INFO] - 726: step 52320000 | loss actor   0.1104 | loss - critic   0.3742 | reward 2722.8446 | t: 83.2575
+[2026-09-13 12:49:54,255][agent.finetune.train_dipo_diffusion_agent][INFO] - 727: step 52400000 | loss actor   0.0976 | loss - critic   0.2733 | reward 2719.4693 | t: 82.0758
+[2026-09-13 12:51:18,969][agent.finetune.train_dipo_diffusion_agent][INFO] - 728: step 52480000 | loss actor   0.1182 | loss - critic   0.3584 | reward 2719.5566 | t: 84.7139
+[2026-09-13 12:52:41,098][agent.finetune.train_dipo_diffusion_agent][INFO] - 729: step 52560000 | loss actor   0.0981 | loss - critic   0.0947 | reward 2725.1342 | t: 82.1288
+[2026-09-13 12:52:49,705][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2708.7497 | avg best reward   3.5296
+[2026-09-13 12:54:15,806][agent.finetune.train_dipo_diffusion_agent][INFO] - 731: step 52640000 | loss actor   0.1034 | loss - critic   0.2406 | reward 2720.1765 | t: 86.1010
+[2026-09-13 12:55:37,977][agent.finetune.train_dipo_diffusion_agent][INFO] - 732: step 52720000 | loss actor   0.1004 | loss - critic   0.3798 | reward 2720.8043 | t: 82.1710
+[2026-09-13 12:57:02,212][agent.finetune.train_dipo_diffusion_agent][INFO] - 733: step 52800000 | loss actor   0.0968 | loss - critic   0.0916 | reward 2721.7253 | t: 84.2343
+[2026-09-13 12:58:24,592][agent.finetune.train_dipo_diffusion_agent][INFO] - 734: step 52880000 | loss actor   0.1000 | loss - critic   0.1981 | reward 2723.6351 | t: 82.3803
+[2026-09-13 12:59:48,971][agent.finetune.train_dipo_diffusion_agent][INFO] - 735: step 52960000 | loss actor   0.1001 | loss - critic   0.1982 | reward 2718.6911 | t: 84.3794
+[2026-09-13 13:01:11,737][agent.finetune.train_dipo_diffusion_agent][INFO] - 736: step 53040000 | loss actor   0.1030 | loss - critic   0.5427 | reward 2723.1842 | t: 82.7662
+[2026-09-13 13:02:36,690][agent.finetune.train_dipo_diffusion_agent][INFO] - 737: step 53120000 | loss actor   0.1018 | loss - critic   0.6473 | reward 2721.5872 | t: 84.9523
+[2026-09-13 13:04:00,012][agent.finetune.train_dipo_diffusion_agent][INFO] - 738: step 53200000 | loss actor   0.1173 | loss - critic   0.4740 | reward 2722.5940 | t: 83.3223
+[2026-09-13 13:05:24,781][agent.finetune.train_dipo_diffusion_agent][INFO] - 739: step 53280000 | loss actor   0.1091 | loss - critic   0.4587 | reward 2727.0229 | t: 84.7689
+[2026-09-13 13:05:33,626][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2709.3582 | avg best reward   3.5274
+[2026-09-13 13:06:56,197][agent.finetune.train_dipo_diffusion_agent][INFO] - 741: step 53360000 | loss actor   0.1117 | loss - critic   0.1946 | reward 2682.7398 | t: 82.5702
+[2026-09-13 13:08:21,428][agent.finetune.train_dipo_diffusion_agent][INFO] - 742: step 53440000 | loss actor   0.1031 | loss - critic   0.3912 | reward 2722.3864 | t: 85.2317
+[2026-09-13 13:09:43,905][agent.finetune.train_dipo_diffusion_agent][INFO] - 743: step 53520000 | loss actor   0.1048 | loss - critic   0.4528 | reward 2685.3950 | t: 82.4765
+[2026-09-13 13:11:08,752][agent.finetune.train_dipo_diffusion_agent][INFO] - 744: step 53600000 | loss actor   0.1097 | loss - critic   2.7731 | reward 2693.0140 | t: 84.8470
+[2026-09-13 13:12:30,832][agent.finetune.train_dipo_diffusion_agent][INFO] - 745: step 53680000 | loss actor   0.1120 | loss - critic   0.3667 | reward 2716.3304 | t: 82.0807
+[2026-09-13 13:13:53,906][agent.finetune.train_dipo_diffusion_agent][INFO] - 746: step 53760000 | loss actor   0.1210 | loss - critic   1.1724 | reward 2719.1320 | t: 83.0735
+[2026-09-13 13:15:15,572][agent.finetune.train_dipo_diffusion_agent][INFO] - 747: step 53840000 | loss actor   0.1050 | loss - critic   0.3628 | reward 2718.8952 | t: 81.6657
+[2026-09-13 13:16:39,953][agent.finetune.train_dipo_diffusion_agent][INFO] - 748: step 53920000 | loss actor   0.1059 | loss - critic   4.0571 | reward 2715.3616 | t: 84.3817
+[2026-09-13 13:18:03,400][agent.finetune.train_dipo_diffusion_agent][INFO] - 749: step 54000000 | loss actor   0.1131 | loss - critic   0.3463 | reward 2716.2746 | t: 83.4468
+[2026-09-13 13:18:12,342][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2707.8235 | avg best reward   3.5290
+[2026-09-13 13:19:37,085][agent.finetune.train_dipo_diffusion_agent][INFO] - 751: step 54080000 | loss actor   0.1084 | loss - critic   3.6546 | reward 2682.9517 | t: 84.7430
+[2026-09-13 13:20:59,081][agent.finetune.train_dipo_diffusion_agent][INFO] - 752: step 54160000 | loss actor   0.1071 | loss - critic   4.1341 | reward 2719.5733 | t: 81.9958
+[2026-09-13 13:22:22,429][agent.finetune.train_dipo_diffusion_agent][INFO] - 753: step 54240000 | loss actor   0.1038 | loss - critic   1.2692 | reward 2713.9865 | t: 83.3482
+[2026-09-13 13:23:44,954][agent.finetune.train_dipo_diffusion_agent][INFO] - 754: step 54320000 | loss actor   0.0968 | loss - critic  68.3896 | reward 2713.1647 | t: 82.5249
+[2026-09-13 13:25:10,470][agent.finetune.train_dipo_diffusion_agent][INFO] - 755: step 54400000 | loss actor   0.1242 | loss - critic   0.2603 | reward 2717.6814 | t: 85.5158
+[2026-09-13 13:26:34,463][agent.finetune.train_dipo_diffusion_agent][INFO] - 756: step 54480000 | loss actor   0.1153 | loss - critic   0.1812 | reward 2684.8854 | t: 83.9932
+[2026-09-13 13:28:00,440][agent.finetune.train_dipo_diffusion_agent][INFO] - 757: step 54560000 | loss actor   0.1045 | loss - critic   1.2912 | reward 2682.9234 | t: 85.9764
+[2026-09-13 13:29:21,523][agent.finetune.train_dipo_diffusion_agent][INFO] - 758: step 54640000 | loss actor   0.1010 | loss - critic  17.3754 | reward 2716.7648 | t: 81.0831
+[2026-09-13 13:30:45,153][agent.finetune.train_dipo_diffusion_agent][INFO] - 759: step 54720000 | loss actor   0.1152 | loss - critic   0.4997 | reward 2710.6469 | t: 83.6302
+[2026-09-13 13:30:53,751][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2703.5879 | avg best reward   3.5307
+[2026-09-13 13:32:16,726][agent.finetune.train_dipo_diffusion_agent][INFO] - 761: step 54800000 | loss actor   0.0966 | loss - critic  11.0465 | reward 2713.4109 | t: 82.9748
+[2026-09-13 13:33:42,504][agent.finetune.train_dipo_diffusion_agent][INFO] - 762: step 54880000 | loss actor   0.1119 | loss - critic   0.5272 | reward 2700.3703 | t: 85.7783
+[2026-09-13 13:35:06,114][agent.finetune.train_dipo_diffusion_agent][INFO] - 763: step 54960000 | loss actor   0.1042 | loss - critic   0.5591 | reward 2713.7118 | t: 83.6093
+[2026-09-13 13:36:31,061][agent.finetune.train_dipo_diffusion_agent][INFO] - 764: step 55040000 | loss actor   0.1089 | loss - critic   0.1805 | reward 2675.8112 | t: 84.9474
+[2026-09-13 13:37:52,205][agent.finetune.train_dipo_diffusion_agent][INFO] - 765: step 55120000 | loss actor   0.1046 | loss - critic   1.6224 | reward 2715.0846 | t: 81.1440
+[2026-09-13 13:39:15,772][agent.finetune.train_dipo_diffusion_agent][INFO] - 766: step 55200000 | loss actor   0.1107 | loss - critic   1.1624 | reward 2711.8295 | t: 83.5669
+[2026-09-13 13:40:40,420][agent.finetune.train_dipo_diffusion_agent][INFO] - 767: step 55280000 | loss actor   0.1124 | loss - critic   0.2984 | reward 2706.8078 | t: 84.6476
+[2026-09-13 13:42:03,443][agent.finetune.train_dipo_diffusion_agent][INFO] - 768: step 55360000 | loss actor   0.1107 | loss - critic   0.5805 | reward 2709.4998 | t: 83.0236
+[2026-09-13 13:43:27,237][agent.finetune.train_dipo_diffusion_agent][INFO] - 769: step 55440000 | loss actor   0.1120 | loss - critic   0.1853 | reward 2709.2485 | t: 83.7939
+[2026-09-13 13:43:35,796][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2694.0759 | avg best reward   3.5125
+[2026-09-13 13:44:58,332][agent.finetune.train_dipo_diffusion_agent][INFO] - 771: step 55520000 | loss actor   0.1151 | loss - critic   0.5233 | reward 2703.1128 | t: 82.5353
+[2026-09-13 13:46:18,719][agent.finetune.train_dipo_diffusion_agent][INFO] - 772: step 55600000 | loss actor   0.1095 | loss - critic   6.4665 | reward 2703.2872 | t: 80.3874
+[2026-09-13 13:47:43,458][agent.finetune.train_dipo_diffusion_agent][INFO] - 773: step 55680000 | loss actor   0.1127 | loss - critic   0.9570 | reward 2699.1775 | t: 84.7390
+[2026-09-13 13:49:06,274][agent.finetune.train_dipo_diffusion_agent][INFO] - 774: step 55760000 | loss actor   0.0814 | loss - critic   0.3204 | reward 2702.1891 | t: 82.8160
+[2026-09-13 13:50:31,160][agent.finetune.train_dipo_diffusion_agent][INFO] - 775: step 55840000 | loss actor   0.1067 | loss - critic   1.5802 | reward 2700.6920 | t: 84.8863
+[2026-09-13 13:51:53,937][agent.finetune.train_dipo_diffusion_agent][INFO] - 776: step 55920000 | loss actor   0.1117 | loss - critic   2.2034 | reward 2697.6980 | t: 82.7771
+[2026-09-13 13:53:17,562][agent.finetune.train_dipo_diffusion_agent][INFO] - 777: step 56000000 | loss actor   0.0998 | loss - critic   0.6263 | reward 2696.9784 | t: 83.6243
+[2026-09-13 13:54:40,619][agent.finetune.train_dipo_diffusion_agent][INFO] - 778: step 56080000 | loss actor   0.1078 | loss - critic   0.7258 | reward 2695.4771 | t: 83.0570
+[2026-09-13 13:56:05,353][agent.finetune.train_dipo_diffusion_agent][INFO] - 779: step 56160000 | loss actor   0.1117 | loss - critic   0.2291 | reward 2694.1421 | t: 84.7349
+[2026-09-13 13:56:14,392][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2685.1276 | avg best reward   3.5113
+[2026-09-13 13:57:37,142][agent.finetune.train_dipo_diffusion_agent][INFO] - 781: step 56240000 | loss actor   0.1056 | loss - critic   1.4111 | reward 2695.3646 | t: 82.7501
+[2026-09-13 13:59:02,106][agent.finetune.train_dipo_diffusion_agent][INFO] - 782: step 56320000 | loss actor   0.1021 | loss - critic   1.2101 | reward 2693.5815 | t: 84.9643
+[2026-09-13 14:00:23,764][agent.finetune.train_dipo_diffusion_agent][INFO] - 783: step 56400000 | loss actor   0.1051 | loss - critic   0.5675 | reward 2687.7758 | t: 81.6580
+[2026-09-13 14:01:46,681][agent.finetune.train_dipo_diffusion_agent][INFO] - 784: step 56480000 | loss actor   0.1065 | loss - critic   0.6391 | reward 2687.0127 | t: 82.9167
+[2026-09-13 14:03:08,254][agent.finetune.train_dipo_diffusion_agent][INFO] - 785: step 56560000 | loss actor   0.1058 | loss - critic   2.5220 | reward 2686.5959 | t: 81.5728
+[2026-09-13 14:04:29,712][agent.finetune.train_dipo_diffusion_agent][INFO] - 786: step 56640000 | loss actor   0.0972 | loss - critic   7.7582 | reward 2685.3986 | t: 81.4582
+[2026-09-13 14:05:51,220][agent.finetune.train_dipo_diffusion_agent][INFO] - 787: step 56720000 | loss actor   0.1039 | loss - critic   0.9791 | reward 2680.7485 | t: 81.5080
+[2026-09-13 14:07:11,514][agent.finetune.train_dipo_diffusion_agent][INFO] - 788: step 56800000 | loss actor   0.0961 | loss - critic   1.6893 | reward 2680.4145 | t: 80.2939
+[2026-09-13 14:08:35,725][agent.finetune.train_dipo_diffusion_agent][INFO] - 789: step 56880000 | loss actor   0.1188 | loss - critic   0.2930 | reward 2653.5070 | t: 84.2115
+[2026-09-13 14:08:44,453][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2670.8289 | avg best reward   3.4981
+[2026-09-13 14:10:06,058][agent.finetune.train_dipo_diffusion_agent][INFO] - 791: step 56960000 | loss actor   0.1040 | loss - critic   3.3672 | reward 2677.0202 | t: 81.6050
+[2026-09-13 14:11:26,946][agent.finetune.train_dipo_diffusion_agent][INFO] - 792: step 57040000 | loss actor   0.1074 | loss - critic   2.9477 | reward 2676.8944 | t: 80.8879
+[2026-09-13 14:12:45,353][agent.finetune.train_dipo_diffusion_agent][INFO] - 793: step 57120000 | loss actor   0.1108 | loss - critic   0.6613 | reward 2675.3066 | t: 78.4075
+[2026-09-13 14:14:07,613][agent.finetune.train_dipo_diffusion_agent][INFO] - 794: step 57200000 | loss actor   0.1137 | loss - critic   0.9442 | reward 2672.9771 | t: 82.2598
+[2026-09-13 14:15:29,499][agent.finetune.train_dipo_diffusion_agent][INFO] - 795: step 57280000 | loss actor   0.0997 | loss - critic   0.7324 | reward 2672.7539 | t: 81.8864
+[2026-09-13 14:16:49,044][agent.finetune.train_dipo_diffusion_agent][INFO] - 796: step 57360000 | loss actor   0.1081 | loss - critic   3.4794 | reward 2639.8469 | t: 79.5449
+[2026-09-13 14:18:10,314][agent.finetune.train_dipo_diffusion_agent][INFO] - 797: step 57440000 | loss actor   0.1147 | loss - critic   2.2891 | reward 2670.3574 | t: 81.2700
+[2026-09-13 14:19:31,175][agent.finetune.train_dipo_diffusion_agent][INFO] - 798: step 57520000 | loss actor   0.1014 | loss - critic   1.6567 | reward 2668.8525 | t: 80.8608
+[2026-09-13 14:20:51,528][agent.finetune.train_dipo_diffusion_agent][INFO] - 799: step 57600000 | loss actor   0.1141 | loss - critic   0.3651 | reward 2667.5338 | t: 80.3531
+[2026-09-13 14:21:02,221][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_800.pt
+[2026-09-13 14:21:02,221][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2657.4585 | avg best reward   3.4846
+[2026-09-13 14:22:20,606][agent.finetune.train_dipo_diffusion_agent][INFO] - 801: step 57680000 | loss actor   0.1041 | loss - critic   4.8849 | reward 2666.7464 | t: 78.3844
+[2026-09-13 14:23:41,902][agent.finetune.train_dipo_diffusion_agent][INFO] - 802: step 57760000 | loss actor   0.0953 | loss - critic   2.3300 | reward 2665.1707 | t: 81.2959
+[2026-09-13 14:25:03,880][agent.finetune.train_dipo_diffusion_agent][INFO] - 803: step 57840000 | loss actor   0.1050 | loss - critic   0.4955 | reward 2661.7649 | t: 81.9781
+[2026-09-13 14:26:24,897][agent.finetune.train_dipo_diffusion_agent][INFO] - 804: step 57920000 | loss actor   0.1077 | loss - critic   8.7490 | reward 2664.5914 | t: 81.0177
+[2026-09-13 14:27:45,874][agent.finetune.train_dipo_diffusion_agent][INFO] - 805: step 58000000 | loss actor   0.1047 | loss - critic   0.6349 | reward 2626.0532 | t: 80.9766
+[2026-09-13 14:29:09,484][agent.finetune.train_dipo_diffusion_agent][INFO] - 806: step 58080000 | loss actor   0.1073 | loss - critic   0.5168 | reward 2627.9739 | t: 83.6095
+[2026-09-13 14:30:33,145][agent.finetune.train_dipo_diffusion_agent][INFO] - 807: step 58160000 | loss actor   0.1085 | loss - critic   1.4101 | reward 2625.7014 | t: 83.6609
+[2026-09-13 14:31:56,354][agent.finetune.train_dipo_diffusion_agent][INFO] - 808: step 58240000 | loss actor   0.1039 | loss - critic   1.1009 | reward 2656.2069 | t: 83.2094
+[2026-09-13 14:33:18,020][agent.finetune.train_dipo_diffusion_agent][INFO] - 809: step 58320000 | loss actor   0.0972 | loss - critic   0.5014 | reward 2624.1072 | t: 81.6661
+[2026-09-13 14:33:25,583][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2644.9583 | avg best reward   3.4812
+[2026-09-13 14:34:46,016][agent.finetune.train_dipo_diffusion_agent][INFO] - 811: step 58400000 | loss actor   0.0947 | loss - critic   2.4206 | reward 2623.1518 | t: 80.4325
+[2026-09-13 14:36:06,532][agent.finetune.train_dipo_diffusion_agent][INFO] - 812: step 58480000 | loss actor   0.1050 | loss - critic   1.3623 | reward 2617.1955 | t: 80.5160
+[2026-09-13 14:37:29,805][agent.finetune.train_dipo_diffusion_agent][INFO] - 813: step 58560000 | loss actor   0.1134 | loss - critic   0.7019 | reward 2616.0690 | t: 83.2731
+[2026-09-13 14:38:54,568][agent.finetune.train_dipo_diffusion_agent][INFO] - 814: step 58640000 | loss actor   0.1011 | loss - critic   0.1460 | reward 2648.0657 | t: 84.7632
+[2026-09-13 14:40:14,219][agent.finetune.train_dipo_diffusion_agent][INFO] - 815: step 58720000 | loss actor   0.0979 | loss - critic   1.1295 | reward 2647.4923 | t: 79.6505
+[2026-09-13 14:41:38,545][agent.finetune.train_dipo_diffusion_agent][INFO] - 816: step 58800000 | loss actor   0.1058 | loss - critic   5.5684 | reward 2612.3998 | t: 84.3257
+[2026-09-13 14:43:01,102][agent.finetune.train_dipo_diffusion_agent][INFO] - 817: step 58880000 | loss actor   0.1088 | loss - critic   0.2292 | reward 2642.5165 | t: 82.5573
+[2026-09-13 14:44:24,423][agent.finetune.train_dipo_diffusion_agent][INFO] - 818: step 58960000 | loss actor   0.1130 | loss - critic   0.2681 | reward 2640.6712 | t: 83.3214
+[2026-09-13 14:45:45,006][agent.finetune.train_dipo_diffusion_agent][INFO] - 819: step 59040000 | loss actor   0.1084 | loss - critic   0.9711 | reward 2510.7321 | t: 80.5824
+[2026-09-13 14:45:53,555][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2635.3445 | avg best reward   3.4640
+[2026-09-13 14:47:17,103][agent.finetune.train_dipo_diffusion_agent][INFO] - 821: step 59120000 | loss actor   0.0995 | loss - critic   0.5348 | reward 2607.8703 | t: 83.5474
+[2026-09-13 14:48:39,847][agent.finetune.train_dipo_diffusion_agent][INFO] - 822: step 59200000 | loss actor   0.1078 | loss - critic   1.5017 | reward 2572.9882 | t: 82.7445
+[2026-09-13 14:50:03,744][agent.finetune.train_dipo_diffusion_agent][INFO] - 823: step 59280000 | loss actor   0.0962 | loss - critic   0.5092 | reward 2603.9569 | t: 83.8971
+[2026-09-13 14:51:24,954][agent.finetune.train_dipo_diffusion_agent][INFO] - 824: step 59360000 | loss actor   0.1166 | loss - critic   0.3116 | reward 2636.6836 | t: 81.2098
+[2026-09-13 14:52:47,543][agent.finetune.train_dipo_diffusion_agent][INFO] - 825: step 59440000 | loss actor   0.1097 | loss - critic   0.8333 | reward 2640.3608 | t: 82.5887
+[2026-09-13 14:54:12,163][agent.finetune.train_dipo_diffusion_agent][INFO] - 826: step 59520000 | loss actor   0.1006 | loss - critic   0.2717 | reward 2605.4905 | t: 84.6206
+[2026-09-13 14:55:34,899][agent.finetune.train_dipo_diffusion_agent][INFO] - 827: step 59600000 | loss actor   0.1002 | loss - critic   0.1615 | reward 2597.7956 | t: 82.7358
+[2026-09-13 14:56:58,123][agent.finetune.train_dipo_diffusion_agent][INFO] - 828: step 59680000 | loss actor   0.1065 | loss - critic   0.2853 | reward 2636.0587 | t: 83.2236
+[2026-09-13 14:58:20,912][agent.finetune.train_dipo_diffusion_agent][INFO] - 829: step 59760000 | loss actor   0.1116 | loss - critic   0.4416 | reward 2631.1013 | t: 82.7892
+[2026-09-13 14:58:31,687][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2626.0433 | avg best reward   3.4588
+[2026-09-13 14:59:53,442][agent.finetune.train_dipo_diffusion_agent][INFO] - 831: step 59840000 | loss actor   0.1001 | loss - critic   1.6731 | reward 2632.3652 | t: 81.7548
+[2026-09-13 15:01:16,162][agent.finetune.train_dipo_diffusion_agent][INFO] - 832: step 59920000 | loss actor   0.1147 | loss - critic   0.4327 | reward 2573.9644 | t: 82.7200
+[2026-09-13 15:02:41,313][agent.finetune.train_dipo_diffusion_agent][INFO] - 833: step 60000000 | loss actor   0.1031 | loss - critic   0.3365 | reward 2632.5917 | t: 85.1518
+[2026-09-13 15:04:01,991][agent.finetune.train_dipo_diffusion_agent][INFO] - 834: step 60080000 | loss actor   0.1080 | loss - critic   1.3013 | reward 2635.2235 | t: 80.6773
+[2026-09-13 15:05:26,388][agent.finetune.train_dipo_diffusion_agent][INFO] - 835: step 60160000 | loss actor   0.0982 | loss - critic   0.3603 | reward 2597.2836 | t: 84.3974
+[2026-09-13 15:06:50,263][agent.finetune.train_dipo_diffusion_agent][INFO] - 836: step 60240000 | loss actor   0.1114 | loss - critic   0.0830 | reward 2597.6095 | t: 83.8750
+[2026-09-13 15:08:13,937][agent.finetune.train_dipo_diffusion_agent][INFO] - 837: step 60320000 | loss actor   0.1102 | loss - critic   0.0795 | reward 2629.0522 | t: 83.6738
+[2026-09-13 15:09:37,437][agent.finetune.train_dipo_diffusion_agent][INFO] - 838: step 60400000 | loss actor   0.1168 | loss - critic   0.2859 | reward 2562.7371 | t: 83.5000
+[2026-09-13 15:10:58,103][agent.finetune.train_dipo_diffusion_agent][INFO] - 839: step 60480000 | loss actor   0.0890 | loss - critic   0.0125 | reward 2626.4807 | t: 80.6656
+[2026-09-13 15:11:08,574][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2622.1296 | avg best reward   3.4591
+[2026-09-13 15:12:30,186][agent.finetune.train_dipo_diffusion_agent][INFO] - 841: step 60560000 | loss actor   0.1017 | loss - critic   0.3591 | reward 2627.0347 | t: 81.6116
+[2026-09-13 15:13:50,088][agent.finetune.train_dipo_diffusion_agent][INFO] - 842: step 60640000 | loss actor   0.0946 | loss - critic   0.2914 | reward 2629.1732 | t: 79.9021
+[2026-09-13 15:15:13,721][agent.finetune.train_dipo_diffusion_agent][INFO] - 843: step 60720000 | loss actor   0.1112 | loss - critic   0.1574 | reward 2629.2599 | t: 83.6331
+[2026-09-13 15:16:36,257][agent.finetune.train_dipo_diffusion_agent][INFO] - 844: step 60800000 | loss actor   0.1087 | loss - critic   0.0787 | reward 2595.9589 | t: 82.5359
+[2026-09-13 15:18:01,143][agent.finetune.train_dipo_diffusion_agent][INFO] - 845: step 60880000 | loss actor   0.1133 | loss - critic   0.0790 | reward 2629.2551 | t: 84.8861
+[2026-09-13 15:19:24,835][agent.finetune.train_dipo_diffusion_agent][INFO] - 846: step 60960000 | loss actor   0.1013 | loss - critic   0.5555 | reward 2631.8287 | t: 83.6920
+[2026-09-13 15:20:49,948][agent.finetune.train_dipo_diffusion_agent][INFO] - 847: step 61040000 | loss actor   0.0893 | loss - critic   0.1628 | reward 2624.5562 | t: 85.1129
+[2026-09-13 15:22:12,146][agent.finetune.train_dipo_diffusion_agent][INFO] - 848: step 61120000 | loss actor   0.0977 | loss - critic   0.3962 | reward 2633.8496 | t: 82.1984
+[2026-09-13 15:23:34,770][agent.finetune.train_dipo_diffusion_agent][INFO] - 849: step 61200000 | loss actor   0.1125 | loss - critic   0.2520 | reward 2627.2326 | t: 82.6238
+[2026-09-13 15:23:45,822][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2621.8111 | avg best reward   3.4583
+[2026-09-13 15:25:06,042][agent.finetune.train_dipo_diffusion_agent][INFO] - 851: step 61280000 | loss actor   0.1006 | loss - critic   0.4806 | reward 2597.7363 | t: 80.2196
+[2026-09-13 15:26:29,529][agent.finetune.train_dipo_diffusion_agent][INFO] - 852: step 61360000 | loss actor   0.1130 | loss - critic   0.3283 | reward 2631.2052 | t: 83.4868
+[2026-09-13 15:27:51,937][agent.finetune.train_dipo_diffusion_agent][INFO] - 853: step 61440000 | loss actor   0.1114 | loss - critic   0.5076 | reward 2569.0511 | t: 82.4081
+[2026-09-13 15:29:10,544][agent.finetune.train_dipo_diffusion_agent][INFO] - 854: step 61520000 | loss actor   0.1042 | loss - critic   0.2490 | reward 2600.0228 | t: 78.6072
+[2026-09-13 15:30:31,911][agent.finetune.train_dipo_diffusion_agent][INFO] - 855: step 61600000 | loss actor   0.1030 | loss - critic   0.3361 | reward 2632.5241 | t: 81.3669
+[2026-09-13 15:31:54,320][agent.finetune.train_dipo_diffusion_agent][INFO] - 856: step 61680000 | loss actor   0.1046 | loss - critic   0.2649 | reward 2631.9876 | t: 82.4094
+[2026-09-13 15:33:16,511][agent.finetune.train_dipo_diffusion_agent][INFO] - 857: step 61760000 | loss actor   0.1114 | loss - critic   0.0995 | reward 2635.8631 | t: 82.1914
+[2026-09-13 15:34:40,773][agent.finetune.train_dipo_diffusion_agent][INFO] - 858: step 61840000 | loss actor   0.1028 | loss - critic   0.4499 | reward 2632.9236 | t: 84.2616
+[2026-09-13 15:36:02,903][agent.finetune.train_dipo_diffusion_agent][INFO] - 859: step 61920000 | loss actor   0.1111 | loss - critic   0.4345 | reward 2636.8770 | t: 82.1303
+[2026-09-13 15:36:13,404][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2629.7321 | avg best reward   3.4608
+[2026-09-13 15:37:34,020][agent.finetune.train_dipo_diffusion_agent][INFO] - 861: step 62000000 | loss actor   0.1068 | loss - critic   0.3493 | reward 2633.9565 | t: 80.6152
+[2026-09-13 15:38:54,438][agent.finetune.train_dipo_diffusion_agent][INFO] - 862: step 62080000 | loss actor   0.1004 | loss - critic   0.5306 | reward 2635.8201 | t: 80.4187
+[2026-09-13 15:40:19,203][agent.finetune.train_dipo_diffusion_agent][INFO] - 863: step 62160000 | loss actor   0.1043 | loss - critic   0.2657 | reward 2636.2667 | t: 84.7648
+[2026-09-13 15:41:41,587][agent.finetune.train_dipo_diffusion_agent][INFO] - 864: step 62240000 | loss actor   0.1149 | loss - critic   0.1046 | reward 2642.3734 | t: 82.3834
+[2026-09-13 15:43:05,203][agent.finetune.train_dipo_diffusion_agent][INFO] - 865: step 62320000 | loss actor   0.1088 | loss - critic   0.3638 | reward 2639.9180 | t: 83.6165
+[2026-09-13 15:44:27,489][agent.finetune.train_dipo_diffusion_agent][INFO] - 866: step 62400000 | loss actor   0.1206 | loss - critic   0.0981 | reward 2644.0969 | t: 82.2856
+[2026-09-13 15:45:49,856][agent.finetune.train_dipo_diffusion_agent][INFO] - 867: step 62480000 | loss actor   0.0969 | loss - critic   0.4331 | reward 2640.9701 | t: 82.3677
+[2026-09-13 15:47:13,136][agent.finetune.train_dipo_diffusion_agent][INFO] - 868: step 62560000 | loss actor   0.0976 | loss - critic   0.6142 | reward 2642.6627 | t: 83.2800
+[2026-09-13 15:48:36,500][agent.finetune.train_dipo_diffusion_agent][INFO] - 869: step 62640000 | loss actor   0.1025 | loss - critic   0.2747 | reward 2644.5365 | t: 83.3639
+[2026-09-13 15:48:45,372][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2636.8930 | avg best reward   3.4833
+[2026-09-13 15:50:09,757][agent.finetune.train_dipo_diffusion_agent][INFO] - 871: step 62720000 | loss actor   0.1100 | loss - critic   0.3747 | reward 2646.6482 | t: 84.3848
+[2026-09-13 15:51:32,186][agent.finetune.train_dipo_diffusion_agent][INFO] - 872: step 62800000 | loss actor   0.1016 | loss - critic   0.3537 | reward 2645.6856 | t: 82.4286
+[2026-09-13 15:52:54,218][agent.finetune.train_dipo_diffusion_agent][INFO] - 873: step 62880000 | loss actor   0.1061 | loss - critic   0.3633 | reward 2642.8695 | t: 82.0317
+[2026-09-13 15:54:16,948][agent.finetune.train_dipo_diffusion_agent][INFO] - 874: step 62960000 | loss actor   0.1116 | loss - critic   0.3621 | reward 2615.2804 | t: 82.7302
+[2026-09-13 15:55:39,884][agent.finetune.train_dipo_diffusion_agent][INFO] - 875: step 63040000 | loss actor   0.1038 | loss - critic   0.3705 | reward 2646.6999 | t: 82.9368
+[2026-09-13 15:57:04,130][agent.finetune.train_dipo_diffusion_agent][INFO] - 876: step 63120000 | loss actor   0.0933 | loss - critic   0.1957 | reward 2648.0073 | t: 84.2454
+[2026-09-13 15:58:27,333][agent.finetune.train_dipo_diffusion_agent][INFO] - 877: step 63200000 | loss actor   0.1090 | loss - critic   0.4700 | reward 2652.1238 | t: 83.2031
+[2026-09-13 15:59:50,846][agent.finetune.train_dipo_diffusion_agent][INFO] - 878: step 63280000 | loss actor   0.1105 | loss - critic   0.3753 | reward 2649.8781 | t: 83.5131
+[2026-09-13 16:01:13,599][agent.finetune.train_dipo_diffusion_agent][INFO] - 879: step 63360000 | loss actor   0.0954 | loss - critic   0.0989 | reward 2652.8255 | t: 82.7528
+[2026-09-13 16:01:24,369][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2646.2895 | avg best reward   3.4941
+[2026-09-13 16:02:45,593][agent.finetune.train_dipo_diffusion_agent][INFO] - 881: step 63440000 | loss actor   0.0997 | loss - critic   0.0957 | reward 2653.1926 | t: 81.2237
+[2026-09-13 16:04:09,549][agent.finetune.train_dipo_diffusion_agent][INFO] - 882: step 63520000 | loss actor   0.1016 | loss - critic   0.3832 | reward 2651.1176 | t: 83.9558
+[2026-09-13 16:05:30,843][agent.finetune.train_dipo_diffusion_agent][INFO] - 883: step 63600000 | loss actor   0.1113 | loss - critic   0.1867 | reward 2619.3375 | t: 81.2943
+[2026-09-13 16:06:54,393][agent.finetune.train_dipo_diffusion_agent][INFO] - 884: step 63680000 | loss actor   0.1024 | loss - critic   0.1837 | reward 2657.4195 | t: 83.5501
+[2026-09-13 16:08:19,288][agent.finetune.train_dipo_diffusion_agent][INFO] - 885: step 63760000 | loss actor   0.1028 | loss - critic   0.3660 | reward 2657.0384 | t: 84.8946
+[2026-09-13 16:09:41,246][agent.finetune.train_dipo_diffusion_agent][INFO] - 886: step 63840000 | loss actor   0.1100 | loss - critic   0.1887 | reward 2658.9627 | t: 81.9582
+[2026-09-13 16:11:05,620][agent.finetune.train_dipo_diffusion_agent][INFO] - 887: step 63920000 | loss actor   0.1060 | loss - critic   0.2713 | reward 2657.0048 | t: 84.3736
+[2026-09-13 16:12:28,903][agent.finetune.train_dipo_diffusion_agent][INFO] - 888: step 64000000 | loss actor   0.0990 | loss - critic   0.3771 | reward 2655.1622 | t: 83.2832
+[2026-09-13 16:13:52,481][agent.finetune.train_dipo_diffusion_agent][INFO] - 889: step 64080000 | loss actor   0.1005 | loss - critic   0.2781 | reward 2658.2146 | t: 83.5777
+[2026-09-13 16:14:00,971][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2650.5175 | avg best reward   3.5030
+[2026-09-13 16:15:23,794][agent.finetune.train_dipo_diffusion_agent][INFO] - 891: step 64160000 | loss actor   0.0996 | loss - critic   0.2221 | reward 2658.9968 | t: 82.8234
+[2026-09-13 16:16:46,024][agent.finetune.train_dipo_diffusion_agent][INFO] - 892: step 64240000 | loss actor   0.1003 | loss - critic   0.5520 | reward 2657.8685 | t: 82.2296
+[2026-09-13 16:18:07,638][agent.finetune.train_dipo_diffusion_agent][INFO] - 893: step 64320000 | loss actor   0.0980 | loss - critic   0.0994 | reward 2657.0327 | t: 81.6138
+[2026-09-13 16:19:30,538][agent.finetune.train_dipo_diffusion_agent][INFO] - 894: step 64400000 | loss actor   0.1066 | loss - critic   0.3632 | reward 2660.0386 | t: 82.9008
+[2026-09-13 16:20:51,387][agent.finetune.train_dipo_diffusion_agent][INFO] - 895: step 64480000 | loss actor   0.1112 | loss - critic   0.0940 | reward 2660.2594 | t: 80.8489
+[2026-09-13 16:22:13,216][agent.finetune.train_dipo_diffusion_agent][INFO] - 896: step 64560000 | loss actor   0.0937 | loss - critic   0.6221 | reward 2658.3643 | t: 81.8290
+[2026-09-13 16:23:37,374][agent.finetune.train_dipo_diffusion_agent][INFO] - 897: step 64640000 | loss actor   0.1029 | loss - critic   0.7143 | reward 2661.9435 | t: 84.1581
+[2026-09-13 16:24:57,490][agent.finetune.train_dipo_diffusion_agent][INFO] - 898: step 64720000 | loss actor   0.1037 | loss - critic   0.1791 | reward 2663.7435 | t: 80.1161
+[2026-09-13 16:26:17,912][agent.finetune.train_dipo_diffusion_agent][INFO] - 899: step 64800000 | loss actor   0.1109 | loss - critic   0.5449 | reward 2656.8663 | t: 80.4217
+[2026-09-13 16:26:28,996][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_900.pt
+[2026-09-13 16:26:28,996][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2651.5916 | avg best reward   3.5048
+[2026-09-13 16:27:49,384][agent.finetune.train_dipo_diffusion_agent][INFO] - 901: step 64880000 | loss actor   0.1090 | loss - critic   0.7041 | reward 2658.2088 | t: 80.3874
+[2026-09-13 16:29:13,494][agent.finetune.train_dipo_diffusion_agent][INFO] - 902: step 64960000 | loss actor   0.1025 | loss - critic   0.4474 | reward 2660.4336 | t: 84.1097
+[2026-09-13 16:30:34,205][agent.finetune.train_dipo_diffusion_agent][INFO] - 903: step 65040000 | loss actor   0.1127 | loss - critic   0.5304 | reward 2659.2811 | t: 80.7118
+[2026-09-13 16:31:55,532][agent.finetune.train_dipo_diffusion_agent][INFO] - 904: step 65120000 | loss actor   0.1150 | loss - critic   0.3744 | reward 2658.7605 | t: 81.3269
+[2026-09-13 16:33:20,833][agent.finetune.train_dipo_diffusion_agent][INFO] - 905: step 65200000 | loss actor   0.1096 | loss - critic   0.4485 | reward 2660.6791 | t: 85.3007
+[2026-09-13 16:34:42,616][agent.finetune.train_dipo_diffusion_agent][INFO] - 906: step 65280000 | loss actor   0.1116 | loss - critic   0.5414 | reward 2657.4699 | t: 81.7830
+[2026-09-13 16:36:06,001][agent.finetune.train_dipo_diffusion_agent][INFO] - 907: step 65360000 | loss actor   0.1066 | loss - critic   0.6420 | reward 2663.4537 | t: 83.3850
+[2026-09-13 16:37:30,157][agent.finetune.train_dipo_diffusion_agent][INFO] - 908: step 65440000 | loss actor   0.1140 | loss - critic   0.2070 | reward 2662.5673 | t: 84.1556
+[2026-09-13 16:38:52,744][agent.finetune.train_dipo_diffusion_agent][INFO] - 909: step 65520000 | loss actor   0.1005 | loss - critic   0.2782 | reward 2662.4630 | t: 82.5874
+[2026-09-13 16:39:03,325][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2657.1104 | avg best reward   3.5247
+[2026-09-13 16:40:23,737][agent.finetune.train_dipo_diffusion_agent][INFO] - 911: step 65600000 | loss actor   0.0906 | loss - critic   0.4511 | reward 2662.3765 | t: 80.4118
+[2026-09-13 16:41:44,343][agent.finetune.train_dipo_diffusion_agent][INFO] - 912: step 65680000 | loss actor   0.1023 | loss - critic   0.2750 | reward 2659.7703 | t: 80.6062
+[2026-09-13 16:43:08,325][agent.finetune.train_dipo_diffusion_agent][INFO] - 913: step 65760000 | loss actor   0.0994 | loss - critic   0.0958 | reward 2661.0990 | t: 83.9814
+[2026-09-13 16:44:31,047][agent.finetune.train_dipo_diffusion_agent][INFO] - 914: step 65840000 | loss actor   0.0965 | loss - critic   0.2799 | reward 2660.1563 | t: 82.7218
+[2026-09-13 16:45:55,569][agent.finetune.train_dipo_diffusion_agent][INFO] - 915: step 65920000 | loss actor   0.1079 | loss - critic   0.1842 | reward 2660.8245 | t: 84.5228
+[2026-09-13 16:47:18,730][agent.finetune.train_dipo_diffusion_agent][INFO] - 916: step 66000000 | loss actor   0.1013 | loss - critic   0.5324 | reward 2661.9152 | t: 83.1605
+[2026-09-13 16:48:43,289][agent.finetune.train_dipo_diffusion_agent][INFO] - 917: step 66080000 | loss actor   0.1114 | loss - critic   0.3728 | reward 2663.9141 | t: 84.5591
+[2026-09-13 16:50:06,873][agent.finetune.train_dipo_diffusion_agent][INFO] - 918: step 66160000 | loss actor   0.1137 | loss - critic   0.6290 | reward 2664.1084 | t: 83.5845
+[2026-09-13 16:51:28,393][agent.finetune.train_dipo_diffusion_agent][INFO] - 919: step 66240000 | loss actor   0.0955 | loss - critic   0.4387 | reward 2662.7106 | t: 81.5192
+[2026-09-13 16:51:38,902][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2656.7326 | avg best reward   3.5305
+[2026-09-13 16:53:02,203][agent.finetune.train_dipo_diffusion_agent][INFO] - 921: step 66320000 | loss actor   0.0932 | loss - critic   0.6296 | reward 2661.5367 | t: 83.3016
+[2026-09-13 16:54:27,007][agent.finetune.train_dipo_diffusion_agent][INFO] - 922: step 66400000 | loss actor   0.0948 | loss - critic   0.2630 | reward 2658.9870 | t: 84.8038
+[2026-09-13 16:55:49,214][agent.finetune.train_dipo_diffusion_agent][INFO] - 923: step 66480000 | loss actor   0.0967 | loss - critic   0.4309 | reward 2660.2617 | t: 82.2064
+[2026-09-13 16:57:11,046][agent.finetune.train_dipo_diffusion_agent][INFO] - 924: step 66560000 | loss actor   0.1025 | loss - critic   0.5456 | reward 2661.1108 | t: 81.8321
+[2026-09-13 16:58:35,400][agent.finetune.train_dipo_diffusion_agent][INFO] - 925: step 66640000 | loss actor   0.1105 | loss - critic   0.2777 | reward 2658.1524 | t: 84.3540
+[2026-09-13 16:59:57,538][agent.finetune.train_dipo_diffusion_agent][INFO] - 926: step 66720000 | loss actor   0.1028 | loss - critic   0.3483 | reward 2659.8565 | t: 82.1379
+[2026-09-13 17:01:23,796][agent.finetune.train_dipo_diffusion_agent][INFO] - 927: step 66800000 | loss actor   0.1044 | loss - critic   0.3462 | reward 2661.2765 | t: 86.2583
+[2026-09-13 17:02:47,574][agent.finetune.train_dipo_diffusion_agent][INFO] - 928: step 66880000 | loss actor   0.1017 | loss - critic   0.2668 | reward 2661.1745 | t: 83.7776
+[2026-09-13 17:04:11,904][agent.finetune.train_dipo_diffusion_agent][INFO] - 929: step 66960000 | loss actor   0.1130 | loss - critic   0.4661 | reward 2657.0222 | t: 84.3308
+[2026-09-13 17:04:20,536][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2653.6597 | avg best reward   3.5375
+[2026-09-13 17:05:42,713][agent.finetune.train_dipo_diffusion_agent][INFO] - 931: step 67040000 | loss actor   0.1006 | loss - critic   0.3533 | reward 2656.6726 | t: 82.1768
+[2026-09-13 17:07:06,380][agent.finetune.train_dipo_diffusion_agent][INFO] - 932: step 67120000 | loss actor   0.1040 | loss - critic   0.5097 | reward 2659.7123 | t: 83.6672
+[2026-09-13 17:08:29,028][agent.finetune.train_dipo_diffusion_agent][INFO] - 933: step 67200000 | loss actor   0.1172 | loss - critic   0.4478 | reward 2655.2439 | t: 82.6477
+[2026-09-13 17:09:55,517][agent.finetune.train_dipo_diffusion_agent][INFO] - 934: step 67280000 | loss actor   0.1078 | loss - critic   0.6218 | reward 2660.5205 | t: 86.4888
+[2026-09-13 17:11:15,084][agent.finetune.train_dipo_diffusion_agent][INFO] - 935: step 67360000 | loss actor   0.1066 | loss - critic   0.1013 | reward 2655.8690 | t: 79.5673
+[2026-09-13 17:12:35,099][agent.finetune.train_dipo_diffusion_agent][INFO] - 936: step 67440000 | loss actor   0.1004 | loss - critic   0.6796 | reward 2656.2448 | t: 80.0145
+[2026-09-13 17:14:00,768][agent.finetune.train_dipo_diffusion_agent][INFO] - 937: step 67520000 | loss actor   0.1020 | loss - critic   0.3514 | reward 2657.3071 | t: 85.6698
+[2026-09-13 17:15:22,775][agent.finetune.train_dipo_diffusion_agent][INFO] - 938: step 67600000 | loss actor   0.0989 | loss - critic   0.5803 | reward 2656.2566 | t: 82.0060
+[2026-09-13 17:16:44,825][agent.finetune.train_dipo_diffusion_agent][INFO] - 939: step 67680000 | loss actor   0.1089 | loss - critic   0.2600 | reward 2653.9554 | t: 82.0503
+[2026-09-13 17:16:55,682][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2650.8793 | avg best reward   3.5433
+[2026-09-13 17:18:19,393][agent.finetune.train_dipo_diffusion_agent][INFO] - 941: step 67760000 | loss actor   0.1009 | loss - critic   0.1893 | reward 2658.2046 | t: 83.7114
+[2026-09-13 17:19:44,408][agent.finetune.train_dipo_diffusion_agent][INFO] - 942: step 67840000 | loss actor   0.1131 | loss - critic   0.2694 | reward 2655.6040 | t: 85.0152
+[2026-09-13 17:21:05,343][agent.finetune.train_dipo_diffusion_agent][INFO] - 943: step 67920000 | loss actor   0.1035 | loss - critic   0.5098 | reward 2655.1907 | t: 80.9348
+[2026-09-13 17:22:25,513][agent.finetune.train_dipo_diffusion_agent][INFO] - 944: step 68000000 | loss actor   0.0993 | loss - critic   0.0133 | reward 2650.1499 | t: 80.1704
+[2026-09-13 17:23:50,039][agent.finetune.train_dipo_diffusion_agent][INFO] - 945: step 68080000 | loss actor   0.1077 | loss - critic   0.1884 | reward 2656.1375 | t: 84.5256
+[2026-09-13 17:25:11,977][agent.finetune.train_dipo_diffusion_agent][INFO] - 946: step 68160000 | loss actor   0.1016 | loss - critic   0.1875 | reward 2656.2567 | t: 81.9380
+[2026-09-13 17:26:38,279][agent.finetune.train_dipo_diffusion_agent][INFO] - 947: step 68240000 | loss actor   0.1050 | loss - critic   0.4476 | reward 2653.4534 | t: 86.3020
+[2026-09-13 17:28:00,222][agent.finetune.train_dipo_diffusion_agent][INFO] - 948: step 68320000 | loss actor   0.1124 | loss - critic   0.2804 | reward 2652.7188 | t: 81.9433
+[2026-09-13 17:29:21,432][agent.finetune.train_dipo_diffusion_agent][INFO] - 949: step 68400000 | loss actor   0.1078 | loss - critic   0.1890 | reward 2652.6391 | t: 81.2100
+[2026-09-13 17:29:33,021][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2644.7461 | avg best reward   3.5447
+[2026-09-13 17:30:54,961][agent.finetune.train_dipo_diffusion_agent][INFO] - 951: step 68480000 | loss actor   0.1291 | loss - critic   0.5309 | reward 2652.8747 | t: 81.9403
+[2026-09-13 17:32:17,104][agent.finetune.train_dipo_diffusion_agent][INFO] - 952: step 68560000 | loss actor   0.1037 | loss - critic   0.3616 | reward 2653.2780 | t: 82.1427
+[2026-09-13 17:33:40,043][agent.finetune.train_dipo_diffusion_agent][INFO] - 953: step 68640000 | loss actor   0.0989 | loss - critic   0.1756 | reward 2657.1293 | t: 82.9390
+[2026-09-13 17:35:03,184][agent.finetune.train_dipo_diffusion_agent][INFO] - 954: step 68720000 | loss actor   0.1134 | loss - critic   0.2684 | reward 2655.3915 | t: 83.1414
+[2026-09-13 17:36:26,806][agent.finetune.train_dipo_diffusion_agent][INFO] - 955: step 68800000 | loss actor   0.0966 | loss - critic   0.5277 | reward 2654.6129 | t: 83.6216
+[2026-09-13 17:37:48,864][agent.finetune.train_dipo_diffusion_agent][INFO] - 956: step 68880000 | loss actor   0.0940 | loss - critic   0.1931 | reward 2620.1547 | t: 82.0585
+[2026-09-13 17:39:10,698][agent.finetune.train_dipo_diffusion_agent][INFO] - 957: step 68960000 | loss actor   0.1010 | loss - critic   0.4400 | reward 2653.9437 | t: 81.8337
+[2026-09-13 17:40:35,245][agent.finetune.train_dipo_diffusion_agent][INFO] - 958: step 69040000 | loss actor   0.1056 | loss - critic   0.2651 | reward 2655.5668 | t: 84.5464
+[2026-09-13 17:41:57,959][agent.finetune.train_dipo_diffusion_agent][INFO] - 959: step 69120000 | loss actor   0.0977 | loss - critic   0.4374 | reward 2653.4615 | t: 82.7146
+[2026-09-13 17:42:08,825][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2650.0322 | avg best reward   3.5621
+[2026-09-13 17:43:32,022][agent.finetune.train_dipo_diffusion_agent][INFO] - 961: step 69200000 | loss actor   0.0998 | loss - critic   0.2651 | reward 2659.9336 | t: 83.1960
+[2026-09-13 17:44:55,334][agent.finetune.train_dipo_diffusion_agent][INFO] - 962: step 69280000 | loss actor   0.1067 | loss - critic   0.6372 | reward 2653.8654 | t: 83.3124
+[2026-09-13 17:46:20,055][agent.finetune.train_dipo_diffusion_agent][INFO] - 963: step 69360000 | loss actor   0.1005 | loss - critic   0.4275 | reward 2652.7761 | t: 84.7211
+[2026-09-13 17:47:42,605][agent.finetune.train_dipo_diffusion_agent][INFO] - 964: step 69440000 | loss actor   0.1070 | loss - critic   0.3494 | reward 2651.1412 | t: 82.5494
+[2026-09-13 17:49:06,593][agent.finetune.train_dipo_diffusion_agent][INFO] - 965: step 69520000 | loss actor   0.1037 | loss - critic   0.3656 | reward 2656.8866 | t: 83.9880
+[2026-09-13 17:50:29,427][agent.finetune.train_dipo_diffusion_agent][INFO] - 966: step 69600000 | loss actor   0.0962 | loss - critic   0.2721 | reward 2656.6618 | t: 82.8340
+[2026-09-13 17:51:52,559][agent.finetune.train_dipo_diffusion_agent][INFO] - 967: step 69680000 | loss actor   0.1042 | loss - critic   0.5427 | reward 2657.3448 | t: 83.1323
+[2026-09-13 17:53:16,411][agent.finetune.train_dipo_diffusion_agent][INFO] - 968: step 69760000 | loss actor   0.1059 | loss - critic   0.5334 | reward 2655.4407 | t: 83.8516
+[2026-09-13 17:54:37,454][agent.finetune.train_dipo_diffusion_agent][INFO] - 969: step 69840000 | loss actor   0.1091 | loss - critic   0.2607 | reward 2655.5611 | t: 81.0434
+[2026-09-13 17:54:45,903][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2652.1728 | avg best reward   3.5694
+[2026-09-13 17:56:09,732][agent.finetune.train_dipo_diffusion_agent][INFO] - 971: step 69920000 | loss actor   0.1029 | loss - critic   0.2673 | reward 2659.4504 | t: 83.8292
+[2026-09-13 17:57:33,535][agent.finetune.train_dipo_diffusion_agent][INFO] - 972: step 70000000 | loss actor   0.0983 | loss - critic   0.0907 | reward 2662.1239 | t: 83.8026
+[2026-09-13 17:58:58,535][agent.finetune.train_dipo_diffusion_agent][INFO] - 973: step 70080000 | loss actor   0.1080 | loss - critic   0.1882 | reward 2655.9435 | t: 85.0003
+[2026-09-13 18:00:19,469][agent.finetune.train_dipo_diffusion_agent][INFO] - 974: step 70160000 | loss actor   0.1077 | loss - critic   0.4728 | reward 2660.1396 | t: 80.9342
+[2026-09-13 18:01:38,803][agent.finetune.train_dipo_diffusion_agent][INFO] - 975: step 70240000 | loss actor   0.1081 | loss - critic   0.3591 | reward 2659.5789 | t: 79.3337
+[2026-09-13 18:03:03,571][agent.finetune.train_dipo_diffusion_agent][INFO] - 976: step 70320000 | loss actor   0.0973 | loss - critic   0.3575 | reward 2662.3888 | t: 84.7679
+[2026-09-13 18:04:25,208][agent.finetune.train_dipo_diffusion_agent][INFO] - 977: step 70400000 | loss actor   0.1072 | loss - critic   0.0970 | reward 2638.2797 | t: 81.6373
+[2026-09-13 18:05:47,091][agent.finetune.train_dipo_diffusion_agent][INFO] - 978: step 70480000 | loss actor   0.0968 | loss - critic   0.5137 | reward 2664.4610 | t: 81.8828
+[2026-09-13 18:07:11,683][agent.finetune.train_dipo_diffusion_agent][INFO] - 979: step 70560000 | loss actor   0.1063 | loss - critic   0.2689 | reward 2666.4700 | t: 84.5926
+[2026-09-13 18:07:19,860][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2659.7331 | avg best reward   3.5884
+[2026-09-13 18:08:39,835][agent.finetune.train_dipo_diffusion_agent][INFO] - 981: step 70640000 | loss actor   0.1016 | loss - critic   0.5509 | reward 2667.6206 | t: 79.9745
+[2026-09-13 18:10:03,221][agent.finetune.train_dipo_diffusion_agent][INFO] - 982: step 70720000 | loss actor   0.1010 | loss - critic   0.2618 | reward 2671.5081 | t: 83.3857
+[2026-09-13 18:11:21,830][agent.finetune.train_dipo_diffusion_agent][INFO] - 983: step 70800000 | loss actor   0.1071 | loss - critic   0.2691 | reward 2671.0368 | t: 78.6089
+[2026-09-13 18:12:43,974][agent.finetune.train_dipo_diffusion_agent][INFO] - 984: step 70880000 | loss actor   0.1146 | loss - critic   0.4476 | reward 2671.0798 | t: 82.1444
+[2026-09-13 18:14:08,459][agent.finetune.train_dipo_diffusion_agent][INFO] - 985: step 70960000 | loss actor   0.0982 | loss - critic   0.4369 | reward 2679.1689 | t: 84.4851
+[2026-09-13 18:15:32,044][agent.finetune.train_dipo_diffusion_agent][INFO] - 986: step 71040000 | loss actor   0.1011 | loss - critic   0.0980 | reward 2670.7368 | t: 83.5845
+[2026-09-13 18:16:54,950][agent.finetune.train_dipo_diffusion_agent][INFO] - 987: step 71120000 | loss actor   0.1147 | loss - critic   0.2701 | reward 2673.0555 | t: 82.9059
+[2026-09-13 18:18:16,216][agent.finetune.train_dipo_diffusion_agent][INFO] - 988: step 71200000 | loss actor   0.1139 | loss - critic   0.6959 | reward 2679.0713 | t: 81.2667
+[2026-09-13 18:19:39,322][agent.finetune.train_dipo_diffusion_agent][INFO] - 989: step 71280000 | loss actor   0.1110 | loss - critic   0.5203 | reward 2675.9266 | t: 83.1057
+[2026-09-13 18:19:50,005][agent.finetune.train_dipo_diffusion_agent][INFO] - eval: success rate   1.0000 | avg episode reward 2671.3996 | avg best reward   3.5932
+[2026-09-13 18:21:12,193][agent.finetune.train_dipo_diffusion_agent][INFO] - 991: step 71360000 | loss actor   0.1067 | loss - critic   0.4395 | reward 2679.0624 | t: 82.1869
+[2026-09-13 18:22:38,863][agent.finetune.train_dipo_diffusion_agent][INFO] - 992: step 71440000 | loss actor   0.1078 | loss - critic   0.2671 | reward 2682.9263 | t: 86.6705
+[2026-09-13 18:24:01,706][agent.finetune.train_dipo_diffusion_agent][INFO] - 993: step 71520000 | loss actor   0.1058 | loss - critic   0.3545 | reward 2684.5961 | t: 82.8426
+[2026-09-13 18:25:27,164][agent.finetune.train_dipo_diffusion_agent][INFO] - 994: step 71600000 | loss actor   0.1131 | loss - critic   0.3579 | reward 2680.2091 | t: 85.4581
+[2026-09-13 18:26:47,862][agent.finetune.train_dipo_diffusion_agent][INFO] - 995: step 71680000 | loss actor   0.0978 | loss - critic   0.2756 | reward 2688.4362 | t: 80.6984
+[2026-09-13 18:28:09,929][agent.finetune.train_dipo_diffusion_agent][INFO] - 996: step 71760000 | loss actor   0.1029 | loss - critic   0.6530 | reward 2687.1732 | t: 82.0669
+[2026-09-13 18:29:36,380][agent.finetune.train_dipo_diffusion_agent][INFO] - 997: step 71840000 | loss actor   0.1099 | loss - critic   0.5254 | reward 2684.9685 | t: 86.4508
+[2026-09-13 18:31:01,199][agent.finetune.train_dipo_diffusion_agent][INFO] - 998: step 71920000 | loss actor   0.1118 | loss - critic   0.5544 | reward 2690.3381 | t: 84.8194
+[2026-09-13 18:32:25,000][agent.finetune.train_agent][INFO] - Saved model to /mnt/d/desktop/my_project/paper_reproduction/dppo/logs/gym-finetune/hopper-medium-v2_dipo_diffusion_mlp_ta4_td20/2026-09-12_21-32-02_42/checkpoint/state_999.pt
+[2026-09-13 18:32:25,001][agent.finetune.train_dipo_diffusion_agent][INFO] - 999: step 72000000 | loss actor   0.1023 | loss - critic   0.4625 | reward 2695.1190 | t: 83.8017
