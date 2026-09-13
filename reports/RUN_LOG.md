@@ -39,7 +39,22 @@ Hopper DPPO, IDQL and DIPO seed-42 formal runs are complete. This remains a sing
 | 2026-09-13 | PickPlaceCan single-env and DPPO algorithm smoke | PASS; 300-step state wrapper and real critic/actor PPO update completed; no NaN/Inf/OOM/exception | `reports/ROBOMIMIC_CAN_PREP.md` |
 | 2026-09-13 | Official-size Can benchmark | PASS; 50 envs × 300 steps × 6 iterations; training median 32.5878 s/iteration; RAM/GPU/CPU telemetry captured | `reports/evidence/robomimic_can_prep/` |
 
-P4-PREP is complete. The formal Can 151-iteration run was not started and remains pending separate approval.
+P4-PREP is complete. The formal Can 151-iteration run was subsequently
+completed as P4-A; see the formal result section below.
+
+## P4-A ROBOMIMIC Can formal run
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-13 23:02:39–2026-09-14 00:19:41 | ROBOMIMIC Can DPPO seed42 formal run | COMPLETE; 151/151 result rows, 16 automatic evaluation points, final raw step 8,100,000, no NaN/Inf, exception, CUDA OOM, or worker failure | `reports/evidence/fig4_robomimic_can_dppo_seed42/` |
+
+The final evaluation was automatically produced at iteration 150 by the
+official `val_freq=10` loop. Initial/final/best evaluation success rates were
+0.6150 / 0.9900 / 1.0000, with first best success at iteration 120. Actual
+wall-clock was 1.2838 h versus the P4-PREP estimate of 1.34 h (relative error
+-4.20%). The detailed report, raw audit, CSV, and curves are uploaded. This
+remains a single-seed state-observation result; multi-seed and full-suite
+reproduction remain incomplete.
 
 
 ## P3-C formal status

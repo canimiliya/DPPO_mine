@@ -33,6 +33,21 @@ The curve shows a rising but noisy single-seed Hopper evaluation trajectory. It 
 
 The combined CSV preserves raw `environment_steps` and adds only the derived `high_level_decision_steps = environment_steps / 4` column. All method comparisons are single-seed observations only. Figure 4 three-environment reproduction, Figure 18 and 5-seed statistical reproduction remain **NOT COMPLETE**.
 
+## P4-A ROBOMIMIC Can DPPO, seed=42
+
+The official state-observation Can fine-tuning run is complete for one seed:
+151/151 result rows, 16 automatic evaluation points, and final raw
+`environment_steps=8,100,000`. The initial, final, and best evaluation success
+rates are 0.6150, 0.9900, and 1.0000, respectively; the first best-success
+point is iteration 120. The actual run-log wall-clock was 1.2838 h, compared
+with the P4-PREP estimate of 1.34 h (relative error -4.20%). No NaN/Inf,
+exception, CUDA OOM, worker failure, or checkpoint-save failure was observed.
+
+The result is a single-seed trend check, not a complete multi-seed or full-task
+Figure 4 reproduction. The raw-data audit is PASS. See
+`reports/FIG4_ROBOMIMIC_CAN_DPPO_SEED42.md`,
+`results/fig4_robomimic_can_dppo_seed42.csv`, and the corresponding plots.
+
 
 ## P3-C formal status
 
@@ -42,4 +57,3 @@ The combined CSV preserves raw `environment_steps` and adds only the derived `hi
 - Hopper three-method single-seed comparison: **COMPLETE**; see `reports/FIG4_HOPPER_THREE_METHODS_SEED42.md`.
 
 The combined CSV preserves raw `environment_steps` and adds only the derived `high_level_decision_steps = environment_steps / 4` column. All method comparisons are single-seed observations only. Figure 4 three-environment reproduction, Figure 18 and 5-seed statistical reproduction remain **NOT COMPLETE**.
-

@@ -1,0 +1,62 @@
+{
+  "source_result": "result.pkl",
+  "source_log": "run.log",
+  "evaluation_points_in_result": 16,
+  "sampled_points": [
+    {
+      "iteration": 0,
+      "environment_steps": 0,
+      "result.pkl_value": {
+        "eval_success_rate": 0.615,
+        "eval_episode_reward": 73.43
+      },
+      "run.log_value": {
+        "eval_success_rate": 0.615,
+        "eval_episode_reward": 73.43
+      },
+      "error": {
+        "eval_success_rate": 0.0,
+        "eval_episode_reward": 0.0
+      },
+      "rounding_match": true,
+      "audit_result": "PASS"
+    },
+    {
+      "iteration": 80,
+      "environment_steps": 4320000,
+      "result.pkl_value": {
+        "eval_success_rate": 0.995,
+        "eval_episode_reward": 194.395
+      },
+      "run.log_value": {
+        "eval_success_rate": 0.995,
+        "eval_episode_reward": 194.395
+      },
+      "error": {
+        "eval_success_rate": 0.0,
+        "eval_episode_reward": 0.0
+      },
+      "rounding_match": true,
+      "audit_result": "PASS"
+    },
+    {
+      "iteration": 150,
+      "environment_steps": 8100000,
+      "result.pkl_value": {
+        "eval_success_rate": 0.99,
+        "eval_episode_reward": 207.945
+      },
+      "run.log_value": {
+        "eval_success_rate": 0.99,
+        "eval_episode_reward": 207.945
+      },
+      "error": {
+        "eval_success_rate": 0.0,
+        "eval_episode_reward": 0.0
+      },
+      "rounding_match": true,
+      "audit_result": "PASS"
+    }
+  ],
+  "audit_result": "PASS"
+}
