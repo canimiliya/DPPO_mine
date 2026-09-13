@@ -63,6 +63,28 @@ Figure 4 reproduction. **RAW DATA AUDIT: PASS.** See
 `reports/FIG4_ROBOMIMIC_CAN_IDQL_SEED42.md`,
 `results/fig4_robomimic_can_idql_seed42.csv`, and the corresponding plots.
 
+## P4-C ROBOMIMIC Can DIPO, seed=42
+
+The official DIPO state-observation Can fine-tuning run is complete for one
+seed: 300/300 result rows, 30 automatic evaluation points, and final training
+`environment_steps=16,200,000`. Initial/final/best evaluation success rates are
+0.6150, 0.9400, and 0.9550, respectively; the first best-success point is
+iteration 280. The run-log wall-clock was 3.1856 h. No NaN/Inf, exception,
+CUDA OOM, or worker failure was observed. **RAW DATA AUDIT: PASS.** See
+`reports/FIG4_ROBOMIMIC_CAN_DIPO_SEED42.md`,
+`results/fig4_robomimic_can_dipo_seed42.csv`, and the corresponding plots.
+
+## P4-B/C ROBOMIMIC Can three-method summary
+
+The Can DPPO/IDQL/DIPO single-seed comparison is complete. The unified
+long-format CSV contains 62 real evaluation rows and uses `environment_steps`
+as the main x-axis. First-threshold points, runtime ratios, per-million-step
+indicators, and qualitative paper comparison are reported in
+`reports/FIG4_ROBOMIMIC_CAN_THREE_METHODS_SEED42.md`. DPPO and IDQL use 151
+official iterations; DIPO uses its official 300 iterations. All method-level
+raw audits are PASS. This remains a single-seed observation; multi-seed
+ROBOMIMIC and complete Figure 4 reproduction remain **NOT COMPLETE**.
+
 
 ## P3-C formal status
 

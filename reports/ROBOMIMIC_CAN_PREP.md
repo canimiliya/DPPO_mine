@@ -4,8 +4,9 @@ Date: 2026-09-13
 
 ## Overall result
 
-**P4-PREP: PASS — preparation complete; formal 151-iteration Can training was
-not started.**
+**P4-PREP: PASS — preparation snapshot complete.** The formal Can runs were a
+separate subsequent milestone; P4-A DPPO, P4-B IDQL, and P4-C DIPO are now
+documented in their respective reports.
 
 The official v0.6 configuration remains the scientific source of truth. The
 tested target is Can state observation, DPPO-MLP, seed 42, with `K=20`,
@@ -106,6 +107,6 @@ profile rather than copying the paper number.
 ## Recommendation and boundary
 
 **Recommended for formal run: YES, after upper-level review of the robosuite
-source-provenance caveat.** The preparation gate passed, but the formal
-151-iteration run remains a separate approval step. No formal Can training was
-started in P4-PREP.
+source-provenance caveat.** The preparation gate passed before the separate
+formal runs. This report intentionally preserves the preparation-time state
+and timing estimate.

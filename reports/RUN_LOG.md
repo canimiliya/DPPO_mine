@@ -67,6 +67,26 @@ run; the observed run-log span was 1.7080 h. Initial/final/best evaluation
 success rates were 0.0450 / 0.9750 / 1.0000, with first best success at
 iteration 110. **RAW DATA AUDIT: PASS.** This remains a single-seed result.
 
+## P4-C ROBOMIMIC Can DIPO formal run
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-14 03:04:42–06:15:50 | ROBOMIMIC Can DIPO seed42 formal run | COMPLETE; 300/300 result rows, 30 automatic evaluation points, final training step 16,200,000, no NaN/Inf, exception, CUDA OOM, or worker failure | `reports/evidence/fig4_robomimic_can_dipo_seed42/` |
+
+The official DIPO configuration retained `n_train_itr=300`. Initial/final/best
+evaluation success rates were 0.6150 / 0.9400 / 0.9550, with first best
+success at iteration 280. The observed run-log span was 3.1856 h. **RAW DATA
+AUDIT: PASS.**
+
+## P4-B/C ROBOMIMIC Can three-method summary
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-14 | Can DPPO/IDQL/DIPO seed42 comparison | COMPLETE; unified long-format CSV with 62 real evaluation rows, environment-step success/reward curves, threshold/runtime report; all raw audits PASS | `reports/FIG4_ROBOMIMIC_CAN_THREE_METHODS_SEED42.md` |
+
+The comparison is a single-seed observation. Square, Transport, new seeds,
+mechanism experiments, and pixel input experiments were not started.
+
 
 ## P3-C formal status
 
