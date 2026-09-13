@@ -78,3 +78,21 @@ Their locations, byte sizes, and hashes are recorded in the resource manifest. C
 - 5-seed statistical reproduction: **NOT COMPLETE**.
 
 These are single-seed observations and must not be described as a complete multi-seed reproduction.
+
+## P4-PREP engineering status
+
+- ROBOMIMIC Can state environment preparation: **PASS**; robomimic import, exact `robosuite==1.4.1`, official normalization, official `state_5000.pt`, single-environment smoke, DPPO update smoke, and official-size 50-env/6-iteration benchmark are documented in `reports/ROBOMIMIC_CAN_PREP.md`.
+- The official Can 151-iteration fine-tuning run is **NOT STARTED** and requires separate upper-level approval.
+- The current robosuite package is the exact PyPI 1.4.1 release because the current ARISE-Initiative GitHub tag listing did not expose a resolvable v1.4.1 tag; this provenance caveat is recorded in the environment report.
+
+
+## P3-C formal status
+
+- Hopper DPPO seed42 full run: **COMPLETE**.
+- Hopper IDQL seed42 full run: **COMPLETE**.
+- Hopper DIPO seed42 full run: **COMPLETE**.
+- Hopper three-method single-seed comparison: **COMPLETE**.
+- Figure 4 three-environment reproduction: **NOT COMPLETE**.
+- 5-seed statistical reproduction: **NOT COMPLETE**.
+
+These are single-seed observations and must not be described as a complete multi-seed reproduction.

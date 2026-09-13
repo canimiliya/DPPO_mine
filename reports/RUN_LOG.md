@@ -29,3 +29,24 @@ The two smoke evaluations report zero completed episodes because four rollout st
 | 2026-09-12 | Hopper three-method single-seed comparison | COMPLETE; DPPO/IDQL/DIPO unified CSV, curve and summary report generated from real evaluation points | `results\fig4_hopper_three_methods_seed42.csv`, `plots\fig4_hopper_three_methods_seed42.png` |
 
 Hopper DPPO, IDQL and DIPO seed-42 formal runs are complete. This remains a single-seed Hopper comparison; Walker2D, HalfCheetah, three-environment Figure 4 and 5-seed statistics remain outside scope.
+
+## P4-PREP ROBOMIMIC Can
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-13 | ROBOMIMIC/robosuite environment audit | PASS; robomimic 0.5.0, exact robosuite 1.4.1, protected Gym/PyTorch runtime preserved | `reports/ROBOMIMIC_ENVIRONMENT.md` |
+| 2026-09-13 | Official Can resources | PASS; official normalization and `can_pre_diffusion_mlp_ta4_td20/state_5000.pt` validated with SHA256 and torch load | `reports/ROBOMIMIC_CAN_RESOURCE_AUDIT.md` |
+| 2026-09-13 | PickPlaceCan single-env and DPPO algorithm smoke | PASS; 300-step state wrapper and real critic/actor PPO update completed; no NaN/Inf/OOM/exception | `reports/ROBOMIMIC_CAN_PREP.md` |
+| 2026-09-13 | Official-size Can benchmark | PASS; 50 envs × 300 steps × 6 iterations; training median 32.5878 s/iteration; RAM/GPU/CPU telemetry captured | `reports/evidence/robomimic_can_prep/` |
+
+P4-PREP is complete. The formal Can 151-iteration run was not started and remains pending separate approval.
+
+
+## P3-C formal status
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-12 | Hopper DIPO Figure 4 formal run | COMPLETE; seed 42, 1000 iterations, 100 evaluation points; raw audit PASS; no NaN/Inf, exception, or CUDA OOM | `logs\gym-finetune\hopper-medium-v2_dipo_diffusion_mlp_ta4_td20\2026-09-12_21-32-02_42` |
+| 2026-09-12 | Hopper three-method single-seed comparison | COMPLETE; DPPO/IDQL/DIPO unified CSV, curve and summary report generated from real evaluation points | `results\fig4_hopper_three_methods_seed42.csv`, `plots\fig4_hopper_three_methods_seed42.png` |
+
+Hopper DPPO, IDQL and DIPO seed-42 formal runs are complete. This remains a single-seed Hopper comparison; Walker2D, HalfCheetah, three-environment Figure 4 and 5-seed statistics remain outside scope.

@@ -16,6 +16,16 @@ def cpu_times() -> tuple[int, int]:
     return sum(values), idle
 
 
+def memory_sample() -> tuple[float, float]:
+    values = {}
+    for line in Path("/proc/meminfo").read_text().splitlines():
+        key, value, *_ = line.split()
+        values[key.rstrip(":")] = int(value)
+    total = values["MemTotal"] / 1024.0
+    available = values["MemAvailable"] / 1024.0
+    return total - available, total
+
+
 def gpu_sample() -> list[str]:
     query = ",".join(
         [
@@ -52,6 +62,8 @@ def main() -> None:
         "timestamp_unix",
         "child_pid",
         "cpu_total_percent",
+        "ram_used_mib",
+        "ram_total_mib",
         "gpu_util_percent",
         "gpu_memory_used_mib",
         "gpu_memory_total_mib",
@@ -72,11 +84,21 @@ def main() -> None:
             idle_delta = idle - previous_idle
             previous_total, previous_idle = total, idle
             cpu_percent = 100.0 * (1.0 - idle_delta / total_delta) if total_delta else 0.0
+            ram_used, ram_total = memory_sample()
             try:
                 gpu = gpu_sample()
             except (subprocess.CalledProcessError, FileNotFoundError):
                 gpu = ["NA"] * 6
-            writer.writerow([time.time(), args.pid, f"{cpu_percent:.3f}", *gpu])
+            writer.writerow(
+                [
+                    time.time(),
+                    args.pid,
+                    f"{cpu_percent:.3f}",
+                    f"{ram_used:.1f}",
+                    f"{ram_total:.1f}",
+                    *gpu,
+                ]
+            )
             handle.flush()
 
 
