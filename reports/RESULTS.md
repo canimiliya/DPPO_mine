@@ -32,3 +32,14 @@ The curve shows a rising but noisy single-seed Hopper evaluation trajectory. It 
 - Hopper three-method single-seed comparison: **COMPLETE**; see `reports/FIG4_HOPPER_THREE_METHODS_SEED42.md`.
 
 The combined CSV preserves raw `environment_steps` and adds only the derived `high_level_decision_steps = environment_steps / 4` column. All method comparisons are single-seed observations only. Figure 4 three-environment reproduction, Figure 18 and 5-seed statistical reproduction remain **NOT COMPLETE**.
+
+
+## P3-C formal status
+
+- Hopper DPPO seed42: **COMPLETE**; final evaluation reward is recorded in `reports/FIG4_HOPPER_DPPO_SEED42.md`.
+- Hopper IDQL seed42: **COMPLETE**; final evaluation reward is recorded in `reports/FIG4_HOPPER_IDQL_SEED42.md`.
+- Hopper DIPO seed42: **COMPLETE**; final evaluation reward is recorded in `reports/FIG4_HOPPER_DIPO_SEED42.md`.
+- Hopper three-method single-seed comparison: **COMPLETE**; see `reports/FIG4_HOPPER_THREE_METHODS_SEED42.md`.
+
+The combined CSV preserves raw `environment_steps` and adds only the derived `high_level_decision_steps = environment_steps / 4` column. All method comparisons are single-seed observations only. Figure 4 three-environment reproduction, Figure 18 and 5-seed statistical reproduction remain **NOT COMPLETE**.
+
