@@ -1,0 +1,3 @@
+- seed=42
+- base_policy_path=/mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/robomimic-pretrain/transport/transport_pre_diffusion_mlp_ta8_td20/2024-07-08_11-18-59/checkpoint/state_8000.pt
+- normalization_path=/mnt/d/Desktop/my_project/paper_reproduction/DPPO/data/robomimic/transport/normalization.npz

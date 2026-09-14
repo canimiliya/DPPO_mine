@@ -46,9 +46,31 @@ PASS.** See `reports/FIG4_ROBOMIMIC_SQUARE_DPPO_SEED42.md`,
 `results/fig4_robomimic_square_dppo_seed42.csv`, and the corresponding plots.
 
 This is a single-seed Square result, not a complete multi-seed or full Figure
-4 reproduction. Transport DPPO remains **NOT COMPLETE**; Square/Transport
-IDQL and DIPO, new seeds, mechanism experiments, and pixel input experiments
-were not started.
+4 reproduction. Transport DPPO is now **COMPLETE** with its own raw audit;
+Square/Transport IDQL and DIPO, new seeds, mechanism experiments, and pixel
+input experiments were not started.
+
+## P5-B ROBOMIMIC Transport DPPO, seed=42
+
+The official state-observation Transport fine-tuning run is complete for one
+seed: 201/201 result rows, 21 automatic evaluation points, and final raw
+`environment_steps=28,800,000`. Initial, final, and best evaluation success
+rates are 0.1800, 0.9550, and 0.9950, respectively; the first best-success
+point is iteration 180. The observed run-log wall-clock was 10.3106 h, while
+the first-ten-row projection was 10.4165 h. No NaN/Inf, exception, CUDA OOM,
+worker failure, or checkpoint-save failure was observed. **RAW DATA AUDIT:
+PASS.** See `reports/FIG4_ROBOMIMIC_TRANSPORT_DPPO_SEED42.md`,
+`results/fig4_robomimic_transport_dppo_seed42.csv`, and the corresponding plots.
+
+This is a single-seed Transport result, not a complete multi-seed or full
+Figure 4 reproduction. Peak RAM/VRAM were not instrumented in the formal run.
+
+## P5-A/B ROBOMIMIC DPPO Can/Square/Transport summary
+
+Can, Square, and Transport DPPO seed42 are complete as a single-seed overview
+across three manipulation tasks. The summary is in
+`reports/ROBOMIMIC_DPPO_CAN_SQUARE_TRANSPORT_SEED42.md`; it must not be read as
+a strict cross-task algorithm comparison or a statistical claim.
 
 ## P4-A ROBOMIMIC Can DPPO, seed=42
 

@@ -39,9 +39,25 @@ Hopper DPPO, IDQL and DIPO seed-42 formal runs are complete. This remains a sing
 The first ten result rows averaged 49.733 s/row and projected 2.7767 h for
 the full run; the observed run-log span was 2.6800 h. Initial/final/best
 evaluation success rates were 0.4400 / 0.9950 / 1.0000, with first best
-success at iteration 150. Transport remains gated on this Square PASS and
-GitHub push. Square and Transport IDQL/DIPO, new seeds, mechanism experiments,
-and pixel input experiments remain outside scope.
+success at iteration 150. Square passed its gate, raw audit, and GitHub push.
+
+## P5-B ROBOMIMIC Transport DPPO formal run
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-14 10:59:13–21:17:51 | ROBOMIMIC Transport DPPO seed42 formal run | COMPLETE; 201/201 result rows, 21 automatic evaluation points, final raw step 28,800,000, no NaN/Inf, exception, CUDA OOM, or worker failure; raw audit PASS | `reports/evidence/fig4_robomimic_transport_dppo_seed42/` |
+
+The first ten result rows averaged 186.564 s/row and projected 10.4165 h for
+the full run; the observed run-log span was 10.3106 h. Initial/final/best
+evaluation success rates were 0.1800 / 0.9550 / 0.9950, with first best
+success at iteration 180. Peak RAM/VRAM were not instrumented and are not
+claimed. Transport and Square IDQL/DIPO, new seeds, mechanism experiments, and
+pixel input experiments remain outside scope.
+
+## P5-A/B ROBOMIMIC DPPO three-task summary
+
+Can, Square, and Transport DPPO seed42 are complete as a single-seed
+three-task overview. See `reports/ROBOMIMIC_DPPO_CAN_SQUARE_TRANSPORT_SEED42.md`.
 
 ## P4-PREP ROBOMIMIC Can
 

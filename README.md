@@ -95,22 +95,25 @@ The Can DPPO, IDQL, and DIPO results and the three-method comparison are
 single-seed observations. The unified outputs are documented in
 `reports/FIG4_ROBOMIMIC_CAN_THREE_METHODS_SEED42.md`.
 
-ROBOMIMIC Can three-method single-seed comparison: **COMPLETE**. Square,
-Transport, multi-seed ROBOMIMIC, and complete Figure 4 reproduction remain
-**NOT COMPLETE**.
+ROBOMIMIC Can three-method single-seed comparison: **COMPLETE**. Square and
+Transport DPPO seed42 single-seed runs are **COMPLETE**; multi-seed ROBOMIMIC
+and complete Figure 4 reproduction remain **NOT COMPLETE**.
 
 ## P5-A/B ROBOMIMIC Square and Transport
 
 - ROBOMIMIC Square DPPO seed42: **COMPLETE**; 201/201 official iterations,
   state-only, 50 environments, 14,400,000 final environment steps, and raw
   data audit PASS. See `reports/FIG4_ROBOMIMIC_SQUARE_DPPO_SEED42.md`.
-- ROBOMIMIC Transport DPPO seed42: **NOT COMPLETE**.
+- ROBOMIMIC Transport DPPO seed42: **COMPLETE**; 201/201 official iterations,
+  state-only, 50 dual-arm environments, 28,800,000 final environment steps,
+  and raw data audit PASS. See `reports/FIG4_ROBOMIMIC_TRANSPORT_DPPO_SEED42.md`.
 - Square/Transport IDQL and DIPO, new seeds, mechanism experiments, and pixel
   experiments: **NOT STARTED**.
 
-Square is a single-seed result and must not be described as a complete
-multi-seed or full Figure 4 reproduction. Local Square checkpoints and raw
-run data remain outside GitHub.
+Square and Transport are single-seed results and must not be described as a
+complete multi-seed or full Figure 4 reproduction. Local checkpoints and raw
+run data remain outside GitHub. The three-task overview is
+`reports/ROBOMIMIC_DPPO_CAN_SQUARE_TRANSPORT_SEED42.md`.
 
 
 ## P3-C formal status
