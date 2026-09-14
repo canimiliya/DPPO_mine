@@ -124,6 +124,21 @@ official iterations; DIPO uses its official 300 iterations. All method-level
 raw audits are PASS. This remains a single-seed observation; multi-seed
 ROBOMIMIC and complete Figure 4 reproduction remain **NOT COMPLETE**.
 
+## P6-A Gym Walker2D DPPO, seed=42
+
+The official Walker2D DPPO fine-tuning run is complete for one seed:
+1000/1000 result rows, 100 automatic evaluation points, and final raw
+`environment_steps=72,000,000`. Initial, final, and best evaluation rewards
+are 2772.2029, 3943.7779, and 3979.2441, respectively; the best point is
+iteration 970. The observed run-log wall-clock was 4.2122 h, while the
+first-twenty-row projection was 4.2320 h. No NaN/Inf, exception, or CUDA OOM
+was observed. **RAW DATA AUDIT: PASS.** See
+`reports/FIG4_WALKER2D_DPPO_SEED42.md`,
+`results/fig4_walker2d_dppo_seed42.csv`, and the corresponding curve.
+
+This is a single-seed Walker2D result, not a complete multi-seed or full
+Figure 4 reproduction. HalfCheetah remains gated on the P6-A GitHub push.
+
 
 ## P3-C formal status
 

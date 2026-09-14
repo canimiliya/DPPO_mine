@@ -116,6 +116,17 @@ AUDIT: PASS.**
 The comparison is a single-seed observation. Square, Transport, new seeds,
 mechanism experiments, and pixel input experiments were not started.
 
+## P6-A Gym Walker2D DPPO formal run
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-14 21:46:35–2026-09-15 01:59:19 | Walker2D Figure 4 DPPO seed42 formal run | COMPLETE; 1000/1000 iterations, 100 automatic evaluation points, final raw step 72,000,000, no NaN/Inf, exception, or CUDA OOM; raw audit PASS | `logs\\gym-finetune\\walker2d-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10\\2026-09-14_21-46-12_42` |
+
+The first twenty result rows projected 4.2320 h for the full run; the observed
+run-log span was 4.2122 h. Initial/final/best evaluation rewards were
+2772.2029 / 3943.7779 / 3979.2441, with the best evaluation at iteration 970.
+Walker2D passed its gate, raw audit, and is ready for the required GitHub push.
+
 
 ## P3-C formal status
 

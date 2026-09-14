@@ -11,6 +11,8 @@ This repository contains the reproducibility code, configuration records, smoke-
 - Hopper Figure 4 DPPO seed=42 full run: **COMPLETE** (single-seed only; results and curve are uploaded).
 - Hopper Figure 4 DPPO/IDQL/DIPO full runs: **COMPLETE** (single-seed only; results and curves are uploaded).
 - Hopper three-method single-seed comparison: **COMPLETE**; Figure 4 three-environment reproduction and Figure 18 campaign: **NOT COMPLETE**.
+- Walker2D Figure 4 DPPO seed=42 full run: **COMPLETE** (single-seed only; raw audit and curve are uploaded).
+- HalfCheetah Figure 4 DPPO seed=42: **NOT STARTED**.
 
 The repository must not be cited as a completed multi-seed reproduction of Figure 4 or Figure 18. The Hopper DPPO result is one formal seed-42 run; short smoke runs and the 5-iteration benchmarks remain engineering evidence only.
 
@@ -52,7 +54,7 @@ git clone --recurse-submodules https://github.com/canimiliya/DPPO_mine.git
 - `reports/`: environment, provenance, compatibility, experiment definitions, run evidence, result status, and local resource manifest.
 - `logs/`: local Hydra-resolved configs, text logs, result pickles, and checkpoints; formal checkpoints remain local-only.
 - `source/dppo_v0.6`: fixed upstream source submodule.
-- `plots/` and `results/`: formal Hopper DPPO seed-42 curve and CSV, plus reserved output space for later methods/environments.
+- `plots/` and `results/`: formal Hopper and Walker2D DPPO seed-42 curves and CSVs, plus reserved output space for later methods/environments.
 
 See [`reports/GITHUB_RELEASE_CONTENTS.md`](reports/GITHUB_RELEASE_CONTENTS.md) for the exact public/local-only boundary and [`reports/RESOURCE_MANIFEST.md`](reports/RESOURCE_MANIFEST.md) for local paths and sizes.
 
@@ -114,6 +116,17 @@ Square and Transport are single-seed results and must not be described as a
 complete multi-seed or full Figure 4 reproduction. Local checkpoints and raw
 run data remain outside GitHub. The three-task overview is
 `reports/ROBOMIMIC_DPPO_CAN_SQUARE_TRANSPORT_SEED42.md`.
+
+## P6-A Gym Walker2D DPPO
+
+- Walker2D DPPO seed42: **COMPLETE**; 1000/1000 official iterations,
+  72,000,000 final environment steps, 100 automatic evaluation points, and
+  raw data audit PASS. See `reports/FIG4_WALKER2D_DPPO_SEED42.md`.
+- The result is a single-seed observation. HalfCheetah is not started until
+  this Walker2D gate and GitHub push have passed.
+- Walker2D/HalfCheetah IDQL and DIPO, new seeds, ROBOMIMIC new experiments,
+  mechanism experiments, Figure 18, and five-seed statistics remain outside
+  scope.
 
 
 ## P3-C formal status
