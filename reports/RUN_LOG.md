@@ -30,6 +30,19 @@ The two smoke evaluations report zero completed episodes because four rollout st
 
 Hopper DPPO, IDQL and DIPO seed-42 formal runs are complete. This remains a single-seed Hopper comparison; Walker2D, HalfCheetah, three-environment Figure 4 and 5-seed statistics remain outside scope.
 
+## P5-A ROBOMIMIC Square DPPO formal run
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-14 07:43:54–10:24:42 | ROBOMIMIC Square DPPO seed42 formal run | COMPLETE; 201/201 result rows, 21 automatic evaluation points, final raw step 14,400,000, no NaN/Inf, exception, CUDA OOM, or worker failure; raw audit PASS | `reports/evidence/fig4_robomimic_square_dppo_seed42/` |
+
+The first ten result rows averaged 49.733 s/row and projected 2.7767 h for
+the full run; the observed run-log span was 2.6800 h. Initial/final/best
+evaluation success rates were 0.4400 / 0.9950 / 1.0000, with first best
+success at iteration 150. Transport remains gated on this Square PASS and
+GitHub push. Square and Transport IDQL/DIPO, new seeds, mechanism experiments,
+and pixel input experiments remain outside scope.
+
 ## P4-PREP ROBOMIMIC Can
 
 | Date/time | Test | Result | Output |

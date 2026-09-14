@@ -1,0 +1,65 @@
+{
+  "source_result": "result.pkl",
+  "source_log": "run.log",
+  "evaluation_points_in_result": 21,
+  "sampled_points": [
+    {
+      "iteration": 0,
+      "result_pkl": {
+        "environment_steps": 0,
+        "eval_success_rate": 0.44,
+        "eval_episode_reward": 67.815
+      },
+      "run_log": {
+        "environment_steps": 0,
+        "eval_success_rate": 0.44,
+        "eval_episode_reward": 67.815
+      },
+      "absolute_error": {
+        "environment_steps": 0,
+        "eval_success_rate": 0.0,
+        "eval_episode_reward": 0.0
+      },
+      "audit_result": "PASS"
+    },
+    {
+      "iteration": 100,
+      "result_pkl": {
+        "environment_steps": 7200000,
+        "eval_success_rate": 0.96,
+        "eval_episode_reward": 254.265
+      },
+      "run_log": {
+        "environment_steps": 7200000,
+        "eval_success_rate": 0.96,
+        "eval_episode_reward": 254.265
+      },
+      "absolute_error": {
+        "environment_steps": 0,
+        "eval_success_rate": 0.0,
+        "eval_episode_reward": 0.0
+      },
+      "audit_result": "PASS"
+    },
+    {
+      "iteration": 200,
+      "result_pkl": {
+        "environment_steps": 14400000,
+        "eval_success_rate": 0.995,
+        "eval_episode_reward": 293.675
+      },
+      "run_log": {
+        "environment_steps": 14400000,
+        "eval_success_rate": 0.995,
+        "eval_episode_reward": 293.675
+      },
+      "absolute_error": {
+        "environment_steps": 0,
+        "eval_success_rate": 0.0,
+        "eval_episode_reward": 0.0
+      },
+      "audit_result": "PASS"
+    }
+  ],
+  "audit_result": "PASS"
+}

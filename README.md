@@ -99,6 +99,19 @@ ROBOMIMIC Can three-method single-seed comparison: **COMPLETE**. Square,
 Transport, multi-seed ROBOMIMIC, and complete Figure 4 reproduction remain
 **NOT COMPLETE**.
 
+## P5-A/B ROBOMIMIC Square and Transport
+
+- ROBOMIMIC Square DPPO seed42: **COMPLETE**; 201/201 official iterations,
+  state-only, 50 environments, 14,400,000 final environment steps, and raw
+  data audit PASS. See `reports/FIG4_ROBOMIMIC_SQUARE_DPPO_SEED42.md`.
+- ROBOMIMIC Transport DPPO seed42: **NOT COMPLETE**.
+- Square/Transport IDQL and DIPO, new seeds, mechanism experiments, and pixel
+  experiments: **NOT STARTED**.
+
+Square is a single-seed result and must not be described as a complete
+multi-seed or full Figure 4 reproduction. Local Square checkpoints and raw
+run data remain outside GitHub.
+
 
 ## P3-C formal status
 

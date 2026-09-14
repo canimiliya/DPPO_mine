@@ -33,6 +33,23 @@ The curve shows a rising but noisy single-seed Hopper evaluation trajectory. It 
 
 The combined CSV preserves raw `environment_steps` and adds only the derived `high_level_decision_steps = environment_steps / 4` column. All method comparisons are single-seed observations only. Figure 4 three-environment reproduction, Figure 18 and 5-seed statistical reproduction remain **NOT COMPLETE**.
 
+## P5-A ROBOMIMIC Square DPPO, seed=42
+
+The official state-observation Square fine-tuning run is complete for one
+seed: 201/201 result rows, 21 automatic evaluation points, and final raw
+`environment_steps=14,400,000`. Initial, final, and best evaluation success
+rates are 0.4400, 0.9950, and 1.0000, respectively; the first best-success
+point is iteration 150. The observed run-log wall-clock was 2.6800 h, while
+the first-ten-row projection was 2.7767 h. No NaN/Inf, exception, CUDA OOM,
+worker failure, or checkpoint-save failure was observed. **RAW DATA AUDIT:
+PASS.** See `reports/FIG4_ROBOMIMIC_SQUARE_DPPO_SEED42.md`,
+`results/fig4_robomimic_square_dppo_seed42.csv`, and the corresponding plots.
+
+This is a single-seed Square result, not a complete multi-seed or full Figure
+4 reproduction. Transport DPPO remains **NOT COMPLETE**; Square/Transport
+IDQL and DIPO, new seeds, mechanism experiments, and pixel input experiments
+were not started.
+
 ## P4-A ROBOMIMIC Can DPPO, seed=42
 
 The official state-observation Can fine-tuning run is complete for one seed:
