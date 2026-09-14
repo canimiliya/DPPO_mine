@@ -127,6 +127,27 @@ run-log span was 4.2122 h. Initial/final/best evaluation rewards were
 2772.2029 / 3943.7779 / 3979.2441, with the best evaluation at iteration 970.
 Walker2D passed its gate, raw audit, and is ready for the required GitHub push.
 
+## P6-B Gym HalfCheetah DPPO formal run
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-15 02:53:35–06:59:57 | HalfCheetah Figure 4 DPPO seed42 formal run | COMPLETE; 1000/1000 iterations, 100 automatic evaluation points, final raw step 72,000,000, no NaN/Inf, exception, or CUDA OOM; raw audit PASS | `logs\\gym-finetune\\halfcheetah-medium-v2_ppo_diffusion_mlp_ta4_td20_tdf10\\2026-09-15_02-53-10_42` |
+
+The first twenty result rows projected 4.1178 h for the full run; the observed
+run-log span was 4.1061 h. Initial/final/best evaluation rewards were
+4170.4410 / 5133.4265 / 5164.5362, with the best evaluation at iteration 980.
+HalfCheetah passed its gate and raw audit.
+
+## P6 final Gym DPPO three-environment overview
+
+| Date/time | Test | Result | Output |
+|---|---|---|---|
+| 2026-09-15 | Hopper/Walker2D/HalfCheetah DPPO seed42 overview | COMPLETE as a single-seed overview; all points come from the three formal CSVs and use separate panel y-axis scales | `reports/FIG4_GYM_DPPO_THREE_ENVS_SEED42.md`, `plots/fig4_gym_dppo_three_envs_seed42.png` |
+
+The overview is not a five-seed statistical reproduction and does not start
+the prohibited Walker2D/HalfCheetah IDQL or DIPO, new seeds, mechanism
+experiments, or Figure 18 campaign.
+
 
 ## P3-C formal status
 

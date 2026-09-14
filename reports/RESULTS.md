@@ -139,6 +139,29 @@ was observed. **RAW DATA AUDIT: PASS.** See
 This is a single-seed Walker2D result, not a complete multi-seed or full
 Figure 4 reproduction. HalfCheetah remains gated on the P6-A GitHub push.
 
+## P6-B Gym HalfCheetah DPPO, seed=42
+
+The official HalfCheetah DPPO fine-tuning run is complete for one seed:
+1000/1000 result rows, 100 automatic evaluation points, and final raw
+`environment_steps=72,000,000`. Initial, final, and best evaluation rewards
+are 4170.4410, 5133.4265, and 5164.5362, respectively; the best point is
+iteration 980. The observed run-log wall-clock was 4.1061 h, while the
+first-twenty-row projection was 4.1178 h. No NaN/Inf, exception, or CUDA OOM
+was observed. **RAW DATA AUDIT: PASS.** See
+`reports/FIG4_HALFCHEETAH_DPPO_SEED42.md`,
+`results/fig4_halfcheetah_dppo_seed42.csv`, and the corresponding curve.
+
+This is a single-seed HalfCheetah result, not a complete multi-seed or full
+Figure 4 reproduction.
+
+## Gym DPPO three-environment seed=42 overview
+
+Hopper, Walker2D, and HalfCheetah DPPO seed42 are complete as a
+single-seed three-environment overview. The summary and three-panel plot are
+`reports/FIG4_GYM_DPPO_THREE_ENVS_SEED42.md` and
+`plots/fig4_gym_dppo_three_envs_seed42.png`. This does not constitute a
+five-seed statistical reproduction or full multi-method Figure 4 result.
+
 
 ## P3-C formal status
 
