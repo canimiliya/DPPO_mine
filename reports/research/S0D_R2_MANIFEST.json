@@ -1,0 +1,420 @@
+{
+  "assets": {
+    "square": {
+      "base_actor_state0_vs_state200": {
+        "exact": true,
+        "matched": 16,
+        "max_abs_diff": 0.0
+      },
+      "bc": {
+        "bytes": 19012267,
+        "itr": 0,
+        "path": "/mnt/d/AgentData/DPPO-P5-A/formal_run_20260914_074500/robomimic-finetune/square_ft_diffusion_mlp_ta4_td20_tdf10/2026-09-14_07-43-43_42/checkpoint/state_0.pt",
+        "sha256": "c9e22005b58ba2524782e3068c8341554e419acf66f095e238e56df41d9a7aa3",
+        "source": "S0A square_selected_ft_checkpoint sibling derived from manifest path"
+      },
+      "ft": {
+        "bytes": 19012935,
+        "itr": 200,
+        "path": "/mnt/d/AgentData/DPPO-P5-A/formal_run_20260914_074500/robomimic-finetune/square_ft_diffusion_mlp_ta4_td20_tdf10/2026-09-14_07-43-43_42/checkpoint/state_200.pt",
+        "sha256": "18031b2ed2ee422f6e85bd8c113e199d46e0b29f3f2b2d6b4828e67449e0cf25",
+        "source": "S0A square_selected_ft_checkpoint"
+      }
+    },
+    "transport": {
+      "base_actor_state0_vs_state200": {
+        "exact": true,
+        "matched": 12,
+        "max_abs_diff": 0.0
+      },
+      "bc": {
+        "bytes": 20019779,
+        "itr": 0,
+        "path": "/mnt/d/AgentData/DPPO-P5-B/formal_run_20260914_110100/robomimic-finetune/transport_ft_diffusion_mlp_ta8_td20_tdf10/2026-09-14_10-59-02_42/checkpoint/state_0.pt",
+        "sha256": "48f6c0bf65fe12f000087b25bf5e336db03a669687dd5cf6363abf80b3d112ae",
+        "source": "S0A transport_checkpoints"
+      },
+      "ft": {
+        "bytes": 20020431,
+        "itr": 200,
+        "path": "/mnt/d/AgentData/DPPO-P5-B/formal_run_20260914_110100/robomimic-finetune/transport_ft_diffusion_mlp_ta8_td20_tdf10/2026-09-14_10-59-02_42/checkpoint/state_200.pt",
+        "sha256": "b4b828312915442ede54a672f74a6276fe407ea3cf3b3830ba20bcb734d8d592",
+        "source": "S0A transport_checkpoints"
+      }
+    }
+  },
+  "base_commit": "0124fc5b1e22bf58523de844bcfcc572eac2caa7",
+  "branch": "codex/s0d-r2",
+  "budget": {
+    "atomic": 60144,
+    "chunks": 15020
+  },
+  "normalization": {
+    "square": {
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\data\\robomimic\\square\\normalization.npz",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/data/robomimic/square/normalization.npz",
+      "bytes": 1498,
+      "sha256": "68ec0abfd989d5f0121f0e9a1dd074b49f859c167ff941c70d2eff8006074ff3"
+    },
+    "transport": {
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\data\\robomimic\\transport\\normalization.npz",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/data/robomimic/transport/normalization.npz",
+      "bytes": 2186,
+      "sha256": "f6b893bdee28ab798c1d4293d7de565db61680c57d8909d5c046771a027e5296"
+    }
+  },
+  "files": [
+    {
+      "bytes": 63253,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\reports\\research\\S0D_R2_RAW_METRICS.csv",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/research/S0D_R2_RAW_METRICS.csv",
+      "sha256": "cbec98376c5e722df41d8ac192a1f8ae0a253126e237fa6ba4baf96fc18967f9",
+      "shape": null
+    },
+    {
+      "bytes": 2879,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\reports\\research\\S0D_R2_RECOVERY_RETENTION_AUDIT.md",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/research/S0D_R2_RECOVERY_RETENTION_AUDIT.md",
+      "sha256": "6e03c07756cb84ba99a702a943af1195d435aa91d31cccd4f624c8ed2e434c20",
+      "shape": null
+    },
+    {
+      "bytes": 2361,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\reports\\research\\S0D_R2_IMPLEMENTATION_AUDIT.md",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/research/S0D_R2_IMPLEMENTATION_AUDIT.md",
+      "sha256": "203b8465baddf476f9e66df10ec97ac01938ff7c7d4f00351fb01eee7445f471",
+      "shape": null
+    },
+    {
+      "bytes": 6339,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\reports\\research\\S0D_R2_PROTOCOL.md",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/research/S0D_R2_PROTOCOL.md",
+      "sha256": "5f92d4dfb5879c79582492c11ac8887b4ab7d3dce2bc106cc8c197d5855cf21e",
+      "shape": null
+    },
+    {
+      "bytes": 1527,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\reports\\research\\S0CR1_UPPER_REVIEW_ARCHIVE.md",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/research/S0CR1_UPPER_REVIEW_ARCHIVE.md",
+      "sha256": "bdbd7b2b9b4a96543268df35b4bc74d8de3f4165a1f60bf0f72564630ed2be32",
+      "shape": null
+    }
+  ],
+  "implementation_audit": "INCOMPLETE",
+  "implementation_precheck_gaps": [
+    "BC-BC paired effect precheck was not executed by this runner",
+    "pulse clip ratio, EEF displacement and object displacement were not logged as dedicated RAW fields"
+  ],
+  "measurement_validity": "INCOMPLETE",
+  "next_stage": "NO_GO",
+  "official_submodule_pointer": "dc8e0c9edce7ac2b2ff112abe460e1c21b0b3bdc",
+  "phenomenon_gate": "INCONCLUSIVE",
+  "preflight": {
+    "gate_self_test": {
+      "coverage_inconclusive": {
+        "expected": "PHENOMENON_INCONCLUSIVE",
+        "observed": "PHENOMENON_INCONCLUSIVE",
+        "pass": true
+      },
+      "fail": {
+        "expected": "PHENOMENON_FAIL",
+        "observed": "PHENOMENON_FAIL",
+        "pass": true
+      },
+      "implementation_fail": {
+        "expected": "IMPLEMENTATION_FAIL",
+        "observed": "IMPLEMENTATION_FAIL",
+        "pass": true
+      },
+      "one_task_not_joint": {
+        "expected": "PHENOMENON_INCONCLUSIVE",
+        "observed": "PHENOMENON_INCONCLUSIVE",
+        "pass": true
+      },
+      "pass": {
+        "expected": "PHENOMENON_PASS",
+        "observed": "PHENOMENON_PASS",
+        "pass": true
+      },
+      "sham_context_fail": {
+        "expected": "PHENOMENON_INCONCLUSIVE",
+        "observed": "PHENOMENON_INCONCLUSIVE",
+        "pass": true
+      },
+      "threshold_inconclusive": {
+        "expected": "PHENOMENON_INCONCLUSIVE",
+        "observed": "PHENOMENON_INCONCLUSIVE",
+        "pass": true
+      }
+    },
+    "gate_self_test_exit_code": 0,
+    "sampler": {
+      "square": {
+        "bc": {
+          "action_max_abs": 0.0,
+          "chain_max_abs": 0.0
+        },
+        "ft": {
+          "action_max_abs": 0.0,
+          "chain_max_abs": 0.0
+        }
+      },
+      "transport": {
+        "bc": {
+          "action_max_abs": 0.0,
+          "chain_max_abs": 0.0
+        },
+        "ft": {
+          "action_max_abs": 0.0,
+          "chain_max_abs": 0.0
+        }
+      }
+    },
+    "square": {
+      "passed": true,
+      "pilot": {
+        "910001": {
+          "done_success_equal": true,
+          "obs_max_abs": 0.0,
+          "passed": true,
+          "snapshot_fields": [
+            "action_queue",
+            "controller_state",
+            "model",
+            "numpy_rng",
+            "obs_cache",
+            "obs_history",
+            "python_rng",
+            "raw_attrs",
+            "states",
+            "torch_cuda_rng",
+            "torch_rng",
+            "wrapper_chunk_steps",
+            "wrapper_time"
+          ],
+          "state_max_abs": 0.0,
+          "tape_shape": [
+            8,
+            7
+          ]
+        },
+        "910002": {
+          "done_success_equal": true,
+          "obs_max_abs": 0.0,
+          "passed": true,
+          "snapshot_fields": [
+            "action_queue",
+            "controller_state",
+            "model",
+            "numpy_rng",
+            "obs_cache",
+            "obs_history",
+            "python_rng",
+            "raw_attrs",
+            "states",
+            "torch_cuda_rng",
+            "torch_rng",
+            "wrapper_chunk_steps",
+            "wrapper_time"
+          ],
+          "state_max_abs": 0.0,
+          "tape_shape": [
+            8,
+            7
+          ]
+        }
+      }
+    },
+    "transport": {
+      "passed": true,
+      "pilot": {
+        "910001": {
+          "done_success_equal": true,
+          "obs_max_abs": 0.0,
+          "passed": true,
+          "snapshot_fields": [
+            "action_queue",
+            "controller_state",
+            "model",
+            "numpy_rng",
+            "obs_cache",
+            "obs_history",
+            "python_rng",
+            "raw_attrs",
+            "states",
+            "torch_cuda_rng",
+            "torch_rng",
+            "wrapper_chunk_steps",
+            "wrapper_time"
+          ],
+          "state_max_abs": 0.0,
+          "tape_shape": [
+            8,
+            14
+          ]
+        },
+        "910002": {
+          "done_success_equal": true,
+          "obs_max_abs": 0.0,
+          "passed": true,
+          "snapshot_fields": [
+            "action_queue",
+            "controller_state",
+            "model",
+            "numpy_rng",
+            "obs_cache",
+            "obs_history",
+            "python_rng",
+            "raw_attrs",
+            "states",
+            "torch_cuda_rng",
+            "torch_rng",
+            "wrapper_chunk_steps",
+            "wrapper_time"
+          ],
+          "state_max_abs": 0.0,
+          "tape_shape": [
+            8,
+            14
+          ]
+        }
+      }
+    }
+  },
+  "preflight_steps": 64,
+  "protocol_sha256": "5f92d4dfb5879c79582492c11ac8887b4ab7d3dce2bc106cc8c197d5855cf21e",
+  "runtime": {
+    "cuda": "12.8",
+    "cuda_available": true,
+    "executable": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/bin/python",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "mujoco_backend": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/mujoco210",
+    "mujoco_gl": "egl",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "torch": "2.7.1+cu128"
+  },
+  "runtime_packages": {
+    "gym": "0.22.0",
+    "mujoco": "3.1.6 (installed compatibility package; not the DPPO backend)",
+    "mujoco-py": "2.1.2.14",
+    "robomimic": "0.5.0",
+    "robosuite": "1.4.1"
+  },
+  "two_arm_transport_source": {
+    "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/robosuite/environments/manipulation/two_arm_transport.py",
+    "sha256": "942beebb6e22de796f642b3b64a24df0e292448b9d01cbc30870ae64c73d7586",
+    "native_success": "payload_in_target_bin AND trash_in_trash_bin"
+  },
+  "schema": "DPPO-S0d-R2-manifest-v1",
+  "start_time": "2026-09-16T01:41:26+0800",
+  "status": "INCONCLUSIVE",
+  "tasks": {
+    "square": {
+      "I": null,
+      "I_ci": {},
+      "Jnom": 0.9375,
+      "L": null,
+      "L0": null,
+      "L_A": null,
+      "L_B": null,
+      "L_ci": {},
+      "anchors": 25,
+      "artifact_files": [
+        {
+          "bytes": 6532732,
+          "path_windows": "D:\\AgentData\\DPPO-S0d-R2\\square_snapshots.pkl",
+          "path_wsl": "/mnt/d/AgentData/DPPO-S0d-R2/square_snapshots.pkl",
+          "sha256": "c0e9c4f90522e18a932f1e78bcbae97982fc2c4fbc2c68292a42bfeacf40b66f",
+          "shape": null
+        },
+        {
+          "bytes": 4085,
+          "path_windows": "D:\\AgentData\\DPPO-S0d-R2\\square_action_tapes.npz",
+          "path_wsl": "/mnt/d/AgentData/DPPO-S0d-R2/square_action_tapes.npz",
+          "sha256": "ce15e1c4ea03571ec83ae97cdbfe87d3eba685c46da657ef0bcf2666e7c5127b",
+          "shape": [
+            25,
+            4,
+            7
+          ]
+        }
+      ],
+      "complete_test": false,
+      "coverage": {
+        "bc_source": 1,
+        "cases": 4,
+        "clusters": 3,
+        "ft_source": 3,
+        "pass": false
+      },
+      "coverage_pass": false,
+      "gate": "PHENOMENON_INCONCLUSIVE",
+      "implementation_pass": true,
+      "measurement_valid": false,
+      "precheck": {
+        "passed": true,
+        "pilot": {
+          "910001": {
+            "done_success_equal": true,
+            "obs_max_abs": 0.0,
+            "passed": true,
+            "snapshot_fields": [
+              "action_queue",
+              "controller_state",
+              "model",
+              "numpy_rng",
+              "obs_cache",
+              "obs_history",
+              "python_rng",
+              "raw_attrs",
+              "states",
+              "torch_cuda_rng",
+              "torch_rng",
+              "wrapper_chunk_steps",
+              "wrapper_time"
+            ],
+            "state_max_abs": 0.0,
+            "tape_shape": [
+              8,
+              7
+            ]
+          },
+          "910002": {
+            "done_success_equal": true,
+            "obs_max_abs": 0.0,
+            "passed": true,
+            "snapshot_fields": [
+              "action_queue",
+              "controller_state",
+              "model",
+              "numpy_rng",
+              "obs_cache",
+              "obs_history",
+              "python_rng",
+              "raw_attrs",
+              "states",
+              "torch_cuda_rng",
+              "torch_rng",
+              "wrapper_chunk_steps",
+              "wrapper_time"
+            ],
+            "state_max_abs": 0.0,
+            "tape_shape": [
+              8,
+              7
+            ]
+          }
+        }
+      },
+      "screening_records": 200,
+      "test_records": 0
+    },
+    "transport": {
+      "gate": "NOT_RUN",
+      "reason": "Square did not achieve PHENOMENON_PASS; Transport main screening prohibited."
+    }
+  },
+  "time_limit_reached": false,
+  "wall_clock_seconds": 873.1389175259999
+}
