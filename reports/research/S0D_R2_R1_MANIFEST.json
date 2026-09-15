@@ -1,0 +1,911 @@
+{
+  "assets": {
+    "base_actor_state0_vs_state200": {
+      "exact": true,
+      "matched": 16,
+      "max_abs_diff": 0.0
+    },
+    "bc": {
+      "bytes": 19012267,
+      "itr": 0,
+      "path": "/mnt/d/AgentData/DPPO-P5-A/formal_run_20260914_074500/robomimic-finetune/square_ft_diffusion_mlp_ta4_td20_tdf10/2026-09-14_07-43-43_42/checkpoint/state_0.pt",
+      "sha256": "c9e22005b58ba2524782e3068c8341554e419acf66f095e238e56df41d9a7aa3",
+      "source": "S0A square_selected_ft_checkpoint sibling derived from manifest path"
+    },
+    "ft": {
+      "bytes": 19012935,
+      "itr": 200,
+      "path": "/mnt/d/AgentData/DPPO-P5-A/formal_run_20260914_074500/robomimic-finetune/square_ft_diffusion_mlp_ta4_td20_tdf10/2026-09-14_07-43-43_42/checkpoint/state_200.pt",
+      "sha256": "18031b2ed2ee422f6e85bd8c113e199d46e0b29f3f2b2d6b4828e67449e0cf25",
+      "source": "S0A square_selected_ft_checkpoint"
+    },
+    "square_state0_model_inventory": {
+      "actor_ft_keys": 16,
+      "actor_keys": 16,
+      "actor_shapes": {
+        "actor.cond_mlp.moduleList.0.linear_1.bias": [
+          512
+        ],
+        "actor.cond_mlp.moduleList.0.linear_1.weight": [
+          512,
+          23
+        ],
+        "actor.cond_mlp.moduleList.1.linear_1.bias": [
+          64
+        ],
+        "actor.cond_mlp.moduleList.1.linear_1.weight": [
+          64,
+          512
+        ],
+        "actor.mlp_mean.layers.0.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.0.weight": [
+          1024,
+          124
+        ],
+        "actor.mlp_mean.layers.1.l1.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l1.weight": [
+          1024,
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l2.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l2.weight": [
+          1024,
+          1024
+        ],
+        "actor.mlp_mean.layers.2.bias": [
+          28
+        ],
+        "actor.mlp_mean.layers.2.weight": [
+          28,
+          1024
+        ],
+        "actor.time_embedding.1.bias": [
+          64
+        ],
+        "actor.time_embedding.1.weight": [
+          64,
+          32
+        ],
+        "actor.time_embedding.3.bias": [
+          32
+        ],
+        "actor.time_embedding.3.weight": [
+          32,
+          64
+        ]
+      },
+      "actor_vs_actor_ft_max_abs": 0.0,
+      "bc_ema_equivalent": true,
+      "critic_keys": 8,
+      "critic_keys_preview": [
+        "critic.Q1.layers.0.bias",
+        "critic.Q1.layers.0.weight",
+        "critic.Q1.layers.1.l1.bias",
+        "critic.Q1.layers.1.l1.weight",
+        "critic.Q1.layers.1.l2.bias",
+        "critic.Q1.layers.1.l2.weight",
+        "critic.Q1.layers.2.bias",
+        "critic.Q1.layers.2.weight"
+      ],
+      "model_key_count": 56,
+      "prefixes": [
+        "actor",
+        "actor_ft",
+        "critic",
+        "network"
+      ]
+    }
+  },
+  "base_commit": "af4ee18bc58b010ff8ddc1cf3f6ced448319ebbd",
+  "branch": "codex/s0d-r2-r1-boundary",
+  "budget": {
+    "atomic": 252116,
+    "chunks": 63019
+  },
+  "config_sha256": "49484c27f5f39c1441d0ceb7afd32caf43a4583b9e9caa8b02514aa437d9bad8",
+  "context": "FAIL",
+  "external_artifacts": [
+    {
+      "bytes": 16312986,
+      "path_windows": "D:\\AgentData\\DPPO-S0d-R2-R1\\square_snapshots.pkl",
+      "path_wsl": "/mnt/d/AgentData/DPPO-S0d-R2-R1/square_snapshots.pkl",
+      "sha256": "74f6ce4720c4c047f42965e31b26b21c87670aee36e1ab848880e0f5cae3d8a0",
+      "shape": null
+    },
+    {
+      "bytes": 6010,
+      "path_windows": "D:\\AgentData\\DPPO-S0d-R2-R1\\square_action_arrays.npz",
+      "path_wsl": "/mnt/d/AgentData/DPPO-S0d-R2-R1/square_action_arrays.npz",
+      "sha256": "207af4aaaa07d197f86e9ed43803670645d6acd9858f8434a1dae74bd75ac5e5",
+      "shape": null
+    },
+    {
+      "bytes": 17134458,
+      "path_windows": "D:\\AgentData\\DPPO-S0d-R2-R1\\square_seed_registry.json",
+      "path_wsl": "/mnt/d/AgentData/DPPO-S0d-R2-R1/square_seed_registry.json",
+      "sha256": "0f6759cdbb9013f875d315007c26870d636fb6c99ff8c4987c8b263f852a2f61",
+      "shape": [
+        61804
+      ]
+    }
+  ],
+  "files": [
+    {
+      "bytes": 452235,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\reports\\research\\S0D_R2_R1_RAW_METRICS.csv",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/research/S0D_R2_R1_RAW_METRICS.csv",
+      "sha256": "924dc23ec90f8575f52dfbf5e8c675dcfc2690592797ed95a2bf1d02f5b6c169",
+      "shape": null
+    },
+    {
+      "bytes": 5082,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\reports\\research\\S0D_R2_R1_IMPLEMENTATION_AUDIT.md",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/research/S0D_R2_R1_IMPLEMENTATION_AUDIT.md",
+      "sha256": "7fb493fe3e4d1f5959c439c5b1f33eaa0169c67768f12ea3f64287401585373f",
+      "shape": null
+    },
+    {
+      "bytes": 5260,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\reports\\research\\S0D_R2_R1_BOUNDARY_AUDIT.md",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/research/S0D_R2_R1_BOUNDARY_AUDIT.md",
+      "sha256": "f6765c705372152ffaa27c364c76b5797f9d638f9415bffc4b451c994eba3c08",
+      "shape": null
+    },
+    {
+      "bytes": 5608,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\reports\\research\\S0D_R2_R1_PROTOCOL.md",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/research/S0D_R2_R1_PROTOCOL.md",
+      "sha256": "63d65734ca4b2c38733845752506f1c93722aab1b9f00f8ced8a044ba8cf4865",
+      "shape": null
+    },
+    {
+      "bytes": 1096,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\research\\recovery_retention\\s0d_r2_r1_config.json",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/research/recovery_retention/s0d_r2_r1_config.json",
+      "sha256": "49484c27f5f39c1441d0ceb7afd32caf43a4583b9e9caa8b02514aa437d9bad8",
+      "shape": null
+    },
+    {
+      "bytes": 1527,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\reports\\research\\S0CR1_UPPER_REVIEW_ARCHIVE.md",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/research/S0CR1_UPPER_REVIEW_ARCHIVE.md",
+      "sha256": "bdbd7b2b9b4a96543268df35b4bc74d8de3f4165a1f60bf0f72564630ed2be32",
+      "shape": null
+    },
+    {
+      "bytes": 48546,
+      "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\plots\\research\\s0d_r2_r1_recovery_curves.png",
+      "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/plots/research/s0d_r2_r1_recovery_curves.png",
+      "sha256": "33bbfb9745f2cfe3ccad10605cc53911f06cbfe1f8a932f325fd45a50a31b8a2",
+      "shape": null
+    }
+  ],
+  "formal_training_iterations": 0,
+  "implementation": "PASS",
+  "measurement": "VALID",
+  "metrics": {
+    "Ibar": 0.06702898550724638,
+    "Ibar_ci": {
+      "clusters": 23,
+      "lower": -0.05797101449275362,
+      "n_boot": 5000,
+      "seed": 950001,
+      "upper": 0.1920742753623182
+    },
+    "Jnom": 0.5416666666666666,
+    "L0": -0.3532608695652174,
+    "Lbar": -0.28623188405797106,
+    "Lbar_ci": {
+      "clusters": 23,
+      "lower": -0.3949275362318841,
+      "n_boot": 5000,
+      "seed": 950001,
+      "upper": -0.18478260869565222
+    },
+    "bc_nonzero_success": 0.3641304347826087,
+    "bc_parent_success": 0.4583333333333333,
+    "bc_sham_success": 0.358695652173913,
+    "block_A": {
+      "Ibar": 0.02717391304347827,
+      "Lbar": -0.3260869565217391
+    },
+    "block_B": {
+      "Ibar": 0.10688405797101448,
+      "Lbar": -0.24637681159420288
+    },
+    "completed_reset_seeds": 24,
+    "context": false,
+    "curves": {
+      "0.0": {
+        "L": -0.35326086956521746,
+        "bc": 0.358695652173913,
+        "bc_ci": {
+          "clusters": 23,
+          "lower": 0.20652173913043478,
+          "n_boot": 5000,
+          "seed": 950001,
+          "upper": 0.5163043478260869
+        },
+        "ft": 0.7119565217391305,
+        "ft_ci": {
+          "clusters": 23,
+          "lower": 0.5706521739130435,
+          "n_boot": 5000,
+          "seed": 950001,
+          "upper": 0.8478260869565217
+        }
+      },
+      "0.125": {
+        "L": -0.23369565217391303,
+        "bc": 0.43478260869565216,
+        "bc_ci": {
+          "clusters": 23,
+          "lower": 0.29347826086956524,
+          "n_boot": 5000,
+          "seed": 950001,
+          "upper": 0.5760869565217391
+        },
+        "ft": 0.6684782608695652,
+        "ft_ci": {
+          "clusters": 23,
+          "lower": 0.5271739130434783,
+          "n_boot": 5000,
+          "seed": 950001,
+          "upper": 0.7936141304347806
+        }
+      },
+      "0.25": {
+        "L": -0.31521739130434784,
+        "bc": 0.358695652173913,
+        "bc_ci": {
+          "clusters": 23,
+          "lower": 0.24456521739130435,
+          "n_boot": 5000,
+          "seed": 950001,
+          "upper": 0.483695652173913
+        },
+        "ft": 0.6739130434782609,
+        "ft_ci": {
+          "clusters": 23,
+          "lower": 0.5380434782608695,
+          "n_boot": 5000,
+          "seed": 950001,
+          "upper": 0.7989130434782609
+        }
+      },
+      "0.5": {
+        "L": -0.3097826086956522,
+        "bc": 0.29891304347826086,
+        "bc_ci": {
+          "clusters": 23,
+          "lower": 0.19021739130434784,
+          "n_boot": 5000,
+          "seed": 950001,
+          "upper": 0.41847826086956524
+        },
+        "ft": 0.6086956521739131,
+        "ft_ci": {
+          "clusters": 23,
+          "lower": 0.47282608695652173,
+          "n_boot": 5000,
+          "seed": 950001,
+          "upper": 0.7445652173913043
+        }
+      }
+    },
+    "excluded_pulse_success_clusters": 3,
+    "ft_parent_success": 1.0,
+    "main_paired_clusters": 23,
+    "parent_clusters": 24,
+    "partial_clusters": 0,
+    "planned_reset_seeds": 24,
+    "selected_anchors": 37,
+    "valid_parent_clusters": 24
+  },
+  "next_stage": "NO_GO",
+  "normalization": {
+    "bytes": 1498,
+    "path_windows": "D:\\Desktop\\my_project\\paper_reproduction\\DPPO\\data\\robomimic\\square\\normalization.npz",
+    "path_wsl": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/data/robomimic/square/normalization.npz",
+    "sha256": "68ec0abfd989d5f0121f0e9a1dd074b49f859c167ff941c70d2eff8006074ff3",
+    "shape": null
+  },
+  "official_submodule_pointer": "dc8e0c9edce7ac2b2ff112abe460e1c21b0b3bdc",
+  "offline_aggregate_correction": {
+    "new_environment_atomic_steps": 0,
+    "new_environment_chunk_steps": 0,
+    "performed": true,
+    "reason": "fixed nested magnitude-complete lookup in compute_metrics; no new environment evaluation"
+  },
+  "optimizer_steps": 0,
+  "origin_branch_sha": "af4ee18bc58b010ff8ddc1cf3f6ced448319ebbd",
+  "phenomenon": "INCONCLUSIVE",
+  "precheck": {
+    "action_coordinate": {
+      "control_dim": 6,
+      "controller": "OperationalSpaceController",
+      "indices": {
+        "axis_angle_x": 3,
+        "axis_angle_y": 4,
+        "axis_angle_z": 5,
+        "x": 0,
+        "y": 1,
+        "z": 2
+      },
+      "passed": true,
+      "reference_frame": "relative controller command",
+      "use_delta": true
+    },
+    "bc_bc_paired": {
+      "action_max_abs": 0.0,
+      "done_success_equal": true,
+      "obs_max_abs": 0.0,
+      "passed": true,
+      "state_max_abs": 0.0
+    },
+    "gate_self_test": {
+      "coverage_inconclusive": {
+        "expected": "PHENOMENON_INCONCLUSIVE",
+        "observed": "PHENOMENON_INCONCLUSIVE",
+        "pass": true
+      },
+      "fail": {
+        "expected": "PHENOMENON_FAIL",
+        "observed": "PHENOMENON_FAIL",
+        "pass": true
+      },
+      "implementation_fail": {
+        "expected": "IMPLEMENTATION_FAIL",
+        "observed": "IMPLEMENTATION_FAIL",
+        "pass": true
+      },
+      "one_task_not_joint": {
+        "expected": "PHENOMENON_INCONCLUSIVE",
+        "observed": "PHENOMENON_INCONCLUSIVE",
+        "pass": true
+      },
+      "pass": {
+        "expected": "PHENOMENON_PASS",
+        "observed": "PHENOMENON_PASS",
+        "pass": true
+      },
+      "sham_context_fail": {
+        "expected": "PHENOMENON_INCONCLUSIVE",
+        "observed": "PHENOMENON_INCONCLUSIVE",
+        "pass": true
+      },
+      "threshold_inconclusive": {
+        "expected": "PHENOMENON_INCONCLUSIVE",
+        "observed": "PHENOMENON_INCONCLUSIVE",
+        "pass": true
+      }
+    },
+    "normalization": {
+      "action_inverse_max_abs": 0.0,
+      "atomic_steps": 0,
+      "obs_max_abs": 0.0,
+      "passed": true
+    },
+    "sampler_equivalence": {
+      "bc": {
+        "action_max_abs": 0.0,
+        "chain_max_abs": 0.0,
+        "passed": true
+      },
+      "ft": {
+        "action_max_abs": 0.0,
+        "chain_max_abs": 0.0,
+        "passed": true
+      }
+    },
+    "sampling_calibration": {
+      "records": [
+        {
+          "deterministic": true,
+          "native_success": false,
+          "policy": "bc",
+          "seed": 930001
+        },
+        {
+          "deterministic": false,
+          "native_success": false,
+          "policy": "bc",
+          "seed": 930001
+        },
+        {
+          "deterministic": true,
+          "native_success": true,
+          "policy": "ft",
+          "seed": 930001
+        },
+        {
+          "deterministic": false,
+          "native_success": false,
+          "policy": "ft",
+          "seed": 930001
+        },
+        {
+          "deterministic": true,
+          "native_success": false,
+          "policy": "bc",
+          "seed": 930002
+        },
+        {
+          "deterministic": false,
+          "native_success": false,
+          "policy": "bc",
+          "seed": 930002
+        },
+        {
+          "deterministic": true,
+          "native_success": true,
+          "policy": "ft",
+          "seed": 930002
+        },
+        {
+          "deterministic": false,
+          "native_success": true,
+          "policy": "ft",
+          "seed": 930002
+        },
+        {
+          "deterministic": true,
+          "native_success": false,
+          "policy": "bc",
+          "seed": 930003
+        },
+        {
+          "deterministic": false,
+          "native_success": false,
+          "policy": "bc",
+          "seed": 930003
+        },
+        {
+          "deterministic": true,
+          "native_success": true,
+          "policy": "ft",
+          "seed": 930003
+        },
+        {
+          "deterministic": false,
+          "native_success": true,
+          "policy": "ft",
+          "seed": 930003
+        },
+        {
+          "deterministic": true,
+          "native_success": false,
+          "policy": "bc",
+          "seed": 930004
+        },
+        {
+          "deterministic": false,
+          "native_success": true,
+          "policy": "bc",
+          "seed": 930004
+        },
+        {
+          "deterministic": true,
+          "native_success": true,
+          "policy": "ft",
+          "seed": 930004
+        },
+        {
+          "deterministic": false,
+          "native_success": true,
+          "policy": "ft",
+          "seed": 930004
+        }
+      ],
+      "sensitivity": [
+        {
+          "action_max_abs": 1.999997079372406,
+          "deterministic_success": false,
+          "non_deterministic_success": false,
+          "policy": "bc",
+          "seed": 930001
+        },
+        {
+          "action_max_abs": 1.999997079372406,
+          "deterministic_success": true,
+          "non_deterministic_success": false,
+          "policy": "ft",
+          "seed": 930001
+        },
+        {
+          "action_max_abs": 1.999997079372406,
+          "deterministic_success": false,
+          "non_deterministic_success": false,
+          "policy": "bc",
+          "seed": 930002
+        },
+        {
+          "action_max_abs": 1.9535856246948242,
+          "deterministic_success": true,
+          "non_deterministic_success": true,
+          "policy": "ft",
+          "seed": 930002
+        },
+        {
+          "action_max_abs": 1.999997079372406,
+          "deterministic_success": false,
+          "non_deterministic_success": false,
+          "policy": "bc",
+          "seed": 930003
+        },
+        {
+          "action_max_abs": 1.0905770063400269,
+          "deterministic_success": true,
+          "non_deterministic_success": true,
+          "policy": "ft",
+          "seed": 930003
+        },
+        {
+          "action_max_abs": 1.999997079372406,
+          "deterministic_success": false,
+          "non_deterministic_success": true,
+          "policy": "bc",
+          "seed": 930004
+        },
+        {
+          "action_max_abs": 1.999997079372406,
+          "deterministic_success": true,
+          "non_deterministic_success": true,
+          "policy": "ft",
+          "seed": 930004
+        }
+      ]
+    },
+    "snapshot": {
+      "cross_reset": {
+        "done_success_equal": true,
+        "obs_max_abs": 0.0,
+        "state_max_abs": 0.0
+      },
+      "native_success_callable": true,
+      "passed": true,
+      "same_snapshot": {
+        "done_success_equal": true,
+        "obs_max_abs": 0.0,
+        "state_max_abs": 0.0
+      },
+      "snapshot_fields": [
+        "action_queue",
+        "controller_state",
+        "model",
+        "numpy_rng",
+        "obs_cache",
+        "obs_history",
+        "python_rng",
+        "raw_attrs",
+        "states",
+        "torch_cuda_rng",
+        "torch_rng",
+        "wrapper_chunk_steps",
+        "wrapper_time"
+      ],
+      "tape_shape": [
+        8,
+        7
+      ]
+    }
+  },
+  "protocol_sha256": "63d65734ca4b2c38733845752506f1c93722aab1b9f00f8ced8a044ba8cf4865",
+  "pulse_calibration": {
+    "actual_magnitudes": [
+      0.0,
+      0.125,
+      0.25,
+      0.5
+    ],
+    "default_multiplier": 1.0,
+    "eef_threshold": 0.0,
+    "fixed_action_replay_error": 0.0,
+    "max_clip_ratio": 0.0,
+    "max_eef_displacement": 0.01911856716675236,
+    "max_object_displacement": 0.0,
+    "measurements": [
+      {
+        "actual_action_delta": 0.0,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.0,
+        "magnitude": 0.0,
+        "object_displacement": 0.0,
+        "seed": 930001
+      },
+      {
+        "actual_action_delta": 0.125,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.004731232395971182,
+        "magnitude": 0.125,
+        "object_displacement": 0.0,
+        "seed": 930001
+      },
+      {
+        "actual_action_delta": 0.25,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.009456292642486559,
+        "magnitude": 0.25,
+        "object_displacement": 0.0,
+        "seed": 930001
+      },
+      {
+        "actual_action_delta": 0.5,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.018881481603087086,
+        "magnitude": 0.5,
+        "object_displacement": 0.0,
+        "seed": 930001
+      },
+      {
+        "actual_action_delta": 0.0,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.0,
+        "magnitude": 0.0,
+        "object_displacement": 0.0,
+        "seed": 930002
+      },
+      {
+        "actual_action_delta": 0.125,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.00478906584727117,
+        "magnitude": 0.125,
+        "object_displacement": 0.0,
+        "seed": 930002
+      },
+      {
+        "actual_action_delta": 0.25,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.009575411541548244,
+        "magnitude": 0.25,
+        "object_displacement": 0.0,
+        "seed": 930002
+      },
+      {
+        "actual_action_delta": 0.5,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.01911856716675236,
+        "magnitude": 0.5,
+        "object_displacement": 0.0,
+        "seed": 930002
+      },
+      {
+        "actual_action_delta": 0.0,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.0,
+        "magnitude": 0.0,
+        "object_displacement": 0.0,
+        "seed": 930003
+      },
+      {
+        "actual_action_delta": 0.125,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.0047679267655589795,
+        "magnitude": 0.125,
+        "object_displacement": 0.0,
+        "seed": 930003
+      },
+      {
+        "actual_action_delta": 0.25,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.009523003127970817,
+        "magnitude": 0.25,
+        "object_displacement": 0.0,
+        "seed": 930003
+      },
+      {
+        "actual_action_delta": 0.5,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.019108456886952487,
+        "magnitude": 0.5,
+        "object_displacement": 0.0,
+        "seed": 930003
+      },
+      {
+        "actual_action_delta": 0.0,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.0,
+        "magnitude": 0.0,
+        "object_displacement": 0.0,
+        "seed": 930004
+      },
+      {
+        "actual_action_delta": 0.125,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.0046084588429885455,
+        "magnitude": 0.125,
+        "object_displacement": 0.0,
+        "seed": 930004
+      },
+      {
+        "actual_action_delta": 0.25,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.009347051843267198,
+        "magnitude": 0.25,
+        "object_displacement": 0.0,
+        "seed": 930004
+      },
+      {
+        "actual_action_delta": 0.5,
+        "clip_ratio": 0.0,
+        "eef_displacement": 0.018804583920168556,
+        "magnitude": 0.5,
+        "object_displacement": 0.0,
+        "seed": 930004
+      }
+    ],
+    "multiplier": 1.0,
+    "result": "PASS"
+  },
+  "runtime": {
+    "cuda": "12.8",
+    "cuda_available": true,
+    "executable": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/bin/python",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "mujoco_backend": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/mujoco210",
+    "mujoco_gl": "egl",
+    "packages": {
+      "gym": "0.22.0",
+      "mujoco": "3.1.6",
+      "mujoco-py": "2.1.2.14",
+      "robomimic": "0.5.0",
+      "robosuite": "1.4.1"
+    },
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "torch": "2.7.1+cu128"
+  },
+  "schema": "DPPO-S0D_R2_R1_BOUNDARY-v1",
+  "semantic_sources": {
+    "osc_source": {
+      "bytes": 20265,
+      "path_windows": ".runtime\\venv\\lib\\python3.12\\site-packages\\robosuite\\controllers\\osc.py",
+      "path_wsl": ".runtime/venv/lib/python3.12/site-packages/robosuite/controllers/osc.py",
+      "sha256": "cfa62a0e719bc53ef0c701efa66f7b3e2272d4fca2150ec73c05bb145eba85cb",
+      "shape": null
+    },
+    "square_env_meta": {
+      "bytes": 770,
+      "path_windows": "source\\dppo_v0.6\\cfg\\robomimic\\env_meta\\square.json",
+      "path_wsl": "source/dppo_v0.6/cfg/robomimic/env_meta/square.json",
+      "sha256": "cbcccf0f4cfbd9fa805eb0c9252e99820a3f21682546289442211a6828ecfa86",
+      "shape": null
+    }
+  },
+  "start_time": "2026-09-16T03:56:04+0800",
+  "status": "INCONCLUSIVE",
+  "task": "S0D_R2_R1_BOUNDARY",
+  "tasks": {
+    "square": {
+      "Ibar": 0.06702898550724638,
+      "Ibar_ci": {
+        "clusters": 23,
+        "lower": -0.05797101449275362,
+        "n_boot": 5000,
+        "seed": 950001,
+        "upper": 0.1920742753623182
+      },
+      "Jnom": 0.5416666666666666,
+      "L0": -0.3532608695652174,
+      "Lbar": -0.28623188405797106,
+      "Lbar_ci": {
+        "clusters": 23,
+        "lower": -0.3949275362318841,
+        "n_boot": 5000,
+        "seed": 950001,
+        "upper": -0.18478260869565222
+      },
+      "bc_nonzero_success": 0.3641304347826087,
+      "bc_parent_success": 0.4583333333333333,
+      "bc_sham_success": 0.358695652173913,
+      "block_A": {
+        "Ibar": 0.02717391304347827,
+        "Lbar": -0.3260869565217391
+      },
+      "block_B": {
+        "Ibar": 0.10688405797101448,
+        "Lbar": -0.24637681159420288
+      },
+      "completed_reset_seeds": 24,
+      "context": false,
+      "curves": {
+        "0.0": {
+          "L": -0.35326086956521746,
+          "bc": 0.358695652173913,
+          "bc_ci": {
+            "clusters": 23,
+            "lower": 0.20652173913043478,
+            "n_boot": 5000,
+            "seed": 950001,
+            "upper": 0.5163043478260869
+          },
+          "ft": 0.7119565217391305,
+          "ft_ci": {
+            "clusters": 23,
+            "lower": 0.5706521739130435,
+            "n_boot": 5000,
+            "seed": 950001,
+            "upper": 0.8478260869565217
+          }
+        },
+        "0.125": {
+          "L": -0.23369565217391303,
+          "bc": 0.43478260869565216,
+          "bc_ci": {
+            "clusters": 23,
+            "lower": 0.29347826086956524,
+            "n_boot": 5000,
+            "seed": 950001,
+            "upper": 0.5760869565217391
+          },
+          "ft": 0.6684782608695652,
+          "ft_ci": {
+            "clusters": 23,
+            "lower": 0.5271739130434783,
+            "n_boot": 5000,
+            "seed": 950001,
+            "upper": 0.7936141304347806
+          }
+        },
+        "0.25": {
+          "L": -0.31521739130434784,
+          "bc": 0.358695652173913,
+          "bc_ci": {
+            "clusters": 23,
+            "lower": 0.24456521739130435,
+            "n_boot": 5000,
+            "seed": 950001,
+            "upper": 0.483695652173913
+          },
+          "ft": 0.6739130434782609,
+          "ft_ci": {
+            "clusters": 23,
+            "lower": 0.5380434782608695,
+            "n_boot": 5000,
+            "seed": 950001,
+            "upper": 0.7989130434782609
+          }
+        },
+        "0.5": {
+          "L": -0.3097826086956522,
+          "bc": 0.29891304347826086,
+          "bc_ci": {
+            "clusters": 23,
+            "lower": 0.19021739130434784,
+            "n_boot": 5000,
+            "seed": 950001,
+            "upper": 0.41847826086956524
+          },
+          "ft": 0.6086956521739131,
+          "ft_ci": {
+            "clusters": 23,
+            "lower": 0.47282608695652173,
+            "n_boot": 5000,
+            "seed": 950001,
+            "upper": 0.7445652173913043
+          }
+        }
+      },
+      "excluded_pulse_success_clusters": 3,
+      "ft_parent_success": 1.0,
+      "main_paired_clusters": 23,
+      "parent_clusters": 24,
+      "partial_clusters": 0,
+      "planned_reset_seeds": 24,
+      "selected_anchors": 37,
+      "valid_parent_clusters": 24
+    },
+    "transport": {
+      "reason": "protocol scope is Square only",
+      "status": "NOT_RUN"
+    }
+  },
+  "time_limit_reached": false,
+  "wall_clock_seconds": 3443.791341036
+}

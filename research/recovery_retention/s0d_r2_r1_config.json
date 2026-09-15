@@ -1,0 +1,17 @@
+{
+  "task": "S0D_R2_R1_BOUNDARY",
+  "task_scope": ["square"],
+  "checkpoint_iterations": {"bc": 0, "ft": 200},
+  "fit_seeds": [930001, 930002, 930003, 930004],
+  "test_reset_seeds": [940001, 940002, 940003, 940004, 940005, 940006, 940007, 940008, 940009, 940010, 940011, 940012, 940013, 940014, 940015, 940016, 940017, 940018, 940019, 940020, 940021, 940022, 940023, 940024],
+  "test_draws": 4,
+  "bootstrap": {"n": 5000, "seed": 950001, "cluster_unit": "reset_seed"},
+  "anchor_boundaries_by_index_mod_3": [10, 20, 40],
+  "pulse_directions_by_index_mod_4": ["+x", "-x", "+y", "-y"],
+  "pulse_magnitudes": [0.0, 0.125, 0.25, 0.5],
+  "pulse_multiplier_default": 1.0,
+  "pulse_multiplier_fallback": 0.5,
+  "pulse_first_atomic_actions": 4,
+  "sampling": {"deterministic": true, "ddpm_steps": 20, "ft_steps": 10, "mode": "official_v06_eval_ddpm"},
+  "gates": {"clip_ratio_max": 0.05, "eef_over_replay_error_factor": 10.0, "precheck_tolerance": 1e-6, "bc_bc_tolerance": 1e-8, "context_bc_sham": 0.5, "context_bc_nonzero": 0.2, "context_jnom": 0.0, "phenomenon_effect": 0.1, "min_main_clusters": 16}
+}
