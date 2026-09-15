@@ -1,0 +1,1230 @@
+{
+  "bc_checkpoints": [
+    {
+      "actor_ft_shapes": {},
+      "actor_shapes": {},
+      "bytes": 19425707,
+      "critic_keys": {},
+      "first_keys": [
+        "network.time_embedding.1.weight",
+        "network.time_embedding.1.bias",
+        "network.time_embedding.3.weight",
+        "network.time_embedding.3.bias",
+        "network.mlp_mean.layers.0.weight",
+        "network.mlp_mean.layers.0.bias",
+        "network.mlp_mean.layers.1.l1.weight",
+        "network.mlp_mean.layers.1.l1.bias",
+        "network.mlp_mean.layers.1.l2.weight",
+        "network.mlp_mean.layers.1.l2.bias",
+        "network.mlp_mean.layers.2.weight",
+        "network.mlp_mean.layers.2.bias"
+      ],
+      "itr": 8000,
+      "model_key_count": 12,
+      "parameter_counts": {
+        "actor": 0,
+        "actor_ft": 0,
+        "critic": 0,
+        "network": 2427088
+      },
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/robomimic-pretrain/transport/transport_pre_diffusion_mlp_ta8_td20/2024-07-08_11-18-59/checkpoint/state_8000.pt",
+      "prefix_counts": {
+        "actor.": 0,
+        "actor_ft.": 0,
+        "critic.": 0,
+        "ema.": 0,
+        "network.": 12
+      },
+      "resume_fields_present": {
+        "actor_optimizer": false,
+        "critic_optimizer": false,
+        "numpy_rng": false,
+        "optimizer": false,
+        "reward_scaler": false,
+        "rng": false,
+        "scheduler": false
+      },
+      "role": "checkpoint",
+      "sha256": "141e0178b2b31d4c0fce505f0e62ab3e59efe7e924ff3d492a9f59ea2afb7485",
+      "status": "PRESENT",
+      "top_level_keys": [
+        "epoch",
+        "model",
+        "ema"
+      ]
+    },
+    {
+      "actor_ft_shapes": {},
+      "actor_shapes": {},
+      "bytes": 18454123,
+      "critic_keys": {},
+      "first_keys": [
+        "network.time_embedding.1.weight",
+        "network.time_embedding.1.bias",
+        "network.time_embedding.3.weight",
+        "network.time_embedding.3.bias",
+        "network.cond_mlp.moduleList.0.linear_1.weight",
+        "network.cond_mlp.moduleList.0.linear_1.bias",
+        "network.cond_mlp.moduleList.1.linear_1.weight",
+        "network.cond_mlp.moduleList.1.linear_1.bias",
+        "network.mlp_mean.layers.0.weight",
+        "network.mlp_mean.layers.0.bias",
+        "network.mlp_mean.layers.1.l1.weight",
+        "network.mlp_mean.layers.1.l1.bias",
+        "network.mlp_mean.layers.1.l2.weight",
+        "network.mlp_mean.layers.1.l2.bias",
+        "network.mlp_mean.layers.2.weight",
+        "network.mlp_mean.layers.2.bias"
+      ],
+      "itr": 8000,
+      "model_key_count": 16,
+      "parameter_counts": {
+        "actor": 0,
+        "actor_ft": 0,
+        "critic": 0,
+        "network": 2305212
+      },
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/logs/robomimic-pretrain/square/square_pre_diffusion_mlp_ta4_td20/2024-07-10_01-46-16/checkpoint/state_8000.pt",
+      "prefix_counts": {
+        "actor.": 0,
+        "actor_ft.": 0,
+        "critic.": 0,
+        "ema.": 0,
+        "network.": 16
+      },
+      "resume_fields_present": {
+        "actor_optimizer": false,
+        "critic_optimizer": false,
+        "numpy_rng": false,
+        "optimizer": false,
+        "reward_scaler": false,
+        "rng": false,
+        "scheduler": false
+      },
+      "role": "checkpoint",
+      "sha256": "368ce587294896b224eb549ba5f3a41cde3ebd249a1f6625eadd6926695c14b1",
+      "status": "PRESENT",
+      "top_level_keys": [
+        "epoch",
+        "model",
+        "ema"
+      ]
+    }
+  ],
+  "normalization": [
+    {
+      "arrays": {
+        "action_max": {
+          "dtype": "float64",
+          "finite": true,
+          "max": 1.0,
+          "min": 0.2590972414396985,
+          "shape": [
+            14
+          ]
+        },
+        "action_min": {
+          "dtype": "float64",
+          "finite": true,
+          "max": -0.2745788901726114,
+          "min": -1.0,
+          "shape": [
+            14
+          ]
+        },
+        "obs_max": {
+          "dtype": "float64",
+          "finite": true,
+          "max": 1.7157214610817473,
+          "min": 0.0,
+          "shape": [
+            59
+          ]
+        },
+        "obs_min": {
+          "dtype": "float64",
+          "finite": true,
+          "max": 0.0,
+          "min": -1.5705179930043223,
+          "shape": [
+            59
+          ]
+        }
+      },
+      "bytes": 2186,
+      "keys": [
+        "obs_min",
+        "obs_max",
+        "action_min",
+        "action_max"
+      ],
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/data/robomimic/transport/normalization.npz",
+      "role": "normalization",
+      "sha256": "f6b893bdee28ab798c1d4293d7de565db61680c57d8909d5c046771a027e5296",
+      "status": "PRESENT"
+    },
+    {
+      "arrays": {
+        "action_max": {
+          "dtype": "float64",
+          "finite": true,
+          "max": 1.0,
+          "min": 0.20898620784282684,
+          "shape": [
+            7
+          ]
+        },
+        "action_min": {
+          "dtype": "float64",
+          "finite": true,
+          "max": -0.448332279920578,
+          "min": -1.0,
+          "shape": [
+            7
+          ]
+        },
+        "obs_max": {
+          "dtype": "float64",
+          "finite": true,
+          "max": 1.3663944144841855,
+          "min": 0.0019974989600461497,
+          "shape": [
+            23
+          ]
+        },
+        "obs_min": {
+          "dtype": "float64",
+          "finite": true,
+          "max": 0.0,
+          "min": -0.9999995231628418,
+          "shape": [
+            23
+          ]
+        }
+      },
+      "bytes": 1498,
+      "keys": [
+        "obs_min",
+        "obs_max",
+        "action_min",
+        "action_max"
+      ],
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/data/robomimic/square/normalization.npz",
+      "role": "normalization",
+      "sha256": "68ec0abfd989d5f0121f0e9a1dd074b49f859c167ff941c70d2eff8006074ff3",
+      "status": "PRESENT"
+    }
+  ],
+  "official_config_values": {
+    "square": {
+      "act_steps": 4,
+      "action_dim": 7,
+      "batch_size": 10000,
+      "denoising_steps": 20,
+      "ft_denoising_steps": 10,
+      "gamma": 0.999,
+      "gamma_denoising": 0.99,
+      "horizon_steps": 4,
+      "max_episode_steps": 400,
+      "min_logprob_denoising_std": 0.1,
+      "min_sampling_denoising_std": 0.1,
+      "n_envs": 50,
+      "n_steps": 400,
+      "n_train_itr": 201,
+      "obs_dim": 23,
+      "update_epochs": 10,
+      "val_freq": 10
+    },
+    "transport": {
+      "act_steps": 8,
+      "action_dim": 14,
+      "batch_size": 10000,
+      "denoising_steps": 20,
+      "ft_denoising_steps": 10,
+      "gamma": 0.999,
+      "gamma_denoising": 0.99,
+      "horizon_steps": 8,
+      "max_episode_steps": 800,
+      "min_logprob_denoising_std": 0.1,
+      "min_sampling_denoising_std": 0.1,
+      "n_envs": 50,
+      "n_steps": 400,
+      "n_train_itr": 201,
+      "obs_dim": 59,
+      "update_epochs": 5,
+      "val_freq": 10
+    }
+  },
+  "project_root": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO",
+  "reports_and_configs": [
+    {
+      "bytes": 4708,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/FIG4_ROBOMIMIC_TRANSPORT_DPPO_SEED42.md",
+      "role": "formal_report",
+      "sha256": "f0699de809a8fe92740e7d566bae656da252767fc4283b2978e44f374c32f447",
+      "status": "PRESENT"
+    },
+    {
+      "bytes": 4807,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/FIG4_ROBOMIMIC_SQUARE_DPPO_SEED42.md",
+      "role": "formal_report",
+      "sha256": "c3284d4107cd50158a057b2d33e7adb29c8cca54cb7debae6dae3149c1c9d156",
+      "status": "PRESENT"
+    },
+    {
+      "bytes": 2973,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/evidence/fig4_robomimic_transport_dppo_seed42/config.yaml",
+      "role": "resolved_config",
+      "sha256": "e55e40ecf70a12cf72e3335922a023511350a7d2a6c4d7730428c44dcc46e898",
+      "status": "PRESENT"
+    },
+    {
+      "bytes": 2924,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/evidence/fig4_robomimic_square_dppo_seed42/config.yaml",
+      "role": "resolved_config",
+      "sha256": "fa6727f899a32d7438cf9cacb2dc0e06ccf9e227dbbaa7fb12d1a6427e1aafd8",
+      "status": "PRESENT"
+    },
+    {
+      "bytes": 309,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/evidence/fig4_robomimic_transport_dppo_seed42/overrides.yaml",
+      "role": "resolved_overrides",
+      "sha256": "08634532fc46ebf3972d1a36191f54a59d3abd852ad65b8192392c0ed8964d1f",
+      "status": "PRESENT"
+    },
+    {
+      "bytes": 300,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/reports/evidence/fig4_robomimic_square_dppo_seed42/overrides.yaml",
+      "role": "resolved_overrides",
+      "sha256": "c33fa664ac95ed494f6d8f31da7003a0263eb5744d503df045626a6d4a9e178e",
+      "status": "PRESENT"
+    }
+  ],
+  "resolved_config_values": {
+    "square": {
+      "act_steps": 4,
+      "action_dim": 7,
+      "batch_size": 10000,
+      "denoising_steps": 20,
+      "ft_denoising_steps": 10,
+      "gamma": 0.999,
+      "gamma_denoising": 0.99,
+      "horizon_steps": 4,
+      "max_episode_steps": 400,
+      "min_logprob_denoising_std": 0.1,
+      "min_sampling_denoising_std": 0.1,
+      "n_envs": 50,
+      "n_steps": 400,
+      "n_train_itr": 201,
+      "obs_dim": 23,
+      "update_epochs": 10,
+      "val_freq": 10
+    },
+    "transport": {
+      "act_steps": 8,
+      "action_dim": 14,
+      "batch_size": 10000,
+      "denoising_steps": 20,
+      "ft_denoising_steps": 10,
+      "gamma": 0.999,
+      "gamma_denoising": 0.99,
+      "horizon_steps": 8,
+      "max_episode_steps": 800,
+      "min_logprob_denoising_std": 0.1,
+      "min_sampling_denoising_std": 0.1,
+      "n_envs": 50,
+      "n_steps": 400,
+      "n_train_itr": 201,
+      "obs_dim": 59,
+      "update_epochs": 5,
+      "val_freq": 10
+    }
+  },
+  "runtime": {
+    "distributions": {
+      "gym": "0.22.0",
+      "hydra-core": "1.3.2",
+      "mujoco": "3.1.6",
+      "mujoco-py": "2.1.2.14",
+      "numpy": "1.26.4",
+      "omegaconf": "2.3.0",
+      "robomimic": "0.5.0",
+      "robosuite": "1.4.1",
+      "torch": "2.7.1+cu128"
+    },
+    "environment": {
+      "LD_LIBRARY_PATH": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/mujoco210/bin",
+      "MUJOCO_GL": "egl",
+      "MUJOCO_PY_MUJOCO_PATH": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/mujoco210"
+    },
+    "modules": {
+      "cuda_available": true,
+      "cuda_device": "NVIDIA GeForce RTX 5060 Ti",
+      "gym": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/gym/__init__.py",
+      "mujoco": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/mujoco/__init__.py",
+      "mujoco_py": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/mujoco_py/__init__.py",
+      "mujoco_py_cymj": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/mujoco_py/generated/cymj_2.1.2.14_312_linuxcpuextensionbuilder_312.so",
+      "numpy": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/numpy/__init__.py",
+      "robomimic": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/robomimic/__init__.py",
+      "robosuite": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/robosuite/__init__.py",
+      "torch": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/torch/__init__.py",
+      "torch_cuda_version": "12.8"
+    },
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_executable": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/bin/python",
+    "robosuite_transport": {
+      "group_source_path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/robosuite/models/objects/group/transport.py",
+      "group_source_sha256": "13efa7bddde2ac597f196d3c3cd0976999082b7668f96d457b47574f0119c28e",
+      "lid": "Lid(name=transport_start_bin_lid)",
+      "native_success_semantics": "payload_in_target_bin AND trash_in_trash_bin",
+      "native_success_source": "def _check_success(self):\n        \"\"\"\n        Check if payload is in target in and trash is in trash bin\n\n        Returns:\n            bool: True if transport has been completed\n        \"\"\"\n        return True if self.transport.payload_in_target_bin and self.transport.trash_in_trash_bin else False",
+      "payload": "HammerObject(name=payload)",
+      "source_path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/.runtime/venv/lib/python3.12/site-packages/robosuite/environments/manipulation/two_arm_transport.py",
+      "source_sha256": "942beebb6e22de796f642b3b64a24df0e292448b9d01cbc30870ae64c73d7586",
+      "trash": "BoxObject(name=trash, size=[0.02, 0.02, 0.02])"
+    }
+  },
+  "schema": "DPPO-S0a-asset-manifest-v1",
+  "scope": "read-only asset and semantic audit; no training or formal long run",
+  "source_files": [
+    {
+      "bytes": 18447,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/source/dppo_v0.6/model/diffusion/diffusion_vpg.py",
+      "role": "specified_source",
+      "sha256": "b704e0374b88d78fbba7d3ab92d4e31fd1a8b136637d7b6b26ec5f8139ca2bd2",
+      "status": "PRESENT"
+    },
+    {
+      "bytes": 7455,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/source/dppo_v0.6/model/diffusion/diffusion_ppo.py",
+      "role": "specified_source",
+      "sha256": "8d996f4b017e6013b11b11dfc3b61af397d91e87effda1f666bf09e06796168f",
+      "status": "PRESENT"
+    },
+    {
+      "bytes": 22643,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/source/dppo_v0.6/agent/finetune/train_ppo_diffusion_agent.py",
+      "role": "specified_source",
+      "sha256": "6ff16a172b00aeaa323fa524be05c1d2ed599575d904b74cec07e411f6019ab0",
+      "status": "PRESENT"
+    },
+    {
+      "bytes": 6264,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/source/dppo_v0.6/agent/finetune/train_agent.py",
+      "role": "specified_source",
+      "sha256": "6ed0b64dcce6b7da4896ff89566126c40d4c84ef78453bf57f1036f0eaed0993",
+      "status": "PRESENT"
+    },
+    {
+      "bytes": 4849,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/source/dppo_v0.6/env/gym_utils/wrapper/robomimic_lowdim.py",
+      "role": "specified_source",
+      "sha256": "5954f9dc9ef2b52d79480b4dbe4c16fc9e8ceebb60225b6cf1f448e7e17120bb",
+      "status": "PRESENT"
+    },
+    {
+      "bytes": 9188,
+      "path": "/mnt/d/Desktop/my_project/paper_reproduction/DPPO/source/dppo_v0.6/env/gym_utils/wrapper/multi_step.py",
+      "role": "specified_source",
+      "sha256": "16c3161821819dcb96f8832f050aeb22447181a9e77c3fbe69c2c46abc6ef5aa",
+      "status": "PRESENT"
+    }
+  ],
+  "square_selected_ft_checkpoint": {
+    "actor_ft_shapes": {
+      "actor_ft.cond_mlp.moduleList.0.linear_1.bias": [
+        512
+      ],
+      "actor_ft.cond_mlp.moduleList.0.linear_1.weight": [
+        512,
+        23
+      ],
+      "actor_ft.cond_mlp.moduleList.1.linear_1.bias": [
+        64
+      ],
+      "actor_ft.cond_mlp.moduleList.1.linear_1.weight": [
+        64,
+        512
+      ],
+      "actor_ft.mlp_mean.layers.0.bias": [
+        1024
+      ],
+      "actor_ft.mlp_mean.layers.0.weight": [
+        1024,
+        124
+      ],
+      "actor_ft.mlp_mean.layers.1.l1.bias": [
+        1024
+      ],
+      "actor_ft.mlp_mean.layers.1.l1.weight": [
+        1024,
+        1024
+      ],
+      "actor_ft.mlp_mean.layers.1.l2.bias": [
+        1024
+      ],
+      "actor_ft.mlp_mean.layers.1.l2.weight": [
+        1024,
+        1024
+      ],
+      "actor_ft.mlp_mean.layers.2.bias": [
+        28
+      ],
+      "actor_ft.mlp_mean.layers.2.weight": [
+        28,
+        1024
+      ],
+      "actor_ft.time_embedding.1.bias": [
+        64
+      ],
+      "actor_ft.time_embedding.1.weight": [
+        64,
+        32
+      ],
+      "actor_ft.time_embedding.3.bias": [
+        32
+      ],
+      "actor_ft.time_embedding.3.weight": [
+        32,
+        64
+      ]
+    },
+    "actor_shapes": {
+      "actor.cond_mlp.moduleList.0.linear_1.bias": [
+        512
+      ],
+      "actor.cond_mlp.moduleList.0.linear_1.weight": [
+        512,
+        23
+      ],
+      "actor.cond_mlp.moduleList.1.linear_1.bias": [
+        64
+      ],
+      "actor.cond_mlp.moduleList.1.linear_1.weight": [
+        64,
+        512
+      ],
+      "actor.mlp_mean.layers.0.bias": [
+        1024
+      ],
+      "actor.mlp_mean.layers.0.weight": [
+        1024,
+        124
+      ],
+      "actor.mlp_mean.layers.1.l1.bias": [
+        1024
+      ],
+      "actor.mlp_mean.layers.1.l1.weight": [
+        1024,
+        1024
+      ],
+      "actor.mlp_mean.layers.1.l2.bias": [
+        1024
+      ],
+      "actor.mlp_mean.layers.1.l2.weight": [
+        1024,
+        1024
+      ],
+      "actor.mlp_mean.layers.2.bias": [
+        28
+      ],
+      "actor.mlp_mean.layers.2.weight": [
+        28,
+        1024
+      ],
+      "actor.time_embedding.1.bias": [
+        64
+      ],
+      "actor.time_embedding.1.weight": [
+        64,
+        32
+      ],
+      "actor.time_embedding.3.bias": [
+        32
+      ],
+      "actor.time_embedding.3.weight": [
+        32,
+        64
+      ]
+    },
+    "actor_vs_actor_ft": {
+      "exact": false,
+      "matched_keys": 16,
+      "max_abs_diff": 0.1383553296327591
+    },
+    "bytes": 19012935,
+    "critic_keys": {
+      "critic.Q1.layers.0.bias": [
+        256
+      ],
+      "critic.Q1.layers.0.weight": [
+        256,
+        23
+      ],
+      "critic.Q1.layers.1.l1.bias": [
+        256
+      ],
+      "critic.Q1.layers.1.l1.weight": [
+        256,
+        256
+      ],
+      "critic.Q1.layers.1.l2.bias": [
+        256
+      ],
+      "critic.Q1.layers.1.l2.weight": [
+        256,
+        256
+      ],
+      "critic.Q1.layers.2.bias": [
+        1
+      ],
+      "critic.Q1.layers.2.weight": [
+        1,
+        256
+      ]
+    },
+    "first_keys": [
+      "network.time_embedding.1.weight",
+      "network.time_embedding.1.bias",
+      "network.time_embedding.3.weight",
+      "network.time_embedding.3.bias",
+      "network.cond_mlp.moduleList.0.linear_1.weight",
+      "network.cond_mlp.moduleList.0.linear_1.bias",
+      "network.cond_mlp.moduleList.1.linear_1.weight",
+      "network.cond_mlp.moduleList.1.linear_1.bias",
+      "network.mlp_mean.layers.0.weight",
+      "network.mlp_mean.layers.0.bias",
+      "network.mlp_mean.layers.1.l1.weight",
+      "network.mlp_mean.layers.1.l1.bias",
+      "network.mlp_mean.layers.1.l2.weight",
+      "network.mlp_mean.layers.1.l2.bias",
+      "network.mlp_mean.layers.2.weight",
+      "network.mlp_mean.layers.2.bias",
+      "actor.time_embedding.1.weight",
+      "actor.time_embedding.1.bias",
+      "actor.time_embedding.3.weight",
+      "actor.time_embedding.3.bias"
+    ],
+    "itr": 200,
+    "model_key_count": 56,
+    "parameter_counts": {
+      "actor": 2305212,
+      "actor_ft": 2305212,
+      "critic": 137985,
+      "network": 2305212
+    },
+    "path": "/mnt/d/AgentData/DPPO-P5-A/formal_run_20260914_074500/robomimic-finetune/square_ft_diffusion_mlp_ta4_td20_tdf10/2026-09-14_07-43-43_42/checkpoint/state_200.pt",
+    "prefix_counts": {
+      "actor.": 16,
+      "actor_ft.": 16,
+      "critic.": 8,
+      "ema.": 0,
+      "network.": 16
+    },
+    "resume_fields_present": {
+      "actor_optimizer": false,
+      "critic_optimizer": false,
+      "numpy_rng": false,
+      "optimizer": false,
+      "reward_scaler": false,
+      "rng": false,
+      "scheduler": false
+    },
+    "role": "checkpoint",
+    "sha256": "18031b2ed2ee422f6e85bd8c113e199d46e0b29f3f2b2d6b4828e67449e0cf25",
+    "status": "PRESENT",
+    "top_level_keys": [
+      "itr",
+      "model"
+    ]
+  },
+  "state0_parameter_comparison": {
+    "square": {
+      "ema": {
+        "exact": true,
+        "matched_keys": 16,
+        "max_abs_diff": 0.0,
+        "missing_or_shape_mismatch": 0
+      },
+      "interpretation": "state_0 actor and actor_ft are loaded from BC ema only when ema exact=True",
+      "model": {
+        "exact": false,
+        "matched_keys": 16,
+        "max_abs_diff": 0.6477103233337402,
+        "missing_or_shape_mismatch": 0
+      }
+    },
+    "transport": {
+      "ema": {
+        "exact": true,
+        "matched_keys": 12,
+        "max_abs_diff": 0.0,
+        "missing_or_shape_mismatch": 0
+      },
+      "interpretation": "state_0 actor and actor_ft are loaded from BC ema only when ema exact=True",
+      "model": {
+        "exact": false,
+        "matched_keys": 12,
+        "max_abs_diff": 0.53662109375,
+        "missing_or_shape_mismatch": 0
+      }
+    }
+  },
+  "success_semantics": {
+    "dppo_reported": "max(chunk_reward) / act_steps >= 1",
+    "mixed_reporting": false,
+    "native_ever_success_in_stored_formal_artifacts": "MISSING; existing run.log/result.pkl contain reward-derived metrics only",
+    "native_robosuite": "TwoArmTransport._check_success: payload contact with target-bin base AND trash contact with trash-bin base"
+  },
+  "transport_checkpoints": [
+    {
+      "actor_ft_shapes": {
+        "actor_ft.mlp_mean.layers.0.bias": [
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.0.weight": [
+          1024,
+          203
+        ],
+        "actor_ft.mlp_mean.layers.1.l1.bias": [
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.1.l1.weight": [
+          1024,
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.1.l2.bias": [
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.1.l2.weight": [
+          1024,
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.2.bias": [
+          112
+        ],
+        "actor_ft.mlp_mean.layers.2.weight": [
+          112,
+          1024
+        ],
+        "actor_ft.time_embedding.1.bias": [
+          64
+        ],
+        "actor_ft.time_embedding.1.weight": [
+          64,
+          32
+        ],
+        "actor_ft.time_embedding.3.bias": [
+          32
+        ],
+        "actor_ft.time_embedding.3.weight": [
+          32,
+          64
+        ]
+      },
+      "actor_shapes": {
+        "actor.mlp_mean.layers.0.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.0.weight": [
+          1024,
+          203
+        ],
+        "actor.mlp_mean.layers.1.l1.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l1.weight": [
+          1024,
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l2.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l2.weight": [
+          1024,
+          1024
+        ],
+        "actor.mlp_mean.layers.2.bias": [
+          112
+        ],
+        "actor.mlp_mean.layers.2.weight": [
+          112,
+          1024
+        ],
+        "actor.time_embedding.1.bias": [
+          64
+        ],
+        "actor.time_embedding.1.weight": [
+          64,
+          32
+        ],
+        "actor.time_embedding.3.bias": [
+          32
+        ],
+        "actor.time_embedding.3.weight": [
+          32,
+          64
+        ]
+      },
+      "actor_vs_actor_ft": {
+        "exact": true,
+        "matched_keys": 12,
+        "max_abs_diff": 0.0
+      },
+      "bytes": 20019779,
+      "critic_keys": {
+        "critic.Q1.layers.0.bias": [
+          256
+        ],
+        "critic.Q1.layers.0.weight": [
+          256,
+          59
+        ],
+        "critic.Q1.layers.1.l1.bias": [
+          256
+        ],
+        "critic.Q1.layers.1.l1.weight": [
+          256,
+          256
+        ],
+        "critic.Q1.layers.1.l2.bias": [
+          256
+        ],
+        "critic.Q1.layers.1.l2.weight": [
+          256,
+          256
+        ],
+        "critic.Q1.layers.2.bias": [
+          1
+        ],
+        "critic.Q1.layers.2.weight": [
+          1,
+          256
+        ]
+      },
+      "first_keys": [
+        "network.time_embedding.1.weight",
+        "network.time_embedding.1.bias",
+        "network.time_embedding.3.weight",
+        "network.time_embedding.3.bias",
+        "network.mlp_mean.layers.0.weight",
+        "network.mlp_mean.layers.0.bias",
+        "network.mlp_mean.layers.1.l1.weight",
+        "network.mlp_mean.layers.1.l1.bias",
+        "network.mlp_mean.layers.1.l2.weight",
+        "network.mlp_mean.layers.1.l2.bias",
+        "network.mlp_mean.layers.2.weight",
+        "network.mlp_mean.layers.2.bias",
+        "actor.time_embedding.1.weight",
+        "actor.time_embedding.1.bias",
+        "actor.time_embedding.3.weight",
+        "actor.time_embedding.3.bias",
+        "actor.mlp_mean.layers.0.weight",
+        "actor.mlp_mean.layers.0.bias",
+        "actor.mlp_mean.layers.1.l1.weight",
+        "actor.mlp_mean.layers.1.l1.bias"
+      ],
+      "itr": 0,
+      "model_key_count": 44,
+      "parameter_counts": {
+        "actor": 2427088,
+        "actor_ft": 2427088,
+        "critic": 147201,
+        "network": 2427088
+      },
+      "path": "/mnt/d/AgentData/DPPO-P5-B/formal_run_20260914_110100/robomimic-finetune/transport_ft_diffusion_mlp_ta8_td20_tdf10/2026-09-14_10-59-02_42/checkpoint/state_0.pt",
+      "prefix_counts": {
+        "actor.": 12,
+        "actor_ft.": 12,
+        "critic.": 8,
+        "ema.": 0,
+        "network.": 12
+      },
+      "resume_fields_present": {
+        "actor_optimizer": false,
+        "critic_optimizer": false,
+        "numpy_rng": false,
+        "optimizer": false,
+        "reward_scaler": false,
+        "rng": false,
+        "scheduler": false
+      },
+      "role": "checkpoint",
+      "sha256": "48f6c0bf65fe12f000087b25bf5e336db03a669687dd5cf6363abf80b3d112ae",
+      "status": "PRESENT",
+      "top_level_keys": [
+        "itr",
+        "model"
+      ]
+    },
+    {
+      "actor_ft_shapes": {
+        "actor_ft.mlp_mean.layers.0.bias": [
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.0.weight": [
+          1024,
+          203
+        ],
+        "actor_ft.mlp_mean.layers.1.l1.bias": [
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.1.l1.weight": [
+          1024,
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.1.l2.bias": [
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.1.l2.weight": [
+          1024,
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.2.bias": [
+          112
+        ],
+        "actor_ft.mlp_mean.layers.2.weight": [
+          112,
+          1024
+        ],
+        "actor_ft.time_embedding.1.bias": [
+          64
+        ],
+        "actor_ft.time_embedding.1.weight": [
+          64,
+          32
+        ],
+        "actor_ft.time_embedding.3.bias": [
+          32
+        ],
+        "actor_ft.time_embedding.3.weight": [
+          32,
+          64
+        ]
+      },
+      "actor_shapes": {
+        "actor.mlp_mean.layers.0.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.0.weight": [
+          1024,
+          203
+        ],
+        "actor.mlp_mean.layers.1.l1.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l1.weight": [
+          1024,
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l2.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l2.weight": [
+          1024,
+          1024
+        ],
+        "actor.mlp_mean.layers.2.bias": [
+          112
+        ],
+        "actor.mlp_mean.layers.2.weight": [
+          112,
+          1024
+        ],
+        "actor.time_embedding.1.bias": [
+          64
+        ],
+        "actor.time_embedding.1.weight": [
+          64,
+          32
+        ],
+        "actor.time_embedding.3.bias": [
+          32
+        ],
+        "actor.time_embedding.3.weight": [
+          32,
+          64
+        ]
+      },
+      "actor_vs_actor_ft": {
+        "exact": false,
+        "matched_keys": 12,
+        "max_abs_diff": 0.0833224356174469
+      },
+      "bytes": 20020431,
+      "critic_keys": {
+        "critic.Q1.layers.0.bias": [
+          256
+        ],
+        "critic.Q1.layers.0.weight": [
+          256,
+          59
+        ],
+        "critic.Q1.layers.1.l1.bias": [
+          256
+        ],
+        "critic.Q1.layers.1.l1.weight": [
+          256,
+          256
+        ],
+        "critic.Q1.layers.1.l2.bias": [
+          256
+        ],
+        "critic.Q1.layers.1.l2.weight": [
+          256,
+          256
+        ],
+        "critic.Q1.layers.2.bias": [
+          1
+        ],
+        "critic.Q1.layers.2.weight": [
+          1,
+          256
+        ]
+      },
+      "first_keys": [
+        "network.time_embedding.1.weight",
+        "network.time_embedding.1.bias",
+        "network.time_embedding.3.weight",
+        "network.time_embedding.3.bias",
+        "network.mlp_mean.layers.0.weight",
+        "network.mlp_mean.layers.0.bias",
+        "network.mlp_mean.layers.1.l1.weight",
+        "network.mlp_mean.layers.1.l1.bias",
+        "network.mlp_mean.layers.1.l2.weight",
+        "network.mlp_mean.layers.1.l2.bias",
+        "network.mlp_mean.layers.2.weight",
+        "network.mlp_mean.layers.2.bias",
+        "actor.time_embedding.1.weight",
+        "actor.time_embedding.1.bias",
+        "actor.time_embedding.3.weight",
+        "actor.time_embedding.3.bias",
+        "actor.mlp_mean.layers.0.weight",
+        "actor.mlp_mean.layers.0.bias",
+        "actor.mlp_mean.layers.1.l1.weight",
+        "actor.mlp_mean.layers.1.l1.bias"
+      ],
+      "itr": 100,
+      "model_key_count": 44,
+      "parameter_counts": {
+        "actor": 2427088,
+        "actor_ft": 2427088,
+        "critic": 147201,
+        "network": 2427088
+      },
+      "path": "/mnt/d/AgentData/DPPO-P5-B/formal_run_20260914_110100/robomimic-finetune/transport_ft_diffusion_mlp_ta8_td20_tdf10/2026-09-14_10-59-02_42/checkpoint/state_100.pt",
+      "prefix_counts": {
+        "actor.": 12,
+        "actor_ft.": 12,
+        "critic.": 8,
+        "ema.": 0,
+        "network.": 12
+      },
+      "resume_fields_present": {
+        "actor_optimizer": false,
+        "critic_optimizer": false,
+        "numpy_rng": false,
+        "optimizer": false,
+        "reward_scaler": false,
+        "rng": false,
+        "scheduler": false
+      },
+      "role": "checkpoint",
+      "sha256": "8fd07e05481a36eeb26e13e0cff210dcd2a9c72331911bb9a1bc736ad1e29ad1",
+      "status": "PRESENT",
+      "top_level_keys": [
+        "itr",
+        "model"
+      ]
+    },
+    {
+      "actor_ft_shapes": {
+        "actor_ft.mlp_mean.layers.0.bias": [
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.0.weight": [
+          1024,
+          203
+        ],
+        "actor_ft.mlp_mean.layers.1.l1.bias": [
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.1.l1.weight": [
+          1024,
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.1.l2.bias": [
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.1.l2.weight": [
+          1024,
+          1024
+        ],
+        "actor_ft.mlp_mean.layers.2.bias": [
+          112
+        ],
+        "actor_ft.mlp_mean.layers.2.weight": [
+          112,
+          1024
+        ],
+        "actor_ft.time_embedding.1.bias": [
+          64
+        ],
+        "actor_ft.time_embedding.1.weight": [
+          64,
+          32
+        ],
+        "actor_ft.time_embedding.3.bias": [
+          32
+        ],
+        "actor_ft.time_embedding.3.weight": [
+          32,
+          64
+        ]
+      },
+      "actor_shapes": {
+        "actor.mlp_mean.layers.0.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.0.weight": [
+          1024,
+          203
+        ],
+        "actor.mlp_mean.layers.1.l1.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l1.weight": [
+          1024,
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l2.bias": [
+          1024
+        ],
+        "actor.mlp_mean.layers.1.l2.weight": [
+          1024,
+          1024
+        ],
+        "actor.mlp_mean.layers.2.bias": [
+          112
+        ],
+        "actor.mlp_mean.layers.2.weight": [
+          112,
+          1024
+        ],
+        "actor.time_embedding.1.bias": [
+          64
+        ],
+        "actor.time_embedding.1.weight": [
+          64,
+          32
+        ],
+        "actor.time_embedding.3.bias": [
+          32
+        ],
+        "actor.time_embedding.3.weight": [
+          32,
+          64
+        ]
+      },
+      "actor_vs_actor_ft": {
+        "exact": false,
+        "matched_keys": 12,
+        "max_abs_diff": 0.09814253449440002
+      },
+      "bytes": 20020431,
+      "critic_keys": {
+        "critic.Q1.layers.0.bias": [
+          256
+        ],
+        "critic.Q1.layers.0.weight": [
+          256,
+          59
+        ],
+        "critic.Q1.layers.1.l1.bias": [
+          256
+        ],
+        "critic.Q1.layers.1.l1.weight": [
+          256,
+          256
+        ],
+        "critic.Q1.layers.1.l2.bias": [
+          256
+        ],
+        "critic.Q1.layers.1.l2.weight": [
+          256,
+          256
+        ],
+        "critic.Q1.layers.2.bias": [
+          1
+        ],
+        "critic.Q1.layers.2.weight": [
+          1,
+          256
+        ]
+      },
+      "first_keys": [
+        "network.time_embedding.1.weight",
+        "network.time_embedding.1.bias",
+        "network.time_embedding.3.weight",
+        "network.time_embedding.3.bias",
+        "network.mlp_mean.layers.0.weight",
+        "network.mlp_mean.layers.0.bias",
+        "network.mlp_mean.layers.1.l1.weight",
+        "network.mlp_mean.layers.1.l1.bias",
+        "network.mlp_mean.layers.1.l2.weight",
+        "network.mlp_mean.layers.1.l2.bias",
+        "network.mlp_mean.layers.2.weight",
+        "network.mlp_mean.layers.2.bias",
+        "actor.time_embedding.1.weight",
+        "actor.time_embedding.1.bias",
+        "actor.time_embedding.3.weight",
+        "actor.time_embedding.3.bias",
+        "actor.mlp_mean.layers.0.weight",
+        "actor.mlp_mean.layers.0.bias",
+        "actor.mlp_mean.layers.1.l1.weight",
+        "actor.mlp_mean.layers.1.l1.bias"
+      ],
+      "itr": 200,
+      "model_key_count": 44,
+      "parameter_counts": {
+        "actor": 2427088,
+        "actor_ft": 2427088,
+        "critic": 147201,
+        "network": 2427088
+      },
+      "path": "/mnt/d/AgentData/DPPO-P5-B/formal_run_20260914_110100/robomimic-finetune/transport_ft_diffusion_mlp_ta8_td20_tdf10/2026-09-14_10-59-02_42/checkpoint/state_200.pt",
+      "prefix_counts": {
+        "actor.": 12,
+        "actor_ft.": 12,
+        "critic.": 8,
+        "ema.": 0,
+        "network.": 12
+      },
+      "resume_fields_present": {
+        "actor_optimizer": false,
+        "critic_optimizer": false,
+        "numpy_rng": false,
+        "optimizer": false,
+        "reward_scaler": false,
+        "rng": false,
+        "scheduler": false
+      },
+      "role": "checkpoint",
+      "sha256": "b4b828312915442ede54a672f74a6276fe407ea3cf3b3830ba20bcb734d8d592",
+      "status": "PRESENT",
+      "top_level_keys": [
+        "itr",
+        "model"
+      ]
+    }
+  ],
+  "unrecorded_resume_state": {
+    "numpy_rng": "MISSING by official save_model format",
+    "optimizer": "MISSING by official save_model format",
+    "python_rng": "MISSING by official save_model format",
+    "running_reward_scaler": "MISSING by official save_model format; resolved configs enable running reward scaling",
+    "scheduler": "MISSING by official save_model format",
+    "strict_resume_claim": false,
+    "torch_rng": "MISSING by official save_model format"
+  }
+}
