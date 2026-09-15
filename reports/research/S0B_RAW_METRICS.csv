@@ -1,0 +1,210 @@
+section,task,policy,metric,value,unit,note
+B1,square,ft,loss_relative_error,0.0,relative,official scalar actor vs exact per-item mean
+B1,square,ft,gradient_relative_error,0.0,relative,official actor gradient vs reconstructed mean
+B2,toy,float64,gradient_expectation_abs_error,1.1102230246251565e-16,absolute,exact enumeration
+MC_LAST_LAYER,square,bc,uniform.mse,0.07247770779697991,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,uniform.mse_ratio_to_uniform,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,uniform.gradient_bias_norm,0.017822550583860976,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,uniform.mse_se,0.0008651362578540135,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,uniform.gradient_second_moment,0.10631258054762657,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,uniform.ess_mean,319.99999999999994,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,uniform.weight_min,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,uniform.weight_max,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,uniform.episode_cluster_bootstrap_ci_low,14.931366002559662,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,square,bc,uniform.episode_cluster_bootstrap_ci_high,31.384448945522305,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,square,bc,timestep-only.mse,0.06513858877818242,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,timestep-only.mse_ratio_to_uniform,0.8987396367534776,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,timestep-only.gradient_bias_norm,0.016497804242613618,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,timestep-only.mse_se,0.0007440750807844325,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,timestep-only.gradient_second_moment,0.0987146584898591,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,timestep-only.ess_mean,299.2263951242515,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,timestep-only.weight_min,0.6772433500522146,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,timestep-only.weight_max,1.42137978131071,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,timestep-only.episode_cluster_bootstrap_ci_low,15.347910584509373,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,square,bc,timestep-only.episode_cluster_bootstrap_ci_high,31.65181299448013,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,square,bc,state-aware.mse,0.09057469992991429,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,state-aware.mse_ratio_to_uniform,1.2496904590805569,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,state-aware.gradient_bias_norm,0.020250028103789775,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,state-aware.mse_se,0.0012476942159398968,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,state-aware.gradient_second_moment,0.12467990124107536,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,state-aware.ess_mean,103.29557816355775,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,state-aware.weight_min,0.26215272037001136,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,state-aware.weight_max,4.97814822846325,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,state-aware.episode_cluster_bootstrap_ci_low,14.741882887482642,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,square,bc,state-aware.episode_cluster_bootstrap_ci_high,31.252528943121423,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,square,bc,oracle.mse,0.043497009582952086,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,oracle.mse_ratio_to_uniform,0.6001432841225226,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,oracle.gradient_bias_norm,0.013647351716762573,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,oracle.mse_se,0.0003231353939400224,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,oracle.gradient_second_moment,0.07734302289241177,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,oracle.ess_mean,222.7492894229589,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,oracle.weight_min,0.22175115095661427,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,oracle.weight_max,4.790853431102662,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,bc,oracle.episode_cluster_bootstrap_ci_low,14.757212777435779,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,square,bc,oracle.episode_cluster_bootstrap_ci_high,31.697624821960922,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+THETA,square,bc,theta_old.ratio_mean,1.0,ratio,offline diagnostic update
+THETA,square,bc,theta_old.clip_active_fraction,0.0,fraction,offline diagnostic update
+THETA,square,bc,after_1_diagnostic_update.ratio_mean,0.9938351511955261,ratio,offline diagnostic update
+THETA,square,bc,after_1_diagnostic_update.clip_active_fraction,0.831250011920929,fraction,offline diagnostic update
+THETA,square,bc,after_3_diagnostic_update.ratio_mean,0.9850814938545227,ratio,offline diagnostic update
+THETA,square,bc,after_3_diagnostic_update.clip_active_fraction,0.909375011920929,fraction,offline diagnostic update
+MC_LAST_LAYER,square,ft,uniform.mse,0.03085277667298972,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,uniform.mse_ratio_to_uniform,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,uniform.gradient_bias_norm,0.011616476051160365,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,uniform.mse_se,0.0003673240757090964,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,uniform.gradient_second_moment,0.045821543482593347,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,uniform.ess_mean,319.99999999999994,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,uniform.weight_min,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,uniform.weight_max,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,uniform.episode_cluster_bootstrap_ci_low,7.087035181373357,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,square,ft,uniform.episode_cluster_bootstrap_ci_high,12.35487502887845,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,square,ft,timestep-only.mse,0.025817895459273106,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,timestep-only.mse_ratio_to_uniform,0.8368094623352187,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,timestep-only.gradient_bias_norm,0.011467595947899574,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,timestep-only.mse_se,0.0002489747802343916,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,timestep-only.gradient_second_moment,0.04056633980956667,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,timestep-only.ess_mean,284.00097447382535,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,timestep-only.weight_min,0.609501998363304,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,timestep-only.weight_max,1.5663318564405453,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,timestep-only.episode_cluster_bootstrap_ci_low,7.184215240925551,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,square,ft,timestep-only.episode_cluster_bootstrap_ci_high,12.501864966750144,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,square,ft,state-aware.mse,0.05162867514519433,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,state-aware.mse_ratio_to_uniform,1.6733882882701125,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,state-aware.gradient_bias_norm,0.015072137569075014,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,state-aware.mse_se,0.0007296764950801613,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,state-aware.gradient_second_moment,0.06672167467160511,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,state-aware.ess_mean,95.4107705380589,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,state-aware.weight_min,0.16225062128050285,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,state-aware.weight_max,4.958749413101094,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,state-aware.episode_cluster_bootstrap_ci_low,7.1178919017314914,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,square,ft,state-aware.episode_cluster_bootstrap_ci_high,12.499558390676976,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,square,ft,oracle.mse,0.020311573197050695,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,oracle.mse_ratio_to_uniform,0.6583385804245167,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,oracle.gradient_bias_norm,0.00975165456414481,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,oracle.mse_se,0.00014526029040739144,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,oracle.gradient_second_moment,0.03544944784740899,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,oracle.ess_mean,246.90355954917175,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,oracle.weight_min,0.22231043216148488,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,oracle.weight_max,3.8293687048778726,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,square,ft,oracle.episode_cluster_bootstrap_ci_low,7.201930573582649,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,square,ft,oracle.episode_cluster_bootstrap_ci_high,12.684626273065804,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+THETA,square,ft,theta_old.ratio_mean,1.0,ratio,offline diagnostic update
+THETA,square,ft,theta_old.clip_active_fraction,0.0,fraction,offline diagnostic update
+THETA,square,ft,after_1_diagnostic_update.ratio_mean,0.9966049194335938,ratio,offline diagnostic update
+THETA,square,ft,after_1_diagnostic_update.clip_active_fraction,0.714062511920929,fraction,offline diagnostic update
+THETA,square,ft,after_3_diagnostic_update.ratio_mean,0.9940794110298157,ratio,offline diagnostic update
+THETA,square,ft,after_3_diagnostic_update.clip_active_fraction,0.839062511920929,fraction,offline diagnostic update
+MC_LAST_LAYER,transport,bc,uniform.mse,0.00979929740142326,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,uniform.mse_ratio_to_uniform,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,uniform.gradient_bias_norm,0.006506756261227182,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,uniform.mse_se,0.0003473802240421528,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,uniform.gradient_second_moment,0.014943785473120232,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,uniform.ess_mean,319.99999999999994,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,uniform.weight_min,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,uniform.weight_max,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,uniform.episode_cluster_bootstrap_ci_low,0.3961788795655593,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,transport,bc,uniform.episode_cluster_bootstrap_ci_high,7.676005555922144,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,transport,bc,timestep-only.mse,0.009099327271902762,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,timestep-only.mse_ratio_to_uniform,0.9285693554500312,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,timestep-only.gradient_bias_norm,0.006196725029364821,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,timestep-only.mse_se,0.0002531610630165113,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,timestep-only.gradient_second_moment,0.014308872811331632,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,timestep-only.ess_mean,304.02628317638107,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,timestep-only.weight_min,0.7060660131802016,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,timestep-only.weight_max,1.3249156740954828,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,timestep-only.episode_cluster_bootstrap_ci_low,0.39115817211568354,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,transport,bc,timestep-only.episode_cluster_bootstrap_ci_high,7.853566452790981,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,transport,bc,state-aware.mse,0.005857877149350259,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,state-aware.mse_ratio_to_uniform,0.5977854237283844,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,state-aware.gradient_bias_norm,0.005515717413659413,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,state-aware.mse_se,0.00011553088308680201,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,state-aware.gradient_second_moment,0.011036888216812852,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,state-aware.ess_mean,78.73659660530606,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,state-aware.weight_min,0.071795684218124,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,state-aware.weight_max,4.9820616659178345,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,state-aware.episode_cluster_bootstrap_ci_low,0.4014409173512831,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,transport,bc,state-aware.episode_cluster_bootstrap_ci_high,7.880156919499858,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,transport,bc,oracle.mse,0.0024425974647745465,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,oracle.mse_ratio_to_uniform,0.24926250982236556,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,oracle.gradient_bias_norm,0.00327030293731021,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,oracle.mse_se,2.386909141756417e-05,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,oracle.gradient_second_moment,0.007696097955234624,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,oracle.ess_mean,212.03008248966523,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,oracle.weight_min,0.06432280272588552,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,oracle.weight_max,3.1050419726824336,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,bc,oracle.episode_cluster_bootstrap_ci_low,0.40127701312303543,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,transport,bc,oracle.episode_cluster_bootstrap_ci_high,7.916688727610744,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+THETA,transport,bc,theta_old.ratio_mean,1.0,ratio,offline diagnostic update
+THETA,transport,bc,theta_old.clip_active_fraction,0.0,fraction,offline diagnostic update
+THETA,transport,bc,after_1_diagnostic_update.ratio_mean,0.9973724484443665,ratio,offline diagnostic update
+THETA,transport,bc,after_1_diagnostic_update.clip_active_fraction,0.5625,fraction,offline diagnostic update
+THETA,transport,bc,after_3_diagnostic_update.ratio_mean,0.9894977807998657,ratio,offline diagnostic update
+THETA,transport,bc,after_3_diagnostic_update.clip_active_fraction,0.9281250238418579,fraction,offline diagnostic update
+MC_LAST_LAYER,transport,ft,uniform.mse,0.011732921055015666,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,uniform.mse_ratio_to_uniform,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,uniform.gradient_bias_norm,0.007125228118964303,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,uniform.mse_se,0.00010678173623620665,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,uniform.gradient_second_moment,0.01745175149192022,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,uniform.ess_mean,319.99999999999994,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,uniform.weight_min,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,uniform.weight_max,1.0,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,uniform.episode_cluster_bootstrap_ci_low,3.0560699701309204,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,transport,ft,uniform.episode_cluster_bootstrap_ci_high,4.300045787543058,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,transport,ft,timestep-only.mse,0.010591886603019995,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,timestep-only.mse_ratio_to_uniform,0.9027493284370226,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,timestep-only.gradient_bias_norm,0.00708278255964597,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,timestep-only.mse_se,7.864889497078133e-05,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,timestep-only.gradient_second_moment,0.01627469941748092,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,timestep-only.ess_mean,301.15968495208546,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,timestep-only.weight_min,0.6732158022522549,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,timestep-only.weight_max,1.3249549517793453,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,timestep-only.episode_cluster_bootstrap_ci_low,3.030395617708564,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,transport,ft,timestep-only.episode_cluster_bootstrap_ci_high,4.274873899668455,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,transport,ft,state-aware.mse,0.017737280397955794,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,state-aware.mse_ratio_to_uniform,1.511753152926342,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,state-aware.gradient_bias_norm,0.009447581496053467,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,state-aware.mse_se,0.0002754661852627912,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,state-aware.gradient_second_moment,0.023410654795674408,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,state-aware.ess_mean,110.13929882734072,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,state-aware.weight_min,0.28871037333190175,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,state-aware.weight_max,4.964413654601786,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,state-aware.episode_cluster_bootstrap_ci_low,3.0797508474439383,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,transport,ft,state-aware.episode_cluster_bootstrap_ci_high,4.2811266027390955,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+MC_LAST_LAYER,transport,ft,oracle.mse,0.008327644000618249,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,oracle.mse_ratio_to_uniform,0.7097673257639702,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,oracle.gradient_bias_norm,0.006684414513233,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,oracle.mse_se,4.136097361922129e-05,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,oracle.gradient_second_moment,0.013996198615495423,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,oracle.ess_mean,248.15689752935177,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,oracle.weight_min,0.2883615280740073,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,oracle.weight_max,4.045966904283963,diagnostic,200 draws; M=50% of 640 items; last-layer gradient proxy
+MC_LAST_LAYER,transport,ft,oracle.episode_cluster_bootstrap_ci_low,3.0368465948849916,diagnostic,episode-cluster bootstrap lower bound; proxy contribution CI
+MC_LAST_LAYER,transport,ft,oracle.episode_cluster_bootstrap_ci_high,4.299289224669337,diagnostic,episode-cluster bootstrap upper bound; proxy contribution CI
+THETA,transport,ft,theta_old.ratio_mean,1.0,ratio,offline diagnostic update
+THETA,transport,ft,theta_old.clip_active_fraction,0.0,fraction,offline diagnostic update
+THETA,transport,ft,after_1_diagnostic_update.ratio_mean,0.9964677691459656,ratio,offline diagnostic update
+THETA,transport,ft,after_1_diagnostic_update.clip_active_fraction,0.7281250357627869,fraction,offline diagnostic update
+THETA,transport,ft,after_3_diagnostic_update.ratio_mean,0.991284966468811,ratio,offline diagnostic update
+THETA,transport,ft,after_3_diagnostic_update.clip_active_fraction,0.940625011920929,fraction,offline diagnostic update
+COST,square,ft,rollout_model_sampling,28.562097333368303,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,square,ft,old_logprob,3.0916616666445407,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,square,ft,actor_forward,47.80041766665969,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,square,ft,actor_backward,46.029177999950356,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,square,ft,critic,3.827519333337174,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,square,ft,proposal,0.6676913333194534,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,square,ft,io,2.601211333361183,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,square,ft,actor_reducible_fraction_f,0.7077217809963257,diagnostic,audit included in final compute gate
+COST,square,ft,audit_ms_included,3770.8548750000264,diagnostic,audit included in final compute gate
+COST,square,ft,overhead_h_all,28.46681351075424,diagnostic,audit included in final compute gate
+COST,square,ft,predicted_total_speedup_all_costs,0.03434897219268047,diagnostic,audit included in final compute gate
+COST,transport,ft,rollout_model_sampling,19.430377999962428,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,transport,ft,old_logprob,1.839669666651389,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,transport,ft,actor_forward,48.171811666672205,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,transport,ft,actor_backward,34.7797786666888,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,transport,ft,critic,3.27839766669058,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,transport,ft,proposal,0.6178383333311407,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,transport,ft,io,1.416603000014523,ms per 64-state diagnostic cycle,3-cycle mean; rollout field is model-only
+COST,transport,ft,actor_reducible_fraction_f,0.7573103246145286,diagnostic,audit included in final compute gate
+COST,transport,ft,audit_ms_included,3734.5033729999955,diagnostic,audit included in final compute gate
+COST,transport,ft,overhead_h_all,34.112892275305825,diagnostic,audit included in final compute gate
+COST,transport,ft,predicted_total_speedup_all_costs,0.02879003781619752,diagnostic,audit included in final compute gate

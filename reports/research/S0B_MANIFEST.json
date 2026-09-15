@@ -1,0 +1,930 @@
+{
+  "schema": "S0B_MANIFEST.v1",
+  "task": "S0b",
+  "status": "INCONCLUSIVE",
+  "research_decision": "NO-GO for current cheap state-aware mechanism; S1 prohibited",
+  "preflight": {
+    "local_main": "d82ab2ce6e96fb1a0b2a4573ae7d15b1f9630df1",
+    "origin_main": "d82ab2ce6e96fb1a0b2a4573ae7d15b1f9630df1",
+    "submodule_head": "dc8e0c9edce7ac2b2ff112abe460e1c21b0b3bdc",
+    "submodule_dirty_files": [
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "agent/dataset/d3il_dataset/__init__.py",
+      "agent/dataset/d3il_dataset/aligning_dataset.py",
+      "agent/dataset/d3il_dataset/avoiding_dataset.py",
+      "agent/dataset/d3il_dataset/base_dataset.py",
+      "agent/dataset/d3il_dataset/geo_transform.py",
+      "agent/dataset/d3il_dataset/pushing_dataset.py",
+      "agent/dataset/d3il_dataset/sorting_dataset.py",
+      "agent/dataset/d3il_dataset/stacking_dataset.py",
+      "agent/dataset/sequence.py",
+      "agent/eval/eval_agent.py",
+      "agent/eval/eval_diffusion_agent.py",
+      "agent/eval/eval_diffusion_img_agent.py",
+      "agent/eval/eval_gaussian_agent.py",
+      "agent/eval/eval_gaussian_img_agent.py",
+      "agent/finetune/train_agent.py",
+      "agent/finetune/train_awr_diffusion_agent.py",
+      "agent/finetune/train_calql_agent.py",
+      "agent/finetune/train_dipo_diffusion_agent.py",
+      "agent/finetune/train_dql_diffusion_agent.py",
+      "agent/finetune/train_ibrl_agent.py",
+      "agent/finetune/train_idql_diffusion_agent.py",
+      "agent/finetune/train_ppo_agent.py",
+      "agent/finetune/train_ppo_diffusion_agent.py",
+      "agent/finetune/train_ppo_diffusion_img_agent.py",
+      "agent/finetune/train_ppo_exact_diffusion_agent.py",
+      "agent/finetune/train_ppo_gaussian_agent.py",
+      "agent/finetune/train_ppo_gaussian_img_agent.py",
+      "agent/finetune/train_qsm_diffusion_agent.py",
+      "agent/finetune/train_rlpd_agent.py",
+      "agent/finetune/train_rwr_diffusion_agent.py",
+      "agent/finetune/train_sac_agent.py",
+      "agent/pretrain/train_agent.py",
+      "agent/pretrain/train_diffusion_agent.py",
+      "agent/pretrain/train_gaussian_agent.py",
+      "cfg/d3il/finetune/avoid_m1/ft_ppo_diffusion_mlp.yaml",
+      "cfg/d3il/finetune/avoid_m1/ft_ppo_gaussian_mlp.yaml",
+      "cfg/d3il/finetune/avoid_m1/ft_ppo_gmm_mlp.yaml",
+      "cfg/d3il/finetune/avoid_m2/ft_ppo_diffusion_mlp.yaml",
+      "cfg/d3il/finetune/avoid_m2/ft_ppo_gaussian_mlp.yaml",
+      "cfg/d3il/finetune/avoid_m2/ft_ppo_gmm_mlp.yaml",
+      "cfg/d3il/finetune/avoid_m3/ft_ppo_diffusion_mlp.yaml",
+      "cfg/d3il/finetune/avoid_m3/ft_ppo_gaussian_mlp.yaml",
+      "cfg/d3il/finetune/avoid_m3/ft_ppo_gmm_mlp.yaml",
+      "cfg/d3il/pretrain/avoid_m1/pre_diffusion_mlp.yaml",
+      "cfg/d3il/pretrain/avoid_m1/pre_gaussian_mlp.yaml",
+      "cfg/d3il/pretrain/avoid_m1/pre_gmm_mlp.yaml",
+      "cfg/d3il/pretrain/avoid_m2/pre_diffusion_mlp.yaml",
+      "cfg/d3il/pretrain/avoid_m2/pre_gaussian_mlp.yaml",
+      "cfg/d3il/pretrain/avoid_m2/pre_gmm_mlp.yaml",
+      "cfg/d3il/pretrain/avoid_m3/pre_diffusion_mlp.yaml",
+      "cfg/d3il/pretrain/avoid_m3/pre_gaussian_mlp.yaml",
+      "cfg/d3il/pretrain/avoid_m3/pre_gmm_mlp.yaml",
+      "cfg/finetuning.md",
+      "cfg/furniture/eval/one_leg_low/eval_diffusion_mlp.yaml",
+      "cfg/furniture/finetune/lamp_low/ft_ppo_diffusion_mlp.yaml",
+      "cfg/furniture/finetune/lamp_low/ft_ppo_diffusion_unet.yaml",
+      "cfg/furniture/finetune/lamp_low/ft_ppo_gaussian_mlp.yaml",
+      "cfg/furniture/finetune/lamp_med/ft_ppo_diffusion_mlp.yaml",
+      "cfg/furniture/finetune/lamp_med/ft_ppo_diffusion_unet.yaml",
+      "cfg/furniture/finetune/lamp_med/ft_ppo_gaussian_mlp.yaml",
+      "cfg/furniture/finetune/one_leg_low/ft_ppo_diffusion_mlp.yaml",
+      "cfg/furniture/finetune/one_leg_low/ft_ppo_diffusion_unet.yaml",
+      "cfg/furniture/finetune/one_leg_low/ft_ppo_gaussian_mlp.yaml",
+      "cfg/furniture/finetune/one_leg_med/ft_ppo_diffusion_mlp.yaml",
+      "cfg/furniture/finetune/one_leg_med/ft_ppo_diffusion_unet.yaml",
+      "cfg/furniture/finetune/one_leg_med/ft_ppo_gaussian_mlp.yaml",
+      "cfg/furniture/finetune/round_table_low/ft_ppo_diffusion_mlp.yaml",
+      "cfg/furniture/finetune/round_table_low/ft_ppo_diffusion_unet.yaml",
+      "cfg/furniture/finetune/round_table_low/ft_ppo_gaussian_mlp.yaml",
+      "cfg/furniture/finetune/round_table_med/ft_ppo_diffusion_mlp.yaml",
+      "cfg/furniture/finetune/round_table_med/ft_ppo_diffusion_unet.yaml",
+      "cfg/furniture/finetune/round_table_med/ft_ppo_gaussian_mlp.yaml",
+      "cfg/furniture/pretrain/lamp_low/pre_diffusion_mlp.yaml",
+      "cfg/furniture/pretrain/lamp_low/pre_diffusion_unet.yaml",
+      "cfg/furniture/pretrain/lamp_low/pre_gaussian_mlp.yaml",
+      "cfg/furniture/pretrain/lamp_med/pre_diffusion_mlp.yaml",
+      "cfg/furniture/pretrain/lamp_med/pre_diffusion_unet.yaml",
+      "cfg/furniture/pretrain/lamp_med/pre_gaussian_mlp.yaml",
+      "cfg/furniture/pretrain/one_leg_low/pre_diffusion_mlp.yaml",
+      "cfg/furniture/pretrain/one_leg_low/pre_diffusion_unet.yaml",
+      "cfg/furniture/pretrain/one_leg_low/pre_gaussian_mlp.yaml",
+      "cfg/furniture/pretrain/one_leg_med/pre_diffusion_mlp.yaml",
+      "cfg/furniture/pretrain/one_leg_med/pre_diffusion_unet.yaml",
+      "cfg/furniture/pretrain/one_leg_med/pre_gaussian_mlp.yaml",
+      "cfg/furniture/pretrain/round_table_low/pre_diffusion_mlp.yaml",
+      "cfg/furniture/pretrain/round_table_low/pre_diffusion_unet.yaml",
+      "cfg/furniture/pretrain/round_table_low/pre_gaussian_mlp.yaml",
+      "cfg/furniture/pretrain/round_table_med/pre_diffusion_mlp.yaml",
+      "cfg/furniture/pretrain/round_table_med/pre_diffusion_unet.yaml",
+      "cfg/furniture/pretrain/round_table_med/pre_gaussian_mlp.yaml",
+      "cfg/gym/eval/halfcheetah-v2/eval_diffusion_mlp.yaml",
+      "cfg/gym/eval/halfcheetah-v2/eval_gaussian_mlp.yaml",
+      "cfg/gym/eval/hopper-v2/eval_diffusion_mlp.yaml",
+      "cfg/gym/eval/hopper-v2/eval_gaussian_mlp.yaml",
+      "cfg/gym/eval/kitchen-v0/eval_diffusion_mlp.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/calql_mlp_online.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/ft_awr_diffusion_mlp.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/ft_dipo_diffusion_mlp.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/ft_dql_diffusion_mlp.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/ft_idql_diffusion_mlp.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/ft_ppo_diffusion_mlp.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/ft_ppo_diffusion_mlp_ta1.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/ft_ppo_exact_diffusion_mlp.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/ft_qsm_diffusion_mlp.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/ft_rwr_diffusion_mlp.yaml",
+      "cfg/gym/finetune/halfcheetah-v2/ibrl_mlp.yaml",
+      "cfg/gym/finetune/hopper-v2/ft_awr_diffusion_mlp.yaml",
+      "cfg/gym/finetune/hopper-v2/ft_dipo_diffusion_mlp.yaml",
+      "cfg/gym/finetune/hopper-v2/ft_dql_diffusion_mlp.yaml",
+      "cfg/gym/finetune/hopper-v2/ft_idql_diffusion_mlp.yaml",
+      "cfg/gym/finetune/hopper-v2/ft_ppo_diffusion_mlp.yaml",
+      "cfg/gym/finetune/hopper-v2/ft_ppo_exact_diffusion_mlp.yaml",
+      "cfg/gym/finetune/hopper-v2/ft_qsm_diffusion_mlp.yaml",
+      "cfg/gym/finetune/hopper-v2/ft_rwr_diffusion_mlp.yaml",
+      "cfg/gym/finetune/kitchen-complete-v0/calql_mlp_online.yaml",
+      "cfg/gym/finetune/kitchen-complete-v0/ft_ppo_diffusion_mlp.yaml",
+      "cfg/gym/finetune/kitchen-complete-v0/ibrl_mlp.yaml",
+      "cfg/gym/finetune/kitchen-mixed-v0/calql_mlp_online.yaml",
+      "cfg/gym/finetune/kitchen-mixed-v0/ft_ppo_diffusion_mlp.yaml",
+      "cfg/gym/finetune/kitchen-mixed-v0/ibrl_mlp.yaml",
+      "cfg/gym/finetune/kitchen-partial-v0/calql_mlp_online.yaml",
+      "cfg/gym/finetune/kitchen-partial-v0/ft_ppo_diffusion_mlp.yaml",
+      "cfg/gym/finetune/kitchen-partial-v0/ibrl_mlp.yaml",
+      "cfg/gym/finetune/walker2d-v2/ft_awr_diffusion_mlp.yaml",
+      "cfg/gym/finetune/walker2d-v2/ft_dipo_diffusion_mlp.yaml",
+      "cfg/gym/finetune/walker2d-v2/ft_dql_diffusion_mlp.yaml",
+      "cfg/gym/finetune/walker2d-v2/ft_idql_diffusion_mlp.yaml",
+      "cfg/gym/finetune/walker2d-v2/ft_ppo_diffusion_mlp.yaml",
+      "cfg/gym/finetune/walker2d-v2/ft_qsm_diffusion_mlp.yaml",
+      "cfg/gym/finetune/walker2d-v2/ft_rwr_diffusion_mlp.yaml",
+      "cfg/gym/pretrain/halfcheetah-medium-v2/calql_mlp_offline.yaml",
+      "cfg/gym/pretrain/halfcheetah-medium-v2/pre_diffusion_mlp.yaml",
+      "cfg/gym/pretrain/halfcheetah-medium-v2/pre_gaussian_mlp.yaml",
+      "cfg/gym/pretrain/hopper-medium-v2/pre_diffusion_mlp.yaml",
+      "cfg/gym/pretrain/hopper-medium-v2/pre_gaussian_mlp.yaml",
+      "cfg/gym/pretrain/kitchen-complete-v0/calql_mlp_offline.yaml",
+      "cfg/gym/pretrain/kitchen-complete-v0/pre_diffusion_mlp.yaml",
+      "cfg/gym/pretrain/kitchen-complete-v0/pre_gaussian_mlp.yaml",
+      "cfg/gym/pretrain/kitchen-mixed-v0/calql_mlp_offline.yaml",
+      "cfg/gym/pretrain/kitchen-mixed-v0/pre_diffusion_mlp.yaml",
+      "cfg/gym/pretrain/kitchen-mixed-v0/pre_gaussian_mlp.yaml",
+      "cfg/gym/pretrain/kitchen-partial-v0/calql_mlp_offline.yaml",
+      "cfg/gym/pretrain/kitchen-partial-v0/pre_diffusion_mlp.yaml",
+      "cfg/gym/pretrain/kitchen-partial-v0/pre_gaussian_mlp.yaml",
+      "cfg/gym/pretrain/walker2d-medium-v2/pre_diffusion_mlp.yaml",
+      "cfg/gym/pretrain/walker2d-medium-v2/pre_gaussian_mlp.yaml",
+      "cfg/gym/scratch/halfcheetah-v2/ppo_diffusion_mlp.yaml",
+      "cfg/gym/scratch/halfcheetah-v2/ppo_gaussian_mlp.yaml",
+      "cfg/gym/scratch/halfcheetah-v2/rlpd_mlp.yaml",
+      "cfg/gym/scratch/halfcheetah-v2/sac_mlp.yaml",
+      "cfg/gym/scratch/hopper-v2/awr_diffusion_mlp.yaml",
+      "cfg/gym/scratch/hopper-v2/dipo_diffusion_mlp.yaml",
+      "cfg/gym/scratch/hopper-v2/dql_diffusion_mlp.yaml",
+      "cfg/gym/scratch/hopper-v2/idql_diffusion_mlp.yaml",
+      "cfg/gym/scratch/hopper-v2/ppo_diffusion_mlp.yaml",
+      "cfg/gym/scratch/hopper-v2/ppo_gaussian_mlp.yaml",
+      "cfg/gym/scratch/hopper-v2/qsm_diffusion_mlp.yaml",
+      "cfg/gym/scratch/hopper-v2/rwr_diffusion_mlp.yaml",
+      "cfg/gym/scratch/kitchen-complete-v0/rlpd_mlp.yaml",
+      "cfg/gym/scratch/kitchen-mixed-v0/rlpd_mlp.yaml",
+      "cfg/gym/scratch/kitchen-partial-v0/rlpd_mlp.yaml",
+      "cfg/gym/scratch/walker2d-v2/ppo_diffusion_mlp.yaml",
+      "cfg/gym/scratch/walker2d-v2/ppo_gaussian_mlp.yaml",
+      "cfg/pretraining.md",
+      "cfg/robomimic/eval/can/eval_diffusion_mlp.yaml",
+      "cfg/robomimic/eval/can/eval_diffusion_mlp_img.yaml",
+      "cfg/robomimic/eval/can/eval_gaussian_mlp.yaml",
+      "cfg/robomimic/eval/can/eval_gaussian_mlp_img.yaml",
+      "cfg/robomimic/eval/square/eval_diffusion_mlp.yaml",
+      "cfg/robomimic/eval/square/eval_gaussian_mlp.yaml",
+      "cfg/robomimic/finetune/can/calql_mlp_online.yaml",
+      "cfg/robomimic/finetune/can/calql_mlp_online_ph.yaml",
+      "cfg/robomimic/finetune/can/ft_awr_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/can/ft_dipo_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/can/ft_dql_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/can/ft_idql_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_diffusion_mlp_img.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_diffusion_mlp_ta1.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_diffusion_mlp_ta1_ph.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_diffusion_unet.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_exact_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_gaussian_mlp.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_gaussian_mlp_img.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_gaussian_transformer.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_gmm_mlp.yaml",
+      "cfg/robomimic/finetune/can/ft_ppo_gmm_transformer.yaml",
+      "cfg/robomimic/finetune/can/ft_qsm_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/can/ft_rwr_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/can/ibrl_mlp.yaml",
+      "cfg/robomimic/finetune/can/ibrl_mlp_ph.yaml",
+      "cfg/robomimic/finetune/lift/ft_awr_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/lift/ft_dipo_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/lift/ft_dql_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/lift/ft_idql_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/lift/ft_ppo_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/lift/ft_ppo_diffusion_mlp_img.yaml",
+      "cfg/robomimic/finetune/lift/ft_ppo_diffusion_unet.yaml",
+      "cfg/robomimic/finetune/lift/ft_ppo_gaussian_mlp.yaml",
+      "cfg/robomimic/finetune/lift/ft_ppo_gaussian_mlp_img.yaml",
+      "cfg/robomimic/finetune/lift/ft_ppo_gaussian_transformer.yaml",
+      "cfg/robomimic/finetune/lift/ft_ppo_gmm_mlp.yaml",
+      "cfg/robomimic/finetune/lift/ft_ppo_gmm_transformer.yaml",
+      "cfg/robomimic/finetune/lift/ft_qsm_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/lift/ft_rwr_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/lift/rlpd_mlp.yaml",
+      "cfg/robomimic/finetune/square/calql_mlp_online.yaml",
+      "cfg/robomimic/finetune/square/calql_mlp_online_ph.yaml",
+      "cfg/robomimic/finetune/square/ft_awr_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/square/ft_dipo_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/square/ft_dql_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/square/ft_idql_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/square/ft_ppo_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/square/ft_ppo_diffusion_mlp_img.yaml",
+      "cfg/robomimic/finetune/square/ft_ppo_diffusion_mlp_ta1.yaml",
+      "cfg/robomimic/finetune/square/ft_ppo_diffusion_mlp_ta1_ph.yaml",
+      "cfg/robomimic/finetune/square/ft_ppo_diffusion_unet.yaml",
+      "cfg/robomimic/finetune/square/ft_ppo_gaussian_mlp.yaml",
+      "cfg/robomimic/finetune/square/ft_ppo_gaussian_mlp_img.yaml",
+      "cfg/robomimic/finetune/square/ft_ppo_gaussian_transformer.yaml",
+      "cfg/robomimic/finetune/square/ft_ppo_gmm_mlp.yaml",
+      "cfg/robomimic/finetune/square/ft_ppo_gmm_transformer.yaml",
+      "cfg/robomimic/finetune/square/ft_qsm_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/square/ft_rwr_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/square/ibrl_mlp.yaml",
+      "cfg/robomimic/finetune/square/ibrl_mlp_ph.yaml",
+      "cfg/robomimic/finetune/transport/ft_awr_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/transport/ft_dipo_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/transport/ft_dql_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/transport/ft_idql_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/transport/ft_ppo_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/transport/ft_ppo_diffusion_mlp_img.yaml",
+      "cfg/robomimic/finetune/transport/ft_ppo_diffusion_unet.yaml",
+      "cfg/robomimic/finetune/transport/ft_ppo_gaussian_mlp.yaml",
+      "cfg/robomimic/finetune/transport/ft_ppo_gaussian_mlp_img.yaml",
+      "cfg/robomimic/finetune/transport/ft_ppo_gaussian_transformer.yaml",
+      "cfg/robomimic/finetune/transport/ft_ppo_gmm_mlp.yaml",
+      "cfg/robomimic/finetune/transport/ft_ppo_gmm_transformer.yaml",
+      "cfg/robomimic/finetune/transport/ft_qsm_diffusion_mlp.yaml",
+      "cfg/robomimic/finetune/transport/ft_rwr_diffusion_mlp.yaml",
+      "cfg/robomimic/pretrain/can/calql_mlp_offline.yaml",
+      "cfg/robomimic/pretrain/can/calql_mlp_offline_ph.yaml",
+      "cfg/robomimic/pretrain/can/pre_diffusion_mlp.yaml",
+      "cfg/robomimic/pretrain/can/pre_diffusion_mlp_img.yaml",
+      "cfg/robomimic/pretrain/can/pre_diffusion_mlp_ta1.yaml",
+      "cfg/robomimic/pretrain/can/pre_diffusion_mlp_ta1_ph.yaml",
+      "cfg/robomimic/pretrain/can/pre_diffusion_unet.yaml",
+      "cfg/robomimic/pretrain/can/pre_gaussian_mlp.yaml",
+      "cfg/robomimic/pretrain/can/pre_gaussian_mlp_ibrl.yaml",
+      "cfg/robomimic/pretrain/can/pre_gaussian_mlp_img.yaml",
+      "cfg/robomimic/pretrain/can/pre_gaussian_mlp_ta1_ph.yaml",
+      "cfg/robomimic/pretrain/can/pre_gaussian_transformer.yaml",
+      "cfg/robomimic/pretrain/can/pre_gmm_mlp.yaml",
+      "cfg/robomimic/pretrain/can/pre_gmm_transformer.yaml",
+      "cfg/robomimic/pretrain/lift/pre_diffusion_mlp.yaml",
+      "cfg/robomimic/pretrain/lift/pre_diffusion_mlp_img.yaml",
+      "cfg/robomimic/pretrain/lift/pre_diffusion_unet.yaml",
+      "cfg/robomimic/pretrain/lift/pre_gaussian_mlp.yaml",
+      "cfg/robomimic/pretrain/lift/pre_gaussian_mlp_img.yaml",
+      "cfg/robomimic/pretrain/lift/pre_gaussian_transformer.yaml",
+      "cfg/robomimic/pretrain/lift/pre_gmm_mlp.yaml",
+      "cfg/robomimic/pretrain/lift/pre_gmm_transformer.yaml",
+      "cfg/robomimic/pretrain/square/calql_mlp_offline.yaml",
+      "cfg/robomimic/pretrain/square/calql_mlp_offline_ph.yaml",
+      "cfg/robomimic/pretrain/square/pre_diffusion_mlp.yaml",
+      "cfg/robomimic/pretrain/square/pre_diffusion_mlp_img.yaml",
+      "cfg/robomimic/pretrain/square/pre_diffusion_mlp_ta1.yaml",
+      "cfg/robomimic/pretrain/square/pre_diffusion_mlp_ta1_ph.yaml",
+      "cfg/robomimic/pretrain/square/pre_diffusion_unet.yaml",
+      "cfg/robomimic/pretrain/square/pre_gaussian_mlp.yaml",
+      "cfg/robomimic/pretrain/square/pre_gaussian_mlp_ibrl.yaml",
+      "cfg/robomimic/pretrain/square/pre_gaussian_mlp_img.yaml",
+      "cfg/robomimic/pretrain/square/pre_gaussian_mlp_ta1_ph.yaml",
+      "cfg/robomimic/pretrain/square/pre_gaussian_transformer.yaml",
+      "cfg/robomimic/pretrain/square/pre_gmm_mlp.yaml",
+      "cfg/robomimic/pretrain/square/pre_gmm_transformer.yaml",
+      "cfg/robomimic/pretrain/transport/pre_diffusion_mlp.yaml",
+      "cfg/robomimic/pretrain/transport/pre_diffusion_mlp_img.yaml",
+      "cfg/robomimic/pretrain/transport/pre_diffusion_unet.yaml",
+      "cfg/robomimic/pretrain/transport/pre_gaussian_mlp.yaml",
+      "cfg/robomimic/pretrain/transport/pre_gaussian_mlp_img.yaml",
+      "cfg/robomimic/pretrain/transport/pre_gaussian_transformer.yaml",
+      "cfg/robomimic/pretrain/transport/pre_gmm_mlp.yaml",
+      "cfg/robomimic/pretrain/transport/pre_gmm_transformer.yaml",
+      "cfg/robomimic/scratch/can/rlpd_mlp.yaml",
+      "cfg/robomimic/scratch/can/rlpd_mlp_ph.yaml",
+      "cfg/robomimic/scratch/square/rlpd_mlp.yaml",
+      "cfg/robomimic/scratch/square/rlpd_mlp_ph.yaml",
+      "env/gym_utils/__init__.py",
+      "env/gym_utils/async_vector_env.py",
+      "env/gym_utils/furniture_normalizer.py",
+      "env/gym_utils/sync_vector_env.py",
+      "env/gym_utils/vector_env.py",
+      "env/gym_utils/wrapper/__init__.py",
+      "env/gym_utils/wrapper/d3il_lowdim.py",
+      "env/gym_utils/wrapper/furniture.py",
+      "env/gym_utils/wrapper/mujoco_locomotion_lowdim.py",
+      "env/gym_utils/wrapper/multi_step.py",
+      "env/gym_utils/wrapper/robomimic_image.py",
+      "env/gym_utils/wrapper/robomimic_lowdim.py",
+      "env/plot_traj.py",
+      "installation/install_d3il.md",
+      "installation/install_furniture.md",
+      "installation/install_mujoco.md",
+      "model/common/critic.py",
+      "model/common/gaussian.py",
+      "model/common/gmm.py",
+      "model/common/mlp.py",
+      "model/common/mlp_gaussian.py",
+      "model/common/mlp_gmm.py",
+      "model/common/modules.py",
+      "model/common/transformer.py",
+      "model/common/vit.py",
+      "model/diffusion/diffusion.py",
+      "model/diffusion/diffusion_awr.py",
+      "model/diffusion/diffusion_dipo.py",
+      "model/diffusion/diffusion_dql.py",
+      "model/diffusion/diffusion_idql.py",
+      "model/diffusion/diffusion_ppo.py",
+      "model/diffusion/diffusion_ppo_exact.py",
+      "model/diffusion/diffusion_qsm.py",
+      "model/diffusion/diffusion_rwr.py",
+      "model/diffusion/diffusion_vpg.py",
+      "model/diffusion/eta.py",
+      "model/diffusion/exact_likelihood.py",
+      "model/diffusion/mlp_diffusion.py",
+      "model/diffusion/modules.py",
+      "model/diffusion/sampling.py",
+      "model/diffusion/sde_lib.py",
+      "model/diffusion/unet.py",
+      "model/rl/gaussian_awr.py",
+      "model/rl/gaussian_calql.py",
+      "model/rl/gaussian_ibrl.py",
+      "model/rl/gaussian_ppo.py",
+      "model/rl/gaussian_rlpd.py",
+      "model/rl/gaussian_rwr.py",
+      "model/rl/gaussian_sac.py",
+      "model/rl/gaussian_vpg.py",
+      "model/rl/gmm_ppo.py",
+      "model/rl/gmm_vpg.py",
+      "pyproject.toml",
+      "script/dataset/README.md",
+      "script/dataset/filter_d3il_avoid_data.py",
+      "script/dataset/get_d4rl_dataset.py",
+      "script/dataset/process_d3il_dataset.py",
+      "script/dataset/process_robomimic_dataset.py",
+      "script/download_url.py",
+      "script/run.py",
+      "script/set_path.sh",
+      "script/test_d3il_render.py",
+      "script/test_robomimic_render.py",
+      "util/reward_scaling.py",
+      "util/scheduler.py",
+      "util/timer.py"
+    ],
+    "approved_patch_sha256": "d21a51b20bebdcc911b1f4357f17ac2cf13a034339de64be100944c68fcb8c24",
+    "scientific_source_modified": true
+  },
+  "budgets": {
+    "primitive_steps": 38400,
+    "six_hour_limit_reached": false,
+    "one_point_five_million_step_limit_reached": false,
+    "large_formal_training": false
+  },
+  "b1": {
+    "anchor": "square_ft_frozen first 16 states",
+    "items": 160,
+    "official_scalar_actor_loss": -1.1920929132713809e-08,
+    "per_item_mean_actor_loss": -1.1920929132713809e-08,
+    "loss_relative_error": 0.0,
+    "official_actor_gradient_norm": 0.5900592803955078,
+    "reconstructed_gradient_norm": 0.5900592803955078,
+    "gradient_relative_error": 0.0,
+    "gradient_absolute_error": 0.0
+  },
+  "b2": {
+    "full_loss": 0.6666666666666666,
+    "expected_loss": 0.6666666666666664,
+    "loss_abs_error": 2.220446049250313e-16,
+    "full_grad": [
+      -0.26666666666666666,
+      0.3333333333333333
+    ],
+    "expected_grad": [
+      -0.26666666666666655,
+      0.33333333333333337
+    ],
+    "gradient_abs_error": 1.1102230246251565e-16,
+    "m": 3,
+    "n": 3,
+    "p": [
+      0.2,
+      0.5,
+      0.3
+    ]
+  },
+  "tasks": {
+    "square": {
+      "bc": {
+        "path_windows": "D:/AgentData/DPPO-S0b/square_bc_frozen.npz",
+        "path_wsl": "/mnt/d/AgentData/DPPO-S0b/square_bc_frozen.npz",
+        "bytes": 88710,
+        "sha256": "34dc3a5e48ee51308b45b050b90029e11b4afed6a657ae50675e5c027ba349eb",
+        "arrays": {
+          "normalized_observation": {
+            "shape": [
+              64,
+              1,
+              23
+            ],
+            "dtype": "float32"
+          },
+          "denoising_chain": {
+            "shape": [
+              64,
+              11,
+              4,
+              7
+            ],
+            "dtype": "float32"
+          },
+          "executed_action": {
+            "shape": [
+              64,
+              4,
+              7
+            ],
+            "dtype": "float32"
+          },
+          "raw_reward": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "float32"
+          },
+          "terminated": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "truncated": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "firsts": {
+            "shape": [
+              101,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "episode_id": {
+            "shape": [
+              64
+            ],
+            "dtype": "int64"
+          },
+          "chunk_boundary_id": {
+            "shape": [
+              64
+            ],
+            "dtype": "int64"
+          },
+          "boundary_steps": {
+            "shape": [
+              4
+            ],
+            "dtype": "int64"
+          },
+          "task": {
+            "shape": [],
+            "dtype": "<U6"
+          },
+          "policy": {
+            "shape": [],
+            "dtype": "<U2"
+          },
+          "checkpoint_path": {
+            "shape": [],
+            "dtype": "<U159"
+          },
+          "seed": {
+            "shape": [],
+            "dtype": "int64"
+          },
+          "sampling_rule": {
+            "shape": [],
+            "dtype": "<U55"
+          }
+        }
+      },
+      "ft": {
+        "path_windows": "D:/AgentData/DPPO-S0b/square_ft_frozen.npz",
+        "path_wsl": "/mnt/d/AgentData/DPPO-S0b/square_ft_frozen.npz",
+        "bytes": 88302,
+        "sha256": "0aa8abf00eb0070c351e2955d71f69d2ecb980801c603cb2e35e323d396e36f1",
+        "arrays": {
+          "normalized_observation": {
+            "shape": [
+              64,
+              1,
+              23
+            ],
+            "dtype": "float32"
+          },
+          "denoising_chain": {
+            "shape": [
+              64,
+              11,
+              4,
+              7
+            ],
+            "dtype": "float32"
+          },
+          "executed_action": {
+            "shape": [
+              64,
+              4,
+              7
+            ],
+            "dtype": "float32"
+          },
+          "raw_reward": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "float32"
+          },
+          "terminated": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "truncated": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "firsts": {
+            "shape": [
+              101,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "episode_id": {
+            "shape": [
+              64
+            ],
+            "dtype": "int64"
+          },
+          "chunk_boundary_id": {
+            "shape": [
+              64
+            ],
+            "dtype": "int64"
+          },
+          "boundary_steps": {
+            "shape": [
+              4
+            ],
+            "dtype": "int64"
+          },
+          "task": {
+            "shape": [],
+            "dtype": "<U6"
+          },
+          "policy": {
+            "shape": [],
+            "dtype": "<U2"
+          },
+          "checkpoint_path": {
+            "shape": [],
+            "dtype": "<U158"
+          },
+          "seed": {
+            "shape": [],
+            "dtype": "int64"
+          },
+          "sampling_rule": {
+            "shape": [],
+            "dtype": "<U55"
+          }
+        }
+      },
+      "bc_metrics": {
+        "path_windows": "D:/AgentData/DPPO-S0b/square_bc_metrics.json",
+        "path_wsl": "/mnt/d/AgentData/DPPO-S0b/square_bc_metrics.json",
+        "bytes": 4151,
+        "sha256": "88f4cc10357e9223ac0ebf5bca37e65d388e5ee2661cc736f2c6fecae2c880d3"
+      },
+      "ft_metrics": {
+        "path_windows": "D:/AgentData/DPPO-S0b/square_ft_metrics.json",
+        "path_wsl": "/mnt/d/AgentData/DPPO-S0b/square_ft_metrics.json",
+        "bytes": 4149,
+        "sha256": "b088ca91014ad6f75d0f829dad2da6d0edaa4d7e00cb30dd9366a8187af7d91b"
+      }
+    },
+    "transport": {
+      "bc": {
+        "path_windows": "D:/AgentData/DPPO-S0b/transport_bc_frozen.npz",
+        "path_wsl": "/mnt/d/AgentData/DPPO-S0b/transport_bc_frozen.npz",
+        "bytes": 335902,
+        "sha256": "833b9a57ddc2abd91d7fcc915f210cd738d8700db0193ebe4cc2db6e679cff77",
+        "arrays": {
+          "normalized_observation": {
+            "shape": [
+              64,
+              1,
+              59
+            ],
+            "dtype": "float32"
+          },
+          "denoising_chain": {
+            "shape": [
+              64,
+              11,
+              8,
+              14
+            ],
+            "dtype": "float32"
+          },
+          "executed_action": {
+            "shape": [
+              64,
+              8,
+              14
+            ],
+            "dtype": "float32"
+          },
+          "raw_reward": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "float32"
+          },
+          "terminated": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "truncated": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "firsts": {
+            "shape": [
+              101,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "episode_id": {
+            "shape": [
+              64
+            ],
+            "dtype": "int64"
+          },
+          "chunk_boundary_id": {
+            "shape": [
+              64
+            ],
+            "dtype": "int64"
+          },
+          "boundary_steps": {
+            "shape": [
+              4
+            ],
+            "dtype": "int64"
+          },
+          "task": {
+            "shape": [],
+            "dtype": "<U9"
+          },
+          "policy": {
+            "shape": [],
+            "dtype": "<U2"
+          },
+          "checkpoint_path": {
+            "shape": [],
+            "dtype": "<U165"
+          },
+          "seed": {
+            "shape": [],
+            "dtype": "int64"
+          },
+          "sampling_rule": {
+            "shape": [],
+            "dtype": "<U55"
+          }
+        }
+      },
+      "ft": {
+        "path_windows": "D:/AgentData/DPPO-S0b/transport_ft_frozen.npz",
+        "path_wsl": "/mnt/d/AgentData/DPPO-S0b/transport_ft_frozen.npz",
+        "bytes": 336077,
+        "sha256": "f30ff354edeef4eb506db98950df82ede54c39bb0338eacbb1032db22b5dd362",
+        "arrays": {
+          "normalized_observation": {
+            "shape": [
+              64,
+              1,
+              59
+            ],
+            "dtype": "float32"
+          },
+          "denoising_chain": {
+            "shape": [
+              64,
+              11,
+              8,
+              14
+            ],
+            "dtype": "float32"
+          },
+          "executed_action": {
+            "shape": [
+              64,
+              8,
+              14
+            ],
+            "dtype": "float32"
+          },
+          "raw_reward": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "float32"
+          },
+          "terminated": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "truncated": {
+            "shape": [
+              100,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "firsts": {
+            "shape": [
+              101,
+              16
+            ],
+            "dtype": "bool"
+          },
+          "episode_id": {
+            "shape": [
+              64
+            ],
+            "dtype": "int64"
+          },
+          "chunk_boundary_id": {
+            "shape": [
+              64
+            ],
+            "dtype": "int64"
+          },
+          "boundary_steps": {
+            "shape": [
+              4
+            ],
+            "dtype": "int64"
+          },
+          "task": {
+            "shape": [],
+            "dtype": "<U9"
+          },
+          "policy": {
+            "shape": [],
+            "dtype": "<U2"
+          },
+          "checkpoint_path": {
+            "shape": [],
+            "dtype": "<U161"
+          },
+          "seed": {
+            "shape": [],
+            "dtype": "int64"
+          },
+          "sampling_rule": {
+            "shape": [],
+            "dtype": "<U55"
+          }
+        }
+      },
+      "bc_metrics": {
+        "path_windows": "D:/AgentData/DPPO-S0b/transport_bc_metrics.json",
+        "path_wsl": "/mnt/d/AgentData/DPPO-S0b/transport_bc_metrics.json",
+        "bytes": 4171,
+        "sha256": "7c76c651ccf1dc968ca7b4c5322a36e5e94ec27ceaf686944df6ba28490b0242"
+      },
+      "ft_metrics": {
+        "path_windows": "D:/AgentData/DPPO-S0b/transport_ft_metrics.json",
+        "path_wsl": "/mnt/d/AgentData/DPPO-S0b/transport_ft_metrics.json",
+        "bytes": 4169,
+        "sha256": "8e149ae76f6cf6000cbfe1fab53b5c2e932a1731425ccbd23d825472b7c7fcb0"
+      }
+    }
+  },
+  "costs": {
+    "square": {
+      "profile": "D:/AgentData/DPPO-S0b/square_cost.json",
+      "measured": {
+        "task": "square",
+        "policy": "ft",
+        "checkpoint_path": "/mnt/d/AgentData/DPPO-P5-A/formal_run_20260914_074500/robomimic-finetune/square_ft_diffusion_mlp_ta4_td20_tdf10/2026-09-14_07-43-43_42/checkpoint/state_200.pt",
+        "cycles": 3,
+        "timing_ms_mean": {
+          "rollout_model_sampling": 28.562097333368303,
+          "old_logprob": 3.0916616666445407,
+          "actor_forward": 47.80041766665969,
+          "actor_backward": 46.029177999950356,
+          "critic": 3.827519333337174,
+          "proposal": 0.6676913333194534,
+          "io": 2.601211333361183
+        },
+        "baseline_total_ms": 132.5797766666407,
+        "actor_reducible_fraction_f": 0.7077217809963257,
+        "assumed_actor_speedup_s": 2.0,
+        "proposal_io_overhead_h": 0.0246561183678864,
+        "predicted_total_speedup_with_50pct_actor": 1.490767910164996,
+        "note": "rollout_model_sampling is model-only on 16 states; full environment wall time is not silently substituted."
+      },
+      "audit_ms": 3770.8548750000264,
+      "overhead_h_including_audit": 28.46681351075424,
+      "predicted_total_speedup_including_audit": 0.03434897219268047
+    },
+    "transport": {
+      "profile": "D:/AgentData/DPPO-S0b/transport_cost.json",
+      "measured": {
+        "task": "transport",
+        "policy": "ft",
+        "checkpoint_path": "/mnt/d/AgentData/DPPO-P5-B/formal_run_20260914_110100/robomimic-finetune/transport_ft_diffusion_mlp_ta8_td20_tdf10/2026-09-14_10-59-02_42/checkpoint/state_100.pt",
+        "cycles": 3,
+        "timing_ms_mean": {
+          "rollout_model_sampling": 19.430377999962428,
+          "old_logprob": 1.839669666651389,
+          "actor_forward": 48.171811666672205,
+          "actor_backward": 34.7797786666888,
+          "critic": 3.27839766669058,
+          "proposal": 0.6178383333311407,
+          "io": 1.416603000014523
+        },
+        "baseline_total_ms": 109.53447700001107,
+        "actor_reducible_fraction_f": 0.7573103246145286,
+        "assumed_actor_speedup_s": 2.0,
+        "proposal_io_overhead_h": 0.018573524876057592,
+        "predicted_total_speedup_with_50pct_actor": 1.5626993355617245,
+        "note": "rollout_model_sampling is model-only on 16 states; full environment wall time is not silently substituted."
+      },
+      "audit_ms": 3734.5033729999955,
+      "overhead_h_including_audit": 34.112892275305825,
+      "predicted_total_speedup_including_audit": 0.02879003781619752
+    }
+  },
+  "files": {
+    "research/denoising_budget/loss_terms.py": {
+      "bytes": 4924,
+      "sha256": "ca27b6749a690d57c0a3c38ef88ecc6725e325eecaef8f424a32904f2b7504d7"
+    },
+    "research/denoising_budget/sampler.py": {
+      "bytes": 2309,
+      "sha256": "8e4422c330a9cb29c7f4e8b96b94ea49a38d39c2e0ea96b03e8e5314312d9911"
+    },
+    "research/denoising_budget/collect_frozen.py": {
+      "bytes": 7336,
+      "sha256": "24b995e8ccdca82d243241f38a9d19aef16e6c4b490599cdb078996aedad9ff1"
+    },
+    "research/denoising_budget/gradient_audit.py": {
+      "bytes": 2723,
+      "sha256": "2198f9232f692d9948772a4af82478067de69eadc33013ba60bac7eedf1c9836"
+    },
+    "research/denoising_budget/run_s0b.py": {
+      "bytes": 12298,
+      "sha256": "fec38406be15316cdd3f66933c1b83983c784adeda0bd804363c6971ff5dad08"
+    },
+    "research/denoising_budget/cost_profile.py": {
+      "bytes": 4462,
+      "sha256": "45d5aae98236fef6c6f1c34dd28eab8a046eb9d4e7838f878bc7431c01a535bb"
+    },
+    "reports/research/S0B_RAW_METRICS.csv": {
+      "bytes": 27965,
+      "sha256": "d574a4cc6bdcb1dbe5e18bc8ab26ea18019af3d93690c50f79878e0101c2d777"
+    },
+    "plots/research/s0b_gradient_mse.png": {
+      "bytes": 43502,
+      "sha256": "6d0df6117d3e92f577dab46a03cd15fc3dd589216743961d60c47d2ace95a72e"
+    },
+    "plots/research/s0b_cost_breakdown.png": {
+      "bytes": 46645,
+      "sha256": "90d25f9904875b9be78d237a4c93123b713edaf56b3e9c851266e638c8c86f56"
+    }
+  }
+}
